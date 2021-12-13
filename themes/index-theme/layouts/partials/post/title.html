@@ -1,7 +1,67 @@
+<table border=0 width=100%><tr><td>
 <h1 itemprop="name">
   <a
     class="{{ .Scratch.Get "class_name" }}"
     href="{{- .RelPermalink }}"
     >{{- .Title -}}</a
   >
-</h1>
+</h1><br>
+<h5>CPE: <a target="_blank" href="https://nvd.nist.gov/products/cpe/search/results?namingFormat=2.3&keyword={{ .Params.cpe }}">{{ .Params.cpe }}</a></h5>
+</td><td>
+    <table border=0>
+        <tr><td><b>Patched Version</b></td><td align=right>{{ .Params.patchedVersion }}</td></tr>
+        <tr><td><b>Last Vulnerable Version</b></td><td align=right>{{ .Params.firstVulnerable }}</td></tr>
+        <tr><td><b>First Vulnerable Version</b></td><td align=right>{{ .Params.lastVulnerable }}</td></tr>
+    </table>
+</td></tr></table><br>
+<div><b>Vendor Data</b>
+    {{ if eq .Params.vendorExploitInWild true }}
+    <span class="tag">
+        <img src="/images/Icon - Exploited in The Wild - Vendor Confirmed.png">
+        Exploit in the Wild</span>
+    {{ end }}
+
+    {{ if eq .Params.vendorConfirmedVulnerable true }}
+    <span class="tag">
+        <img src="/images/Icon - Exploitable - Vendor Confirmed.png">
+        Confirmed Vulnerable</span>
+    {{ end }}
+
+    {{ if eq .Params.vendorPatchExists true }}
+    <span class="tag">
+        <img src="/images/Icon - Vendor Patch Exists.png">
+        Vendor Patch Exists</span>
+    {{ end }}
+
+    {{ if eq .Params.vendorPatchExists false }}
+    <span class="tag">
+        <img src="/images/Icon - No Vendor Patch.png">
+        No Vendor Patch</span>
+    {{ end }}
+</div>
+<br>
+<div><b>Community Data</b> 
+    {{ if eq .Params.communityLog4jOptional true }}
+    <span class="tag">
+        <img src="/images/Icon - Log4j Default _ Optional.png">
+        Log4j Optional</span>
+    {{ end }}
+
+    {{ if eq .Params.communityLog4jDefault true }}
+    <span class="tag">
+        <img src="/images/Icon - Log4j Default _ Mandatory.png">
+        Log4j Default</span>
+    {{ end }}
+
+    {{ if eq .Params.communityVulnerable true }}
+    <span class="tag">
+        <img src="/images/Icon - Vulnerable - Confirmed.png">
+        Vulnerable</span>
+    {{ end }} 
+
+    {{ if eq .Params.communityExploitable true }}
+    <span class="tag">
+        <img src="/images/Icon - Exploitable - Confirmed.png">
+        Exploitable</span>
+    {{ end }}
+</div>
