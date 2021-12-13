@@ -1,4 +1,5 @@
-baseURL = 'https://canilog4j.com/'
-languageCode = 'en-us'
-title = 'CanILog4j'
-theme = "ananke"
+baseURL = "https://canilog4j.com"
+languageCode = "en-us"
+title = "Log4j Exploitability Index"
+theme = "index-theme"
+publishdir = "docs"
