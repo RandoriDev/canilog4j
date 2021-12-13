@@ -1,0 +1,4 @@
+baseURL = 'https://canilog4j.com/'
+languageCode = 'en-us'
+title = 'CanILog4j'
+theme = "ananke"
