@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Log4j Exploitability Index</title>
+    <link>https://canilog4j.com/</link>
+    <description>Recent content on Log4j Exploitability Index</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 13 Dec 2021 12:37:37 -0700</lastBuildDate>
+    
+        <atom:link href="https://canilog4j.com/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Coming Soon</title>
+      <link>https://canilog4j.com/posts/coming-soon/</link>
+      <pubDate>Mon, 13 Dec 2021 12:37:37 -0700</pubDate>
+      
+      <guid>https://canilog4j.com/posts/coming-soon/</guid>
+      <description>This site is coming soon.</description>
+    </item>
+    
+    <item>
+      <title>My Second Post</title>
+      <link>https://canilog4j.com/posts/my-second-post/</link>
+      <pubDate>Mon, 13 Dec 2021 12:22:52 -0700</pubDate>
+      
+      <guid>https://canilog4j.com/posts/my-second-post/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>My First Post</title>
+      <link>https://canilog4j.com/posts/my-first-post/</link>
+      <pubDate>Mon, 13 Dec 2021 12:22:41 -0700</pubDate>
+      
+      <guid>https://canilog4j.com/posts/my-first-post/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
