@@ -7749,10 +7749,16 @@ body.okayNav-loaded {
 
 .article-header table {
   margin: 0;
+  border: 0;
 }
 
 .article-header table td {
+  border: 0;
+  background-color: white;
   padding: 0;
+}
+
+.article-header tbody {
 }
 
 .site-title {
