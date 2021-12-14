@@ -39,6 +39,7 @@
     </article>
     {{- end -}}
   </div>
+  {{ partial "pagination.html" . }}
   <script>
     function onClickExpand(index) {
       var element = document.getElementById(index + '_hidden');
