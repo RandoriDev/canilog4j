@@ -7686,3 +7686,16 @@ body.okayNav-loaded {
 .sponsors {
   background-color: #27313A;
 }
+
+.article-list {
+  margin: 0 auto;
+  width: 80%;
+}
+
+.article {
+  border: 1px solid pink !important;
+}
+
+.article-header table {
+  margin: 0;
+}

@@ -20,11 +20,12 @@
       <div class="article-entry text-muted" itemprop="description">
         {{- .Description -}}
       </div>
-      {{ else if .Summary }}
+      {{ else if .Content }}
       <div class="article-entry text-muted" itemprop="description">
-        {{ .Summary }}
+        {{ .Content }}
       </div>
       {{- end }}
+
       <p class="article-meta">
         {{- partial "post/date.html" . }}
         {{- partial "post/category.html" . }}

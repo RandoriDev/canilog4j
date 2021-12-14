@@ -20,37 +20,18 @@
       {{- end }}
       {{- partial "search.html" . }}
     </div>
-
-    <nav id="main-navbar" class="collapse navbar-collapse" itemscope itemtype="http://schema.org/SiteNavigationElement" role="navigation">
-      <ul class="nav navbar-nav main-nav {{- with .Site.Params.config.menu_highlight }}  menu-highlight {{- end}}">
-        {{- $icon := .Site.Params.menuIcons }}
-        {{- range .Site.Menus.main -}}
-        {{- $lowerItemName := lower .Name}}
-        <li class="menu-item menu-item-{{- $lowerItemName}}">
-          <a href="{{- .URL | safeURL }}">
-            {{- with $icon.enable }}
-            {{- range $name,$value := $icon}}
-            {{- if eq $name $lowerItemName }}
-            <i class="icon {{- print " " $value }}"></i>
-            {{- end}}
-            {{- end }}
-            {{- end}}
-            <span class="menu-title">{{- .Title  }}</span>
-          </a>
-        </li>
-        {{- end}}
-      </ul>
-    </nav>
   </div>
 
   <div class='sponsors'>
+    <h2>Sponsored by</h2>
+
     <ul class='sponsors-list'>
       <li>
         <img src="https://www.randori.com/wp-content/uploads/2021/08/cropped-logo_a2181bf2.png" />
       </li>
 
       <li>
-        nuther sponsor
+        <img src="https://www.randori.com/wp-content/uploads/2021/08/cropped-logo_a2181bf2.png" />
       </li>
     </ul>
   </div>
