@@ -39,7 +39,6 @@
 }
 
 .article-entry {
-  margin-left: 20px;
 }
 
 .always-expanded {
@@ -48,4 +47,6 @@
 
 .expand-section {
   border: 1px solid red;
+  overflow: hidden;
+  display: none;
 }
