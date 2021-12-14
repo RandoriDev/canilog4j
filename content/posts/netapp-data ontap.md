@@ -1,8 +1,8 @@
 ---
-title: "VMware Horizon"
-vendor: "VMware"
-name: "Horizon"
-cpe: "cpe:2.3:a:vmware:horizon:*:*:*:*:*:*:*:*"
+title: "NetApp Data ONTAP"
+vendor: "NetApp"
+name: "Data ONTAP"
+cpe: "cpe:2.3:a:netapp:*data_ontap*:*:*:*:*:*:*:*:*"
 patchedVersion: N/A
 firstVulnerable: Unknown
 lastVulnerable: Unknown
@@ -13,14 +13,15 @@ communityLog4jOptional: NO
 communityLog4jDefault: YES
 communityVulnerable: NO
 communityExploitable: NO
-date: 2021-12-13T22:46:04.091833
+date: 2021-12-13T22:46:04.091451
 draft: false
 ---
 
 ## Vendor Resources
 | Resource | Link |
 | --- | --- |
-| Mitigation | [https://kb.vmware.com/s/article/87073 https://www.vmware.com/security/advisories/VMSA-2021-0028.html](https://kb.vmware.com/s/article/87073 https://www.vmware.com/security/advisories/VMSA-2021-0028.html) |
+| Advisory | [https://security.netapp.com/advisory/ntap-20211210-0007/](https://security.netapp.com/advisory/ntap-20211210-0007/) |
+| Additional IDs | NTAP-20211210-0007 |
 
 
 ## Community Resources
@@ -30,4 +31,4 @@ draft: false
 ## Change Log
 | Date | Attribution | Description of Change |
 | --- | --- | --- |
-| 2021-12-13T22:46:04.091833 | [https://randori.com](Randori) | Initial data imported. |
+| 2021-12-13T22:46:04.091451 | [https://randori.com](Randori) | Initial data imported. |
