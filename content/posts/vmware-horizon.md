@@ -1,7 +1,7 @@
 ---
 title: "VMWare Horizon"
 cpe: "cpe:2.3:a:vmware:horizon:*:*:*:*:*:*:*:*"
-patchedVersion: 1.2.21
+patchedVersion: N/A
 firstVulnerable: Unknown
 lastVulnerable: 8.4.0
 vendorExploitInWild: YES
