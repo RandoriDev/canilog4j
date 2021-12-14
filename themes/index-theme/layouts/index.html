@@ -24,7 +24,8 @@
           {{- .Description -}}
         </div>
         {{ else if .Content }}
-        <div class="article-entry text-muted" itemprop="description">
+        <div class="article-entry text-muted" itemprop="description" id='' class='hidem'>
+          {{ .Content }}
           {{ .Content }}
         </div>
         {{- end }}

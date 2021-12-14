@@ -1,9 +1,9 @@
 <table border=0 width=100%><tr><td>
-  <a
-    class="{{ .Scratch.Get "class_name" }}"
-    href="{{- .RelPermalink }}"
-    >{{- .Title -}}</a
-  >
+  <h1 class="{{ .Scratch.Get "class_name" }}">
+    <a href="{{- .RelPermalink }}">
+      {{- .Title -}}
+    </a>
+  </h1>
 <h5>CPE: <a target="_blank" href="https://nvd.nist.gov/products/cpe/search/results?namingFormat=2.3&keyword={{ .Params.cpe }}">{{ .Params.cpe }}</a></h5>
 </td><td>
     <table class="title-version-info" border=0>
