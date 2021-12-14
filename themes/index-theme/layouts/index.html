@@ -12,7 +12,7 @@
       itemtype="http://schema.org/BlogPosting"
     >
       <div class="article-container">
-        <div class="always-expanded">
+        <div>
           <div class="article-header">
             {{- .Scratch.Set "class_name" "article-title" }}
             {{ partial "post/title.html" . -}}
@@ -29,16 +29,6 @@
             {{ .Content }}
           </div>
           {{- end }}
-
-          <p class="article-meta">
-            {{- partial "post/date.html" . }}
-            {{- partial "post/category.html" . }}
-            {{- partial "post/tag.html" . }}
-            {{- if .Site.Params.comment.type }}
-            <span class="post-comment"><i class="icon icon-comment"></i> &nbsp;<a href="{{- .RelPermalink }}#comments" class="article-comment-link">{{- T "article_comments" }}</a></span>
-            {{- end }}
-            {{- partial "post/wc.html" . }}
-          </p>
         </div>
       </div>
       <div class="post-expand-collapse">
