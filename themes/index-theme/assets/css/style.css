@@ -7792,7 +7792,7 @@ body.okayNav-loaded {
 }
 
 .search {
-  display: none;
+  /* display: none; */
   max-width: 30rem;
   margin: 0 auto;
 }
@@ -7804,4 +7804,8 @@ body.okayNav-loaded {
   font-size: 14px;
   color: #82929E;
   margin-bottom: 1rem;
+}
+
+.article-title {
+  margin: 0;
 }
