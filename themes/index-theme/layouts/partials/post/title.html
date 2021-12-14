@@ -9,7 +9,9 @@
 <h5>CPE: <a target="_blank" href="https://nvd.nist.gov/products/cpe/search/results?namingFormat=2.3&keyword={{ .Params.cpe }}">{{ .Params.cpe }}</a></h5>
 </td><td>
     <table class="title-version-info" border=0>
-        <tr><td>Patched Version</td><td align=right>{{ .Params.patchedVersion }}</td></tr>
+        {{ if eq .Params.patchedVersion "N/A" }}
+        <tr><td class="title-version-info-no-patch">Patched Version</td><td align=right>{{ .Params.patchedVersion }}</td></tr>
+        {{ end }}
         <tr><td>Last Vulnerable Version</td><td align=right>{{ .Params.lastVulnerable }}</td></tr>
         <tr><td>First Vulnerable Version</td><td align=right>{{ .Params.firstVulnerable }}</td></tr>
     </table>
