@@ -5,39 +5,66 @@
   <div class="content article-list">
     <!-- {{- print ($.Scratch.Get "pages") }} -->
     {{ $paginator := .Paginate ($.Scratch.Get "pages") }}
-    {{ range $paginator.Pages }}
+    {{ range $index, $page := $paginator.Pages }}
     <article
       class="article article-type-page"
       itemscope
       itemtype="http://schema.org/BlogPosting"
     >
-      <div class="article-header">
-        {{- .Scratch.Set "class_name" "article-title" }}
-        {{ partial "post/title.html" . -}}
-        {{- .Scratch.Delete "class_name"}}
+      <div class="article-container">
+        <div class="always-expanded">
+          <div class="article-header">
+            {{- .Scratch.Set "class_name" "article-title" }}
+            {{ partial "post/title.html" . -}}
+            {{- .Scratch.Delete "class_name"}}
+          </div>
+        </div>
+        <div class="hidem" id="{{ $index }}_hidden">
+          {{- if .Description }}
+          <div class="article-entry text-muted" itemprop="description">
+            {{- .Description -}}
+          </div>
+          {{ else if .Content }}
+          <div class="article-entry text-muted" itemprop="description">
+            {{ .Content }}
+          </div>
+          {{- end }}
+
+          <p class="article-meta">
+            {{- partial "post/date.html" . }}
+            {{- partial "post/category.html" . }}
+            {{- partial "post/tag.html" . }}
+            {{- if .Site.Params.comment.type }}
+            <span class="post-comment"><i class="icon icon-comment"></i> &nbsp;<a href="{{- .RelPermalink }}#comments" class="article-comment-link">{{- T "article_comments" }}</a></span>
+            {{- end }}
+            {{- partial "post/wc.html" . }}
+          </p>
+        </div>
       </div>
-      {{- if .Description }}
-      <div class="article-entry text-muted" itemprop="description">
-        {{- .Description -}}
+      <div class="post-expand-collapse">
+        <div onclick="onClickExpand('{{ $index }}')" id="{{ $index }}_expander">
+          Expand Details
+        </div>
       </div>
-      {{ else if .Summary }}
-      <div class="article-entry text-muted" itemprop="description">
-        {{ .Summary }}
-      </div>
-      {{- end }}
-      <p class="article-meta">
-        {{- partial "post/date.html" . }}
-        {{- partial "post/category.html" . }}
-        {{- partial "post/tag.html" . }}
-        {{- if .Site.Params.comment.type }}
-        <span class="post-comment"><i class="icon icon-comment"></i> &nbsp;<a href="{{- .RelPermalink }}#comments" class="article-comment-link">{{- T "article_comments" }}</a></span>
-        {{- end }}
-        {{- partial "post/wc.html" . }}
-      </p>
     </article>
     {{- end -}}
   </div>
   {{ partial "pagination.html" . }}
+  <script>
+    function onClickExpand(index) {
+      var element = document.getElementById(index + '_hidden');
+      var isHidden = element.classList.contains('hidem');
+      if (isHidden === true) {
+        element.classList.remove('hidem');
+      } else {
+        element.classList.add('hidem');
+      }
+
+      var expander = document.getElementById(index + '_expander');
+      console.log(expander)
+      expander.innerText = 'Collapse Details';
+    }
+  </script>
 </main>
 {{- end }}
 

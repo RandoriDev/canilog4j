@@ -1,0 +1,30 @@
+baseURL: https://canilog4j.com
+theme: index-theme
+title: Log4j Exploitability Index
+defaultContentLanguage: en
+hasCJKLanguage: true
+paginate: 7
+enableEmoji: true
+
+taxonomies:
+    category : categories
+    tag : tags
+    series : series
+outputFormats:          # use for search. recommend not to modify 
+  SearchIndex:
+    mediaType: "application/json"
+    baseName: "searchindex"
+    isPlainText: true
+    notAlternative: true
+
+outputs:
+    home: ["HTML","RSS","SearchIndex"]  # recommend not to modify
+# sitemap
+sitemap:
+  changefreq: monthly
+  filename: sitemap.xml
+  priority: 0.5
+
+params:
+  search:
+    enable: true
