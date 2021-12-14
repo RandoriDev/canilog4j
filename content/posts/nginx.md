@@ -1,9 +1,9 @@
 ---
-title: "VMWare Horizon"
-cpe: "cpe:2.3:a:vmware:horizon:*:*:*:*:*:*:*:*"
-patchedVersion: 1.2.21
+title: "NGinX"
+cpe: "cpe:2.3:a:nginx:nginx:*:*:*:*:*:*:*:*"
+patchedVersion: N/A
 firstVulnerable: Unknown
-lastVulnerable: 8.4.0
+lastVulnerable: 1.22.3
 vendorExploitInWild: YES
 vendorConfirmedVulnerable: YES
 vendorPatchExists: NO
@@ -18,7 +18,7 @@ draft: false
 ## Vendor Resources
 | Resource | Link |
 | --- | --- |
-| Advisory | [https://www.vmware.com/security/advisories/VMSA-2021-0028.html](https://www.vmware.com/security/advisories/VMSA-2021-0028.html)
+| Advisory | [https://www.nginx.com/security/advisories/TEST-33938-4434.html](https://www.nginx.com/security/advisories/TEST-33938-4434.html)
 | Workarounds | [https://kb.vmware.com/s/article/87073](https://kb.vmware.com/s/article/87073) |
 
 
