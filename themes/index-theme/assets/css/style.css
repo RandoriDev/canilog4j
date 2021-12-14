@@ -7754,6 +7754,7 @@ body.okayNav-loaded {
 }
 
 .article-header table td {
+  width: 100%;
   border: 0;
   background-color: white;
   padding: 0;
@@ -7784,15 +7785,6 @@ body.okayNav-loaded {
 
 .h1-bold {
   font-weight: 700;
-}
-
-.title-version-info tr:first-child {
-  font-family: Open Sans;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 14px;
-
-  color: #0F1417;
 }
 
 .search {

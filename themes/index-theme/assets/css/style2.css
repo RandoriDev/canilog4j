@@ -3,6 +3,7 @@
   font-style: normal;
   font-weight: 400;
   font-size: 12px;
+  white-space: nowrap;
 
   color: #48606e;
 }
