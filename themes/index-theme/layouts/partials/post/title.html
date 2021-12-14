@@ -4,7 +4,7 @@
       {{- .Title -}}
     </a>
   </h1>
-<h5>CPE: <a target="_blank" href="https://nvd.nist.gov/products/cpe/search/results?namingFormat=2.3&keyword={{ .Params.cpe }}">{{ .Params.cpe }}</a></h5>
+<h5 class="cpe-heading">CPE: <a class="cpe-link" target="_blank" href="https://nvd.nist.gov/products/cpe/search/results?namingFormat=2.3&keyword={{ .Params.cpe }}">{{ .Params.cpe }}</a></h5>
 </td><td>
     <table class="title-version-info" border=0>
         {{ if eq .Params.patchedVersion "N/A" }}
