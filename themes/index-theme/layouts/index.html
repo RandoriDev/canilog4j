@@ -51,8 +51,11 @@
       }
 
       var expander = document.getElementById(index + '_expander');
-      console.log(expander)
-      expander.innerText = 'Collapse Details';
+      if (isHidden === true) {
+        expander.innerText = 'Collapse Details';
+      } else {
+        expander.innerText = 'Expand Details';
+      }
     }
   </script>
 </main>
