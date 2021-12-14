@@ -69,4 +69,6 @@
 
   color: #82929E;
   cursor: pointer;
+  border-top: 1px solid #D5DDE3;
+  padding: 15px;
 }
