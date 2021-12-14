@@ -45,8 +45,29 @@
   border: 1px solid blue;
 }
 
-.expand-section {
+.hidem {
   border: 1px solid red;
   overflow: hidden;
   display: none;
+}
+
+.post-expand-collapse {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  /* or 171% */
+
+  text-align: center;
+  text-decoration-line: underline;
+
+  /* Grey - Light */
+
+  color: #82929E;
+  cursor: pointer;
 }
