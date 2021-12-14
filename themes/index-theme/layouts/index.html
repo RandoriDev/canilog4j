@@ -11,30 +11,34 @@
       itemscope
       itemtype="http://schema.org/BlogPosting"
     >
-      <div class="article-header">
-        {{- .Scratch.Set "class_name" "article-title" }}
-        {{ partial "post/title.html" . -}}
-        {{- .Scratch.Delete "class_name"}}
+      <div class="always-expanded">
+        <div class="article-header">
+          {{- .Scratch.Set "class_name" "article-title" }}
+          {{ partial "post/title.html" . -}}
+          {{- .Scratch.Delete "class_name"}}
+        </div>
       </div>
-      {{- if .Description }}
-      <div class="article-entry text-muted" itemprop="description">
-        {{- .Description -}}
-      </div>
-      {{ else if .Content }}
-      <div class="article-entry text-muted" itemprop="description">
-        {{ .Content }}
-      </div>
-      {{- end }}
-
-      <p class="article-meta">
-        {{- partial "post/date.html" . }}
-        {{- partial "post/category.html" . }}
-        {{- partial "post/tag.html" . }}
-        {{- if .Site.Params.comment.type }}
-        <span class="post-comment"><i class="icon icon-comment"></i> &nbsp;<a href="{{- .RelPermalink }}#comments" class="article-comment-link">{{- T "article_comments" }}</a></span>
+      <div class="expand-section">
+        {{- if .Description }}
+        <div class="article-entry text-muted" itemprop="description">
+          {{- .Description -}}
+        </div>
+        {{ else if .Content }}
+        <div class="article-entry text-muted" itemprop="description">
+          {{ .Content }}
+        </div>
         {{- end }}
-        {{- partial "post/wc.html" . }}
-      </p>
+
+        <p class="article-meta">
+          {{- partial "post/date.html" . }}
+          {{- partial "post/category.html" . }}
+          {{- partial "post/tag.html" . }}
+          {{- if .Site.Params.comment.type }}
+          <span class="post-comment"><i class="icon icon-comment"></i> &nbsp;<a href="{{- .RelPermalink }}#comments" class="article-comment-link">{{- T "article_comments" }}</a></span>
+          {{- end }}
+          {{- partial "post/wc.html" . }}
+        </p>
+      </div>
     </article>
     {{- end -}}
   </div>

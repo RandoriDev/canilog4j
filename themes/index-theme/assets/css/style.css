@@ -7744,7 +7744,8 @@ body.okayNav-loaded {
 .article {
   margin: 0 auto;
   width: 80%;
-  border: 1px solid pink !important;
+  border: 1px solid #D5DDE3 !important;
+  margin-bottom: 15px;
 }
 
 .article-header table {

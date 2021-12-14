@@ -41,3 +41,11 @@
 .article-entry {
   margin-left: 20px;
 }
+
+.always-expanded {
+  border: 1px solid blue;
+}
+
+.expand-section {
+  border: 1px solid red;
+}
