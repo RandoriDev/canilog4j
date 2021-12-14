@@ -10,7 +10,7 @@
         {{ if eq .Params.patchedVersion "N/A" }}
         <tr><td class="title-version-info-no-patch">No Patched Version</td><td align=right></td></tr>
         {{ else }}
-        <tr><td class="title-version-info-no-patch">Patched Version</td><td align=right>{{ .Params.patchedVersion }}</td></tr>
+        <tr><td>Patched Version</td><td align=right>{{ .Params.patchedVersion }}</td></tr>
         {{ end }}
         <tr><td>Last Vulnerable Version</td><td align=right>{{ .Params.lastVulnerable }}</td></tr>
         <tr><td>First Vulnerable Version</td><td align=right>{{ .Params.firstVulnerable }}</td></tr>
