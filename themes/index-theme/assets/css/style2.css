@@ -19,3 +19,25 @@
 .title-version-info-no-patch {
   color: red;
 }
+
+.service-sub-titles {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  color: #4D6374;
+}
+
+#vendor-resources,
+#community-resources,
+#change-log {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  color: #4D6374;
+}
+
+.article-entry {
+  margin-left: 20px;
+}

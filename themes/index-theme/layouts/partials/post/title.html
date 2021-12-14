@@ -1,16 +1,16 @@
 <table border=0 width=100%><tr><td>
-<h1 itemprop="name">
   <a
     class="{{ .Scratch.Get "class_name" }}"
     href="{{- .RelPermalink }}"
     >{{- .Title -}}</a
   >
-</h1><br>
 <h5>CPE: <a target="_blank" href="https://nvd.nist.gov/products/cpe/search/results?namingFormat=2.3&keyword={{ .Params.cpe }}">{{ .Params.cpe }}</a></h5>
 </td><td>
     <table class="title-version-info" border=0>
         {{ if eq .Params.patchedVersion "N/A" }}
-        <tr><td class="title-version-info-no-patch">Patched Version</td><td align=right>{{ .Params.patchedVersion }}</td></tr>
+        <tr><td class="title-version-info-no-patch">No Patched Version</td><td align=right></td></tr>
+        {{ else }}
+        <tr><td>Patched Version</td><td align=right>{{ .Params.patchedVersion }}</td></tr>
         {{ end }}
         <tr><td>Last Vulnerable Version</td><td align=right>{{ .Params.lastVulnerable }}</td></tr>
         <tr><td>First Vulnerable Version</td><td align=right>{{ .Params.firstVulnerable }}</td></tr>
@@ -42,7 +42,7 @@
     {{ end }}
 </div>
 <br>
-<div><b>Community Data</b> 
+<div><b>Community Data</b>
     {{ if eq .Params.communityLog4jOptional true }}
     <span class="tag">
         <img src="/images/Icon - Log4j Default _ Optional.png">

@@ -7751,6 +7751,10 @@ body.okayNav-loaded {
   margin: 0;
 }
 
+.article-header table td {
+  padding: 0;
+}
+
 .site-title {
   font-weight: 400;
   padding: 4rem 0 0;
