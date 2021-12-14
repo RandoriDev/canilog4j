@@ -7890,3 +7890,20 @@ th {
   border-top: 1px solid #D5DDE3;
   padding: 15px;
 }
+
+.cpe-heading {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  color: #82929E;
+}
+
+.cpe-link {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  text-decoration-line: underline;
+  color: #82929E;
+}
