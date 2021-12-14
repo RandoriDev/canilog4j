@@ -4,8 +4,7 @@
   font-weight: 400;
   font-size: 12px;
 
-  opacity: 0.5;
-  color: #0F1417;
+  color: #48606e;
 }
 
 .title-version-info tr:first-child {
@@ -14,7 +13,6 @@
   font-weight: 700;
   font-size: 14px;
 
-  opacity: 1.0;
   color: #0F1417;
 }
 
