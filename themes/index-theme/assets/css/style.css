@@ -1,5 +1,7 @@
 @charset "UTF-8";
 
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@300;400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@300;400;600&family=Open+Sans:wght@300;400;700&display=swap');
 /**
  * global variables and mixins
  */
@@ -30,7 +32,17 @@
 }
 
 html {
-  font-family: "Helvetica Neue", Helvetica, Arial, "PingFang SC", "Hiragino Sans GB", "Heiti SC", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
+  font-size: 100%;
+  -webkit-text-size-adjust: 100%;
+  font-variant-ligatures: none;
+  -webkit-font-variant-ligatures: none;
+  text-rendering: optimizeLegibility;
+  -moz-osx-font-smoothing: grayscale;
+  font-smoothing: antialiased;
+  -webkit-font-smoothing: antialiased;
+  text-shadow: rgba(0, 0, 0, .01) 0 0 1px;
+
+  font-family: 'Open Sans', sans-serif;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
 }
@@ -371,8 +383,8 @@ h6,
 .h4,
 .h5,
 .h6 {
-  font-family: inherit;
-  font-weight: 500;
+  font-family: 'Barlow', sans-serif;
+  font-weight: 600;
   line-height: 1.1;
   color: inherit;
 }
@@ -2943,7 +2955,6 @@ button.close {
   position: absolute;
   z-index: 1070;
   display: block;
-  font-family: "Helvetica Neue", Helvetica, Arial, "PingFang SC", "Hiragino Sans GB", "Heiti SC", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
   font-style: normal;
   font-weight: normal;
   letter-spacing: normal;
@@ -3260,7 +3271,6 @@ body {
 
 body {
   padding-right: 0 !important;
-  font-family: "Source Han Sans","Helvetica Neue", Helvetica, Arial, "PingFang SC", "Hiragino Sans GB", "Heiti SC", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
   font-size: 14px;
   line-height: 1.57143;
   color: #333333;
@@ -7688,14 +7698,28 @@ body.okayNav-loaded {
 }
 
 .article-list {
-  margin: 0 auto;
-  width: 80%;
 }
 
 .article {
+  margin: 0 auto;
+  width: 80%;
   border: 1px solid pink !important;
 }
 
 .article-header table {
   margin: 0;
 }
+
+.site-title {
+  font-weight: 400;
+  margin: 0;
+}
+
+.site-subhead {
+}
+
+.h1-bold {
+  font-weight: 700;
+}
+
+    /* font-family: 'Barlow', sans-serif; */
