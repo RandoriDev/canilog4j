@@ -7907,3 +7907,16 @@ th {
   text-decoration-line: underline;
   color: #82929E;
 }
+
+table>tbody>tr {
+  font-family: Open Sans;
+  font-style: normal;
+  font-size: 14px;
+  color: #4d6374;
+}
+
+table>tbody>tr:nth-of-type(odd) {
+  background: #EDEFF1;
+  border-radius: 3px;
+}
+
