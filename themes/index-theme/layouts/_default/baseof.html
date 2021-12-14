@@ -11,6 +11,7 @@
     </title>
     {{ partial "head.html" . }}
   </head>
+
   {{- $.Scratch.Add "bodyClass" slice }}
   {{- $config := .Site.Params.config }}
   {{- if $config.layout }}
@@ -38,11 +39,17 @@
 
   <body class="{{- delimit ( $.Scratch.Get "bodyClass" ) " " }}" itemscope itemtype="http://schema.org/WebPage">
     {{- partial "header.html" .}}
+
     {{- if and (.Site.Params.sidebar) (or (ne .Params.sidebar "none") (ne .Params.sidebar "custom"))}}
         {{- partial "sidebar.html" . }}
     {{end}}
+
     {{ block "content" . }}{{ end }}
+
+    {{/*
     {{- partial "footer.html" . }}
+    */}}
+
     {{- partial "script.html" . }}
   </body>
 </html>
