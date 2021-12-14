@@ -48,9 +48,7 @@
     {{ printf `<link rel="%s" type="%s" href="%s" title="%s" />` .Rel .MediaType.Type .Permalink $.Site.Title | safeHTML }}
     {{ end -}}
     {{ $css := resources.Get "css/style.css" | minify | fingerprint}}
-    {{ $css2 := resources.Get "css/style2.css" | minify | fingerprint}}
     <link rel="stylesheet" href="{{ $css.Permalink }}">
-    <link rel="stylesheet" href="{{ $css2.Permalink }}">
     {{ with .Site.Params.customCSS }}
     <link rel="stylesheet" href="{{ . | absURL }}" async>{{ end }}
     <link rel="stylesheet" href="https://cdn.staticfile.org/highlight.js/9.15.10/styles/github.min.css" async>
