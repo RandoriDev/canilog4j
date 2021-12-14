@@ -7817,7 +7817,7 @@ th {
 }
 
 
-.title-version-info {
+.title-version-info tr {
   font-family: Open Sans;
   font-style: normal;
   font-weight: 400;
@@ -7851,6 +7851,7 @@ th {
 #vendor-resources,
 #community-resources,
 #change-log {
+  margin-top: 30px;
   font-family: Open Sans;
   font-style: normal;
   font-weight: bold;
@@ -7919,3 +7920,18 @@ table>tbody>tr:nth-of-type(odd) {
   border-radius: 3px;
 }
 
+.title-data b {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 24px;
+  color: #4D6374;
+}
+
+.title-data-divider {
+  opacity: 0.5;
+  border: 1px solid #D5DDE3;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
