@@ -8,10 +8,10 @@
 </h1><br>
 <h5>CPE: <a target="_blank" href="https://nvd.nist.gov/products/cpe/search/results?namingFormat=2.3&keyword={{ .Params.cpe }}">{{ .Params.cpe }}</a></h5>
 </td><td>
-    <table border=0>
-        <tr><td><b>Patched Version</b></td><td align=right>{{ .Params.patchedVersion }}</td></tr>
-        <tr><td><b>Last Vulnerable Version</b></td><td align=right>{{ .Params.lastVulnerable }}</td></tr>
-        <tr><td><b>First Vulnerable Version</b></td><td align=right>{{ .Params.firstVulnerable }}</td></tr>
+    <table class="title-version-info" border=0>
+        <tr><td>Patched Version</td><td align=right>{{ .Params.patchedVersion }}</td></tr>
+        <tr><td>Last Vulnerable Version</td><td align=right>{{ .Params.lastVulnerable }}</td></tr>
+        <tr><td>First Vulnerable Version</td><td align=right>{{ .Params.firstVulnerable }}</td></tr>
     </table>
 </td></tr></table><br>
 <div><b>Vendor Data</b>
