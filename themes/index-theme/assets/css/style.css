@@ -7746,6 +7746,7 @@ body.okayNav-loaded {
   width: 80%;
   border: 1px solid #D5DDE3 !important;
   margin-bottom: 15px;
+  padding: 15px;
 }
 
 .article-header table {
