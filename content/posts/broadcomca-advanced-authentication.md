@@ -1,4 +1,5 @@
 ---
+communityVulnerable: true
 draft: 'false'
 name: CA Advanced Authentication
 title: Broadcom CA Advanced Authentication
@@ -16,3 +17,4 @@ vendor: Broadcom
 | Date | Attribution | Description |
 | --- | --- | --- |
 | 2021-12-14 12:33:39 | [NCSC-NL](https://github.com/NCSC-NL/log4shell/blob/main/software/README.md) | Updated community link source.  |
+| 2021-12-15 2:46:48 | [CISAGov](https://raw.githubusercontent.com/cisagov/log4j-affected-db/develop/README.md) | Updated communityVulnerable.  |

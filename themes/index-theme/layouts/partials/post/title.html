@@ -9,13 +9,17 @@
 {{ end }}
 </td><td>
     <table class="title-version-info" border=0>
-        {{ if eq .Params.patchedVersion "N/A" }}
-        <tr><td class="title-version-info-no-patch">No Patched Version</td><td align=right></td></tr>
+        {{ if and (eq .Params.patchedVersion nil) (eq .Params.lastVulnerable nil) (eq .Params.firstVulnerable nil) }}
+            <!-- no version information -->
         {{ else }}
-        <tr><td>Patched Version</td><td align=right>{{ .Params.patchedVersion }}</td></tr>
+        {{ if eq .Params.patchedVersion nil }}
+        <tr><td>Patched Version: Unknown</td><td align=right></td></tr>
+        {{ else }}
+        <tr><td>Patched Version: </td><td align=right>{{ .Params.patchedVersion }}</td></tr>
         {{ end }}
-        <tr><td>Last Vulnerable Version</td><td align=right>{{ .Params.lastVulnerable }}</td></tr>
-        <tr><td>First Vulnerable Version</td><td align=right>{{ .Params.firstVulnerable }}</td></tr>
+        <tr><td>Last Vulnerable Version: </td><td align=right>{{ .Params.lastVulnerable }}</td></tr>
+        <tr><td>First Vulnerable Version: </td><td align=right>{{ .Params.firstVulnerable }}</td></tr>
+        {{ end }}
     </table>
 </td></tr></table><br>
 <div class="title-data"><b>Vendor Data</b>
@@ -42,6 +46,13 @@
         <img src="/images/Icon - No Vendor Patch.png">
         No Vendor Patch</span>
     {{ end }}
+
+    {{ if eq .Params.vendorInvestigating true }}
+    <span class="tag">
+        <img src="/images/Icon - Vulnerable - Unknown.png">
+        Vendor Investigating</span>
+    {{ end }}
+
 </div>
 <div class="title-data-divider"></div>
 <div class="title-data"><b>Community Data</b>
@@ -61,6 +72,12 @@
     <span class="tag">
         <img src="/images/Icon - Vulnerable - Confirmed.png">
         Vulnerable</span>
+    {{ end }} 
+
+    {{ if eq .Params.communityNotVulnerable true }}
+    <span class="tag">
+        <img src="/images/Icon - Not Vulnerable.png">
+        Not Vulnerable</span>
     {{ end }} 
 
     {{ if eq .Params.communityExploitable true }}

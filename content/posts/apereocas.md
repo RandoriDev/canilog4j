@@ -1,4 +1,5 @@
 ---
+communityVulnerable: true
 draft: 'false'
 name: CAS
 title: Apereo CAS
@@ -6,6 +7,10 @@ vendor: Apereo
 vendorPatchExists: true
 ---
 
+## Vendor Resources
+| Resource | Link |
+| --- | --- |
+| CAS Log4J Vulnerability Disclosure – Apereo Community Blog | [https://apereo.github.io/2021/12/11/log4j-vuln/](https://apereo.github.io/2021/12/11/log4j-vuln/) |
 
 ## Community Resources
 | Resource | Link |
@@ -21,3 +26,4 @@ vendorPatchExists: true
 | Date | Attribution | Description |
 | --- | --- | --- |
 | 2021-12-13 10:24:39 | [NCSC-NL](https://github.com/NCSC-NL/log4shell/blob/main/software/README.md) | Updated vendorPatchExists. Updated community link source. Updated community note.  |
+| 2021-12-15 2:46:48 | [CISAGov](https://raw.githubusercontent.com/cisagov/log4j-affected-db/develop/README.md) | Updated communityVulnerable. Updated vendorPatchExists. Updated vendor link CAS Log4J Vulnerability Disclosure – Apereo Community Blog.  |

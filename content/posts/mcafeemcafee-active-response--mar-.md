@@ -3,6 +3,7 @@ draft: 'false'
 name: McAfee Active Response (MAR)
 title: McAfee McAfee Active Response (MAR)
 vendor: McAfee
+vendorInvestigating: true
 ---
 
 
@@ -20,3 +21,4 @@ vendor: McAfee
 | Date | Attribution | Description |
 | --- | --- | --- |
 | 2021-12-14 9:47:18 | [NCSC-NL](https://github.com/NCSC-NL/log4shell/blob/main/software/README.md) | Updated community link source. Updated community note.  |
+| 2021-12-15 13:48:56 | [CISAGov](https://raw.githubusercontent.com/cisagov/log4j-affected-db/develop/README.md) | Updated vendorInvestigating.  |
