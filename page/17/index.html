@@ -1,0 +1,6899 @@
+<!doctype html><html lang=en>
+<head>
+<title>
+Log4j Exploitability Index</title>
+<meta charset=utf-8>
+<meta http-equiv=x-ua-compatible content="IE=edge,chrome=1">
+<meta name=viewport content="width=device-width,initial-scale=1,maximum-scale=1,minimum-scale=1,user-scalable=no,minimal-ui">
+<meta name=renderer content="webkit">
+<meta http-equiv=cache-control content="no-transform">
+<meta http-equiv=cache-control content="no-siteapp">
+<meta name=apple-mobile-web-app-capable content="yes">
+<meta name=apple-mobile-web-app-status-bar-style content="black">
+<meta name=format-detection content="telephone=no,email=no,adress=no">
+<meta name=theme-color content="#000000">
+<meta http-equiv=window-target content="_top">
+<meta name=generator content="Hugo 0.90.1 with theme pure">
+<title>Log4j Exploitability Index</title>
+<link rel=alternate type=application/rss+xml href=https://canilog4j.com/index.xml title="Log4j Exploitability Index">
+<link rel=stylesheet href=https://canilog4j.com/css/style.min.96742edc96ff1818c27227a2920948a0359c61053e13ded362ae3e9f819c6a79.css>
+<link rel=stylesheet href=https://cdn.staticfile.org/highlight.js/9.15.10/styles/github.min.css async>
+<link rel=stylesheet href=https://cdnjs.cloudflare.com/ajax/libs/tocbot/4.4.2/tocbot.css async>
+<meta property="og:title" content="Log4j Exploitability Index">
+<meta property="og:description" content>
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://canilog4j.com/">
+<meta itemprop=name content="Log4j Exploitability Index">
+<meta itemprop=description content><meta name=twitter:card content="summary">
+<meta name=twitter:title content="Log4j Exploitability Index">
+<meta name=twitter:description content><!--[if lte IE 9]><script src=https://cdnjs.cloudflare.com/ajax/libs/classlist/1.1.20170427/classList.min.js></script><![endif]--><!--[if lt IE 9]><script src=https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv.min.js></script>
+<script src=https://cdn.jsdelivr.net/npm/respond.js@1.4.2/dest/respond.min.js></script><![endif]-->
+</head>
+<body class="main-center main-center main-center main-center main-center main-center main-center main-center main-center main-center main-center main-center main-center main-center main-center main-center main-center" itemscope itemtype=http://schema.org/WebPage><header class=header itemscope itemtype=http://schema.org/WPHeader>
+<h1 class=site-title>
+<a href=/>
+<span class=h1-bold>LOG4J</span> Exploitability Index
+</a>
+</h1>
+<p class=site-subhead>
+a consolidated collection of information and resources for defenders
+</p>
+<div class=slimContent>
+<div class=navbar-header><div class=search id=search-form-wrap>
+<form class="search-form sidebar-form">
+<div class=input-group>
+<input type=text class="search-form-input form-control" placeholder=Search>
+<span class=input-group-btn>
+<button type=submit class="search-form-submit btn btn-flat" onclick=return!1><i class="icon icon-search"></i></button>
+</span>
+</div>
+<div class=ins-search>
+<div class=ins-search-mask></div>
+<div class=ins-search-container>
+<div class=ins-input-wrapper>
+<input type=text class=ins-search-input placeholder="Type something..." x-webkit-speech>
+<button type=button class="close ins-close ins-selectable" data-dismiss=modal aria-label=Close><span aria-hidden=true>×</span></button>
+</div>
+<div class=ins-section-wrapper>
+<div class=ins-section-container></div>
+</div>
+</div>
+</div>
+</form>
+</div>
+</div>
+</div>
+<div class=sponsors>
+<h2 class=sponsors-title>Sponsored by</h2>
+<ul class=sponsors-list>
+<li>
+<a href=https://randori.com target=_blank>
+<img src=https://www.randori.com/wp-content/uploads/2021/08/cropped-logo_a2181bf2.png>
+</a>
+</li>
+</ul>
+</div>
+</header>
+<main class=main role=main>
+<div class="content article-list">
+<article class="article article-type-page" itemscope itemtype=http://schema.org/BlogPosting>
+<div class=article-container>
+<div>
+<div class=article-header>
+<table border=0 width=100%><tr><td>
+<h1 class=article-title>
+<a href=/posts/apachetomcat/>Apache Tomcat</a>
+</h1>
+</td><td>
+<table class=title-version-info border=0>
+<tr><td>Patched Version</td><td align=right></td></tr>
+<tr><td>Last Vulnerable Version</td><td align=right></td></tr>
+<tr><td>First Vulnerable Version</td><td align=right></td></tr>
+</table>
+</td></tr></table><br>
+<div class=title-data><b>Vendor Data</b>
+</div>
+<div class=title-data-divider></div>
+<div class=title-data><b>Community Data</b>
+</div>
+</div>
+</div>
+<div class=hidem id=0_hidden>
+<div class="article-entry text-muted" itemprop=description>
+<h2 id=community-resources>Community Resources</h2>
+<table>
+<thead>
+<tr>
+<th>Resource</th>
+<th>Link</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>source</td>
+<td><a href=https://tomcat.apache.org/tomcat-9.0-doc/logging.html>https://tomcat.apache.org/tomcat-9.0-doc/logging.html</a></td>
+</tr>
+</tbody>
+</table>
+<h2 id=sources>Sources</h2>
+<table>
+<thead>
+<tr>
+<th>Date</th>
+<th>Attribution</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2021-12-13 20:41:01</td>
+<td><a href=https://github.com/NCSC-NL/log4shell/blob/main/software/README.md>NCSC-NL</a></td>
+<td>Updated communityNotVulnerable. Updated community link source.</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<div class=post-expand-collapse>
+<div onclick="onClickExpand('0')" id=0_expander>
+Expand Details
+</div>
+</div>
+</article>
+<article class="article article-type-page" itemscope itemtype=http://schema.org/BlogPosting>
+<div class=article-container>
+<div>
+<div class=article-header>
+<table border=0 width=100%><tr><td>
+<h1 class=article-title>
+<a href=/posts/apachezookeeper/>Apache Zookeeper</a>
+</h1>
+</td><td>
+<table class=title-version-info border=0>
+<tr><td>Patched Version</td><td align=right></td></tr>
+<tr><td>Last Vulnerable Version</td><td align=right></td></tr>
+<tr><td>First Vulnerable Version</td><td align=right></td></tr>
+</table>
+</td></tr></table><br>
+<div class=title-data><b>Vendor Data</b>
+</div>
+<div class=title-data-divider></div>
+<div class=title-data><b>Community Data</b>
+</div>
+</div>
+</div>
+<div class=hidem id=1_hidden>
+<div class="article-entry text-muted" itemprop=description>
+<h2 id=community-resources>Community Resources</h2>
+<table>
+<thead>
+<tr>
+<th>Resource</th>
+<th>Link</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>source</td>
+<td><a href=https://issues.apache.org/jira/browse/ZOOKEEPER-4423>https://issues.apache.org/jira/browse/ZOOKEEPER-4423</a></td>
+</tr>
+</tbody>
+</table>
+<h2 id=community-notes>Community Notes</h2>
+<table>
+<thead>
+<tr>
+<th>Source</th>
+<th>Note</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href=https://github.com/NCSC-NL/log4shell/blob/main/software/README.md>NCSC-NL</a></td>
+<td>Zookeeper uses Log4j 1.2 version</td>
+</tr>
+</tbody>
+</table>
+<h2 id=sources>Sources</h2>
+<table>
+<thead>
+<tr>
+<th>Date</th>
+<th>Attribution</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2021-12-13 20:44:52</td>
+<td><a href=https://github.com/NCSC-NL/log4shell/blob/main/software/README.md>NCSC-NL</a></td>
+<td>Updated communityNotVulnerable. Updated community link source. Updated community note.</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<div class=post-expand-collapse>
+<div onclick="onClickExpand('1')" id=1_expander>
+Expand Details
+</div>
+</div>
+</article>
+<article class="article article-type-page" itemscope itemtype=http://schema.org/BlogPosting>
+<div class=article-container>
+<div>
+<div class=article-header>
+<table border=0 width=100%><tr><td>
+<h1 class=article-title>
+<a href=/posts/apcpowerchute-business-edition/>APC PowerChute Business Edition</a>
+</h1>
+</td><td>
+<table class=title-version-info border=0>
+<tr><td>Patched Version</td><td align=right></td></tr>
+<tr><td>Last Vulnerable Version</td><td align=right></td></tr>
+<tr><td>First Vulnerable Version</td><td align=right></td></tr>
+</table>
+</td></tr></table><br>
+<div class=title-data><b>Vendor Data</b>
+</div>
+<div class=title-data-divider></div>
+<div class=title-data><b>Community Data</b>
+<span class=tag>
+<img src="/images/Icon - Vulnerable - Confirmed.png">
+Vulnerable</span>
+</div>
+</div>
+</div>
+<div class=hidem id=2_hidden>
+<div class="article-entry text-muted" itemprop=description>
+<h2 id=sources>Sources</h2>
+<table>
+<thead>
+<tr>
+<th>Date</th>
+<th>Attribution</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2021-12-14 10:05:44</td>
+<td><a href=https://github.com/NCSC-NL/log4shell/blob/main/software/README.md>NCSC-NL</a></td>
+<td>Updated communityVulnerable.</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<div class=post-expand-collapse>
+<div onclick="onClickExpand('2')" id=2_expander>
+Expand Details
+</div>
+</div>
+</article>
+<article class="article article-type-page" itemscope itemtype=http://schema.org/BlogPosting>
+<div class=article-container>
+<div>
+<div class=article-header>
+<table border=0 width=100%><tr><td>
+<h1 class=article-title>
+<a href=/posts/apcpowerchute-network-shutdown/>APC PowerChute Network Shutdown</a>
+</h1>
+</td><td>
+<table class=title-version-info border=0>
+<tr><td>Patched Version</td><td align=right></td></tr>
+<tr><td>Last Vulnerable Version</td><td align=right></td></tr>
+<tr><td>First Vulnerable Version</td><td align=right></td></tr>
+</table>
+</td></tr></table><br>
+<div class=title-data><b>Vendor Data</b>
+</div>
+<div class=title-data-divider></div>
+<div class=title-data><b>Community Data</b>
+<span class=tag>
+<img src="/images/Icon - Vulnerable - Confirmed.png">
+Vulnerable</span>
+</div>
+</div>
+</div>
+<div class=hidem id=3_hidden>
+<div class="article-entry text-muted" itemprop=description>
+<h2 id=sources>Sources</h2>
+<table>
+<thead>
+<tr>
+<th>Date</th>
+<th>Attribution</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2021-12-14 10:05:44</td>
+<td><a href=https://github.com/NCSC-NL/log4shell/blob/main/software/README.md>NCSC-NL</a></td>
+<td>Updated communityVulnerable.</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<div class=post-expand-collapse>
+<div onclick="onClickExpand('3')" id=3_expander>
+Expand Details
+</div>
+</div>
+</article>
+<article class="article article-type-page" itemscope itemtype=http://schema.org/BlogPosting>
+<div class=article-container>
+<div>
+<div class=article-header>
+<table border=0 width=100%><tr><td>
+<h1 class=article-title>
+<a href=/posts/apereocas/>Apereo CAS</a>
+</h1>
+</td><td>
+<table class=title-version-info border=0>
+<tr><td>Patched Version</td><td align=right></td></tr>
+<tr><td>Last Vulnerable Version</td><td align=right></td></tr>
+<tr><td>First Vulnerable Version</td><td align=right></td></tr>
+</table>
+</td></tr></table><br>
+<div class=title-data><b>Vendor Data</b>
+<span class=tag>
+<img src="/images/Icon - Vendor Patch Exists.png">
+Vendor Patch Exists</span>
+</div>
+<div class=title-data-divider></div>
+<div class=title-data><b>Community Data</b>
+</div>
+</div>
+</div>
+<div class=hidem id=4_hidden>
+<div class="article-entry text-muted" itemprop=description>
+<h2 id=community-resources>Community Resources</h2>
+<table>
+<thead>
+<tr>
+<th>Resource</th>
+<th>Link</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>source</td>
+<td><a href=https://apereo.github.io/2021/12/11/log4j-vuln/>https://apereo.github.io/2021/12/11/log4j-vuln/</a></td>
+</tr>
+</tbody>
+</table>
+<h2 id=community-notes>Community Notes</h2>
+<table>
+<thead>
+<tr>
+<th>Source</th>
+<th>Note</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href=https://github.com/NCSC-NL/log4shell/blob/main/software/README.md>NCSC-NL</a></td>
+<td>Other versions still in active maintainance might need manual inspection</td>
+</tr>
+</tbody>
+</table>
+<h2 id=sources>Sources</h2>
+<table>
+<thead>
+<tr>
+<th>Date</th>
+<th>Attribution</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2021-12-13 10:24:39</td>
+<td><a href=https://github.com/NCSC-NL/log4shell/blob/main/software/README.md>NCSC-NL</a></td>
+<td>Updated vendorPatchExists. Updated community link source. Updated community note.</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<div class=post-expand-collapse>
+<div onclick="onClickExpand('4')" id=4_expander>
+Expand Details
+</div>
+</div>
+</article>
+<article class="article article-type-page" itemscope itemtype=http://schema.org/BlogPosting>
+<div class=article-container>
+<div>
+<div class=article-header>
+<table border=0 width=100%><tr><td>
+<h1 class=article-title>
+<a href=/posts/apereoopencast/>Apereo Opencast</a>
+</h1>
+</td><td>
+<table class=title-version-info border=0>
+<tr><td>Patched Version</td><td align=right></td></tr>
+<tr><td>Last Vulnerable Version</td><td align=right></td></tr>
+<tr><td>First Vulnerable Version</td><td align=right></td></tr>
+</table>
+</td></tr></table><br>
+<div class=title-data><b>Vendor Data</b>
+<span class=tag>
+<img src="/images/Icon - Vendor Patch Exists.png">
+Vendor Patch Exists</span>
+</div>
+<div class=title-data-divider></div>
+<div class=title-data><b>Community Data</b>
+</div>
+</div>
+</div>
+<div class=hidem id=5_hidden>
+<div class="article-entry text-muted" itemprop=description>
+<h2 id=community-resources>Community Resources</h2>
+<table>
+<thead>
+<tr>
+<th>Resource</th>
+<th>Link</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>source</td>
+<td><a href=https://github.com/opencast/opencast/security/advisories/GHSA-mf4f-j588-5xm8>https://github.com/opencast/opencast/security/advisories/GHSA-mf4f-j588-5xm8</a></td>
+</tr>
+</tbody>
+</table>
+<h2 id=sources>Sources</h2>
+<table>
+<thead>
+<tr>
+<th>Date</th>
+<th>Attribution</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2021-12-13 10:23:28</td>
+<td><a href=https://github.com/NCSC-NL/log4shell/blob/main/software/README.md>NCSC-NL</a></td>
+<td>Updated vendorPatchExists. Updated community link source.</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<div class=post-expand-collapse>
+<div onclick="onClickExpand('5')" id=5_expander>
+Expand Details
+</div>
+</div>
+</article>
+<article class="article article-type-page" itemscope itemtype=http://schema.org/BlogPosting>
+<div class=article-container>
+<div>
+<div class=article-header>
+<table border=0 width=100%><tr><td>
+<h1 class=article-title>
+<a href=/posts/apigeeedge-and-opdk-products/>Apigee Edge and OPDK products</a>
+</h1>
+</td><td>
+<table class=title-version-info border=0>
+<tr><td>Patched Version</td><td align=right></td></tr>
+<tr><td>Last Vulnerable Version</td><td align=right></td></tr>
+<tr><td>First Vulnerable Version</td><td align=right></td></tr>
+</table>
+</td></tr></table><br>
+<div class=title-data><b>Vendor Data</b>
+</div>
+<div class=title-data-divider></div>
+<div class=title-data><b>Community Data</b>
+</div>
+</div>
+</div>
+<div class=hidem id=6_hidden>
+<div class="article-entry text-muted" itemprop=description>
+<h2 id=community-resources>Community Resources</h2>
+<table>
+<thead>
+<tr>
+<th>Resource</th>
+<th>Link</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>source</td>
+<td><a href=https://status.apigee.com/incidents/3cgzb0q2r10p>https://status.apigee.com/incidents/3cgzb0q2r10p</a></td>
+</tr>
+</tbody>
+</table>
+<h2 id=sources>Sources</h2>
+<table>
+<thead>
+<tr>
+<th>Date</th>
+<th>Attribution</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2021-12-13 12:43:02</td>
+<td><a href=https://github.com/NCSC-NL/log4shell/blob/main/software/README.md>NCSC-NL</a></td>
+<td>Updated communityNotVulnerable. Updated community link source.</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<div class=post-expand-collapse>
+<div onclick="onClickExpand('6')" id=6_expander>
+Expand Details
+</div>
+</div>
+</article>
+<article class="article article-type-page" itemscope itemtype=http://schema.org/BlogPosting>
+<div class=article-container>
+<div>
+<div class=article-header>
+<table border=0 width=100%><tr><td>
+<h1 class=article-title>
+<a href=/posts/aptibleaptible/>Aptible Aptible</a>
+</h1>
+</td><td>
+<table class=title-version-info border=0>
+<tr><td>Patched Version</td><td align=right></td></tr>
+<tr><td>Last Vulnerable Version</td><td align=right></td></tr>
+<tr><td>First Vulnerable Version</td><td align=right></td></tr>
+</table>
+</td></tr></table><br>
+<div class=title-data><b>Vendor Data</b>
+<span class=tag>
+<img src="/images/Icon - Vendor Patch Exists.png">
+Vendor Patch Exists</span>
+</div>
+<div class=title-data-divider></div>
+<div class=title-data><b>Community Data</b>
+</div>
+</div>
+</div>
+<div class=hidem id=7_hidden>
+<div class="article-entry text-muted" itemprop=description>
+<h2 id=community-resources>Community Resources</h2>
+<table>
+<thead>
+<tr>
+<th>Resource</th>
+<th>Link</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>source</td>
+<td><a href="https://status.aptible.com/incidents/gk1rh440h36s?u=zfbcrbt2lkv4">https://status.aptible.com/incidents/gk1rh440h36s?u=zfbcrbt2lkv4</a></td>
+</tr>
+</tbody>
+</table>
+<h2 id=sources>Sources</h2>
+<table>
+<thead>
+<tr>
+<th>Date</th>
+<th>Attribution</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2021-12-12 13:50:07</td>
+<td><a href=https://github.com/NCSC-NL/log4shell/blob/main/software/README.md>NCSC-NL</a></td>
+<td>Updated vendorPatchExists. Updated community link source.</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<div class=post-expand-collapse>
+<div onclick="onClickExpand('7')" id=7_expander>
+Expand Details
+</div>
+</div>
+</article>
+<article class="article article-type-page" itemscope itemtype=http://schema.org/BlogPosting>
+<div class=article-container>
+<div>
+<div class=article-header>
+<table border=0 width=100%><tr><td>
+<h1 class=article-title>
+<a href=/posts/arduinoarduino-ide/>Arduino Arduino IDE</a>
+</h1>
+</td><td>
+<table class=title-version-info border=0>
+<tr><td>Patched Version</td><td align=right></td></tr>
+<tr><td>Last Vulnerable Version</td><td align=right></td></tr>
+<tr><td>First Vulnerable Version</td><td align=right></td></tr>
+</table>
+</td></tr></table><br>
+<div class=title-data><b>Vendor Data</b>
+<span class=tag>
+<img src="/images/Icon - Vendor Patch Exists.png">
+Vendor Patch Exists</span>
+</div>
+<div class=title-data-divider></div>
+<div class=title-data><b>Community Data</b>
+</div>
+</div>
+</div>
+<div class=hidem id=8_hidden>
+<div class="article-entry text-muted" itemprop=description>
+<h2 id=community-resources>Community Resources</h2>
+<table>
+<thead>
+<tr>
+<th>Resource</th>
+<th>Link</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>source</td>
+<td><a href=https://support.arduino.cc/hc/en-us/articles/4412377144338-Arduino-s-response-to-Log4j2-vulnerability-CVE-2021-44228>https://support.arduino.cc/hc/en-us/articles/4412377144338-Arduino-s-response-to-Log4j2-vulnerability-CVE-2021-44228</a></td>
+</tr>
+</tbody>
+</table>
+<h2 id=sources>Sources</h2>
+<table>
+<thead>
+<tr>
+<th>Date</th>
+<th>Attribution</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2021-12-14 11:41:51</td>
+<td><a href=https://github.com/NCSC-NL/log4shell/blob/main/software/README.md>NCSC-NL</a></td>
+<td>Updated vendorPatchExists. Updated community link source.</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<div class=post-expand-collapse>
+<div onclick="onClickExpand('8')" id=8_expander>
+Expand Details
+</div>
+</div>
+</article>
+<article class="article article-type-page" itemscope itemtype=http://schema.org/BlogPosting>
+<div class=article-container>
+<div>
+<div class=article-header>
+<table border=0 width=100%><tr><td>
+<h1 class=article-title>
+<a href=/posts/arista-networksanalytics-node-for-converged-cloud-fabric-formerly-big-cloud-fabric-/>Arista Networks Analytics Node for Converged Cloud Fabric (formerly Big Cloud Fabric)</a>
+</h1>
+</td><td>
+<table class=title-version-info border=0>
+<tr><td>Patched Version</td><td align=right></td></tr>
+<tr><td>Last Vulnerable Version</td><td align=right></td></tr>
+<tr><td>First Vulnerable Version</td><td align=right></td></tr>
+</table>
+</td></tr></table><br>
+<div class=title-data><b>Vendor Data</b>
+</div>
+<div class=title-data-divider></div>
+<div class=title-data><b>Community Data</b>
+<span class=tag>
+<img src="/images/Icon - Vulnerable - Confirmed.png">
+Vulnerable</span>
+</div>
+</div>
+</div>
+<div class=hidem id=9_hidden>
+<div class="article-entry text-muted" itemprop=description>
+<h2 id=community-resources>Community Resources</h2>
+<table>
+<thead>
+<tr>
+<th>Resource</th>
+<th>Link</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>source</td>
+<td><a href=https://www.arista.com/en/support/advisories-notices/security-advisories/13425-security-advisory-0070>https://www.arista.com/en/support/advisories-notices/security-advisories/13425-security-advisory-0070</a></td>
+</tr>
+</tbody>
+</table>
+<h2 id=sources>Sources</h2>
+<table>
+<thead>
+<tr>
+<th>Date</th>
+<th>Attribution</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2021-12-14 13:04:27</td>
+<td><a href=https://github.com/NCSC-NL/log4shell/blob/main/software/README.md>NCSC-NL</a></td>
+<td>Updated communityVulnerable. Updated community link source.</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<div class=post-expand-collapse>
+<div onclick="onClickExpand('9')" id=9_expander>
+Expand Details
+</div>
+</div>
+</article>
+<article class="article article-type-page" itemscope itemtype=http://schema.org/BlogPosting>
+<div class=article-container>
+<div>
+<div class=article-header>
+<table border=0 width=100%><tr><td>
+<h1 class=article-title>
+<a href=/posts/arista-networksanalytics-node-for-danz-monitoring-fabric-formerly-big-monitoring-fabric-/>Arista Networks Analytics Node for DANZ Monitoring Fabric (formerly Big Monitoring Fabric)</a>
+</h1>
+</td><td>
+<table class=title-version-info border=0>
+<tr><td>Patched Version</td><td align=right></td></tr>
+<tr><td>Last Vulnerable Version</td><td align=right></td></tr>
+<tr><td>First Vulnerable Version</td><td align=right></td></tr>
+</table>
+</td></tr></table><br>
+<div class=title-data><b>Vendor Data</b>
+</div>
+<div class=title-data-divider></div>
+<div class=title-data><b>Community Data</b>
+<span class=tag>
+<img src="/images/Icon - Vulnerable - Confirmed.png">
+Vulnerable</span>
+</div>
+</div>
+</div>
+<div class=hidem id=10_hidden>
+<div class="article-entry text-muted" itemprop=description>
+<h2 id=community-resources>Community Resources</h2>
+<table>
+<thead>
+<tr>
+<th>Resource</th>
+<th>Link</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>source</td>
+<td><a href=https://www.arista.com/en/support/advisories-notices/security-advisories/13425-security-advisory-0070>https://www.arista.com/en/support/advisories-notices/security-advisories/13425-security-advisory-0070</a></td>
+</tr>
+</tbody>
+</table>
+<h2 id=sources>Sources</h2>
+<table>
+<thead>
+<tr>
+<th>Date</th>
+<th>Attribution</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2021-12-14 13:04:27</td>
+<td><a href=https://github.com/NCSC-NL/log4shell/blob/main/software/README.md>NCSC-NL</a></td>
+<td>Updated communityVulnerable. Updated community link source.</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<div class=post-expand-collapse>
+<div onclick="onClickExpand('10')" id=10_expander>
+Expand Details
+</div>
+</div>
+</article>
+<article class="article article-type-page" itemscope itemtype=http://schema.org/BlogPosting>
+<div class=article-container>
+<div>
+<div class=article-header>
+<table border=0 width=100%><tr><td>
+<h1 class=article-title>
+<a href=/posts/arista-networkscloudvision-portal/>Arista Networks CloudVision Portal</a>
+</h1>
+</td><td>
+<table class=title-version-info border=0>
+<tr><td>Patched Version</td><td align=right></td></tr>
+<tr><td>Last Vulnerable Version</td><td align=right></td></tr>
+<tr><td>First Vulnerable Version</td><td align=right></td></tr>
+</table>
+</td></tr></table><br>
+<div class=title-data><b>Vendor Data</b>
+</div>
+<div class=title-data-divider></div>
+<div class=title-data><b>Community Data</b>
+<span class=tag>
+<img src="/images/Icon - Vulnerable - Confirmed.png">
+Vulnerable</span>
+</div>
+</div>
+</div>
+<div class=hidem id=11_hidden>
+<div class="article-entry text-muted" itemprop=description>
+<h2 id=community-resources>Community Resources</h2>
+<table>
+<thead>
+<tr>
+<th>Resource</th>
+<th>Link</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>source</td>
+<td><a href=https://www.arista.com/en/support/advisories-notices/security-advisories/13425-security-advisory-0070>https://www.arista.com/en/support/advisories-notices/security-advisories/13425-security-advisory-0070</a></td>
+</tr>
+</tbody>
+</table>
+<h2 id=sources>Sources</h2>
+<table>
+<thead>
+<tr>
+<th>Date</th>
+<th>Attribution</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2021-12-14 13:04:27</td>
+<td><a href=https://github.com/NCSC-NL/log4shell/blob/main/software/README.md>NCSC-NL</a></td>
+<td>Updated communityVulnerable. Updated community link source.</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<div class=post-expand-collapse>
+<div onclick="onClickExpand('11')" id=11_expander>
+Expand Details
+</div>
+</div>
+</article>
+<article class="article article-type-page" itemscope itemtype=http://schema.org/BlogPosting>
+<div class=article-container>
+<div>
+<div class=article-header>
+<table border=0 width=100%><tr><td>
+<h1 class=article-title>
+<a href=/posts/arista-networkscloudvision-wi-fi-virtual-appliance-or-physical-appliance/>Arista Networks CloudVision Wi-Fi, virtual appliance or physical appliance</a>
+</h1>
+</td><td>
+<table class=title-version-info border=0>
+<tr><td>Patched Version</td><td align=right></td></tr>
+<tr><td>Last Vulnerable Version</td><td align=right></td></tr>
+<tr><td>First Vulnerable Version</td><td align=right></td></tr>
+</table>
+</td></tr></table><br>
+<div class=title-data><b>Vendor Data</b>
+</div>
+<div class=title-data-divider></div>
+<div class=title-data><b>Community Data</b>
+<span class=tag>
+<img src="/images/Icon - Vulnerable - Confirmed.png">
+Vulnerable</span>
+</div>
+</div>
+</div>
+<div class=hidem id=12_hidden>
+<div class="article-entry text-muted" itemprop=description>
+<h2 id=community-resources>Community Resources</h2>
+<table>
+<thead>
+<tr>
+<th>Resource</th>
+<th>Link</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>source</td>
+<td><a href=https://www.arista.com/en/support/advisories-notices/security-advisories/13425-security-advisory-0070>https://www.arista.com/en/support/advisories-notices/security-advisories/13425-security-advisory-0070</a></td>
+</tr>
+</tbody>
+</table>
+<h2 id=sources>Sources</h2>
+<table>
+<thead>
+<tr>
+<th>Date</th>
+<th>Attribution</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2021-12-14 13:04:27</td>
+<td><a href=https://github.com/NCSC-NL/log4shell/blob/main/software/README.md>NCSC-NL</a></td>
+<td>Updated communityVulnerable. Updated community link source.</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<div class=post-expand-collapse>
+<div onclick="onClickExpand('12')" id=12_expander>
+Expand Details
+</div>
+</div>
+</article>
+<article class="article article-type-page" itemscope itemtype=http://schema.org/BlogPosting>
+<div class=article-container>
+<div>
+<div class=article-header>
+<table border=0 width=100%><tr><td>
+<h1 class=article-title>
+<a href=/posts/arista-networksembedded-analytics-for-converged-cloud-fabric-formerly-big-cloud-fabric-/>Arista Networks Embedded Analytics for Converged Cloud Fabric (formerly Big Cloud Fabric)</a>
+</h1>
+</td><td>
+<table class=title-version-info border=0>
+<tr><td>Patched Version</td><td align=right></td></tr>
+<tr><td>Last Vulnerable Version</td><td align=right></td></tr>
+<tr><td>First Vulnerable Version</td><td align=right></td></tr>
+</table>
+</td></tr></table><br>
+<div class=title-data><b>Vendor Data</b>
+</div>
+<div class=title-data-divider></div>
+<div class=title-data><b>Community Data</b>
+<span class=tag>
+<img src="/images/Icon - Vulnerable - Confirmed.png">
+Vulnerable</span>
+</div>
+</div>
+</div>
+<div class=hidem id=13_hidden>
+<div class="article-entry text-muted" itemprop=description>
+<h2 id=community-resources>Community Resources</h2>
+<table>
+<thead>
+<tr>
+<th>Resource</th>
+<th>Link</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>source</td>
+<td><a href=https://www.arista.com/en/support/advisories-notices/security-advisories/13425-security-advisory-0070>https://www.arista.com/en/support/advisories-notices/security-advisories/13425-security-advisory-0070</a></td>
+</tr>
+</tbody>
+</table>
+<h2 id=sources>Sources</h2>
+<table>
+<thead>
+<tr>
+<th>Date</th>
+<th>Attribution</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2021-12-14 13:04:27</td>
+<td><a href=https://github.com/NCSC-NL/log4shell/blob/main/software/README.md>NCSC-NL</a></td>
+<td>Updated communityVulnerable. Updated community link source.</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<div class=post-expand-collapse>
+<div onclick="onClickExpand('13')" id=13_expander>
+Expand Details
+</div>
+</div>
+</article>
+<article class="article article-type-page" itemscope itemtype=http://schema.org/BlogPosting>
+<div class=article-container>
+<div>
+<div class=article-header>
+<table border=0 width=100%><tr><td>
+<h1 class=article-title>
+<a href=/posts/atlassianbamboo-server-data-center/>Atlassian Bamboo Server & Data Center</a>
+</h1>
+</td><td>
+<table class=title-version-info border=0>
+<tr><td>Patched Version</td><td align=right></td></tr>
+<tr><td>Last Vulnerable Version</td><td align=right></td></tr>
+<tr><td>First Vulnerable Version</td><td align=right></td></tr>
+</table>
+</td></tr></table><br>
+<div class=title-data><b>Vendor Data</b>
+</div>
+<div class=title-data-divider></div>
+<div class=title-data><b>Community Data</b>
+<span class=tag>
+<img src="/images/Icon - Vulnerable - Confirmed.png">
+Vulnerable</span>
+</div>
+</div>
+</div>
+<div class=hidem id=14_hidden>
+<div class="article-entry text-muted" itemprop=description>
+<h2 id=community-resources>Community Resources</h2>
+<table>
+<thead>
+<tr>
+<th>Resource</th>
+<th>Link</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>source</td>
+<td><a href=https://confluence.atlassian.com/kb/faq-for-cve-2021-44228-1103069406.html>https://confluence.atlassian.com/kb/faq-for-cve-2021-44228-1103069406.html</a></td>
+</tr>
+</tbody>
+</table>
+<h2 id=community-notes>Community Notes</h2>
+<table>
+<thead>
+<tr>
+<th>Source</th>
+<th>Note</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href=https://github.com/NCSC-NL/log4shell/blob/main/software/README.md>NCSC-NL</a></td>
+<td>Only vulnerable when using non-default config, cloud version still under investigation</td>
+</tr>
+</tbody>
+</table>
+<h2 id=sources>Sources</h2>
+<table>
+<thead>
+<tr>
+<th>Date</th>
+<th>Attribution</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2021-12-14 10:05:44</td>
+<td><a href=https://github.com/NCSC-NL/log4shell/blob/main/software/README.md>NCSC-NL</a></td>
+<td>Updated communityVulnerable. Updated community link source. Updated community note.</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<div class=post-expand-collapse>
+<div onclick="onClickExpand('14')" id=14_expander>
+Expand Details
+</div>
+</div>
+</article>
+<article class="article article-type-page" itemscope itemtype=http://schema.org/BlogPosting>
+<div class=article-container>
+<div>
+<div class=article-header>
+<table border=0 width=100%><tr><td>
+<h1 class=article-title>
+<a href=/posts/atlassianconfluence-server-data-center/>Atlassian Confluence Server & Data Center</a>
+</h1>
+</td><td>
+<table class=title-version-info border=0>
+<tr><td>Patched Version</td><td align=right></td></tr>
+<tr><td>Last Vulnerable Version</td><td align=right></td></tr>
+<tr><td>First Vulnerable Version</td><td align=right></td></tr>
+</table>
+</td></tr></table><br>
+<div class=title-data><b>Vendor Data</b>
+</div>
+<div class=title-data-divider></div>
+<div class=title-data><b>Community Data</b>
+<span class=tag>
+<img src="/images/Icon - Vulnerable - Confirmed.png">
+Vulnerable</span>
+</div>
+</div>
+</div>
+<div class=hidem id=15_hidden>
+<div class="article-entry text-muted" itemprop=description>
+<h2 id=community-resources>Community Resources</h2>
+<table>
+<thead>
+<tr>
+<th>Resource</th>
+<th>Link</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>source</td>
+<td><a href=https://confluence.atlassian.com/kb/faq-for-cve-2021-44228-1103069406.html>https://confluence.atlassian.com/kb/faq-for-cve-2021-44228-1103069406.html</a></td>
+</tr>
+</tbody>
+</table>
+<h2 id=community-notes>Community Notes</h2>
+<table>
+<thead>
+<tr>
+<th>Source</th>
+<th>Note</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href=https://github.com/NCSC-NL/log4shell/blob/main/software/README.md>NCSC-NL</a></td>
+<td>Only vulnerable when using non-default config, cloud version still under investigation</td>
+</tr>
+</tbody>
+</table>
+<h2 id=sources>Sources</h2>
+<table>
+<thead>
+<tr>
+<th>Date</th>
+<th>Attribution</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2021-12-12 13:50:07</td>
+<td><a href=https://github.com/NCSC-NL/log4shell/blob/main/software/README.md>NCSC-NL</a></td>
+<td>Updated communityVulnerable. Updated community link source. Updated community note.</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<div class=post-expand-collapse>
+<div onclick="onClickExpand('15')" id=15_expander>
+Expand Details
+</div>
+</div>
+</article>
+<article class="article article-type-page" itemscope itemtype=http://schema.org/BlogPosting>
+<div class=article-container>
+<div>
+<div class=article-header>
+<table border=0 width=100%><tr><td>
+<h1 class=article-title>
+<a href=/posts/atlassiancrowd-server-data-center/>Atlassian Crowd Server & Data Center</a>
+</h1>
+</td><td>
+<table class=title-version-info border=0>
+<tr><td>Patched Version</td><td align=right></td></tr>
+<tr><td>Last Vulnerable Version</td><td align=right></td></tr>
+<tr><td>First Vulnerable Version</td><td align=right></td></tr>
+</table>
+</td></tr></table><br>
+<div class=title-data><b>Vendor Data</b>
+</div>
+<div class=title-data-divider></div>
+<div class=title-data><b>Community Data</b>
+<span class=tag>
+<img src="/images/Icon - Vulnerable - Confirmed.png">
+Vulnerable</span>
+</div>
+</div>
+</div>
+<div class=hidem id=16_hidden>
+<div class="article-entry text-muted" itemprop=description>
+<h2 id=community-resources>Community Resources</h2>
+<table>
+<thead>
+<tr>
+<th>Resource</th>
+<th>Link</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>source</td>
+<td><a href=https://confluence.atlassian.com/kb/faq-for-cve-2021-44228-1103069406.html>https://confluence.atlassian.com/kb/faq-for-cve-2021-44228-1103069406.html</a></td>
+</tr>
+</tbody>
+</table>
+<h2 id=community-notes>Community Notes</h2>
+<table>
+<thead>
+<tr>
+<th>Source</th>
+<th>Note</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href=https://github.com/NCSC-NL/log4shell/blob/main/software/README.md>NCSC-NL</a></td>
+<td>Only vulnerable when using non-default config, cloud version still under investigation</td>
+</tr>
+</tbody>
+</table>
+<h2 id=sources>Sources</h2>
+<table>
+<thead>
+<tr>
+<th>Date</th>
+<th>Attribution</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2021-12-12 13:50:07</td>
+<td><a href=https://github.com/NCSC-NL/log4shell/blob/main/software/README.md>NCSC-NL</a></td>
+<td>Updated communityVulnerable. Updated community link source. Updated community note.</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<div class=post-expand-collapse>
+<div onclick="onClickExpand('16')" id=16_expander>
+Expand Details
+</div>
+</div>
+</article>
+<article class="article article-type-page" itemscope itemtype=http://schema.org/BlogPosting>
+<div class=article-container>
+<div>
+<div class=article-header>
+<table border=0 width=100%><tr><td>
+<h1 class=article-title>
+<a href=/posts/atlassiancrucible/>Atlassian Crucible</a>
+</h1>
+</td><td>
+<table class=title-version-info border=0>
+<tr><td>Patched Version</td><td align=right></td></tr>
+<tr><td>Last Vulnerable Version</td><td align=right></td></tr>
+<tr><td>First Vulnerable Version</td><td align=right></td></tr>
+</table>
+</td></tr></table><br>
+<div class=title-data><b>Vendor Data</b>
+</div>
+<div class=title-data-divider></div>
+<div class=title-data><b>Community Data</b>
+<span class=tag>
+<img src="/images/Icon - Vulnerable - Confirmed.png">
+Vulnerable</span>
+</div>
+</div>
+</div>
+<div class=hidem id=17_hidden>
+<div class="article-entry text-muted" itemprop=description>
+<h2 id=community-resources>Community Resources</h2>
+<table>
+<thead>
+<tr>
+<th>Resource</th>
+<th>Link</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>source</td>
+<td><a href=https://confluence.atlassian.com/kb/faq-for-cve-2021-44228-1103069406.html>https://confluence.atlassian.com/kb/faq-for-cve-2021-44228-1103069406.html</a></td>
+</tr>
+</tbody>
+</table>
+<h2 id=community-notes>Community Notes</h2>
+<table>
+<thead>
+<tr>
+<th>Source</th>
+<th>Note</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href=https://github.com/NCSC-NL/log4shell/blob/main/software/README.md>NCSC-NL</a></td>
+<td>Only vulnerable when using non-default config, cloud version still under investigation</td>
+</tr>
+</tbody>
+</table>
+<h2 id=sources>Sources</h2>
+<table>
+<thead>
+<tr>
+<th>Date</th>
+<th>Attribution</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2021-12-12 13:50:07</td>
+<td><a href=https://github.com/NCSC-NL/log4shell/blob/main/software/README.md>NCSC-NL</a></td>
+<td>Updated communityVulnerable. Updated community link source. Updated community note.</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<div class=post-expand-collapse>
+<div onclick="onClickExpand('17')" id=17_expander>
+Expand Details
+</div>
+</div>
+</article>
+<article class="article article-type-page" itemscope itemtype=http://schema.org/BlogPosting>
+<div class=article-container>
+<div>
+<div class=article-header>
+<table border=0 width=100%><tr><td>
+<h1 class=article-title>
+<a href=/posts/atlassianfisheye/>Atlassian Fisheye</a>
+</h1>
+</td><td>
+<table class=title-version-info border=0>
+<tr><td>Patched Version</td><td align=right></td></tr>
+<tr><td>Last Vulnerable Version</td><td align=right></td></tr>
+<tr><td>First Vulnerable Version</td><td align=right></td></tr>
+</table>
+</td></tr></table><br>
+<div class=title-data><b>Vendor Data</b>
+</div>
+<div class=title-data-divider></div>
+<div class=title-data><b>Community Data</b>
+<span class=tag>
+<img src="/images/Icon - Vulnerable - Confirmed.png">
+Vulnerable</span>
+</div>
+</div>
+</div>
+<div class=hidem id=18_hidden>
+<div class="article-entry text-muted" itemprop=description>
+<h2 id=community-resources>Community Resources</h2>
+<table>
+<thead>
+<tr>
+<th>Resource</th>
+<th>Link</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>source</td>
+<td><a href=https://confluence.atlassian.com/kb/faq-for-cve-2021-44228-1103069406.html>https://confluence.atlassian.com/kb/faq-for-cve-2021-44228-1103069406.html</a></td>
+</tr>
+</tbody>
+</table>
+<h2 id=community-notes>Community Notes</h2>
+<table>
+<thead>
+<tr>
+<th>Source</th>
+<th>Note</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href=https://github.com/NCSC-NL/log4shell/blob/main/software/README.md>NCSC-NL</a></td>
+<td>Only vulnerable when using non-default config, cloud version still under investigation</td>
+</tr>
+</tbody>
+</table>
+<h2 id=sources>Sources</h2>
+<table>
+<thead>
+<tr>
+<th>Date</th>
+<th>Attribution</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2021-12-14 10:05:44</td>
+<td><a href=https://github.com/NCSC-NL/log4shell/blob/main/software/README.md>NCSC-NL</a></td>
+<td>Updated communityVulnerable. Updated community link source. Updated community note.</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<div class=post-expand-collapse>
+<div onclick="onClickExpand('18')" id=18_expander>
+Expand Details
+</div>
+</div>
+</article>
+<article class="article article-type-page" itemscope itemtype=http://schema.org/BlogPosting>
+<div class=article-container>
+<div>
+<div class=article-header>
+<table border=0 width=100%><tr><td>
+<h1 class=article-title>
+<a href=/posts/atlassianjira-server-data-center/>Atlassian Jira Server & Data Center</a>
+</h1>
+</td><td>
+<table class=title-version-info border=0>
+<tr><td>Patched Version</td><td align=right></td></tr>
+<tr><td>Last Vulnerable Version</td><td align=right></td></tr>
+<tr><td>First Vulnerable Version</td><td align=right></td></tr>
+</table>
+</td></tr></table><br>
+<div class=title-data><b>Vendor Data</b>
+</div>
+<div class=title-data-divider></div>
+<div class=title-data><b>Community Data</b>
+<span class=tag>
+<img src="/images/Icon - Vulnerable - Confirmed.png">
+Vulnerable</span>
+</div>
+</div>
+</div>
+<div class=hidem id=19_hidden>
+<div class="article-entry text-muted" itemprop=description>
+<h2 id=community-resources>Community Resources</h2>
+<table>
+<thead>
+<tr>
+<th>Resource</th>
+<th>Link</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>source</td>
+<td><a href=https://confluence.atlassian.com/kb/faq-for-cve-2021-44228-1103069406.html>https://confluence.atlassian.com/kb/faq-for-cve-2021-44228-1103069406.html</a></td>
+</tr>
+</tbody>
+</table>
+<h2 id=community-notes>Community Notes</h2>
+<table>
+<thead>
+<tr>
+<th>Source</th>
+<th>Note</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href=https://github.com/NCSC-NL/log4shell/blob/main/software/README.md>NCSC-NL</a></td>
+<td>Only vulnerable when using non-default config, cloud version still under investigation</td>
+</tr>
+</tbody>
+</table>
+<h2 id=sources>Sources</h2>
+<table>
+<thead>
+<tr>
+<th>Date</th>
+<th>Attribution</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2021-12-14 10:05:44</td>
+<td><a href=https://github.com/NCSC-NL/log4shell/blob/main/software/README.md>NCSC-NL</a></td>
+<td>Updated communityVulnerable. Updated community link source. Updated community note.</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<div class=post-expand-collapse>
+<div onclick="onClickExpand('19')" id=19_expander>
+Expand Details
+</div>
+</div>
+</article>
+<article class="article article-type-page" itemscope itemtype=http://schema.org/BlogPosting>
+<div class=article-container>
+<div>
+<div class=article-header>
+<table border=0 width=100%><tr><td>
+<h1 class=article-title>
+<a href=/posts/azuredata-lake-store-java/>Azure Data lake store java</a>
+</h1>
+</td><td>
+<table class=title-version-info border=0>
+<tr><td>Patched Version</td><td align=right></td></tr>
+<tr><td>Last Vulnerable Version</td><td align=right></td></tr>
+<tr><td>First Vulnerable Version</td><td align=right></td></tr>
+</table>
+</td></tr></table><br>
+<div class=title-data><b>Vendor Data</b>
+</div>
+<div class=title-data-divider></div>
+<div class=title-data><b>Community Data</b>
+</div>
+</div>
+</div>
+<div class=hidem id=20_hidden>
+<div class="article-entry text-muted" itemprop=description>
+<h2 id=community-resources>Community Resources</h2>
+<table>
+<thead>
+<tr>
+<th>Resource</th>
+<th>Link</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>source</td>
+<td><a href=https://github.com/Azure/azure-data-lake-store-java/blob/ed5d6304783286c3cfff0a1dee457a922e23ad48/CHANGES.md#version-2310>https://github.com/Azure/azure-data-lake-store-java/blob/ed5d6304783286c3cfff0a1dee457a922e23ad48/CHANGES.md#version-2310</a></td>
+</tr>
+</tbody>
+</table>
+<h2 id=community-notes>Community Notes</h2>
+<table>
+<thead>
+<tr>
+<th>Source</th>
+<th>Note</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href=https://github.com/NCSC-NL/log4shell/blob/main/software/README.md>NCSC-NL</a></td>
+<td>Fix has been made to upgrade log4j-core. But this dependency has scope &lsquo;test&rsquo; meaning it is not part of the final product/artifact. So there&rsquo;s no risk for end users here.</td>
+</tr>
+</tbody>
+</table>
+<h2 id=sources>Sources</h2>
+<table>
+<thead>
+<tr>
+<th>Date</th>
+<th>Attribution</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2021-12-14 10:05:44</td>
+<td><a href=https://github.com/NCSC-NL/log4shell/blob/main/software/README.md>NCSC-NL</a></td>
+<td>Updated communityNotVulnerable. Updated community link source. Updated community note.</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<div class=post-expand-collapse>
+<div onclick="onClickExpand('20')" id=20_expander>
+Expand Details
+</div>
+</div>
+</article>
+<article class="article article-type-page" itemscope itemtype=http://schema.org/BlogPosting>
+<div class=article-container>
+<div>
+<div class=article-header>
+<table border=0 width=100%><tr><td>
+<h1 class=article-title>
+<a href=/posts/backblazecloud/>Backblaze Cloud</a>
+</h1>
+</td><td>
+<table class=title-version-info border=0>
+<tr><td>Patched Version</td><td align=right></td></tr>
+<tr><td>Last Vulnerable Version</td><td align=right></td></tr>
+<tr><td>First Vulnerable Version</td><td align=right></td></tr>
+</table>
+</td></tr></table><br>
+<div class=title-data><b>Vendor Data</b>
+<span class=tag>
+<img src="/images/Icon - Vendor Patch Exists.png">
+Vendor Patch Exists</span>
+</div>
+<div class=title-data-divider></div>
+<div class=title-data><b>Community Data</b>
+</div>
+</div>
+</div>
+<div class=hidem id=21_hidden>
+<div class="article-entry text-muted" itemprop=description>
+<h2 id=community-resources>Community Resources</h2>
+<table>
+<thead>
+<tr>
+<th>Resource</th>
+<th>Link</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>source</td>
+<td><a href=https://help.backblaze.com/hc/en-us/articles/4412580603419>https://help.backblaze.com/hc/en-us/articles/4412580603419</a></td>
+</tr>
+</tbody>
+</table>
+<h2 id=community-notes>Community Notes</h2>
+<table>
+<thead>
+<tr>
+<th>Source</th>
+<th>Note</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href=https://github.com/NCSC-NL/log4shell/blob/main/software/README.md>NCSC-NL</a></td>
+<td>Cloud service patched</td>
+</tr>
+</tbody>
+</table>
+<h2 id=sources>Sources</h2>
+<table>
+<thead>
+<tr>
+<th>Date</th>
+<th>Attribution</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2021-12-13 12:34:36</td>
+<td><a href=https://github.com/NCSC-NL/log4shell/blob/main/software/README.md>NCSC-NL</a></td>
+<td>Updated vendorPatchExists. Updated community link source. Updated community note.</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<div class=post-expand-collapse>
+<div onclick="onClickExpand('21')" id=21_expander>
+Expand Details
+</div>
+</div>
+</article>
+<article class="article article-type-page" itemscope itemtype=http://schema.org/BlogPosting>
+<div class=article-container>
+<div>
+<div class=article-header>
+<table border=0 width=100%><tr><td>
+<h1 class=article-title>
+<a href=/posts/beyondtrustprivilege-management-cloud/>BeyondTrust Privilege Management Cloud</a>
+</h1>
+</td><td>
+<table class=title-version-info border=0>
+<tr><td>Patched Version</td><td align=right></td></tr>
+<tr><td>Last Vulnerable Version</td><td align=right></td></tr>
+<tr><td>First Vulnerable Version</td><td align=right></td></tr>
+</table>
+</td></tr></table><br>
+<div class=title-data><b>Vendor Data</b>
+</div>
+<div class=title-data-divider></div>
+<div class=title-data><b>Community Data</b>
+<span class=tag>
+<img src="/images/Icon - Vulnerable - Confirmed.png">
+Vulnerable</span>
+</div>
+</div>
+</div>
+<div class=hidem id=22_hidden>
+<div class="article-entry text-muted" itemprop=description>
+<h2 id=community-resources>Community Resources</h2>
+<table>
+<thead>
+<tr>
+<th>Resource</th>
+<th>Link</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>source</td>
+<td><a href="https://beyondtrustcorp.service-now.com/kb_view.do?sysparm_article=KB0016542">https://beyondtrustcorp.service-now.com/kb_view.do?sysparm_article=KB0016542</a></td>
+</tr>
+</tbody>
+</table>
+<h2 id=sources>Sources</h2>
+<table>
+<thead>
+<tr>
+<th>Date</th>
+<th>Attribution</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2021-12-14 11:41:51</td>
+<td><a href=https://github.com/NCSC-NL/log4shell/blob/main/software/README.md>NCSC-NL</a></td>
+<td>Updated communityVulnerable. Updated community link source.</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<div class=post-expand-collapse>
+<div onclick="onClickExpand('22')" id=22_expander>
+Expand Details
+</div>
+</div>
+</article>
+<article class="article article-type-page" itemscope itemtype=http://schema.org/BlogPosting>
+<div class=article-container>
+<div>
+<div class=article-header>
+<table border=0 width=100%><tr><td>
+<h1 class=article-title>
+<a href=/posts/beyondtrustprivilege-management-reporting/>BeyondTrust Privilege Management Reporting</a>
+</h1>
+</td><td>
+<table class=title-version-info border=0>
+<tr><td>Patched Version</td><td align=right></td></tr>
+<tr><td>Last Vulnerable Version</td><td align=right></td></tr>
+<tr><td>First Vulnerable Version</td><td align=right></td></tr>
+</table>
+</td></tr></table><br>
+<div class=title-data><b>Vendor Data</b>
+</div>
+<div class=title-data-divider></div>
+<div class=title-data><b>Community Data</b>
+<span class=tag>
+<img src="/images/Icon - Vulnerable - Confirmed.png">
+Vulnerable</span>
+</div>
+</div>
+</div>
+<div class=hidem id=23_hidden>
+<div class="article-entry text-muted" itemprop=description>
+<h2 id=community-resources>Community Resources</h2>
+<table>
+<thead>
+<tr>
+<th>Resource</th>
+<th>Link</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>source</td>
+<td><a href="https://beyondtrustcorp.service-now.com/kb_view.do?sysparm_article=KB0016542">https://beyondtrustcorp.service-now.com/kb_view.do?sysparm_article=KB0016542</a></td>
+</tr>
+</tbody>
+</table>
+<h2 id=sources>Sources</h2>
+<table>
+<thead>
+<tr>
+<th>Date</th>
+<th>Attribution</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2021-12-14 11:41:51</td>
+<td><a href=https://github.com/NCSC-NL/log4shell/blob/main/software/README.md>NCSC-NL</a></td>
+<td>Updated communityVulnerable. Updated community link source.</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<div class=post-expand-collapse>
+<div onclick="onClickExpand('23')" id=23_expander>
+Expand Details
+</div>
+</div>
+</article>
+<article class="article article-type-page" itemscope itemtype=http://schema.org/BlogPosting>
+<div class=article-container>
+<div>
+<div class=article-header>
+<table border=0 width=100%><tr><td>
+<h1 class=article-title>
+<a href=/posts/bigbluebuttonbigbluebutton/>BigBlueButton BigBlueButton</a>
+</h1>
+</td><td>
+<table class=title-version-info border=0>
+<tr><td>Patched Version</td><td align=right></td></tr>
+<tr><td>Last Vulnerable Version</td><td align=right></td></tr>
+<tr><td>First Vulnerable Version</td><td align=right></td></tr>
+</table>
+</td></tr></table><br>
+<div class=title-data><b>Vendor Data</b>
+</div>
+<div class=title-data-divider></div>
+<div class=title-data><b>Community Data</b>
+</div>
+</div>
+</div>
+<div class=hidem id=24_hidden>
+<div class="article-entry text-muted" itemprop=description>
+<h2 id=community-resources>Community Resources</h2>
+<table>
+<thead>
+<tr>
+<th>Resource</th>
+<th>Link</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>source</td>
+<td><a href=https://github.com/bigbluebutton/bigbluebutton/issues/13897>https://github.com/bigbluebutton/bigbluebutton/issues/13897</a></td>
+</tr>
+</tbody>
+</table>
+<h2 id=sources>Sources</h2>
+<table>
+<thead>
+<tr>
+<th>Date</th>
+<th>Attribution</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2021-12-13 11:22:19</td>
+<td><a href=https://github.com/NCSC-NL/log4shell/blob/main/software/README.md>NCSC-NL</a></td>
+<td>Updated communityNotVulnerable. Updated community link source.</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<div class=post-expand-collapse>
+<div onclick="onClickExpand('24')" id=24_expander>
+Expand Details
+</div>
+</div>
+</article>
+<article class="article article-type-page" itemscope itemtype=http://schema.org/BlogPosting>
+<div class=article-container>
+<div>
+<div class=article-header>
+<table border=0 width=100%><tr><td>
+<h1 class=article-title>
+<a href=/posts/bitdefendergravityzone-on-premises/>Bitdefender GravityZone On-Premises</a>
+</h1>
+</td><td>
+<table class=title-version-info border=0>
+<tr><td>Patched Version</td><td align=right></td></tr>
+<tr><td>Last Vulnerable Version</td><td align=right></td></tr>
+<tr><td>First Vulnerable Version</td><td align=right></td></tr>
+</table>
+</td></tr></table><br>
+<div class=title-data><b>Vendor Data</b>
+</div>
+<div class=title-data-divider></div>
+<div class=title-data><b>Community Data</b>
+</div>
+</div>
+</div>
+<div class=hidem id=25_hidden>
+<div class="article-entry text-muted" itemprop=description>
+<h2 id=community-resources>Community Resources</h2>
+<table>
+<thead>
+<tr>
+<th>Resource</th>
+<th>Link</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>source</td>
+<td><a href=https://businessinsights.bitdefender.com/security-advisory-bitdefender-response-to-critical-0-day-apache-log4j2-vulnerability>https://businessinsights.bitdefender.com/security-advisory-bitdefender-response-to-critical-0-day-apache-log4j2-vulnerability</a></td>
+</tr>
+</tbody>
+</table>
+<h2 id=sources>Sources</h2>
+<table>
+<thead>
+<tr>
+<th>Date</th>
+<th>Attribution</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2021-12-12 21:57:09</td>
+<td><a href=https://github.com/NCSC-NL/log4shell/blob/main/software/README.md>NCSC-NL</a></td>
+<td>Updated communityNotVulnerable. Updated community link source.</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<div class=post-expand-collapse>
+<div onclick="onClickExpand('25')" id=25_expander>
+Expand Details
+</div>
+</div>
+</article>
+<article class="article article-type-page" itemscope itemtype=http://schema.org/BlogPosting>
+<div class=article-container>
+<div>
+<div class=article-header>
+<table border=0 width=100%><tr><td>
+<h1 class=article-title>
+<a href=/posts/bitnamiunknown/>Bitnami Unknown</a>
+</h1>
+</td><td>
+<table class=title-version-info border=0>
+<tr><td>Patched Version</td><td align=right></td></tr>
+<tr><td>Last Vulnerable Version</td><td align=right></td></tr>
+<tr><td>First Vulnerable Version</td><td align=right></td></tr>
+</table>
+</td></tr></table><br>
+<div class=title-data><b>Vendor Data</b>
+<span class=tag>
+<img src="/images/Icon - Vendor Patch Exists.png">
+Vendor Patch Exists</span>
+</div>
+<div class=title-data-divider></div>
+<div class=title-data><b>Community Data</b>
+</div>
+</div>
+</div>
+<div class=hidem id=26_hidden>
+<div class="article-entry text-muted" itemprop=description>
+<h2 id=community-resources>Community Resources</h2>
+<table>
+<thead>
+<tr>
+<th>Resource</th>
+<th>Link</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>source</td>
+<td><a href=https://docs.bitnami.com/general/security/security-2021-12-10/>https://docs.bitnami.com/general/security/security-2021-12-10/</a></td>
+</tr>
+</tbody>
+</table>
+<h2 id=sources>Sources</h2>
+<table>
+<thead>
+<tr>
+<th>Date</th>
+<th>Attribution</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2021-12-12 13:50:07</td>
+<td><a href=https://github.com/NCSC-NL/log4shell/blob/main/software/README.md>NCSC-NL</a></td>
+<td>Updated vendorPatchExists. Updated community link source.</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<div class=post-expand-collapse>
+<div onclick="onClickExpand('26')" id=26_expander>
+Expand Details
+</div>
+</div>
+</article>
+<article class="article article-type-page" itemscope itemtype=http://schema.org/BlogPosting>
+<div class=article-container>
+<div>
+<div class=article-header>
+<table border=0 width=100%><tr><td>
+<h1 class=article-title>
+<a href=/posts/bmc-software3270-superoptimizer-cics/>BMC Software 3270 SUPEROPTIMIZER/CICS</a>
+</h1>
+</td><td>
+<table class=title-version-info border=0>
+<tr><td>Patched Version</td><td align=right></td></tr>
+<tr><td>Last Vulnerable Version</td><td align=right></td></tr>
+<tr><td>First Vulnerable Version</td><td align=right></td></tr>
+</table>
+</td></tr></table><br>
+<div class=title-data><b>Vendor Data</b>
+</div>
+<div class=title-data-divider></div>
+<div class=title-data><b>Community Data</b>
+</div>
+</div>
+</div>
+<div class=hidem id=27_hidden>
+<div class="article-entry text-muted" itemprop=description>
+<h2 id=community-resources>Community Resources</h2>
+<table>
+<thead>
+<tr>
+<th>Resource</th>
+<th>Link</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>source</td>
+<td><a href=https://community.bmc.com/s/news/aA33n000000TSUdCAO/bmc-security-advisory-for-cve202144228-log4shell-vulnerability>https://community.bmc.com/s/news/aA33n000000TSUdCAO/bmc-security-advisory-for-cve202144228-log4shell-vulnerability</a></td>
+</tr>
+</tbody>
+</table>
+<h2 id=sources>Sources</h2>
+<table>
+<thead>
+<tr>
+<th>Date</th>
+<th>Attribution</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2021-12-14 10:27:30</td>
+<td><a href=https://github.com/NCSC-NL/log4shell/blob/main/software/README.md>NCSC-NL</a></td>
+<td>Updated communityNotVulnerable. Updated community link source.</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<div class=post-expand-collapse>
+<div onclick="onClickExpand('27')" id=27_expander>
+Expand Details
+</div>
+</div>
+</article>
+<article class="article article-type-page" itemscope itemtype=http://schema.org/BlogPosting>
+<div class=article-container>
+<div>
+<div class=article-header>
+<table border=0 width=100%><tr><td>
+<h1 class=article-title>
+<a href=/posts/bmc-softwareapplication-restart-control-for-db2/>BMC Software Application Restart Control for Db2</a>
+</h1>
+</td><td>
+<table class=title-version-info border=0>
+<tr><td>Patched Version</td><td align=right></td></tr>
+<tr><td>Last Vulnerable Version</td><td align=right></td></tr>
+<tr><td>First Vulnerable Version</td><td align=right></td></tr>
+</table>
+</td></tr></table><br>
+<div class=title-data><b>Vendor Data</b>
+</div>
+<div class=title-data-divider></div>
+<div class=title-data><b>Community Data</b>
+</div>
+</div>
+</div>
+<div class=hidem id=28_hidden>
+<div class="article-entry text-muted" itemprop=description>
+<h2 id=community-resources>Community Resources</h2>
+<table>
+<thead>
+<tr>
+<th>Resource</th>
+<th>Link</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>source</td>
+<td><a href=https://community.bmc.com/s/news/aA33n000000TSUdCAO/bmc-security-advisory-for-cve202144228-log4shell-vulnerability>https://community.bmc.com/s/news/aA33n000000TSUdCAO/bmc-security-advisory-for-cve202144228-log4shell-vulnerability</a></td>
+</tr>
+</tbody>
+</table>
+<h2 id=sources>Sources</h2>
+<table>
+<thead>
+<tr>
+<th>Date</th>
+<th>Attribution</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2021-12-14 10:27:30</td>
+<td><a href=https://github.com/NCSC-NL/log4shell/blob/main/software/README.md>NCSC-NL</a></td>
+<td>Updated communityNotVulnerable. Updated community link source.</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<div class=post-expand-collapse>
+<div onclick="onClickExpand('28')" id=28_expander>
+Expand Details
+</div>
+</div>
+</article>
+<article class="article article-type-page" itemscope itemtype=http://schema.org/BlogPosting>
+<div class=article-container>
+<div>
+<div class=article-header>
+<table border=0 width=100%><tr><td>
+<h1 class=article-title>
+<a href=/posts/bmc-softwareapplication-restart-control-for-ims/>BMC Software Application Restart Control for IMS</a>
+</h1>
+</td><td>
+<table class=title-version-info border=0>
+<tr><td>Patched Version</td><td align=right></td></tr>
+<tr><td>Last Vulnerable Version</td><td align=right></td></tr>
+<tr><td>First Vulnerable Version</td><td align=right></td></tr>
+</table>
+</td></tr></table><br>
+<div class=title-data><b>Vendor Data</b>
+</div>
+<div class=title-data-divider></div>
+<div class=title-data><b>Community Data</b>
+</div>
+</div>
+</div>
+<div class=hidem id=29_hidden>
+<div class="article-entry text-muted" itemprop=description>
+<h2 id=community-resources>Community Resources</h2>
+<table>
+<thead>
+<tr>
+<th>Resource</th>
+<th>Link</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>source</td>
+<td><a href=https://community.bmc.com/s/news/aA33n000000TSUdCAO/bmc-security-advisory-for-cve202144228-log4shell-vulnerability>https://community.bmc.com/s/news/aA33n000000TSUdCAO/bmc-security-advisory-for-cve202144228-log4shell-vulnerability</a></td>
+</tr>
+</tbody>
+</table>
+<h2 id=sources>Sources</h2>
+<table>
+<thead>
+<tr>
+<th>Date</th>
+<th>Attribution</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2021-12-14 10:27:30</td>
+<td><a href=https://github.com/NCSC-NL/log4shell/blob/main/software/README.md>NCSC-NL</a></td>
+<td>Updated communityNotVulnerable. Updated community link source.</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<div class=post-expand-collapse>
+<div onclick="onClickExpand('29')" id=29_expander>
+Expand Details
+</div>
+</div>
+</article>
+<article class="article article-type-page" itemscope itemtype=http://schema.org/BlogPosting>
+<div class=article-container>
+<div>
+<div class=article-header>
+<table border=0 width=100%><tr><td>
+<h1 class=article-title>
+<a href=/posts/bmc-softwareapplication-restart-control-for-vsam/>BMC Software Application Restart Control for VSAM</a>
+</h1>
+</td><td>
+<table class=title-version-info border=0>
+<tr><td>Patched Version</td><td align=right></td></tr>
+<tr><td>Last Vulnerable Version</td><td align=right></td></tr>
+<tr><td>First Vulnerable Version</td><td align=right></td></tr>
+</table>
+</td></tr></table><br>
+<div class=title-data><b>Vendor Data</b>
+</div>
+<div class=title-data-divider></div>
+<div class=title-data><b>Community Data</b>
+</div>
+</div>
+</div>
+<div class=hidem id=30_hidden>
+<div class="article-entry text-muted" itemprop=description>
+<h2 id=community-resources>Community Resources</h2>
+<table>
+<thead>
+<tr>
+<th>Resource</th>
+<th>Link</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>source</td>
+<td><a href=https://community.bmc.com/s/news/aA33n000000TSUdCAO/bmc-security-advisory-for-cve202144228-log4shell-vulnerability>https://community.bmc.com/s/news/aA33n000000TSUdCAO/bmc-security-advisory-for-cve202144228-log4shell-vulnerability</a></td>
+</tr>
+</tbody>
+</table>
+<h2 id=sources>Sources</h2>
+<table>
+<thead>
+<tr>
+<th>Date</th>
+<th>Attribution</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2021-12-14 10:27:30</td>
+<td><a href=https://github.com/NCSC-NL/log4shell/blob/main/software/README.md>NCSC-NL</a></td>
+<td>Updated communityNotVulnerable. Updated community link source.</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<div class=post-expand-collapse>
+<div onclick="onClickExpand('30')" id=30_expander>
+Expand Details
+</div>
+</div>
+</article>
+<article class="article article-type-page" itemscope itemtype=http://schema.org/BlogPosting>
+<div class=article-container>
+<div>
+<div class=article-header>
+<table border=0 width=100%><tr><td>
+<h1 class=article-title>
+<a href=/posts/bmc-softwarebladelogic-database-automation/>BMC Software Bladelogic Database Automation</a>
+</h1>
+</td><td>
+<table class=title-version-info border=0>
+<tr><td>Patched Version</td><td align=right></td></tr>
+<tr><td>Last Vulnerable Version</td><td align=right></td></tr>
+<tr><td>First Vulnerable Version</td><td align=right></td></tr>
+</table>
+</td></tr></table><br>
+<div class=title-data><b>Vendor Data</b>
+</div>
+<div class=title-data-divider></div>
+<div class=title-data><b>Community Data</b>
+<span class=tag>
+<img src="/images/Icon - Vulnerable - Confirmed.png">
+Vulnerable</span>
+</div>
+</div>
+</div>
+<div class=hidem id=31_hidden>
+<div class="article-entry text-muted" itemprop=description>
+<h2 id=community-resources>Community Resources</h2>
+<table>
+<thead>
+<tr>
+<th>Resource</th>
+<th>Link</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>source</td>
+<td><a href=https://community.bmc.com/s/news/aA33n000000TSUdCAO/bmc-security-advisory-for-cve202144228-log4shell-vulnerability>https://community.bmc.com/s/news/aA33n000000TSUdCAO/bmc-security-advisory-for-cve202144228-log4shell-vulnerability</a></td>
+</tr>
+</tbody>
+</table>
+<h2 id=community-notes>Community Notes</h2>
+<table>
+<thead>
+<tr>
+<th>Source</th>
+<th>Note</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href=https://github.com/NCSC-NL/log4shell/blob/main/software/README.md>NCSC-NL</a></td>
+<td>Fix expected on Dec 15th</td>
+</tr>
+</tbody>
+</table>
+<h2 id=sources>Sources</h2>
+<table>
+<thead>
+<tr>
+<th>Date</th>
+<th>Attribution</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2021-12-14 12:33:39</td>
+<td><a href=https://github.com/NCSC-NL/log4shell/blob/main/software/README.md>NCSC-NL</a></td>
+<td>Updated communityVulnerable. Updated community link source. Updated community note.</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<div class=post-expand-collapse>
+<div onclick="onClickExpand('31')" id=31_expander>
+Expand Details
+</div>
+</div>
+</article>
+<article class="article article-type-page" itemscope itemtype=http://schema.org/BlogPosting>
+<div class=article-container>
+<div>
+<div class=article-header>
+<table border=0 width=100%><tr><td>
+<h1 class=article-title>
+<a href=/posts/bmc-softwarebmc-ami-batch-optimizer/>BMC Software BMC AMI Batch Optimizer</a>
+</h1>
+</td><td>
+<table class=title-version-info border=0>
+<tr><td>Patched Version</td><td align=right></td></tr>
+<tr><td>Last Vulnerable Version</td><td align=right></td></tr>
+<tr><td>First Vulnerable Version</td><td align=right></td></tr>
+</table>
+</td></tr></table><br>
+<div class=title-data><b>Vendor Data</b>
+</div>
+<div class=title-data-divider></div>
+<div class=title-data><b>Community Data</b>
+</div>
+</div>
+</div>
+<div class=hidem id=32_hidden>
+<div class="article-entry text-muted" itemprop=description>
+<h2 id=community-resources>Community Resources</h2>
+<table>
+<thead>
+<tr>
+<th>Resource</th>
+<th>Link</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>source</td>
+<td><a href=https://community.bmc.com/s/news/aA33n000000TSUdCAO/bmc-security-advisory-for-cve202144228-log4shell-vulnerability>https://community.bmc.com/s/news/aA33n000000TSUdCAO/bmc-security-advisory-for-cve202144228-log4shell-vulnerability</a></td>
+</tr>
+</tbody>
+</table>
+<h2 id=sources>Sources</h2>
+<table>
+<thead>
+<tr>
+<th>Date</th>
+<th>Attribution</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2021-12-14 10:27:30</td>
+<td><a href=https://github.com/NCSC-NL/log4shell/blob/main/software/README.md>NCSC-NL</a></td>
+<td>Updated communityNotVulnerable. Updated community link source.</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<div class=post-expand-collapse>
+<div onclick="onClickExpand('32')" id=32_expander>
+Expand Details
+</div>
+</div>
+</article>
+<article class="article article-type-page" itemscope itemtype=http://schema.org/BlogPosting>
+<div class=article-container>
+<div>
+<div class=article-header>
+<table border=0 width=100%><tr><td>
+<h1 class=article-title>
+<a href=/posts/bmc-softwarebmc-ami-capacity-management/>BMC Software BMC AMI Capacity Management</a>
+</h1>
+</td><td>
+<table class=title-version-info border=0>
+<tr><td>Patched Version</td><td align=right></td></tr>
+<tr><td>Last Vulnerable Version</td><td align=right></td></tr>
+<tr><td>First Vulnerable Version</td><td align=right></td></tr>
+</table>
+</td></tr></table><br>
+<div class=title-data><b>Vendor Data</b>
+</div>
+<div class=title-data-divider></div>
+<div class=title-data><b>Community Data</b>
+</div>
+</div>
+</div>
+<div class=hidem id=33_hidden>
+<div class="article-entry text-muted" itemprop=description>
+<h2 id=community-resources>Community Resources</h2>
+<table>
+<thead>
+<tr>
+<th>Resource</th>
+<th>Link</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>source</td>
+<td><a href=https://community.bmc.com/s/news/aA33n000000TSUdCAO/bmc-security-advisory-for-cve202144228-log4shell-vulnerability>https://community.bmc.com/s/news/aA33n000000TSUdCAO/bmc-security-advisory-for-cve202144228-log4shell-vulnerability</a></td>
+</tr>
+</tbody>
+</table>
+<h2 id=sources>Sources</h2>
+<table>
+<thead>
+<tr>
+<th>Date</th>
+<th>Attribution</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2021-12-14 10:27:30</td>
+<td><a href=https://github.com/NCSC-NL/log4shell/blob/main/software/README.md>NCSC-NL</a></td>
+<td>Updated communityNotVulnerable. Updated community link source.</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<div class=post-expand-collapse>
+<div onclick="onClickExpand('33')" id=33_expander>
+Expand Details
+</div>
+</div>
+</article>
+<article class="article article-type-page" itemscope itemtype=http://schema.org/BlogPosting>
+<div class=article-container>
+<div>
+<div class=article-header>
+<table border=0 width=100%><tr><td>
+<h1 class=article-title>
+<a href=/posts/bmc-softwarebmc-ami-command-center-for-security/>BMC Software BMC AMI Command Center for Security</a>
+</h1>
+</td><td>
+<table class=title-version-info border=0>
+<tr><td>Patched Version</td><td align=right></td></tr>
+<tr><td>Last Vulnerable Version</td><td align=right></td></tr>
+<tr><td>First Vulnerable Version</td><td align=right></td></tr>
+</table>
+</td></tr></table><br>
+<div class=title-data><b>Vendor Data</b>
+</div>
+<div class=title-data-divider></div>
+<div class=title-data><b>Community Data</b>
+</div>
+</div>
+</div>
+<div class=hidem id=34_hidden>
+<div class="article-entry text-muted" itemprop=description>
+<h2 id=community-resources>Community Resources</h2>
+<table>
+<thead>
+<tr>
+<th>Resource</th>
+<th>Link</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>source</td>
+<td><a href=https://community.bmc.com/s/news/aA33n000000TSUdCAO/bmc-security-advisory-for-cve202144228-log4shell-vulnerability>https://community.bmc.com/s/news/aA33n000000TSUdCAO/bmc-security-advisory-for-cve202144228-log4shell-vulnerability</a></td>
+</tr>
+</tbody>
+</table>
+<h2 id=sources>Sources</h2>
+<table>
+<thead>
+<tr>
+<th>Date</th>
+<th>Attribution</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2021-12-14 10:27:30</td>
+<td><a href=https://github.com/NCSC-NL/log4shell/blob/main/software/README.md>NCSC-NL</a></td>
+<td>Updated communityNotVulnerable. Updated community link source.</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<div class=post-expand-collapse>
+<div onclick="onClickExpand('34')" id=34_expander>
+Expand Details
+</div>
+</div>
+</article>
+<article class="article article-type-page" itemscope itemtype=http://schema.org/BlogPosting>
+<div class=article-container>
+<div>
+<div class=article-header>
+<table border=0 width=100%><tr><td>
+<h1 class=article-title>
+<a href=/posts/bmc-softwarebmc-ami-console-management/>BMC Software BMC AMI Console management</a>
+</h1>
+</td><td>
+<table class=title-version-info border=0>
+<tr><td>Patched Version</td><td align=right></td></tr>
+<tr><td>Last Vulnerable Version</td><td align=right></td></tr>
+<tr><td>First Vulnerable Version</td><td align=right></td></tr>
+</table>
+</td></tr></table><br>
+<div class=title-data><b>Vendor Data</b>
+</div>
+<div class=title-data-divider></div>
+<div class=title-data><b>Community Data</b>
+</div>
+</div>
+</div>
+<div class=hidem id=35_hidden>
+<div class="article-entry text-muted" itemprop=description>
+<h2 id=community-resources>Community Resources</h2>
+<table>
+<thead>
+<tr>
+<th>Resource</th>
+<th>Link</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>source</td>
+<td><a href=https://community.bmc.com/s/news/aA33n000000TSUdCAO/bmc-security-advisory-for-cve202144228-log4shell-vulnerability>https://community.bmc.com/s/news/aA33n000000TSUdCAO/bmc-security-advisory-for-cve202144228-log4shell-vulnerability</a></td>
+</tr>
+</tbody>
+</table>
+<h2 id=sources>Sources</h2>
+<table>
+<thead>
+<tr>
+<th>Date</th>
+<th>Attribution</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2021-12-14 10:27:30</td>
+<td><a href=https://github.com/NCSC-NL/log4shell/blob/main/software/README.md>NCSC-NL</a></td>
+<td>Updated communityNotVulnerable. Updated community link source.</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<div class=post-expand-collapse>
+<div onclick="onClickExpand('35')" id=35_expander>
+Expand Details
+</div>
+</div>
+</article>
+<article class="article article-type-page" itemscope itemtype=http://schema.org/BlogPosting>
+<div class=article-container>
+<div>
+<div class=article-header>
+<table border=0 width=100%><tr><td>
+<h1 class=article-title>
+<a href=/posts/bmc-softwarebmc-ami-cost-management/>BMC Software BMC AMI Cost Management</a>
+</h1>
+</td><td>
+<table class=title-version-info border=0>
+<tr><td>Patched Version</td><td align=right></td></tr>
+<tr><td>Last Vulnerable Version</td><td align=right></td></tr>
+<tr><td>First Vulnerable Version</td><td align=right></td></tr>
+</table>
+</td></tr></table><br>
+<div class=title-data><b>Vendor Data</b>
+</div>
+<div class=title-data-divider></div>
+<div class=title-data><b>Community Data</b>
+</div>
+</div>
+</div>
+<div class=hidem id=36_hidden>
+<div class="article-entry text-muted" itemprop=description>
+<h2 id=community-resources>Community Resources</h2>
+<table>
+<thead>
+<tr>
+<th>Resource</th>
+<th>Link</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>source</td>
+<td><a href=https://community.bmc.com/s/news/aA33n000000TSUdCAO/bmc-security-advisory-for-cve202144228-log4shell-vulnerability>https://community.bmc.com/s/news/aA33n000000TSUdCAO/bmc-security-advisory-for-cve202144228-log4shell-vulnerability</a></td>
+</tr>
+</tbody>
+</table>
+<h2 id=sources>Sources</h2>
+<table>
+<thead>
+<tr>
+<th>Date</th>
+<th>Attribution</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2021-12-14 10:27:30</td>
+<td><a href=https://github.com/NCSC-NL/log4shell/blob/main/software/README.md>NCSC-NL</a></td>
+<td>Updated communityNotVulnerable. Updated community link source.</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<div class=post-expand-collapse>
+<div onclick="onClickExpand('36')" id=36_expander>
+Expand Details
+</div>
+</div>
+</article>
+<article class="article article-type-page" itemscope itemtype=http://schema.org/BlogPosting>
+<div class=article-container>
+<div>
+<div class=article-header>
+<table border=0 width=100%><tr><td>
+<h1 class=article-title>
+<a href=/posts/bmc-softwarebmc-ami-datastream-for-ops/>BMC Software BMC AMI Datastream for Ops</a>
+</h1>
+</td><td>
+<table class=title-version-info border=0>
+<tr><td>Patched Version</td><td align=right></td></tr>
+<tr><td>Last Vulnerable Version</td><td align=right></td></tr>
+<tr><td>First Vulnerable Version</td><td align=right></td></tr>
+</table>
+</td></tr></table><br>
+<div class=title-data><b>Vendor Data</b>
+</div>
+<div class=title-data-divider></div>
+<div class=title-data><b>Community Data</b>
+</div>
+</div>
+</div>
+<div class=hidem id=37_hidden>
+<div class="article-entry text-muted" itemprop=description>
+<h2 id=community-resources>Community Resources</h2>
+<table>
+<thead>
+<tr>
+<th>Resource</th>
+<th>Link</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>source</td>
+<td><a href=https://community.bmc.com/s/news/aA33n000000TSUdCAO/bmc-security-advisory-for-cve202144228-log4shell-vulnerability>https://community.bmc.com/s/news/aA33n000000TSUdCAO/bmc-security-advisory-for-cve202144228-log4shell-vulnerability</a></td>
+</tr>
+</tbody>
+</table>
+<h2 id=sources>Sources</h2>
+<table>
+<thead>
+<tr>
+<th>Date</th>
+<th>Attribution</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2021-12-14 10:27:30</td>
+<td><a href=https://github.com/NCSC-NL/log4shell/blob/main/software/README.md>NCSC-NL</a></td>
+<td>Updated communityNotVulnerable. Updated community link source.</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<div class=post-expand-collapse>
+<div onclick="onClickExpand('37')" id=37_expander>
+Expand Details
+</div>
+</div>
+</article>
+<article class="article article-type-page" itemscope itemtype=http://schema.org/BlogPosting>
+<div class=article-container>
+<div>
+<div class=article-header>
+<table border=0 width=100%><tr><td>
+<h1 class=article-title>
+<a href=/posts/bmc-softwarebmc-ami-defender-for-db2/>BMC Software BMC AMI Defender for Db2</a>
+</h1>
+</td><td>
+<table class=title-version-info border=0>
+<tr><td>Patched Version</td><td align=right></td></tr>
+<tr><td>Last Vulnerable Version</td><td align=right></td></tr>
+<tr><td>First Vulnerable Version</td><td align=right></td></tr>
+</table>
+</td></tr></table><br>
+<div class=title-data><b>Vendor Data</b>
+</div>
+<div class=title-data-divider></div>
+<div class=title-data><b>Community Data</b>
+</div>
+</div>
+</div>
+<div class=hidem id=38_hidden>
+<div class="article-entry text-muted" itemprop=description>
+<h2 id=community-resources>Community Resources</h2>
+<table>
+<thead>
+<tr>
+<th>Resource</th>
+<th>Link</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>source</td>
+<td><a href=https://community.bmc.com/s/news/aA33n000000TSUdCAO/bmc-security-advisory-for-cve202144228-log4shell-vulnerability>https://community.bmc.com/s/news/aA33n000000TSUdCAO/bmc-security-advisory-for-cve202144228-log4shell-vulnerability</a></td>
+</tr>
+</tbody>
+</table>
+<h2 id=sources>Sources</h2>
+<table>
+<thead>
+<tr>
+<th>Date</th>
+<th>Attribution</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2021-12-14 10:27:30</td>
+<td><a href=https://github.com/NCSC-NL/log4shell/blob/main/software/README.md>NCSC-NL</a></td>
+<td>Updated communityNotVulnerable. Updated community link source.</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<div class=post-expand-collapse>
+<div onclick="onClickExpand('38')" id=38_expander>
+Expand Details
+</div>
+</div>
+</article>
+<article class="article article-type-page" itemscope itemtype=http://schema.org/BlogPosting>
+<div class=article-container>
+<div>
+<div class=article-header>
+<table border=0 width=100%><tr><td>
+<h1 class=article-title>
+<a href=/posts/bmc-softwarebmc-ami-defender-for-ops-insight/>BMC Software BMC AMI Defender for Ops Insight</a>
+</h1>
+</td><td>
+<table class=title-version-info border=0>
+<tr><td>Patched Version</td><td align=right></td></tr>
+<tr><td>Last Vulnerable Version</td><td align=right></td></tr>
+<tr><td>First Vulnerable Version</td><td align=right></td></tr>
+</table>
+</td></tr></table><br>
+<div class=title-data><b>Vendor Data</b>
+</div>
+<div class=title-data-divider></div>
+<div class=title-data><b>Community Data</b>
+</div>
+</div>
+</div>
+<div class=hidem id=39_hidden>
+<div class="article-entry text-muted" itemprop=description>
+<h2 id=community-resources>Community Resources</h2>
+<table>
+<thead>
+<tr>
+<th>Resource</th>
+<th>Link</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>source</td>
+<td><a href=https://community.bmc.com/s/news/aA33n000000TSUdCAO/bmc-security-advisory-for-cve202144228-log4shell-vulnerability>https://community.bmc.com/s/news/aA33n000000TSUdCAO/bmc-security-advisory-for-cve202144228-log4shell-vulnerability</a></td>
+</tr>
+</tbody>
+</table>
+<h2 id=sources>Sources</h2>
+<table>
+<thead>
+<tr>
+<th>Date</th>
+<th>Attribution</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2021-12-14 10:27:30</td>
+<td><a href=https://github.com/NCSC-NL/log4shell/blob/main/software/README.md>NCSC-NL</a></td>
+<td>Updated communityNotVulnerable. Updated community link source.</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<div class=post-expand-collapse>
+<div onclick="onClickExpand('39')" id=39_expander>
+Expand Details
+</div>
+</div>
+</article>
+<article class="article article-type-page" itemscope itemtype=http://schema.org/BlogPosting>
+<div class=article-container>
+<div>
+<div class=article-header>
+<table border=0 width=100%><tr><td>
+<h1 class=article-title>
+<a href=/posts/bmc-softwarebmc-ami-defender-for-z-linux/>BMC Software BMC AMI Defender for z/Linux</a>
+</h1>
+</td><td>
+<table class=title-version-info border=0>
+<tr><td>Patched Version</td><td align=right></td></tr>
+<tr><td>Last Vulnerable Version</td><td align=right></td></tr>
+<tr><td>First Vulnerable Version</td><td align=right></td></tr>
+</table>
+</td></tr></table><br>
+<div class=title-data><b>Vendor Data</b>
+</div>
+<div class=title-data-divider></div>
+<div class=title-data><b>Community Data</b>
+</div>
+</div>
+</div>
+<div class=hidem id=40_hidden>
+<div class="article-entry text-muted" itemprop=description>
+<h2 id=community-resources>Community Resources</h2>
+<table>
+<thead>
+<tr>
+<th>Resource</th>
+<th>Link</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>source</td>
+<td><a href=https://community.bmc.com/s/news/aA33n000000TSUdCAO/bmc-security-advisory-for-cve202144228-log4shell-vulnerability>https://community.bmc.com/s/news/aA33n000000TSUdCAO/bmc-security-advisory-for-cve202144228-log4shell-vulnerability</a></td>
+</tr>
+</tbody>
+</table>
+<h2 id=sources>Sources</h2>
+<table>
+<thead>
+<tr>
+<th>Date</th>
+<th>Attribution</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2021-12-14 10:27:30</td>
+<td><a href=https://github.com/NCSC-NL/log4shell/blob/main/software/README.md>NCSC-NL</a></td>
+<td>Updated communityNotVulnerable. Updated community link source.</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<div class=post-expand-collapse>
+<div onclick="onClickExpand('40')" id=40_expander>
+Expand Details
+</div>
+</div>
+</article>
+<article class="article article-type-page" itemscope itemtype=http://schema.org/BlogPosting>
+<div class=article-container>
+<div>
+<div class=article-header>
+<table border=0 width=100%><tr><td>
+<h1 class=article-title>
+<a href=/posts/bmc-softwarebmc-ami-defender-for-z-os/>BMC Software BMC AMI Defender for z/OS</a>
+</h1>
+</td><td>
+<table class=title-version-info border=0>
+<tr><td>Patched Version</td><td align=right></td></tr>
+<tr><td>Last Vulnerable Version</td><td align=right></td></tr>
+<tr><td>First Vulnerable Version</td><td align=right></td></tr>
+</table>
+</td></tr></table><br>
+<div class=title-data><b>Vendor Data</b>
+</div>
+<div class=title-data-divider></div>
+<div class=title-data><b>Community Data</b>
+</div>
+</div>
+</div>
+<div class=hidem id=41_hidden>
+<div class="article-entry text-muted" itemprop=description>
+<h2 id=community-resources>Community Resources</h2>
+<table>
+<thead>
+<tr>
+<th>Resource</th>
+<th>Link</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>source</td>
+<td><a href=https://community.bmc.com/s/news/aA33n000000TSUdCAO/bmc-security-advisory-for-cve202144228-log4shell-vulnerability>https://community.bmc.com/s/news/aA33n000000TSUdCAO/bmc-security-advisory-for-cve202144228-log4shell-vulnerability</a></td>
+</tr>
+</tbody>
+</table>
+<h2 id=sources>Sources</h2>
+<table>
+<thead>
+<tr>
+<th>Date</th>
+<th>Attribution</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2021-12-14 10:27:30</td>
+<td><a href=https://github.com/NCSC-NL/log4shell/blob/main/software/README.md>NCSC-NL</a></td>
+<td>Updated communityNotVulnerable. Updated community link source.</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<div class=post-expand-collapse>
+<div onclick="onClickExpand('41')" id=41_expander>
+Expand Details
+</div>
+</div>
+</article>
+<article class="article article-type-page" itemscope itemtype=http://schema.org/BlogPosting>
+<div class=article-container>
+<div>
+<div class=article-header>
+<table border=0 width=100%><tr><td>
+<h1 class=article-title>
+<a href=/posts/bmc-softwarebmc-ami-defender-for-z-vm/>BMC Software BMC AMI Defender for z/VM</a>
+</h1>
+</td><td>
+<table class=title-version-info border=0>
+<tr><td>Patched Version</td><td align=right></td></tr>
+<tr><td>Last Vulnerable Version</td><td align=right></td></tr>
+<tr><td>First Vulnerable Version</td><td align=right></td></tr>
+</table>
+</td></tr></table><br>
+<div class=title-data><b>Vendor Data</b>
+</div>
+<div class=title-data-divider></div>
+<div class=title-data><b>Community Data</b>
+</div>
+</div>
+</div>
+<div class=hidem id=42_hidden>
+<div class="article-entry text-muted" itemprop=description>
+<h2 id=community-resources>Community Resources</h2>
+<table>
+<thead>
+<tr>
+<th>Resource</th>
+<th>Link</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>source</td>
+<td><a href=https://community.bmc.com/s/news/aA33n000000TSUdCAO/bmc-security-advisory-for-cve202144228-log4shell-vulnerability>https://community.bmc.com/s/news/aA33n000000TSUdCAO/bmc-security-advisory-for-cve202144228-log4shell-vulnerability</a></td>
+</tr>
+</tbody>
+</table>
+<h2 id=sources>Sources</h2>
+<table>
+<thead>
+<tr>
+<th>Date</th>
+<th>Attribution</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2021-12-14 10:27:30</td>
+<td><a href=https://github.com/NCSC-NL/log4shell/blob/main/software/README.md>NCSC-NL</a></td>
+<td>Updated communityNotVulnerable. Updated community link source.</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<div class=post-expand-collapse>
+<div onclick="onClickExpand('42')" id=42_expander>
+Expand Details
+</div>
+</div>
+</article>
+<article class="article article-type-page" itemscope itemtype=http://schema.org/BlogPosting>
+<div class=article-container>
+<div>
+<div class=article-header>
+<table border=0 width=100%><tr><td>
+<h1 class=article-title>
+<a href=/posts/bmc-softwarebmc-ami-defender-tcp-ip-receiver/>BMC Software BMC AMI Defender TCP/IP Receiver</a>
+</h1>
+</td><td>
+<table class=title-version-info border=0>
+<tr><td>Patched Version</td><td align=right></td></tr>
+<tr><td>Last Vulnerable Version</td><td align=right></td></tr>
+<tr><td>First Vulnerable Version</td><td align=right></td></tr>
+</table>
+</td></tr></table><br>
+<div class=title-data><b>Vendor Data</b>
+</div>
+<div class=title-data-divider></div>
+<div class=title-data><b>Community Data</b>
+</div>
+</div>
+</div>
+<div class=hidem id=43_hidden>
+<div class="article-entry text-muted" itemprop=description>
+<h2 id=community-resources>Community Resources</h2>
+<table>
+<thead>
+<tr>
+<th>Resource</th>
+<th>Link</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>source</td>
+<td><a href=https://community.bmc.com/s/news/aA33n000000TSUdCAO/bmc-security-advisory-for-cve202144228-log4shell-vulnerability>https://community.bmc.com/s/news/aA33n000000TSUdCAO/bmc-security-advisory-for-cve202144228-log4shell-vulnerability</a></td>
+</tr>
+</tbody>
+</table>
+<h2 id=sources>Sources</h2>
+<table>
+<thead>
+<tr>
+<th>Date</th>
+<th>Attribution</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2021-12-14 10:27:30</td>
+<td><a href=https://github.com/NCSC-NL/log4shell/blob/main/software/README.md>NCSC-NL</a></td>
+<td>Updated communityNotVulnerable. Updated community link source.</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<div class=post-expand-collapse>
+<div onclick="onClickExpand('43')" id=43_expander>
+Expand Details
+</div>
+</div>
+</article>
+<article class="article article-type-page" itemscope itemtype=http://schema.org/BlogPosting>
+<div class=article-container>
+<div>
+<div class=article-header>
+<table border=0 width=100%><tr><td>
+<h1 class=article-title>
+<a href=/posts/bmc-softwarebmc-ami-enterprise-connector/>BMC Software BMC AMI Enterprise Connector</a>
+</h1>
+</td><td>
+<table class=title-version-info border=0>
+<tr><td>Patched Version</td><td align=right></td></tr>
+<tr><td>Last Vulnerable Version</td><td align=right></td></tr>
+<tr><td>First Vulnerable Version</td><td align=right></td></tr>
+</table>
+</td></tr></table><br>
+<div class=title-data><b>Vendor Data</b>
+</div>
+<div class=title-data-divider></div>
+<div class=title-data><b>Community Data</b>
+</div>
+</div>
+</div>
+<div class=hidem id=44_hidden>
+<div class="article-entry text-muted" itemprop=description>
+<h2 id=community-resources>Community Resources</h2>
+<table>
+<thead>
+<tr>
+<th>Resource</th>
+<th>Link</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>source</td>
+<td><a href=https://community.bmc.com/s/news/aA33n000000TSUdCAO/bmc-security-advisory-for-cve202144228-log4shell-vulnerability>https://community.bmc.com/s/news/aA33n000000TSUdCAO/bmc-security-advisory-for-cve202144228-log4shell-vulnerability</a></td>
+</tr>
+</tbody>
+</table>
+<h2 id=sources>Sources</h2>
+<table>
+<thead>
+<tr>
+<th>Date</th>
+<th>Attribution</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2021-12-14 10:27:30</td>
+<td><a href=https://github.com/NCSC-NL/log4shell/blob/main/software/README.md>NCSC-NL</a></td>
+<td>Updated communityNotVulnerable. Updated community link source.</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<div class=post-expand-collapse>
+<div onclick="onClickExpand('44')" id=44_expander>
+Expand Details
+</div>
+</div>
+</article>
+<article class="article article-type-page" itemscope itemtype=http://schema.org/BlogPosting>
+<div class=article-container>
+<div>
+<div class=article-header>
+<table border=0 width=100%><tr><td>
+<h1 class=article-title>
+<a href=/posts/bmc-softwarebmc-ami-ops-automation-for-capping/>BMC Software BMC AMI Ops Automation for Capping</a>
+</h1>
+</td><td>
+<table class=title-version-info border=0>
+<tr><td>Patched Version</td><td align=right></td></tr>
+<tr><td>Last Vulnerable Version</td><td align=right></td></tr>
+<tr><td>First Vulnerable Version</td><td align=right></td></tr>
+</table>
+</td></tr></table><br>
+<div class=title-data><b>Vendor Data</b>
+</div>
+<div class=title-data-divider></div>
+<div class=title-data><b>Community Data</b>
+</div>
+</div>
+</div>
+<div class=hidem id=45_hidden>
+<div class="article-entry text-muted" itemprop=description>
+<h2 id=community-resources>Community Resources</h2>
+<table>
+<thead>
+<tr>
+<th>Resource</th>
+<th>Link</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>source</td>
+<td><a href=https://community.bmc.com/s/news/aA33n000000TSUdCAO/bmc-security-advisory-for-cve202144228-log4shell-vulnerability>https://community.bmc.com/s/news/aA33n000000TSUdCAO/bmc-security-advisory-for-cve202144228-log4shell-vulnerability</a></td>
+</tr>
+</tbody>
+</table>
+<h2 id=sources>Sources</h2>
+<table>
+<thead>
+<tr>
+<th>Date</th>
+<th>Attribution</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2021-12-14 10:27:30</td>
+<td><a href=https://github.com/NCSC-NL/log4shell/blob/main/software/README.md>NCSC-NL</a></td>
+<td>Updated communityNotVulnerable. Updated community link source.</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<div class=post-expand-collapse>
+<div onclick="onClickExpand('45')" id=45_expander>
+Expand Details
+</div>
+</div>
+</article>
+<article class="article article-type-page" itemscope itemtype=http://schema.org/BlogPosting>
+<div class=article-container>
+<div>
+<div class=article-header>
+<table border=0 width=100%><tr><td>
+<h1 class=article-title>
+<a href=/posts/bmc-softwarebmc-ami-ops-common-rest-api-cra-/>BMC Software BMC AMI Ops Common Rest API (CRA)</a>
+</h1>
+</td><td>
+<table class=title-version-info border=0>
+<tr><td>Patched Version</td><td align=right></td></tr>
+<tr><td>Last Vulnerable Version</td><td align=right></td></tr>
+<tr><td>First Vulnerable Version</td><td align=right></td></tr>
+</table>
+</td></tr></table><br>
+<div class=title-data><b>Vendor Data</b>
+</div>
+<div class=title-data-divider></div>
+<div class=title-data><b>Community Data</b>
+<span class=tag>
+<img src="/images/Icon - Vulnerable - Confirmed.png">
+Vulnerable</span>
+</div>
+</div>
+</div>
+<div class=hidem id=46_hidden>
+<div class="article-entry text-muted" itemprop=description>
+<h2 id=community-resources>Community Resources</h2>
+<table>
+<thead>
+<tr>
+<th>Resource</th>
+<th>Link</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>source</td>
+<td><a href=https://community.bmc.com/s/news/aA33n000000TSUdCAO/bmc-security-advisory-for-cve202144228-log4shell-vulnerability>https://community.bmc.com/s/news/aA33n000000TSUdCAO/bmc-security-advisory-for-cve202144228-log4shell-vulnerability</a></td>
+</tr>
+</tbody>
+</table>
+<h2 id=community-notes>Community Notes</h2>
+<table>
+<thead>
+<tr>
+<th>Source</th>
+<th>Note</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href=https://github.com/NCSC-NL/log4shell/blob/main/software/README.md>NCSC-NL</a></td>
+<td>Fix expected on Dec 14th</td>
+</tr>
+</tbody>
+</table>
+<h2 id=sources>Sources</h2>
+<table>
+<thead>
+<tr>
+<th>Date</th>
+<th>Attribution</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2021-12-14 12:33:39</td>
+<td><a href=https://github.com/NCSC-NL/log4shell/blob/main/software/README.md>NCSC-NL</a></td>
+<td>Updated communityVulnerable. Updated community link source. Updated community note.</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<div class=post-expand-collapse>
+<div onclick="onClickExpand('46')" id=46_expander>
+Expand Details
+</div>
+</div>
+</article>
+<article class="article article-type-page" itemscope itemtype=http://schema.org/BlogPosting>
+<div class=article-container>
+<div>
+<div class=article-header>
+<table border=0 width=100%><tr><td>
+<h1 class=article-title>
+<a href=/posts/bmc-softwarebmc-ami-ops-for-networks/>BMC Software BMC AMI Ops for Networks</a>
+</h1>
+</td><td>
+<table class=title-version-info border=0>
+<tr><td>Patched Version</td><td align=right></td></tr>
+<tr><td>Last Vulnerable Version</td><td align=right></td></tr>
+<tr><td>First Vulnerable Version</td><td align=right></td></tr>
+</table>
+</td></tr></table><br>
+<div class=title-data><b>Vendor Data</b>
+</div>
+<div class=title-data-divider></div>
+<div class=title-data><b>Community Data</b>
+</div>
+</div>
+</div>
+<div class=hidem id=47_hidden>
+<div class="article-entry text-muted" itemprop=description>
+<h2 id=community-resources>Community Resources</h2>
+<table>
+<thead>
+<tr>
+<th>Resource</th>
+<th>Link</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>source</td>
+<td><a href=https://community.bmc.com/s/news/aA33n000000TSUdCAO/bmc-security-advisory-for-cve202144228-log4shell-vulnerability>https://community.bmc.com/s/news/aA33n000000TSUdCAO/bmc-security-advisory-for-cve202144228-log4shell-vulnerability</a></td>
+</tr>
+</tbody>
+</table>
+<h2 id=sources>Sources</h2>
+<table>
+<thead>
+<tr>
+<th>Date</th>
+<th>Attribution</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2021-12-14 10:27:30</td>
+<td><a href=https://github.com/NCSC-NL/log4shell/blob/main/software/README.md>NCSC-NL</a></td>
+<td>Updated communityNotVulnerable. Updated community link source.</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<div class=post-expand-collapse>
+<div onclick="onClickExpand('47')" id=47_expander>
+Expand Details
+</div>
+</div>
+</article>
+<article class="article article-type-page" itemscope itemtype=http://schema.org/BlogPosting>
+<div class=article-container>
+<div>
+<div class=article-header>
+<table border=0 width=100%><tr><td>
+<h1 class=article-title>
+<a href=/posts/bmc-softwarebmc-ami-ops-infrastructure-mvi-cra-component/>BMC Software BMC AMI Ops Infrastructure (MVI) - CRA component</a>
+</h1>
+</td><td>
+<table class=title-version-info border=0>
+<tr><td>Patched Version</td><td align=right></td></tr>
+<tr><td>Last Vulnerable Version</td><td align=right></td></tr>
+<tr><td>First Vulnerable Version</td><td align=right></td></tr>
+</table>
+</td></tr></table><br>
+<div class=title-data><b>Vendor Data</b>
+</div>
+<div class=title-data-divider></div>
+<div class=title-data><b>Community Data</b>
+<span class=tag>
+<img src="/images/Icon - Vulnerable - Confirmed.png">
+Vulnerable</span>
+</div>
+</div>
+</div>
+<div class=hidem id=48_hidden>
+<div class="article-entry text-muted" itemprop=description>
+<h2 id=community-resources>Community Resources</h2>
+<table>
+<thead>
+<tr>
+<th>Resource</th>
+<th>Link</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>source</td>
+<td><a href=https://community.bmc.com/s/news/aA33n000000TSUdCAO/bmc-security-advisory-for-cve202144228-log4shell-vulnerability>https://community.bmc.com/s/news/aA33n000000TSUdCAO/bmc-security-advisory-for-cve202144228-log4shell-vulnerability</a></td>
+</tr>
+</tbody>
+</table>
+<h2 id=community-notes>Community Notes</h2>
+<table>
+<thead>
+<tr>
+<th>Source</th>
+<th>Note</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href=https://github.com/NCSC-NL/log4shell/blob/main/software/README.md>NCSC-NL</a></td>
+<td>Fix expected on Dec 14th</td>
+</tr>
+</tbody>
+</table>
+<h2 id=sources>Sources</h2>
+<table>
+<thead>
+<tr>
+<th>Date</th>
+<th>Attribution</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2021-12-14 12:33:39</td>
+<td><a href=https://github.com/NCSC-NL/log4shell/blob/main/software/README.md>NCSC-NL</a></td>
+<td>Updated communityVulnerable. Updated community link source. Updated community note.</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<div class=post-expand-collapse>
+<div onclick="onClickExpand('48')" id=48_expander>
+Expand Details
+</div>
+</div>
+</article>
+<article class="article article-type-page" itemscope itemtype=http://schema.org/BlogPosting>
+<div class=article-container>
+<div>
+<div class=article-header>
+<table border=0 width=100%><tr><td>
+<h1 class=article-title>
+<a href=/posts/bmc-softwarebmc-ami-ops-insight/>BMC Software BMC AMI Ops Insight</a>
+</h1>
+</td><td>
+<table class=title-version-info border=0>
+<tr><td>Patched Version</td><td align=right></td></tr>
+<tr><td>Last Vulnerable Version</td><td align=right></td></tr>
+<tr><td>First Vulnerable Version</td><td align=right></td></tr>
+</table>
+</td></tr></table><br>
+<div class=title-data><b>Vendor Data</b>
+</div>
+<div class=title-data-divider></div>
+<div class=title-data><b>Community Data</b>
+<span class=tag>
+<img src="/images/Icon - Vulnerable - Confirmed.png">
+Vulnerable</span>
+</div>
+</div>
+</div>
+<div class=hidem id=49_hidden>
+<div class="article-entry text-muted" itemprop=description>
+<h2 id=community-resources>Community Resources</h2>
+<table>
+<thead>
+<tr>
+<th>Resource</th>
+<th>Link</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>source</td>
+<td><a href=https://community.bmc.com/s/news/aA33n000000TSUdCAO/bmc-security-advisory-for-cve202144228-log4shell-vulnerability>https://community.bmc.com/s/news/aA33n000000TSUdCAO/bmc-security-advisory-for-cve202144228-log4shell-vulnerability</a></td>
+</tr>
+</tbody>
+</table>
+<h2 id=community-notes>Community Notes</h2>
+<table>
+<thead>
+<tr>
+<th>Source</th>
+<th>Note</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href=https://github.com/NCSC-NL/log4shell/blob/main/software/README.md>NCSC-NL</a></td>
+<td>Fix expected on Dec 14th</td>
+</tr>
+</tbody>
+</table>
+<h2 id=sources>Sources</h2>
+<table>
+<thead>
+<tr>
+<th>Date</th>
+<th>Attribution</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2021-12-14 12:33:39</td>
+<td><a href=https://github.com/NCSC-NL/log4shell/blob/main/software/README.md>NCSC-NL</a></td>
+<td>Updated communityVulnerable. Updated community link source. Updated community note.</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<div class=post-expand-collapse>
+<div onclick="onClickExpand('49')" id=49_expander>
+Expand Details
+</div>
+</div>
+</article>
+<article class="article article-type-page" itemscope itemtype=http://schema.org/BlogPosting>
+<div class=article-container>
+<div>
+<div class=article-header>
+<table border=0 width=100%><tr><td>
+<h1 class=article-title>
+<a href=/posts/bmc-softwarebmc-ami-ops-monitor-for-cmf/>BMC Software BMC AMI Ops Monitor for CMF</a>
+</h1>
+</td><td>
+<table class=title-version-info border=0>
+<tr><td>Patched Version</td><td align=right></td></tr>
+<tr><td>Last Vulnerable Version</td><td align=right></td></tr>
+<tr><td>First Vulnerable Version</td><td align=right></td></tr>
+</table>
+</td></tr></table><br>
+<div class=title-data><b>Vendor Data</b>
+</div>
+<div class=title-data-divider></div>
+<div class=title-data><b>Community Data</b>
+</div>
+</div>
+</div>
+<div class=hidem id=50_hidden>
+<div class="article-entry text-muted" itemprop=description>
+<h2 id=community-resources>Community Resources</h2>
+<table>
+<thead>
+<tr>
+<th>Resource</th>
+<th>Link</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>source</td>
+<td><a href=https://community.bmc.com/s/news/aA33n000000TSUdCAO/bmc-security-advisory-for-cve202144228-log4shell-vulnerability>https://community.bmc.com/s/news/aA33n000000TSUdCAO/bmc-security-advisory-for-cve202144228-log4shell-vulnerability</a></td>
+</tr>
+</tbody>
+</table>
+<h2 id=sources>Sources</h2>
+<table>
+<thead>
+<tr>
+<th>Date</th>
+<th>Attribution</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2021-12-14 10:27:30</td>
+<td><a href=https://github.com/NCSC-NL/log4shell/blob/main/software/README.md>NCSC-NL</a></td>
+<td>Updated communityNotVulnerable. Updated community link source.</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<div class=post-expand-collapse>
+<div onclick="onClickExpand('50')" id=50_expander>
+Expand Details
+</div>
+</div>
+</article>
+<article class="article article-type-page" itemscope itemtype=http://schema.org/BlogPosting>
+<div class=article-container>
+<div>
+<div class=article-header>
+<table border=0 width=100%><tr><td>
+<h1 class=article-title>
+<a href=/posts/bmc-softwarebmc-ami-ops-monitor-for-ims-offline/>BMC Software BMC AMI Ops Monitor for IMS Offline</a>
+</h1>
+</td><td>
+<table class=title-version-info border=0>
+<tr><td>Patched Version</td><td align=right></td></tr>
+<tr><td>Last Vulnerable Version</td><td align=right></td></tr>
+<tr><td>First Vulnerable Version</td><td align=right></td></tr>
+</table>
+</td></tr></table><br>
+<div class=title-data><b>Vendor Data</b>
+</div>
+<div class=title-data-divider></div>
+<div class=title-data><b>Community Data</b>
+</div>
+</div>
+</div>
+<div class=hidem id=51_hidden>
+<div class="article-entry text-muted" itemprop=description>
+<h2 id=community-resources>Community Resources</h2>
+<table>
+<thead>
+<tr>
+<th>Resource</th>
+<th>Link</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>source</td>
+<td><a href=https://community.bmc.com/s/news/aA33n000000TSUdCAO/bmc-security-advisory-for-cve202144228-log4shell-vulnerability>https://community.bmc.com/s/news/aA33n000000TSUdCAO/bmc-security-advisory-for-cve202144228-log4shell-vulnerability</a></td>
+</tr>
+</tbody>
+</table>
+<h2 id=sources>Sources</h2>
+<table>
+<thead>
+<tr>
+<th>Date</th>
+<th>Attribution</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2021-12-14 10:27:30</td>
+<td><a href=https://github.com/NCSC-NL/log4shell/blob/main/software/README.md>NCSC-NL</a></td>
+<td>Updated communityNotVulnerable. Updated community link source.</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<div class=post-expand-collapse>
+<div onclick="onClickExpand('51')" id=51_expander>
+Expand Details
+</div>
+</div>
+</article>
+<article class="article article-type-page" itemscope itemtype=http://schema.org/BlogPosting>
+<div class=article-container>
+<div>
+<div class=article-header>
+<table border=0 width=100%><tr><td>
+<h1 class=article-title>
+<a href=/posts/bmc-softwarebmc-ami-ops-monitor-for-ims-online/>BMC Software BMC AMI Ops Monitor for IMS Online</a>
+</h1>
+</td><td>
+<table class=title-version-info border=0>
+<tr><td>Patched Version</td><td align=right></td></tr>
+<tr><td>Last Vulnerable Version</td><td align=right></td></tr>
+<tr><td>First Vulnerable Version</td><td align=right></td></tr>
+</table>
+</td></tr></table><br>
+<div class=title-data><b>Vendor Data</b>
+</div>
+<div class=title-data-divider></div>
+<div class=title-data><b>Community Data</b>
+</div>
+</div>
+</div>
+<div class=hidem id=52_hidden>
+<div class="article-entry text-muted" itemprop=description>
+<h2 id=community-resources>Community Resources</h2>
+<table>
+<thead>
+<tr>
+<th>Resource</th>
+<th>Link</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>source</td>
+<td><a href=https://community.bmc.com/s/news/aA33n000000TSUdCAO/bmc-security-advisory-for-cve202144228-log4shell-vulnerability>https://community.bmc.com/s/news/aA33n000000TSUdCAO/bmc-security-advisory-for-cve202144228-log4shell-vulnerability</a></td>
+</tr>
+</tbody>
+</table>
+<h2 id=sources>Sources</h2>
+<table>
+<thead>
+<tr>
+<th>Date</th>
+<th>Attribution</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2021-12-14 10:27:30</td>
+<td><a href=https://github.com/NCSC-NL/log4shell/blob/main/software/README.md>NCSC-NL</a></td>
+<td>Updated communityNotVulnerable. Updated community link source.</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<div class=post-expand-collapse>
+<div onclick="onClickExpand('52')" id=52_expander>
+Expand Details
+</div>
+</div>
+</article>
+<article class="article article-type-page" itemscope itemtype=http://schema.org/BlogPosting>
+<div class=article-container>
+<div>
+<div class=article-header>
+<table border=0 width=100%><tr><td>
+<h1 class=article-title>
+<a href=/posts/bmc-softwarebmc-ami-ops-monitor-for-uss/>BMC Software BMC AMI Ops Monitor for USS</a>
+</h1>
+</td><td>
+<table class=title-version-info border=0>
+<tr><td>Patched Version</td><td align=right></td></tr>
+<tr><td>Last Vulnerable Version</td><td align=right></td></tr>
+<tr><td>First Vulnerable Version</td><td align=right></td></tr>
+</table>
+</td></tr></table><br>
+<div class=title-data><b>Vendor Data</b>
+</div>
+<div class=title-data-divider></div>
+<div class=title-data><b>Community Data</b>
+</div>
+</div>
+</div>
+<div class=hidem id=53_hidden>
+<div class="article-entry text-muted" itemprop=description>
+<h2 id=community-resources>Community Resources</h2>
+<table>
+<thead>
+<tr>
+<th>Resource</th>
+<th>Link</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>source</td>
+<td><a href=https://community.bmc.com/s/news/aA33n000000TSUdCAO/bmc-security-advisory-for-cve202144228-log4shell-vulnerability>https://community.bmc.com/s/news/aA33n000000TSUdCAO/bmc-security-advisory-for-cve202144228-log4shell-vulnerability</a></td>
+</tr>
+</tbody>
+</table>
+<h2 id=sources>Sources</h2>
+<table>
+<thead>
+<tr>
+<th>Date</th>
+<th>Attribution</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2021-12-14 10:27:30</td>
+<td><a href=https://github.com/NCSC-NL/log4shell/blob/main/software/README.md>NCSC-NL</a></td>
+<td>Updated communityNotVulnerable. Updated community link source.</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<div class=post-expand-collapse>
+<div onclick="onClickExpand('53')" id=53_expander>
+Expand Details
+</div>
+</div>
+</article>
+<article class="article article-type-page" itemscope itemtype=http://schema.org/BlogPosting>
+<div class=article-container>
+<div>
+<div class=article-header>
+<table border=0 width=100%><tr><td>
+<h1 class=article-title>
+<a href=/posts/bmc-softwarebmc-ami-ops-monitor-for-z-os/>BMC Software BMC AMI Ops Monitor for z/OS</a>
+</h1>
+</td><td>
+<table class=title-version-info border=0>
+<tr><td>Patched Version</td><td align=right></td></tr>
+<tr><td>Last Vulnerable Version</td><td align=right></td></tr>
+<tr><td>First Vulnerable Version</td><td align=right></td></tr>
+</table>
+</td></tr></table><br>
+<div class=title-data><b>Vendor Data</b>
+</div>
+<div class=title-data-divider></div>
+<div class=title-data><b>Community Data</b>
+</div>
+</div>
+</div>
+<div class=hidem id=54_hidden>
+<div class="article-entry text-muted" itemprop=description>
+<h2 id=community-resources>Community Resources</h2>
+<table>
+<thead>
+<tr>
+<th>Resource</th>
+<th>Link</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>source</td>
+<td><a href=https://community.bmc.com/s/news/aA33n000000TSUdCAO/bmc-security-advisory-for-cve202144228-log4shell-vulnerability>https://community.bmc.com/s/news/aA33n000000TSUdCAO/bmc-security-advisory-for-cve202144228-log4shell-vulnerability</a></td>
+</tr>
+</tbody>
+</table>
+<h2 id=sources>Sources</h2>
+<table>
+<thead>
+<tr>
+<th>Date</th>
+<th>Attribution</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2021-12-14 10:27:30</td>
+<td><a href=https://github.com/NCSC-NL/log4shell/blob/main/software/README.md>NCSC-NL</a></td>
+<td>Updated communityNotVulnerable. Updated community link source.</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<div class=post-expand-collapse>
+<div onclick="onClickExpand('54')" id=54_expander>
+Expand Details
+</div>
+</div>
+</article>
+<article class="article article-type-page" itemscope itemtype=http://schema.org/BlogPosting>
+<div class=article-container>
+<div>
+<div class=article-header>
+<table border=0 width=100%><tr><td>
+<h1 class=article-title>
+<a href=/posts/bmc-softwarebmc-ami-ops-monitor-sysprog-services/>BMC Software BMC AMI Ops Monitor SYSPROG Services</a>
+</h1>
+</td><td>
+<table class=title-version-info border=0>
+<tr><td>Patched Version</td><td align=right></td></tr>
+<tr><td>Last Vulnerable Version</td><td align=right></td></tr>
+<tr><td>First Vulnerable Version</td><td align=right></td></tr>
+</table>
+</td></tr></table><br>
+<div class=title-data><b>Vendor Data</b>
+</div>
+<div class=title-data-divider></div>
+<div class=title-data><b>Community Data</b>
+</div>
+</div>
+</div>
+<div class=hidem id=55_hidden>
+<div class="article-entry text-muted" itemprop=description>
+<h2 id=community-resources>Community Resources</h2>
+<table>
+<thead>
+<tr>
+<th>Resource</th>
+<th>Link</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>source</td>
+<td><a href=https://community.bmc.com/s/news/aA33n000000TSUdCAO/bmc-security-advisory-for-cve202144228-log4shell-vulnerability>https://community.bmc.com/s/news/aA33n000000TSUdCAO/bmc-security-advisory-for-cve202144228-log4shell-vulnerability</a></td>
+</tr>
+</tbody>
+</table>
+<h2 id=sources>Sources</h2>
+<table>
+<thead>
+<tr>
+<th>Date</th>
+<th>Attribution</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2021-12-14 10:27:30</td>
+<td><a href=https://github.com/NCSC-NL/log4shell/blob/main/software/README.md>NCSC-NL</a></td>
+<td>Updated communityNotVulnerable. Updated community link source.</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<div class=post-expand-collapse>
+<div onclick="onClickExpand('55')" id=55_expander>
+Expand Details
+</div>
+</div>
+</article>
+<article class="article article-type-page" itemscope itemtype=http://schema.org/BlogPosting>
+<div class=article-container>
+<div>
+<div class=article-header>
+<table border=0 width=100%><tr><td>
+<h1 class=article-title>
+<a href=/posts/bmc-softwarebmc-ami-ops-ui/>BMC Software BMC AMI Ops UI</a>
+</h1>
+</td><td>
+<table class=title-version-info border=0>
+<tr><td>Patched Version</td><td align=right></td></tr>
+<tr><td>Last Vulnerable Version</td><td align=right></td></tr>
+<tr><td>First Vulnerable Version</td><td align=right></td></tr>
+</table>
+</td></tr></table><br>
+<div class=title-data><b>Vendor Data</b>
+</div>
+<div class=title-data-divider></div>
+<div class=title-data><b>Community Data</b>
+<span class=tag>
+<img src="/images/Icon - Vulnerable - Confirmed.png">
+Vulnerable</span>
+</div>
+</div>
+</div>
+<div class=hidem id=56_hidden>
+<div class="article-entry text-muted" itemprop=description>
+<h2 id=community-resources>Community Resources</h2>
+<table>
+<thead>
+<tr>
+<th>Resource</th>
+<th>Link</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>source</td>
+<td><a href=https://community.bmc.com/s/news/aA33n000000TSUdCAO/bmc-security-advisory-for-cve202144228-log4shell-vulnerability>https://community.bmc.com/s/news/aA33n000000TSUdCAO/bmc-security-advisory-for-cve202144228-log4shell-vulnerability</a></td>
+</tr>
+</tbody>
+</table>
+<h2 id=community-notes>Community Notes</h2>
+<table>
+<thead>
+<tr>
+<th>Source</th>
+<th>Note</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href=https://github.com/NCSC-NL/log4shell/blob/main/software/README.md>NCSC-NL</a></td>
+<td>Fix expected on Dec 14th</td>
+</tr>
+</tbody>
+</table>
+<h2 id=sources>Sources</h2>
+<table>
+<thead>
+<tr>
+<th>Date</th>
+<th>Attribution</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2021-12-14 12:33:39</td>
+<td><a href=https://github.com/NCSC-NL/log4shell/blob/main/software/README.md>NCSC-NL</a></td>
+<td>Updated communityVulnerable. Updated community link source. Updated community note.</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<div class=post-expand-collapse>
+<div onclick="onClickExpand('56')" id=56_expander>
+Expand Details
+</div>
+</div>
+</article>
+<article class="article article-type-page" itemscope itemtype=http://schema.org/BlogPosting>
+<div class=article-container>
+<div>
+<div class=article-header>
+<table border=0 width=100%><tr><td>
+<h1 class=article-title>
+<a href=/posts/bmc-softwarebmc-ami-recovery-for-vsam/>BMC Software BMC AMI Recovery for VSAM</a>
+</h1>
+</td><td>
+<table class=title-version-info border=0>
+<tr><td>Patched Version</td><td align=right></td></tr>
+<tr><td>Last Vulnerable Version</td><td align=right></td></tr>
+<tr><td>First Vulnerable Version</td><td align=right></td></tr>
+</table>
+</td></tr></table><br>
+<div class=title-data><b>Vendor Data</b>
+</div>
+<div class=title-data-divider></div>
+<div class=title-data><b>Community Data</b>
+</div>
+</div>
+</div>
+<div class=hidem id=57_hidden>
+<div class="article-entry text-muted" itemprop=description>
+<h2 id=community-resources>Community Resources</h2>
+<table>
+<thead>
+<tr>
+<th>Resource</th>
+<th>Link</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>source</td>
+<td><a href=https://community.bmc.com/s/news/aA33n000000TSUdCAO/bmc-security-advisory-for-cve202144228-log4shell-vulnerability>https://community.bmc.com/s/news/aA33n000000TSUdCAO/bmc-security-advisory-for-cve202144228-log4shell-vulnerability</a></td>
+</tr>
+</tbody>
+</table>
+<h2 id=sources>Sources</h2>
+<table>
+<thead>
+<tr>
+<th>Date</th>
+<th>Attribution</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2021-12-14 10:27:30</td>
+<td><a href=https://github.com/NCSC-NL/log4shell/blob/main/software/README.md>NCSC-NL</a></td>
+<td>Updated communityNotVulnerable. Updated community link source.</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<div class=post-expand-collapse>
+<div onclick="onClickExpand('57')" id=57_expander>
+Expand Details
+</div>
+</div>
+</article>
+<article class="article article-type-page" itemscope itemtype=http://schema.org/BlogPosting>
+<div class=article-container>
+<div>
+<div class=article-header>
+<table border=0 width=100%><tr><td>
+<h1 class=article-title>
+<a href=/posts/bmc-softwarebmc-ami-security-administrator/>BMC Software BMC AMI Security Administrator</a>
+</h1>
+</td><td>
+<table class=title-version-info border=0>
+<tr><td>Patched Version</td><td align=right></td></tr>
+<tr><td>Last Vulnerable Version</td><td align=right></td></tr>
+<tr><td>First Vulnerable Version</td><td align=right></td></tr>
+</table>
+</td></tr></table><br>
+<div class=title-data><b>Vendor Data</b>
+</div>
+<div class=title-data-divider></div>
+<div class=title-data><b>Community Data</b>
+</div>
+</div>
+</div>
+<div class=hidem id=58_hidden>
+<div class="article-entry text-muted" itemprop=description>
+<h2 id=community-resources>Community Resources</h2>
+<table>
+<thead>
+<tr>
+<th>Resource</th>
+<th>Link</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>source</td>
+<td><a href=https://community.bmc.com/s/news/aA33n000000TSUdCAO/bmc-security-advisory-for-cve202144228-log4shell-vulnerability>https://community.bmc.com/s/news/aA33n000000TSUdCAO/bmc-security-advisory-for-cve202144228-log4shell-vulnerability</a></td>
+</tr>
+</tbody>
+</table>
+<h2 id=sources>Sources</h2>
+<table>
+<thead>
+<tr>
+<th>Date</th>
+<th>Attribution</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2021-12-14 10:27:30</td>
+<td><a href=https://github.com/NCSC-NL/log4shell/blob/main/software/README.md>NCSC-NL</a></td>
+<td>Updated communityNotVulnerable. Updated community link source.</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<div class=post-expand-collapse>
+<div onclick="onClickExpand('58')" id=58_expander>
+Expand Details
+</div>
+</div>
+</article>
+<article class="article article-type-page" itemscope itemtype=http://schema.org/BlogPosting>
+<div class=article-container>
+<div>
+<div class=article-header>
+<table border=0 width=100%><tr><td>
+<h1 class=article-title>
+<a href=/posts/bmc-softwarebmc-ami-security-policy-manager/>BMC Software BMC AMI Security Policy Manager</a>
+</h1>
+</td><td>
+<table class=title-version-info border=0>
+<tr><td>Patched Version</td><td align=right></td></tr>
+<tr><td>Last Vulnerable Version</td><td align=right></td></tr>
+<tr><td>First Vulnerable Version</td><td align=right></td></tr>
+</table>
+</td></tr></table><br>
+<div class=title-data><b>Vendor Data</b>
+</div>
+<div class=title-data-divider></div>
+<div class=title-data><b>Community Data</b>
+</div>
+</div>
+</div>
+<div class=hidem id=59_hidden>
+<div class="article-entry text-muted" itemprop=description>
+<h2 id=community-resources>Community Resources</h2>
+<table>
+<thead>
+<tr>
+<th>Resource</th>
+<th>Link</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>source</td>
+<td><a href=https://community.bmc.com/s/news/aA33n000000TSUdCAO/bmc-security-advisory-for-cve202144228-log4shell-vulnerability>https://community.bmc.com/s/news/aA33n000000TSUdCAO/bmc-security-advisory-for-cve202144228-log4shell-vulnerability</a></td>
+</tr>
+</tbody>
+</table>
+<h2 id=sources>Sources</h2>
+<table>
+<thead>
+<tr>
+<th>Date</th>
+<th>Attribution</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2021-12-14 10:27:30</td>
+<td><a href=https://github.com/NCSC-NL/log4shell/blob/main/software/README.md>NCSC-NL</a></td>
+<td>Updated communityNotVulnerable. Updated community link source.</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<div class=post-expand-collapse>
+<div onclick="onClickExpand('59')" id=59_expander>
+Expand Details
+</div>
+</div>
+</article>
+<article class="article article-type-page" itemscope itemtype=http://schema.org/BlogPosting>
+<div class=article-container>
+<div>
+<div class=article-header>
+<table border=0 width=100%><tr><td>
+<h1 class=article-title>
+<a href=/posts/bmc-softwarebmc-ami-security-privileged-access-manager-also-called-bmc-ami-security-breakglass-/>BMC Software BMC AMI Security Privileged Access Manager (also called BMC AMI Security Breakglass)</a>
+</h1>
+</td><td>
+<table class=title-version-info border=0>
+<tr><td>Patched Version</td><td align=right></td></tr>
+<tr><td>Last Vulnerable Version</td><td align=right></td></tr>
+<tr><td>First Vulnerable Version</td><td align=right></td></tr>
+</table>
+</td></tr></table><br>
+<div class=title-data><b>Vendor Data</b>
+</div>
+<div class=title-data-divider></div>
+<div class=title-data><b>Community Data</b>
+</div>
+</div>
+</div>
+<div class=hidem id=60_hidden>
+<div class="article-entry text-muted" itemprop=description>
+<h2 id=community-resources>Community Resources</h2>
+<table>
+<thead>
+<tr>
+<th>Resource</th>
+<th>Link</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>source</td>
+<td><a href=https://community.bmc.com/s/news/aA33n000000TSUdCAO/bmc-security-advisory-for-cve202144228-log4shell-vulnerability>https://community.bmc.com/s/news/aA33n000000TSUdCAO/bmc-security-advisory-for-cve202144228-log4shell-vulnerability</a></td>
+</tr>
+</tbody>
+</table>
+<h2 id=sources>Sources</h2>
+<table>
+<thead>
+<tr>
+<th>Date</th>
+<th>Attribution</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2021-12-14 10:27:30</td>
+<td><a href=https://github.com/NCSC-NL/log4shell/blob/main/software/README.md>NCSC-NL</a></td>
+<td>Updated communityNotVulnerable. Updated community link source.</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<div class=post-expand-collapse>
+<div onclick="onClickExpand('60')" id=60_expander>
+Expand Details
+</div>
+</div>
+</article>
+<article class="article article-type-page" itemscope itemtype=http://schema.org/BlogPosting>
+<div class=article-container>
+<div>
+<div class=article-header>
+<table border=0 width=100%><tr><td>
+<h1 class=article-title>
+<a href=/posts/bmc-softwarebmc-ami-security-self-service-password-reset/>BMC Software BMC AMI Security Self Service Password Reset</a>
+</h1>
+</td><td>
+<table class=title-version-info border=0>
+<tr><td>Patched Version</td><td align=right></td></tr>
+<tr><td>Last Vulnerable Version</td><td align=right></td></tr>
+<tr><td>First Vulnerable Version</td><td align=right></td></tr>
+</table>
+</td></tr></table><br>
+<div class=title-data><b>Vendor Data</b>
+</div>
+<div class=title-data-divider></div>
+<div class=title-data><b>Community Data</b>
+</div>
+</div>
+</div>
+<div class=hidem id=61_hidden>
+<div class="article-entry text-muted" itemprop=description>
+<h2 id=community-resources>Community Resources</h2>
+<table>
+<thead>
+<tr>
+<th>Resource</th>
+<th>Link</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>source</td>
+<td><a href=https://community.bmc.com/s/news/aA33n000000TSUdCAO/bmc-security-advisory-for-cve202144228-log4shell-vulnerability>https://community.bmc.com/s/news/aA33n000000TSUdCAO/bmc-security-advisory-for-cve202144228-log4shell-vulnerability</a></td>
+</tr>
+</tbody>
+</table>
+<h2 id=sources>Sources</h2>
+<table>
+<thead>
+<tr>
+<th>Date</th>
+<th>Attribution</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2021-12-14 10:27:30</td>
+<td><a href=https://github.com/NCSC-NL/log4shell/blob/main/software/README.md>NCSC-NL</a></td>
+<td>Updated communityNotVulnerable. Updated community link source.</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<div class=post-expand-collapse>
+<div onclick="onClickExpand('61')" id=61_expander>
+Expand Details
+</div>
+</div>
+</article>
+<article class="article article-type-page" itemscope itemtype=http://schema.org/BlogPosting>
+<div class=article-container>
+<div>
+<div class=article-header>
+<table border=0 width=100%><tr><td>
+<h1 class=article-title>
+<a href=/posts/bmc-softwarebmc-ami-storage/>BMC Software BMC AMI Storage</a>
+</h1>
+</td><td>
+<table class=title-version-info border=0>
+<tr><td>Patched Version</td><td align=right></td></tr>
+<tr><td>Last Vulnerable Version</td><td align=right></td></tr>
+<tr><td>First Vulnerable Version</td><td align=right></td></tr>
+</table>
+</td></tr></table><br>
+<div class=title-data><b>Vendor Data</b>
+</div>
+<div class=title-data-divider></div>
+<div class=title-data><b>Community Data</b>
+</div>
+</div>
+</div>
+<div class=hidem id=62_hidden>
+<div class="article-entry text-muted" itemprop=description>
+<h2 id=community-resources>Community Resources</h2>
+<table>
+<thead>
+<tr>
+<th>Resource</th>
+<th>Link</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>source</td>
+<td><a href=https://community.bmc.com/s/news/aA33n000000TSUdCAO/bmc-security-advisory-for-cve202144228-log4shell-vulnerability>https://community.bmc.com/s/news/aA33n000000TSUdCAO/bmc-security-advisory-for-cve202144228-log4shell-vulnerability</a></td>
+</tr>
+</tbody>
+</table>
+<h2 id=sources>Sources</h2>
+<table>
+<thead>
+<tr>
+<th>Date</th>
+<th>Attribution</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2021-12-14 10:27:30</td>
+<td><a href=https://github.com/NCSC-NL/log4shell/blob/main/software/README.md>NCSC-NL</a></td>
+<td>Updated communityNotVulnerable. Updated community link source.</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<div class=post-expand-collapse>
+<div onclick="onClickExpand('62')" id=62_expander>
+Expand Details
+</div>
+</div>
+</article>
+<article class="article article-type-page" itemscope itemtype=http://schema.org/BlogPosting>
+<div class=article-container>
+<div>
+<div class=article-header>
+<table border=0 width=100%><tr><td>
+<h1 class=article-title>
+<a href=/posts/bmc-softwarebmc-ami-utilities/>BMC Software BMC AMI Utilities</a>
+</h1>
+</td><td>
+<table class=title-version-info border=0>
+<tr><td>Patched Version</td><td align=right></td></tr>
+<tr><td>Last Vulnerable Version</td><td align=right></td></tr>
+<tr><td>First Vulnerable Version</td><td align=right></td></tr>
+</table>
+</td></tr></table><br>
+<div class=title-data><b>Vendor Data</b>
+</div>
+<div class=title-data-divider></div>
+<div class=title-data><b>Community Data</b>
+</div>
+</div>
+</div>
+<div class=hidem id=63_hidden>
+<div class="article-entry text-muted" itemprop=description>
+<h2 id=community-resources>Community Resources</h2>
+<table>
+<thead>
+<tr>
+<th>Resource</th>
+<th>Link</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>source</td>
+<td><a href=https://community.bmc.com/s/news/aA33n000000TSUdCAO/bmc-security-advisory-for-cve202144228-log4shell-vulnerability>https://community.bmc.com/s/news/aA33n000000TSUdCAO/bmc-security-advisory-for-cve202144228-log4shell-vulnerability</a></td>
+</tr>
+</tbody>
+</table>
+<h2 id=sources>Sources</h2>
+<table>
+<thead>
+<tr>
+<th>Date</th>
+<th>Attribution</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2021-12-14 10:27:30</td>
+<td><a href=https://github.com/NCSC-NL/log4shell/blob/main/software/README.md>NCSC-NL</a></td>
+<td>Updated communityNotVulnerable. Updated community link source.</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<div class=post-expand-collapse>
+<div onclick="onClickExpand('63')" id=63_expander>
+Expand Details
+</div>
+</div>
+</article>
+<article class="article article-type-page" itemscope itemtype=http://schema.org/BlogPosting>
+<div class=article-container>
+<div>
+<div class=article-header>
+<table border=0 width=100%><tr><td>
+<h1 class=article-title>
+<a href=/posts/bmc-softwarebmc-client-management/>BMC Software BMC Client Management</a>
+</h1>
+</td><td>
+<table class=title-version-info border=0>
+<tr><td>Patched Version</td><td align=right></td></tr>
+<tr><td>Last Vulnerable Version</td><td align=right></td></tr>
+<tr><td>First Vulnerable Version</td><td align=right></td></tr>
+</table>
+</td></tr></table><br>
+<div class=title-data><b>Vendor Data</b>
+</div>
+<div class=title-data-divider></div>
+<div class=title-data><b>Community Data</b>
+<span class=tag>
+<img src="/images/Icon - Vulnerable - Confirmed.png">
+Vulnerable</span>
+</div>
+</div>
+</div>
+<div class=hidem id=64_hidden>
+<div class="article-entry text-muted" itemprop=description>
+<h2 id=community-resources>Community Resources</h2>
+<table>
+<thead>
+<tr>
+<th>Resource</th>
+<th>Link</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>source</td>
+<td><a href=https://community.bmc.com/s/news/aA33n000000TSUdCAO/bmc-security-advisory-for-cve202144228-log4shell-vulnerability>https://community.bmc.com/s/news/aA33n000000TSUdCAO/bmc-security-advisory-for-cve202144228-log4shell-vulnerability</a></td>
+</tr>
+</tbody>
+</table>
+<h2 id=community-notes>Community Notes</h2>
+<table>
+<thead>
+<tr>
+<th>Source</th>
+<th>Note</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href=https://github.com/NCSC-NL/log4shell/blob/main/software/README.md>NCSC-NL</a></td>
+<td>Fix expected on Dec 14th</td>
+</tr>
+</tbody>
+</table>
+<h2 id=sources>Sources</h2>
+<table>
+<thead>
+<tr>
+<th>Date</th>
+<th>Attribution</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2021-12-14 12:33:39</td>
+<td><a href=https://github.com/NCSC-NL/log4shell/blob/main/software/README.md>NCSC-NL</a></td>
+<td>Updated communityVulnerable. Updated community link source. Updated community note.</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<div class=post-expand-collapse>
+<div onclick="onClickExpand('64')" id=64_expander>
+Expand Details
+</div>
+</div>
+</article>
+<article class="article article-type-page" itemscope itemtype=http://schema.org/BlogPosting>
+<div class=article-container>
+<div>
+<div class=article-header>
+<table border=0 width=100%><tr><td>
+<h1 class=article-title>
+<a href=/posts/bmc-softwarebmc-compuware-abend-aid/>BMC Software BMC Compuware Abend-Aid</a>
+</h1>
+</td><td>
+<table class=title-version-info border=0>
+<tr><td>Patched Version</td><td align=right></td></tr>
+<tr><td>Last Vulnerable Version</td><td align=right></td></tr>
+<tr><td>First Vulnerable Version</td><td align=right></td></tr>
+</table>
+</td></tr></table><br>
+<div class=title-data><b>Vendor Data</b>
+</div>
+<div class=title-data-divider></div>
+<div class=title-data><b>Community Data</b>
+</div>
+</div>
+</div>
+<div class=hidem id=65_hidden>
+<div class="article-entry text-muted" itemprop=description>
+<h2 id=community-resources>Community Resources</h2>
+<table>
+<thead>
+<tr>
+<th>Resource</th>
+<th>Link</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>source</td>
+<td><a href=https://community.bmc.com/s/news/aA33n000000TSUdCAO/bmc-security-advisory-for-cve202144228-log4shell-vulnerability>https://community.bmc.com/s/news/aA33n000000TSUdCAO/bmc-security-advisory-for-cve202144228-log4shell-vulnerability</a></td>
+</tr>
+</tbody>
+</table>
+<h2 id=sources>Sources</h2>
+<table>
+<thead>
+<tr>
+<th>Date</th>
+<th>Attribution</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2021-12-14 10:27:30</td>
+<td><a href=https://github.com/NCSC-NL/log4shell/blob/main/software/README.md>NCSC-NL</a></td>
+<td>Updated communityNotVulnerable. Updated community link source.</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<div class=post-expand-collapse>
+<div onclick="onClickExpand('65')" id=65_expander>
+Expand Details
+</div>
+</div>
+</article>
+<article class="article article-type-page" itemscope itemtype=http://schema.org/BlogPosting>
+<div class=article-container>
+<div>
+<div class=article-header>
+<table border=0 width=100%><tr><td>
+<h1 class=article-title>
+<a href=/posts/bmc-softwarebmc-compuware-application-audit/>BMC Software BMC Compuware Application Audit</a>
+</h1>
+</td><td>
+<table class=title-version-info border=0>
+<tr><td>Patched Version</td><td align=right></td></tr>
+<tr><td>Last Vulnerable Version</td><td align=right></td></tr>
+<tr><td>First Vulnerable Version</td><td align=right></td></tr>
+</table>
+</td></tr></table><br>
+<div class=title-data><b>Vendor Data</b>
+</div>
+<div class=title-data-divider></div>
+<div class=title-data><b>Community Data</b>
+</div>
+</div>
+</div>
+<div class=hidem id=66_hidden>
+<div class="article-entry text-muted" itemprop=description>
+<h2 id=community-resources>Community Resources</h2>
+<table>
+<thead>
+<tr>
+<th>Resource</th>
+<th>Link</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>source</td>
+<td><a href=https://community.bmc.com/s/news/aA33n000000TSUdCAO/bmc-security-advisory-for-cve202144228-log4shell-vulnerability>https://community.bmc.com/s/news/aA33n000000TSUdCAO/bmc-security-advisory-for-cve202144228-log4shell-vulnerability</a></td>
+</tr>
+</tbody>
+</table>
+<h2 id=sources>Sources</h2>
+<table>
+<thead>
+<tr>
+<th>Date</th>
+<th>Attribution</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2021-12-14 10:27:30</td>
+<td><a href=https://github.com/NCSC-NL/log4shell/blob/main/software/README.md>NCSC-NL</a></td>
+<td>Updated communityNotVulnerable. Updated community link source.</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<div class=post-expand-collapse>
+<div onclick="onClickExpand('66')" id=66_expander>
+Expand Details
+</div>
+</div>
+</article>
+<article class="article article-type-page" itemscope itemtype=http://schema.org/BlogPosting>
+<div class=article-container>
+<div>
+<div class=article-header>
+<table border=0 width=100%><tr><td>
+<h1 class=article-title>
+<a href=/posts/bmc-softwarebmc-compuware-enterprise-common-components-ecc-/>BMC Software BMC Compuware Enterprise Common Components (ECC)</a>
+</h1>
+</td><td>
+<table class=title-version-info border=0>
+<tr><td>Patched Version</td><td align=right></td></tr>
+<tr><td>Last Vulnerable Version</td><td align=right></td></tr>
+<tr><td>First Vulnerable Version</td><td align=right></td></tr>
+</table>
+</td></tr></table><br>
+<div class=title-data><b>Vendor Data</b>
+</div>
+<div class=title-data-divider></div>
+<div class=title-data><b>Community Data</b>
+</div>
+</div>
+</div>
+<div class=hidem id=67_hidden>
+<div class="article-entry text-muted" itemprop=description>
+<h2 id=community-resources>Community Resources</h2>
+<table>
+<thead>
+<tr>
+<th>Resource</th>
+<th>Link</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>source</td>
+<td><a href=https://community.bmc.com/s/news/aA33n000000TSUdCAO/bmc-security-advisory-for-cve202144228-log4shell-vulnerability>https://community.bmc.com/s/news/aA33n000000TSUdCAO/bmc-security-advisory-for-cve202144228-log4shell-vulnerability</a></td>
+</tr>
+</tbody>
+</table>
+<h2 id=sources>Sources</h2>
+<table>
+<thead>
+<tr>
+<th>Date</th>
+<th>Attribution</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2021-12-14 10:27:30</td>
+<td><a href=https://github.com/NCSC-NL/log4shell/blob/main/software/README.md>NCSC-NL</a></td>
+<td>Updated communityNotVulnerable. Updated community link source.</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<div class=post-expand-collapse>
+<div onclick="onClickExpand('67')" id=67_expander>
+Expand Details
+</div>
+</div>
+</article>
+<article class="article article-type-page" itemscope itemtype=http://schema.org/BlogPosting>
+<div class=article-container>
+<div>
+<div class=article-header>
+<table border=0 width=100%><tr><td>
+<h1 class=article-title>
+<a href=/posts/bmc-softwarebmc-compuware-enterprise-services/>BMC Software BMC Compuware Enterprise Services</a>
+</h1>
+</td><td>
+<table class=title-version-info border=0>
+<tr><td>Patched Version</td><td align=right></td></tr>
+<tr><td>Last Vulnerable Version</td><td align=right></td></tr>
+<tr><td>First Vulnerable Version</td><td align=right></td></tr>
+</table>
+</td></tr></table><br>
+<div class=title-data><b>Vendor Data</b>
+</div>
+<div class=title-data-divider></div>
+<div class=title-data><b>Community Data</b>
+</div>
+</div>
+</div>
+<div class=hidem id=68_hidden>
+<div class="article-entry text-muted" itemprop=description>
+<h2 id=community-resources>Community Resources</h2>
+<table>
+<thead>
+<tr>
+<th>Resource</th>
+<th>Link</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>source</td>
+<td><a href=https://community.bmc.com/s/news/aA33n000000TSUdCAO/bmc-security-advisory-for-cve202144228-log4shell-vulnerability>https://community.bmc.com/s/news/aA33n000000TSUdCAO/bmc-security-advisory-for-cve202144228-log4shell-vulnerability</a></td>
+</tr>
+</tbody>
+</table>
+<h2 id=sources>Sources</h2>
+<table>
+<thead>
+<tr>
+<th>Date</th>
+<th>Attribution</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2021-12-14 10:27:30</td>
+<td><a href=https://github.com/NCSC-NL/log4shell/blob/main/software/README.md>NCSC-NL</a></td>
+<td>Updated communityNotVulnerable. Updated community link source.</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<div class=post-expand-collapse>
+<div onclick="onClickExpand('68')" id=68_expander>
+Expand Details
+</div>
+</div>
+</article>
+<article class="article article-type-page" itemscope itemtype=http://schema.org/BlogPosting>
+<div class=article-container>
+<div>
+<div class=article-header>
+<table border=0 width=100%><tr><td>
+<h1 class=article-title>
+<a href=/posts/bmc-softwarebmc-compuware-enterprise-services-ces-/>BMC Software BMC Compuware Enterprise Services (CES)</a>
+</h1>
+</td><td>
+<table class=title-version-info border=0>
+<tr><td>Patched Version</td><td align=right></td></tr>
+<tr><td>Last Vulnerable Version</td><td align=right></td></tr>
+<tr><td>First Vulnerable Version</td><td align=right></td></tr>
+</table>
+</td></tr></table><br>
+<div class=title-data><b>Vendor Data</b>
+</div>
+<div class=title-data-divider></div>
+<div class=title-data><b>Community Data</b>
+</div>
+</div>
+</div>
+<div class=hidem id=69_hidden>
+<div class="article-entry text-muted" itemprop=description>
+<h2 id=community-resources>Community Resources</h2>
+<table>
+<thead>
+<tr>
+<th>Resource</th>
+<th>Link</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>source</td>
+<td><a href=https://community.bmc.com/s/news/aA33n000000TSUdCAO/bmc-security-advisory-for-cve202144228-log4shell-vulnerability>https://community.bmc.com/s/news/aA33n000000TSUdCAO/bmc-security-advisory-for-cve202144228-log4shell-vulnerability</a></td>
+</tr>
+</tbody>
+</table>
+<h2 id=sources>Sources</h2>
+<table>
+<thead>
+<tr>
+<th>Date</th>
+<th>Attribution</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2021-12-14 10:27:30</td>
+<td><a href=https://github.com/NCSC-NL/log4shell/blob/main/software/README.md>NCSC-NL</a></td>
+<td>Updated communityNotVulnerable. Updated community link source.</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<div class=post-expand-collapse>
+<div onclick="onClickExpand('69')" id=69_expander>
+Expand Details
+</div>
+</div>
+</article>
+<article class="article article-type-page" itemscope itemtype=http://schema.org/BlogPosting>
+<div class=article-container>
+<div>
+<div class=article-header>
+<table border=0 width=100%><tr><td>
+<h1 class=article-title>
+<a href=/posts/bmc-softwarebmc-compuware-file-aid-data-privacy/>BMC Software BMC Compuware File-AID Data Privacy</a>
+</h1>
+</td><td>
+<table class=title-version-info border=0>
+<tr><td>Patched Version</td><td align=right></td></tr>
+<tr><td>Last Vulnerable Version</td><td align=right></td></tr>
+<tr><td>First Vulnerable Version</td><td align=right></td></tr>
+</table>
+</td></tr></table><br>
+<div class=title-data><b>Vendor Data</b>
+</div>
+<div class=title-data-divider></div>
+<div class=title-data><b>Community Data</b>
+</div>
+</div>
+</div>
+<div class=hidem id=70_hidden>
+<div class="article-entry text-muted" itemprop=description>
+<h2 id=community-resources>Community Resources</h2>
+<table>
+<thead>
+<tr>
+<th>Resource</th>
+<th>Link</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>source</td>
+<td><a href=https://community.bmc.com/s/news/aA33n000000TSUdCAO/bmc-security-advisory-for-cve202144228-log4shell-vulnerability>https://community.bmc.com/s/news/aA33n000000TSUdCAO/bmc-security-advisory-for-cve202144228-log4shell-vulnerability</a></td>
+</tr>
+</tbody>
+</table>
+<h2 id=sources>Sources</h2>
+<table>
+<thead>
+<tr>
+<th>Date</th>
+<th>Attribution</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2021-12-14 10:27:30</td>
+<td><a href=https://github.com/NCSC-NL/log4shell/blob/main/software/README.md>NCSC-NL</a></td>
+<td>Updated communityNotVulnerable. Updated community link source.</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<div class=post-expand-collapse>
+<div onclick="onClickExpand('70')" id=70_expander>
+Expand Details
+</div>
+</div>
+</article>
+<article class="article article-type-page" itemscope itemtype=http://schema.org/BlogPosting>
+<div class=article-container>
+<div>
+<div class=article-header>
+<table border=0 width=100%><tr><td>
+<h1 class=article-title>
+<a href=/posts/bmc-softwarebmc-compuware-file-aid-data-solutions/>BMC Software BMC Compuware File-AID Data Solutions</a>
+</h1>
+</td><td>
+<table class=title-version-info border=0>
+<tr><td>Patched Version</td><td align=right></td></tr>
+<tr><td>Last Vulnerable Version</td><td align=right></td></tr>
+<tr><td>First Vulnerable Version</td><td align=right></td></tr>
+</table>
+</td></tr></table><br>
+<div class=title-data><b>Vendor Data</b>
+</div>
+<div class=title-data-divider></div>
+<div class=title-data><b>Community Data</b>
+</div>
+</div>
+</div>
+<div class=hidem id=71_hidden>
+<div class="article-entry text-muted" itemprop=description>
+<h2 id=community-resources>Community Resources</h2>
+<table>
+<thead>
+<tr>
+<th>Resource</th>
+<th>Link</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>source</td>
+<td><a href=https://community.bmc.com/s/news/aA33n000000TSUdCAO/bmc-security-advisory-for-cve202144228-log4shell-vulnerability>https://community.bmc.com/s/news/aA33n000000TSUdCAO/bmc-security-advisory-for-cve202144228-log4shell-vulnerability</a></td>
+</tr>
+</tbody>
+</table>
+<h2 id=sources>Sources</h2>
+<table>
+<thead>
+<tr>
+<th>Date</th>
+<th>Attribution</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2021-12-14 10:27:30</td>
+<td><a href=https://github.com/NCSC-NL/log4shell/blob/main/software/README.md>NCSC-NL</a></td>
+<td>Updated communityNotVulnerable. Updated community link source.</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<div class=post-expand-collapse>
+<div onclick="onClickExpand('71')" id=71_expander>
+Expand Details
+</div>
+</div>
+</article>
+<article class="article article-type-page" itemscope itemtype=http://schema.org/BlogPosting>
+<div class=article-container>
+<div>
+<div class=article-header>
+<table border=0 width=100%><tr><td>
+<h1 class=article-title>
+<a href=/posts/bmc-softwarebmc-compuware-file-aid-for-db2/>BMC Software BMC Compuware File-AID for DB2</a>
+</h1>
+</td><td>
+<table class=title-version-info border=0>
+<tr><td>Patched Version</td><td align=right></td></tr>
+<tr><td>Last Vulnerable Version</td><td align=right></td></tr>
+<tr><td>First Vulnerable Version</td><td align=right></td></tr>
+</table>
+</td></tr></table><br>
+<div class=title-data><b>Vendor Data</b>
+</div>
+<div class=title-data-divider></div>
+<div class=title-data><b>Community Data</b>
+</div>
+</div>
+</div>
+<div class=hidem id=72_hidden>
+<div class="article-entry text-muted" itemprop=description>
+<h2 id=community-resources>Community Resources</h2>
+<table>
+<thead>
+<tr>
+<th>Resource</th>
+<th>Link</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>source</td>
+<td><a href=https://community.bmc.com/s/news/aA33n000000TSUdCAO/bmc-security-advisory-for-cve202144228-log4shell-vulnerability>https://community.bmc.com/s/news/aA33n000000TSUdCAO/bmc-security-advisory-for-cve202144228-log4shell-vulnerability</a></td>
+</tr>
+</tbody>
+</table>
+<h2 id=sources>Sources</h2>
+<table>
+<thead>
+<tr>
+<th>Date</th>
+<th>Attribution</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2021-12-14 10:27:30</td>
+<td><a href=https://github.com/NCSC-NL/log4shell/blob/main/software/README.md>NCSC-NL</a></td>
+<td>Updated communityNotVulnerable. Updated community link source.</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<div class=post-expand-collapse>
+<div onclick="onClickExpand('72')" id=72_expander>
+Expand Details
+</div>
+</div>
+</article>
+<article class="article article-type-page" itemscope itemtype=http://schema.org/BlogPosting>
+<div class=article-container>
+<div>
+<div class=article-header>
+<table border=0 width=100%><tr><td>
+<h1 class=article-title>
+<a href=/posts/bmc-softwarebmc-compuware-file-aid-for-ims/>BMC Software BMC Compuware File-AID for IMS</a>
+</h1>
+</td><td>
+<table class=title-version-info border=0>
+<tr><td>Patched Version</td><td align=right></td></tr>
+<tr><td>Last Vulnerable Version</td><td align=right></td></tr>
+<tr><td>First Vulnerable Version</td><td align=right></td></tr>
+</table>
+</td></tr></table><br>
+<div class=title-data><b>Vendor Data</b>
+</div>
+<div class=title-data-divider></div>
+<div class=title-data><b>Community Data</b>
+</div>
+</div>
+</div>
+<div class=hidem id=73_hidden>
+<div class="article-entry text-muted" itemprop=description>
+<h2 id=community-resources>Community Resources</h2>
+<table>
+<thead>
+<tr>
+<th>Resource</th>
+<th>Link</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>source</td>
+<td><a href=https://community.bmc.com/s/news/aA33n000000TSUdCAO/bmc-security-advisory-for-cve202144228-log4shell-vulnerability>https://community.bmc.com/s/news/aA33n000000TSUdCAO/bmc-security-advisory-for-cve202144228-log4shell-vulnerability</a></td>
+</tr>
+</tbody>
+</table>
+<h2 id=sources>Sources</h2>
+<table>
+<thead>
+<tr>
+<th>Date</th>
+<th>Attribution</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2021-12-14 10:27:30</td>
+<td><a href=https://github.com/NCSC-NL/log4shell/blob/main/software/README.md>NCSC-NL</a></td>
+<td>Updated communityNotVulnerable. Updated community link source.</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<div class=post-expand-collapse>
+<div onclick="onClickExpand('73')" id=73_expander>
+Expand Details
+</div>
+</div>
+</article>
+<article class="article article-type-page" itemscope itemtype=http://schema.org/BlogPosting>
+<div class=article-container>
+<div>
+<div class=article-header>
+<table border=0 width=100%><tr><td>
+<h1 class=article-title>
+<a href=/posts/bmc-softwarebmc-compuware-file-aid-mvs/>BMC Software BMC Compuware File-AID/MVS</a>
+</h1>
+</td><td>
+<table class=title-version-info border=0>
+<tr><td>Patched Version</td><td align=right></td></tr>
+<tr><td>Last Vulnerable Version</td><td align=right></td></tr>
+<tr><td>First Vulnerable Version</td><td align=right></td></tr>
+</table>
+</td></tr></table><br>
+<div class=title-data><b>Vendor Data</b>
+</div>
+<div class=title-data-divider></div>
+<div class=title-data><b>Community Data</b>
+</div>
+</div>
+</div>
+<div class=hidem id=74_hidden>
+<div class="article-entry text-muted" itemprop=description>
+<h2 id=community-resources>Community Resources</h2>
+<table>
+<thead>
+<tr>
+<th>Resource</th>
+<th>Link</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>source</td>
+<td><a href=https://community.bmc.com/s/news/aA33n000000TSUdCAO/bmc-security-advisory-for-cve202144228-log4shell-vulnerability>https://community.bmc.com/s/news/aA33n000000TSUdCAO/bmc-security-advisory-for-cve202144228-log4shell-vulnerability</a></td>
+</tr>
+</tbody>
+</table>
+<h2 id=sources>Sources</h2>
+<table>
+<thead>
+<tr>
+<th>Date</th>
+<th>Attribution</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2021-12-14 10:27:30</td>
+<td><a href=https://github.com/NCSC-NL/log4shell/blob/main/software/README.md>NCSC-NL</a></td>
+<td>Updated communityNotVulnerable. Updated community link source.</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<div class=post-expand-collapse>
+<div onclick="onClickExpand('74')" id=74_expander>
+Expand Details
+</div>
+</div>
+</article>
+<article class="article article-type-page" itemscope itemtype=http://schema.org/BlogPosting>
+<div class=article-container>
+<div>
+<div class=article-header>
+<table border=0 width=100%><tr><td>
+<h1 class=article-title>
+<a href=/posts/bmc-softwarebmc-compuware-file-aid-rdx/>BMC Software BMC Compuware File-AID/RDX</a>
+</h1>
+</td><td>
+<table class=title-version-info border=0>
+<tr><td>Patched Version</td><td align=right></td></tr>
+<tr><td>Last Vulnerable Version</td><td align=right></td></tr>
+<tr><td>First Vulnerable Version</td><td align=right></td></tr>
+</table>
+</td></tr></table><br>
+<div class=title-data><b>Vendor Data</b>
+</div>
+<div class=title-data-divider></div>
+<div class=title-data><b>Community Data</b>
+</div>
+</div>
+</div>
+<div class=hidem id=75_hidden>
+<div class="article-entry text-muted" itemprop=description>
+<h2 id=community-resources>Community Resources</h2>
+<table>
+<thead>
+<tr>
+<th>Resource</th>
+<th>Link</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>source</td>
+<td><a href=https://community.bmc.com/s/news/aA33n000000TSUdCAO/bmc-security-advisory-for-cve202144228-log4shell-vulnerability>https://community.bmc.com/s/news/aA33n000000TSUdCAO/bmc-security-advisory-for-cve202144228-log4shell-vulnerability</a></td>
+</tr>
+</tbody>
+</table>
+<h2 id=sources>Sources</h2>
+<table>
+<thead>
+<tr>
+<th>Date</th>
+<th>Attribution</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2021-12-14 10:27:30</td>
+<td><a href=https://github.com/NCSC-NL/log4shell/blob/main/software/README.md>NCSC-NL</a></td>
+<td>Updated communityNotVulnerable. Updated community link source.</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<div class=post-expand-collapse>
+<div onclick="onClickExpand('75')" id=75_expander>
+Expand Details
+</div>
+</div>
+</article>
+<article class="article article-type-page" itemscope itemtype=http://schema.org/BlogPosting>
+<div class=article-container>
+<div>
+<div class=article-header>
+<table border=0 width=100%><tr><td>
+<h1 class=article-title>
+<a href=/posts/bmc-softwarebmc-compuware-ispw/>BMC Software BMC Compuware ISPW</a>
+</h1>
+</td><td>
+<table class=title-version-info border=0>
+<tr><td>Patched Version</td><td align=right></td></tr>
+<tr><td>Last Vulnerable Version</td><td align=right></td></tr>
+<tr><td>First Vulnerable Version</td><td align=right></td></tr>
+</table>
+</td></tr></table><br>
+<div class=title-data><b>Vendor Data</b>
+</div>
+<div class=title-data-divider></div>
+<div class=title-data><b>Community Data</b>
+</div>
+</div>
+</div>
+<div class=hidem id=76_hidden>
+<div class="article-entry text-muted" itemprop=description>
+<h2 id=community-resources>Community Resources</h2>
+<table>
+<thead>
+<tr>
+<th>Resource</th>
+<th>Link</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>source</td>
+<td><a href=https://community.bmc.com/s/news/aA33n000000TSUdCAO/bmc-security-advisory-for-cve202144228-log4shell-vulnerability>https://community.bmc.com/s/news/aA33n000000TSUdCAO/bmc-security-advisory-for-cve202144228-log4shell-vulnerability</a></td>
+</tr>
+</tbody>
+</table>
+<h2 id=sources>Sources</h2>
+<table>
+<thead>
+<tr>
+<th>Date</th>
+<th>Attribution</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2021-12-14 12:33:39</td>
+<td><a href=https://github.com/NCSC-NL/log4shell/blob/main/software/README.md>NCSC-NL</a></td>
+<td>Updated communityNotVulnerable. Updated community link source.</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<div class=post-expand-collapse>
+<div onclick="onClickExpand('76')" id=76_expander>
+Expand Details
+</div>
+</div>
+</article>
+<article class="article article-type-page" itemscope itemtype=http://schema.org/BlogPosting>
+<div class=article-container>
+<div>
+<div class=article-header>
+<table border=0 width=100%><tr><td>
+<h1 class=article-title>
+<a href=/posts/bmc-softwarebmc-compuware-program-analyzer/>BMC Software BMC Compuware Program Analyzer</a>
+</h1>
+</td><td>
+<table class=title-version-info border=0>
+<tr><td>Patched Version</td><td align=right></td></tr>
+<tr><td>Last Vulnerable Version</td><td align=right></td></tr>
+<tr><td>First Vulnerable Version</td><td align=right></td></tr>
+</table>
+</td></tr></table><br>
+<div class=title-data><b>Vendor Data</b>
+</div>
+<div class=title-data-divider></div>
+<div class=title-data><b>Community Data</b>
+</div>
+</div>
+</div>
+<div class=hidem id=77_hidden>
+<div class="article-entry text-muted" itemprop=description>
+<h2 id=community-resources>Community Resources</h2>
+<table>
+<thead>
+<tr>
+<th>Resource</th>
+<th>Link</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>source</td>
+<td><a href=https://community.bmc.com/s/news/aA33n000000TSUdCAO/bmc-security-advisory-for-cve202144228-log4shell-vulnerability>https://community.bmc.com/s/news/aA33n000000TSUdCAO/bmc-security-advisory-for-cve202144228-log4shell-vulnerability</a></td>
+</tr>
+</tbody>
+</table>
+<h2 id=sources>Sources</h2>
+<table>
+<thead>
+<tr>
+<th>Date</th>
+<th>Attribution</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2021-12-14 10:27:30</td>
+<td><a href=https://github.com/NCSC-NL/log4shell/blob/main/software/README.md>NCSC-NL</a></td>
+<td>Updated communityNotVulnerable. Updated community link source.</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<div class=post-expand-collapse>
+<div onclick="onClickExpand('77')" id=77_expander>
+Expand Details
+</div>
+</div>
+</article>
+<article class="article article-type-page" itemscope itemtype=http://schema.org/BlogPosting>
+<div class=article-container>
+<div>
+<div class=article-header>
+<table border=0 width=100%><tr><td>
+<h1 class=article-title>
+<a href=/posts/bmc-softwarebmc-compuware-storage-backup-and-recovery/>BMC Software BMC Compuware Storage Backup and Recovery</a>
+</h1>
+</td><td>
+<table class=title-version-info border=0>
+<tr><td>Patched Version</td><td align=right></td></tr>
+<tr><td>Last Vulnerable Version</td><td align=right></td></tr>
+<tr><td>First Vulnerable Version</td><td align=right></td></tr>
+</table>
+</td></tr></table><br>
+<div class=title-data><b>Vendor Data</b>
+</div>
+<div class=title-data-divider></div>
+<div class=title-data><b>Community Data</b>
+</div>
+</div>
+</div>
+<div class=hidem id=78_hidden>
+<div class="article-entry text-muted" itemprop=description>
+<h2 id=community-resources>Community Resources</h2>
+<table>
+<thead>
+<tr>
+<th>Resource</th>
+<th>Link</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>source</td>
+<td><a href=https://community.bmc.com/s/news/aA33n000000TSUdCAO/bmc-security-advisory-for-cve202144228-log4shell-vulnerability>https://community.bmc.com/s/news/aA33n000000TSUdCAO/bmc-security-advisory-for-cve202144228-log4shell-vulnerability</a></td>
+</tr>
+</tbody>
+</table>
+<h2 id=sources>Sources</h2>
+<table>
+<thead>
+<tr>
+<th>Date</th>
+<th>Attribution</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2021-12-14 10:27:30</td>
+<td><a href=https://github.com/NCSC-NL/log4shell/blob/main/software/README.md>NCSC-NL</a></td>
+<td>Updated communityNotVulnerable. Updated community link source.</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<div class=post-expand-collapse>
+<div onclick="onClickExpand('78')" id=78_expander>
+Expand Details
+</div>
+</div>
+</article>
+<article class="article article-type-page" itemscope itemtype=http://schema.org/BlogPosting>
+<div class=article-container>
+<div>
+<div class=article-header>
+<table border=0 width=100%><tr><td>
+<h1 class=article-title>
+<a href=/posts/bmc-softwarebmc-compuware-storage-migration/>BMC Software BMC Compuware Storage Migration</a>
+</h1>
+</td><td>
+<table class=title-version-info border=0>
+<tr><td>Patched Version</td><td align=right></td></tr>
+<tr><td>Last Vulnerable Version</td><td align=right></td></tr>
+<tr><td>First Vulnerable Version</td><td align=right></td></tr>
+</table>
+</td></tr></table><br>
+<div class=title-data><b>Vendor Data</b>
+</div>
+<div class=title-data-divider></div>
+<div class=title-data><b>Community Data</b>
+</div>
+</div>
+</div>
+<div class=hidem id=79_hidden>
+<div class="article-entry text-muted" itemprop=description>
+<h2 id=community-resources>Community Resources</h2>
+<table>
+<thead>
+<tr>
+<th>Resource</th>
+<th>Link</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>source</td>
+<td><a href=https://community.bmc.com/s/news/aA33n000000TSUdCAO/bmc-security-advisory-for-cve202144228-log4shell-vulnerability>https://community.bmc.com/s/news/aA33n000000TSUdCAO/bmc-security-advisory-for-cve202144228-log4shell-vulnerability</a></td>
+</tr>
+</tbody>
+</table>
+<h2 id=sources>Sources</h2>
+<table>
+<thead>
+<tr>
+<th>Date</th>
+<th>Attribution</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2021-12-14 10:27:30</td>
+<td><a href=https://github.com/NCSC-NL/log4shell/blob/main/software/README.md>NCSC-NL</a></td>
+<td>Updated communityNotVulnerable. Updated community link source.</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<div class=post-expand-collapse>
+<div onclick="onClickExpand('79')" id=79_expander>
+Expand Details
+</div>
+</div>
+</article>
+<article class="article article-type-page" itemscope itemtype=http://schema.org/BlogPosting>
+<div class=article-container>
+<div>
+<div class=article-header>
+<table border=0 width=100%><tr><td>
+<h1 class=article-title>
+<a href=/posts/bmc-softwarebmc-compuware-storage-performance/>BMC Software BMC Compuware Storage Performance</a>
+</h1>
+</td><td>
+<table class=title-version-info border=0>
+<tr><td>Patched Version</td><td align=right></td></tr>
+<tr><td>Last Vulnerable Version</td><td align=right></td></tr>
+<tr><td>First Vulnerable Version</td><td align=right></td></tr>
+</table>
+</td></tr></table><br>
+<div class=title-data><b>Vendor Data</b>
+</div>
+<div class=title-data-divider></div>
+<div class=title-data><b>Community Data</b>
+</div>
+</div>
+</div>
+<div class=hidem id=80_hidden>
+<div class="article-entry text-muted" itemprop=description>
+<h2 id=community-resources>Community Resources</h2>
+<table>
+<thead>
+<tr>
+<th>Resource</th>
+<th>Link</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>source</td>
+<td><a href=https://community.bmc.com/s/news/aA33n000000TSUdCAO/bmc-security-advisory-for-cve202144228-log4shell-vulnerability>https://community.bmc.com/s/news/aA33n000000TSUdCAO/bmc-security-advisory-for-cve202144228-log4shell-vulnerability</a></td>
+</tr>
+</tbody>
+</table>
+<h2 id=sources>Sources</h2>
+<table>
+<thead>
+<tr>
+<th>Date</th>
+<th>Attribution</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2021-12-14 10:27:30</td>
+<td><a href=https://github.com/NCSC-NL/log4shell/blob/main/software/README.md>NCSC-NL</a></td>
+<td>Updated communityNotVulnerable. Updated community link source.</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<div class=post-expand-collapse>
+<div onclick="onClickExpand('80')" id=80_expander>
+Expand Details
+</div>
+</div>
+</article>
+<article class="article article-type-page" itemscope itemtype=http://schema.org/BlogPosting>
+<div class=article-container>
+<div>
+<div class=article-header>
+<table border=0 width=100%><tr><td>
+<h1 class=article-title>
+<a href=/posts/bmc-softwarebmc-compuware-topaz-enterprise-data/>BMC Software BMC Compuware Topaz Enterprise Data</a>
+</h1>
+</td><td>
+<table class=title-version-info border=0>
+<tr><td>Patched Version</td><td align=right></td></tr>
+<tr><td>Last Vulnerable Version</td><td align=right></td></tr>
+<tr><td>First Vulnerable Version</td><td align=right></td></tr>
+</table>
+</td></tr></table><br>
+<div class=title-data><b>Vendor Data</b>
+</div>
+<div class=title-data-divider></div>
+<div class=title-data><b>Community Data</b>
+</div>
+</div>
+</div>
+<div class=hidem id=81_hidden>
+<div class="article-entry text-muted" itemprop=description>
+<h2 id=community-resources>Community Resources</h2>
+<table>
+<thead>
+<tr>
+<th>Resource</th>
+<th>Link</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>source</td>
+<td><a href=https://community.bmc.com/s/news/aA33n000000TSUdCAO/bmc-security-advisory-for-cve202144228-log4shell-vulnerability>https://community.bmc.com/s/news/aA33n000000TSUdCAO/bmc-security-advisory-for-cve202144228-log4shell-vulnerability</a></td>
+</tr>
+</tbody>
+</table>
+<h2 id=sources>Sources</h2>
+<table>
+<thead>
+<tr>
+<th>Date</th>
+<th>Attribution</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2021-12-14 10:27:30</td>
+<td><a href=https://github.com/NCSC-NL/log4shell/blob/main/software/README.md>NCSC-NL</a></td>
+<td>Updated communityNotVulnerable. Updated community link source.</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<div class=post-expand-collapse>
+<div onclick="onClickExpand('81')" id=81_expander>
+Expand Details
+</div>
+</div>
+</article>
+<article class="article article-type-page" itemscope itemtype=http://schema.org/BlogPosting>
+<div class=article-container>
+<div>
+<div class=article-header>
+<table border=0 width=100%><tr><td>
+<h1 class=article-title>
+<a href=/posts/bmc-softwarebmc-compuware-topaz-for-java-performance/>BMC Software BMC Compuware Topaz for Java Performance</a>
+</h1>
+</td><td>
+<table class=title-version-info border=0>
+<tr><td>Patched Version</td><td align=right></td></tr>
+<tr><td>Last Vulnerable Version</td><td align=right></td></tr>
+<tr><td>First Vulnerable Version</td><td align=right></td></tr>
+</table>
+</td></tr></table><br>
+<div class=title-data><b>Vendor Data</b>
+</div>
+<div class=title-data-divider></div>
+<div class=title-data><b>Community Data</b>
+</div>
+</div>
+</div>
+<div class=hidem id=82_hidden>
+<div class="article-entry text-muted" itemprop=description>
+<h2 id=community-resources>Community Resources</h2>
+<table>
+<thead>
+<tr>
+<th>Resource</th>
+<th>Link</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>source</td>
+<td><a href=https://community.bmc.com/s/news/aA33n000000TSUdCAO/bmc-security-advisory-for-cve202144228-log4shell-vulnerability>https://community.bmc.com/s/news/aA33n000000TSUdCAO/bmc-security-advisory-for-cve202144228-log4shell-vulnerability</a></td>
+</tr>
+</tbody>
+</table>
+<h2 id=sources>Sources</h2>
+<table>
+<thead>
+<tr>
+<th>Date</th>
+<th>Attribution</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2021-12-14 10:27:30</td>
+<td><a href=https://github.com/NCSC-NL/log4shell/blob/main/software/README.md>NCSC-NL</a></td>
+<td>Updated communityNotVulnerable. Updated community link source.</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<div class=post-expand-collapse>
+<div onclick="onClickExpand('82')" id=82_expander>
+Expand Details
+</div>
+</div>
+</article>
+<article class="article article-type-page" itemscope itemtype=http://schema.org/BlogPosting>
+<div class=article-container>
+<div>
+<div class=article-header>
+<table border=0 width=100%><tr><td>
+<h1 class=article-title>
+<a href=/posts/bmc-softwarebmc-compuware-topaz-for-total-test/>BMC Software BMC Compuware Topaz for Total Test</a>
+</h1>
+</td><td>
+<table class=title-version-info border=0>
+<tr><td>Patched Version</td><td align=right></td></tr>
+<tr><td>Last Vulnerable Version</td><td align=right></td></tr>
+<tr><td>First Vulnerable Version</td><td align=right></td></tr>
+</table>
+</td></tr></table><br>
+<div class=title-data><b>Vendor Data</b>
+</div>
+<div class=title-data-divider></div>
+<div class=title-data><b>Community Data</b>
+</div>
+</div>
+</div>
+<div class=hidem id=83_hidden>
+<div class="article-entry text-muted" itemprop=description>
+<h2 id=community-resources>Community Resources</h2>
+<table>
+<thead>
+<tr>
+<th>Resource</th>
+<th>Link</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>source</td>
+<td><a href=https://community.bmc.com/s/news/aA33n000000TSUdCAO/bmc-security-advisory-for-cve202144228-log4shell-vulnerability>https://community.bmc.com/s/news/aA33n000000TSUdCAO/bmc-security-advisory-for-cve202144228-log4shell-vulnerability</a></td>
+</tr>
+</tbody>
+</table>
+<h2 id=sources>Sources</h2>
+<table>
+<thead>
+<tr>
+<th>Date</th>
+<th>Attribution</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2021-12-14 10:27:30</td>
+<td><a href=https://github.com/NCSC-NL/log4shell/blob/main/software/README.md>NCSC-NL</a></td>
+<td>Updated communityNotVulnerable. Updated community link source.</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<div class=post-expand-collapse>
+<div onclick="onClickExpand('83')" id=83_expander>
+Expand Details
+</div>
+</div>
+</article>
+<article class="article article-type-page" itemscope itemtype=http://schema.org/BlogPosting>
+<div class=article-container>
+<div>
+<div class=article-header>
+<table border=0 width=100%><tr><td>
+<h1 class=article-title>
+<a href=/posts/bmc-softwarebmc-compuware-topaz-program-analysis/>BMC Software BMC Compuware Topaz Program Analysis</a>
+</h1>
+</td><td>
+<table class=title-version-info border=0>
+<tr><td>Patched Version</td><td align=right></td></tr>
+<tr><td>Last Vulnerable Version</td><td align=right></td></tr>
+<tr><td>First Vulnerable Version</td><td align=right></td></tr>
+</table>
+</td></tr></table><br>
+<div class=title-data><b>Vendor Data</b>
+</div>
+<div class=title-data-divider></div>
+<div class=title-data><b>Community Data</b>
+</div>
+</div>
+</div>
+<div class=hidem id=84_hidden>
+<div class="article-entry text-muted" itemprop=description>
+<h2 id=community-resources>Community Resources</h2>
+<table>
+<thead>
+<tr>
+<th>Resource</th>
+<th>Link</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>source</td>
+<td><a href=https://community.bmc.com/s/news/aA33n000000TSUdCAO/bmc-security-advisory-for-cve202144228-log4shell-vulnerability>https://community.bmc.com/s/news/aA33n000000TSUdCAO/bmc-security-advisory-for-cve202144228-log4shell-vulnerability</a></td>
+</tr>
+</tbody>
+</table>
+<h2 id=sources>Sources</h2>
+<table>
+<thead>
+<tr>
+<th>Date</th>
+<th>Attribution</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2021-12-14 10:27:30</td>
+<td><a href=https://github.com/NCSC-NL/log4shell/blob/main/software/README.md>NCSC-NL</a></td>
+<td>Updated communityNotVulnerable. Updated community link source.</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<div class=post-expand-collapse>
+<div onclick="onClickExpand('84')" id=84_expander>
+Expand Details
+</div>
+</div>
+</article>
+<article class="article article-type-page" itemscope itemtype=http://schema.org/BlogPosting>
+<div class=article-container>
+<div>
+<div class=article-header>
+<table border=0 width=100%><tr><td>
+<h1 class=article-title>
+<a href=/posts/bmc-softwarebmc-compuware-topaz-workbench/>BMC Software BMC Compuware Topaz Workbench</a>
+</h1>
+</td><td>
+<table class=title-version-info border=0>
+<tr><td>Patched Version</td><td align=right></td></tr>
+<tr><td>Last Vulnerable Version</td><td align=right></td></tr>
+<tr><td>First Vulnerable Version</td><td align=right></td></tr>
+</table>
+</td></tr></table><br>
+<div class=title-data><b>Vendor Data</b>
+</div>
+<div class=title-data-divider></div>
+<div class=title-data><b>Community Data</b>
+</div>
+</div>
+</div>
+<div class=hidem id=85_hidden>
+<div class="article-entry text-muted" itemprop=description>
+<h2 id=community-resources>Community Resources</h2>
+<table>
+<thead>
+<tr>
+<th>Resource</th>
+<th>Link</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>source</td>
+<td><a href=https://community.bmc.com/s/news/aA33n000000TSUdCAO/bmc-security-advisory-for-cve202144228-log4shell-vulnerability>https://community.bmc.com/s/news/aA33n000000TSUdCAO/bmc-security-advisory-for-cve202144228-log4shell-vulnerability</a></td>
+</tr>
+</tbody>
+</table>
+<h2 id=sources>Sources</h2>
+<table>
+<thead>
+<tr>
+<th>Date</th>
+<th>Attribution</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2021-12-14 10:27:30</td>
+<td><a href=https://github.com/NCSC-NL/log4shell/blob/main/software/README.md>NCSC-NL</a></td>
+<td>Updated communityNotVulnerable. Updated community link source.</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<div class=post-expand-collapse>
+<div onclick="onClickExpand('85')" id=85_expander>
+Expand Details
+</div>
+</div>
+</article>
+<article class="article article-type-page" itemscope itemtype=http://schema.org/BlogPosting>
+<div class=article-container>
+<div>
+<div class=article-header>
+<table border=0 width=100%><tr><td>
+<h1 class=article-title>
+<a href=/posts/bmc-softwarebmc-compuware-deventerprise/>BMC Software BMC Compuware DevEnterprise</a>
+</h1>
+</td><td>
+<table class=title-version-info border=0>
+<tr><td>Patched Version</td><td align=right></td></tr>
+<tr><td>Last Vulnerable Version</td><td align=right></td></tr>
+<tr><td>First Vulnerable Version</td><td align=right></td></tr>
+</table>
+</td></tr></table><br>
+<div class=title-data><b>Vendor Data</b>
+</div>
+<div class=title-data-divider></div>
+<div class=title-data><b>Community Data</b>
+</div>
+</div>
+</div>
+<div class=hidem id=86_hidden>
+<div class="article-entry text-muted" itemprop=description>
+<h2 id=community-resources>Community Resources</h2>
+<table>
+<thead>
+<tr>
+<th>Resource</th>
+<th>Link</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>source</td>
+<td><a href=https://community.bmc.com/s/news/aA33n000000TSUdCAO/bmc-security-advisory-for-cve202144228-log4shell-vulnerability>https://community.bmc.com/s/news/aA33n000000TSUdCAO/bmc-security-advisory-for-cve202144228-log4shell-vulnerability</a></td>
+</tr>
+</tbody>
+</table>
+<h2 id=sources>Sources</h2>
+<table>
+<thead>
+<tr>
+<th>Date</th>
+<th>Attribution</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2021-12-14 12:33:39</td>
+<td><a href=https://github.com/NCSC-NL/log4shell/blob/main/software/README.md>NCSC-NL</a></td>
+<td>Updated communityNotVulnerable. Updated community link source.</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<div class=post-expand-collapse>
+<div onclick="onClickExpand('86')" id=86_expander>
+Expand Details
+</div>
+</div>
+</article>
+<article class="article article-type-page" itemscope itemtype=http://schema.org/BlogPosting>
+<div class=article-container>
+<div>
+<div class=article-header>
+<table border=0 width=100%><tr><td>
+<h1 class=article-title>
+<a href=/posts/bmc-softwarebmc-compuware-hiperstation-all-product-offerings/>BMC Software BMC Compuware Hiperstation ALL Product Offerings</a>
+</h1>
+</td><td>
+<table class=title-version-info border=0>
+<tr><td>Patched Version</td><td align=right></td></tr>
+<tr><td>Last Vulnerable Version</td><td align=right></td></tr>
+<tr><td>First Vulnerable Version</td><td align=right></td></tr>
+</table>
+</td></tr></table><br>
+<div class=title-data><b>Vendor Data</b>
+</div>
+<div class=title-data-divider></div>
+<div class=title-data><b>Community Data</b>
+</div>
+</div>
+</div>
+<div class=hidem id=87_hidden>
+<div class="article-entry text-muted" itemprop=description>
+<h2 id=community-resources>Community Resources</h2>
+<table>
+<thead>
+<tr>
+<th>Resource</th>
+<th>Link</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>source</td>
+<td><a href=https://community.bmc.com/s/news/aA33n000000TSUdCAO/bmc-security-advisory-for-cve202144228-log4shell-vulnerability>https://community.bmc.com/s/news/aA33n000000TSUdCAO/bmc-security-advisory-for-cve202144228-log4shell-vulnerability</a></td>
+</tr>
+</tbody>
+</table>
+<h2 id=sources>Sources</h2>
+<table>
+<thead>
+<tr>
+<th>Date</th>
+<th>Attribution</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2021-12-14 12:33:39</td>
+<td><a href=https://github.com/NCSC-NL/log4shell/blob/main/software/README.md>NCSC-NL</a></td>
+<td>Updated communityNotVulnerable. Updated community link source.</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<div class=post-expand-collapse>
+<div onclick="onClickExpand('87')" id=87_expander>
+Expand Details
+</div>
+</div>
+</article>
+<article class="article article-type-page" itemscope itemtype=http://schema.org/BlogPosting>
+<div class=article-container>
+<div>
+<div class=article-header>
+<table border=0 width=100%><tr><td>
+<h1 class=article-title>
+<a href=/posts/bmc-softwarebmc-compuware-istrobe/>BMC Software BMC Compuware iStrobe</a>
+</h1>
+</td><td>
+<table class=title-version-info border=0>
+<tr><td>Patched Version</td><td align=right></td></tr>
+<tr><td>Last Vulnerable Version</td><td align=right></td></tr>
+<tr><td>First Vulnerable Version</td><td align=right></td></tr>
+</table>
+</td></tr></table><br>
+<div class=title-data><b>Vendor Data</b>
+</div>
+<div class=title-data-divider></div>
+<div class=title-data><b>Community Data</b>
+</div>
+</div>
+</div>
+<div class=hidem id=88_hidden>
+<div class="article-entry text-muted" itemprop=description>
+<h2 id=community-resources>Community Resources</h2>
+<table>
+<thead>
+<tr>
+<th>Resource</th>
+<th>Link</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>source</td>
+<td><a href=https://community.bmc.com/s/news/aA33n000000TSUdCAO/bmc-security-advisory-for-cve202144228-log4shell-vulnerability>https://community.bmc.com/s/news/aA33n000000TSUdCAO/bmc-security-advisory-for-cve202144228-log4shell-vulnerability</a></td>
+</tr>
+</tbody>
+</table>
+<h2 id=sources>Sources</h2>
+<table>
+<thead>
+<tr>
+<th>Date</th>
+<th>Attribution</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2021-12-14 12:33:39</td>
+<td><a href=https://github.com/NCSC-NL/log4shell/blob/main/software/README.md>NCSC-NL</a></td>
+<td>Updated communityNotVulnerable. Updated community link source.</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<div class=post-expand-collapse>
+<div onclick="onClickExpand('88')" id=88_expander>
+Expand Details
+</div>
+</div>
+</article>
+<article class="article article-type-page" itemscope itemtype=http://schema.org/BlogPosting>
+<div class=article-container>
+<div>
+<div class=article-header>
+<table border=0 width=100%><tr><td>
+<h1 class=article-title>
+<a href=/posts/bmc-softwarebmc-compuware-thruput-manager/>BMC Software BMC Compuware ThruPut Manager</a>
+</h1>
+</td><td>
+<table class=title-version-info border=0>
+<tr><td>Patched Version</td><td align=right></td></tr>
+<tr><td>Last Vulnerable Version</td><td align=right></td></tr>
+<tr><td>First Vulnerable Version</td><td align=right></td></tr>
+</table>
+</td></tr></table><br>
+<div class=title-data><b>Vendor Data</b>
+</div>
+<div class=title-data-divider></div>
+<div class=title-data><b>Community Data</b>
+</div>
+</div>
+</div>
+<div class=hidem id=89_hidden>
+<div class="article-entry text-muted" itemprop=description>
+<h2 id=community-resources>Community Resources</h2>
+<table>
+<thead>
+<tr>
+<th>Resource</th>
+<th>Link</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>source</td>
+<td><a href=https://community.bmc.com/s/news/aA33n000000TSUdCAO/bmc-security-advisory-for-cve202144228-log4shell-vulnerability>https://community.bmc.com/s/news/aA33n000000TSUdCAO/bmc-security-advisory-for-cve202144228-log4shell-vulnerability</a></td>
+</tr>
+</tbody>
+</table>
+<h2 id=sources>Sources</h2>
+<table>
+<thead>
+<tr>
+<th>Date</th>
+<th>Attribution</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2021-12-14 12:33:39</td>
+<td><a href=https://github.com/NCSC-NL/log4shell/blob/main/software/README.md>NCSC-NL</a></td>
+<td>Updated communityNotVulnerable. Updated community link source.</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<div class=post-expand-collapse>
+<div onclick="onClickExpand('89')" id=89_expander>
+Expand Details
+</div>
+</div>
+</article>
+<article class="article article-type-page" itemscope itemtype=http://schema.org/BlogPosting>
+<div class=article-container>
+<div>
+<div class=article-header>
+<table border=0 width=100%><tr><td>
+<h1 class=article-title>
+<a href=/posts/bmc-softwarebmc-compuware-xpediter-cics/>BMC Software BMC Compuware Xpediter/CICS</a>
+</h1>
+</td><td>
+<table class=title-version-info border=0>
+<tr><td>Patched Version</td><td align=right></td></tr>
+<tr><td>Last Vulnerable Version</td><td align=right></td></tr>
+<tr><td>First Vulnerable Version</td><td align=right></td></tr>
+</table>
+</td></tr></table><br>
+<div class=title-data><b>Vendor Data</b>
+</div>
+<div class=title-data-divider></div>
+<div class=title-data><b>Community Data</b>
+</div>
+</div>
+</div>
+<div class=hidem id=90_hidden>
+<div class="article-entry text-muted" itemprop=description>
+<h2 id=community-resources>Community Resources</h2>
+<table>
+<thead>
+<tr>
+<th>Resource</th>
+<th>Link</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>source</td>
+<td><a href=https://community.bmc.com/s/news/aA33n000000TSUdCAO/bmc-security-advisory-for-cve202144228-log4shell-vulnerability>https://community.bmc.com/s/news/aA33n000000TSUdCAO/bmc-security-advisory-for-cve202144228-log4shell-vulnerability</a></td>
+</tr>
+</tbody>
+</table>
+<h2 id=sources>Sources</h2>
+<table>
+<thead>
+<tr>
+<th>Date</th>
+<th>Attribution</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2021-12-14 10:27:30</td>
+<td><a href=https://github.com/NCSC-NL/log4shell/blob/main/software/README.md>NCSC-NL</a></td>
+<td>Updated communityNotVulnerable. Updated community link source.</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<div class=post-expand-collapse>
+<div onclick="onClickExpand('90')" id=90_expander>
+Expand Details
+</div>
+</div>
+</article>
+<article class="article article-type-page" itemscope itemtype=http://schema.org/BlogPosting>
+<div class=article-container>
+<div>
+<div class=article-header>
+<table border=0 width=100%><tr><td>
+<h1 class=article-title>
+<a href=/posts/bmc-softwarebmc-compuware-xpediter-code-coverage/>BMC Software BMC Compuware Xpediter/Code Coverage</a>
+</h1>
+</td><td>
+<table class=title-version-info border=0>
+<tr><td>Patched Version</td><td align=right></td></tr>
+<tr><td>Last Vulnerable Version</td><td align=right></td></tr>
+<tr><td>First Vulnerable Version</td><td align=right></td></tr>
+</table>
+</td></tr></table><br>
+<div class=title-data><b>Vendor Data</b>
+</div>
+<div class=title-data-divider></div>
+<div class=title-data><b>Community Data</b>
+</div>
+</div>
+</div>
+<div class=hidem id=91_hidden>
+<div class="article-entry text-muted" itemprop=description>
+<h2 id=community-resources>Community Resources</h2>
+<table>
+<thead>
+<tr>
+<th>Resource</th>
+<th>Link</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>source</td>
+<td><a href=https://community.bmc.com/s/news/aA33n000000TSUdCAO/bmc-security-advisory-for-cve202144228-log4shell-vulnerability>https://community.bmc.com/s/news/aA33n000000TSUdCAO/bmc-security-advisory-for-cve202144228-log4shell-vulnerability</a></td>
+</tr>
+</tbody>
+</table>
+<h2 id=sources>Sources</h2>
+<table>
+<thead>
+<tr>
+<th>Date</th>
+<th>Attribution</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2021-12-14 10:27:30</td>
+<td><a href=https://github.com/NCSC-NL/log4shell/blob/main/software/README.md>NCSC-NL</a></td>
+<td>Updated communityNotVulnerable. Updated community link source.</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<div class=post-expand-collapse>
+<div onclick="onClickExpand('91')" id=91_expander>
+Expand Details
+</div>
+</div>
+</article>
+<article class="article article-type-page" itemscope itemtype=http://schema.org/BlogPosting>
+<div class=article-container>
+<div>
+<div class=article-header>
+<table border=0 width=100%><tr><td>
+<h1 class=article-title>
+<a href=/posts/bmc-softwarebmc-compuware-xpediter-tso-and-ims/>BMC Software BMC Compuware Xpediter/TSO and IMS</a>
+</h1>
+</td><td>
+<table class=title-version-info border=0>
+<tr><td>Patched Version</td><td align=right></td></tr>
+<tr><td>Last Vulnerable Version</td><td align=right></td></tr>
+<tr><td>First Vulnerable Version</td><td align=right></td></tr>
+</table>
+</td></tr></table><br>
+<div class=title-data><b>Vendor Data</b>
+</div>
+<div class=title-data-divider></div>
+<div class=title-data><b>Community Data</b>
+</div>
+</div>
+</div>
+<div class=hidem id=92_hidden>
+<div class="article-entry text-muted" itemprop=description>
+<h2 id=community-resources>Community Resources</h2>
+<table>
+<thead>
+<tr>
+<th>Resource</th>
+<th>Link</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>source</td>
+<td><a href=https://community.bmc.com/s/news/aA33n000000TSUdCAO/bmc-security-advisory-for-cve202144228-log4shell-vulnerability>https://community.bmc.com/s/news/aA33n000000TSUdCAO/bmc-security-advisory-for-cve202144228-log4shell-vulnerability</a></td>
+</tr>
+</tbody>
+</table>
+<h2 id=sources>Sources</h2>
+<table>
+<thead>
+<tr>
+<th>Date</th>
+<th>Attribution</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2021-12-14 10:27:30</td>
+<td><a href=https://github.com/NCSC-NL/log4shell/blob/main/software/README.md>NCSC-NL</a></td>
+<td>Updated communityNotVulnerable. Updated community link source.</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<div class=post-expand-collapse>
+<div onclick="onClickExpand('92')" id=92_expander>
+Expand Details
+</div>
+</div>
+</article>
+<article class="article article-type-page" itemscope itemtype=http://schema.org/BlogPosting>
+<div class=article-container>
+<div>
+<div class=article-header>
+<table border=0 width=100%><tr><td>
+<h1 class=article-title>
+<a href=/posts/bmc-softwarebmc-compuware-xpediter-xchange/>BMC Software BMC Compuware Xpediter/Xchange</a>
+</h1>
+</td><td>
+<table class=title-version-info border=0>
+<tr><td>Patched Version</td><td align=right></td></tr>
+<tr><td>Last Vulnerable Version</td><td align=right></td></tr>
+<tr><td>First Vulnerable Version</td><td align=right></td></tr>
+</table>
+</td></tr></table><br>
+<div class=title-data><b>Vendor Data</b>
+</div>
+<div class=title-data-divider></div>
+<div class=title-data><b>Community Data</b>
+</div>
+</div>
+</div>
+<div class=hidem id=93_hidden>
+<div class="article-entry text-muted" itemprop=description>
+<h2 id=community-resources>Community Resources</h2>
+<table>
+<thead>
+<tr>
+<th>Resource</th>
+<th>Link</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>source</td>
+<td><a href=https://community.bmc.com/s/news/aA33n000000TSUdCAO/bmc-security-advisory-for-cve202144228-log4shell-vulnerability>https://community.bmc.com/s/news/aA33n000000TSUdCAO/bmc-security-advisory-for-cve202144228-log4shell-vulnerability</a></td>
+</tr>
+</tbody>
+</table>
+<h2 id=sources>Sources</h2>
+<table>
+<thead>
+<tr>
+<th>Date</th>
+<th>Attribution</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2021-12-14 10:27:30</td>
+<td><a href=https://github.com/NCSC-NL/log4shell/blob/main/software/README.md>NCSC-NL</a></td>
+<td>Updated communityNotVulnerable. Updated community link source.</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<div class=post-expand-collapse>
+<div onclick="onClickExpand('93')" id=93_expander>
+Expand Details
+</div>
+</div>
+</article>
+<article class="article article-type-page" itemscope itemtype=http://schema.org/BlogPosting>
+<div class=article-container>
+<div>
+<div class=article-header>
+<table border=0 width=100%><tr><td>
+<h1 class=article-title>
+<a href=/posts/bmc-softwarebmc-compuware-zadviser/>BMC Software BMC Compuware zAdviser</a>
+</h1>
+</td><td>
+<table class=title-version-info border=0>
+<tr><td>Patched Version</td><td align=right></td></tr>
+<tr><td>Last Vulnerable Version</td><td align=right></td></tr>
+<tr><td>First Vulnerable Version</td><td align=right></td></tr>
+</table>
+</td></tr></table><br>
+<div class=title-data><b>Vendor Data</b>
+</div>
+<div class=title-data-divider></div>
+<div class=title-data><b>Community Data</b>
+</div>
+</div>
+</div>
+<div class=hidem id=94_hidden>
+<div class="article-entry text-muted" itemprop=description>
+<h2 id=community-resources>Community Resources</h2>
+<table>
+<thead>
+<tr>
+<th>Resource</th>
+<th>Link</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>source</td>
+<td><a href=https://community.bmc.com/s/news/aA33n000000TSUdCAO/bmc-security-advisory-for-cve202144228-log4shell-vulnerability>https://community.bmc.com/s/news/aA33n000000TSUdCAO/bmc-security-advisory-for-cve202144228-log4shell-vulnerability</a></td>
+</tr>
+</tbody>
+</table>
+<h2 id=sources>Sources</h2>
+<table>
+<thead>
+<tr>
+<th>Date</th>
+<th>Attribution</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2021-12-14 10:27:30</td>
+<td><a href=https://github.com/NCSC-NL/log4shell/blob/main/software/README.md>NCSC-NL</a></td>
+<td>Updated communityNotVulnerable. Updated community link source.</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<div class=post-expand-collapse>
+<div onclick="onClickExpand('94')" id=94_expander>
+Expand Details
+</div>
+</div>
+</article>
+<article class="article article-type-page" itemscope itemtype=http://schema.org/BlogPosting>
+<div class=article-container>
+<div>
+<div class=article-header>
+<table border=0 width=100%><tr><td>
+<h1 class=article-title>
+<a href=/posts/bmc-softwarebmc-db2-admin/>BMC Software BMC Db2 Admin</a>
+</h1>
+</td><td>
+<table class=title-version-info border=0>
+<tr><td>Patched Version</td><td align=right></td></tr>
+<tr><td>Last Vulnerable Version</td><td align=right></td></tr>
+<tr><td>First Vulnerable Version</td><td align=right></td></tr>
+</table>
+</td></tr></table><br>
+<div class=title-data><b>Vendor Data</b>
+</div>
+<div class=title-data-divider></div>
+<div class=title-data><b>Community Data</b>
+</div>
+</div>
+</div>
+<div class=hidem id=95_hidden>
+<div class="article-entry text-muted" itemprop=description>
+<h2 id=community-resources>Community Resources</h2>
+<table>
+<thead>
+<tr>
+<th>Resource</th>
+<th>Link</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>source</td>
+<td><a href=https://community.bmc.com/s/news/aA33n000000TSUdCAO/bmc-security-advisory-for-cve202144228-log4shell-vulnerability>https://community.bmc.com/s/news/aA33n000000TSUdCAO/bmc-security-advisory-for-cve202144228-log4shell-vulnerability</a></td>
+</tr>
+</tbody>
+</table>
+<h2 id=sources>Sources</h2>
+<table>
+<thead>
+<tr>
+<th>Date</th>
+<th>Attribution</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2021-12-14 10:27:30</td>
+<td><a href=https://github.com/NCSC-NL/log4shell/blob/main/software/README.md>NCSC-NL</a></td>
+<td>Updated communityNotVulnerable. Updated community link source.</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<div class=post-expand-collapse>
+<div onclick="onClickExpand('95')" id=95_expander>
+Expand Details
+</div>
+</div>
+</article>
+<article class="article article-type-page" itemscope itemtype=http://schema.org/BlogPosting>
+<div class=article-container>
+<div>
+<div class=article-header>
+<table border=0 width=100%><tr><td>
+<h1 class=article-title>
+<a href=/posts/bmc-softwarebmc-db2-sql-performance/>BMC Software BMC Db2 SQL Performance</a>
+</h1>
+</td><td>
+<table class=title-version-info border=0>
+<tr><td>Patched Version</td><td align=right></td></tr>
+<tr><td>Last Vulnerable Version</td><td align=right></td></tr>
+<tr><td>First Vulnerable Version</td><td align=right></td></tr>
+</table>
+</td></tr></table><br>
+<div class=title-data><b>Vendor Data</b>
+</div>
+<div class=title-data-divider></div>
+<div class=title-data><b>Community Data</b>
+</div>
+</div>
+</div>
+<div class=hidem id=96_hidden>
+<div class="article-entry text-muted" itemprop=description>
+<h2 id=community-resources>Community Resources</h2>
+<table>
+<thead>
+<tr>
+<th>Resource</th>
+<th>Link</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>source</td>
+<td><a href=https://community.bmc.com/s/news/aA33n000000TSUdCAO/bmc-security-advisory-for-cve202144228-log4shell-vulnerability>https://community.bmc.com/s/news/aA33n000000TSUdCAO/bmc-security-advisory-for-cve202144228-log4shell-vulnerability</a></td>
+</tr>
+</tbody>
+</table>
+<h2 id=sources>Sources</h2>
+<table>
+<thead>
+<tr>
+<th>Date</th>
+<th>Attribution</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2021-12-14 10:27:30</td>
+<td><a href=https://github.com/NCSC-NL/log4shell/blob/main/software/README.md>NCSC-NL</a></td>
+<td>Updated communityNotVulnerable. Updated community link source.</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<div class=post-expand-collapse>
+<div onclick="onClickExpand('96')" id=96_expander>
+Expand Details
+</div>
+</div>
+</article>
+<article class="article article-type-page" itemscope itemtype=http://schema.org/BlogPosting>
+<div class=article-container>
+<div>
+<div class=article-header>
+<table border=0 width=100%><tr><td>
+<h1 class=article-title>
+<a href=/posts/bmc-softwarebmc-defender-agent-configuration-manager/>BMC Software BMC Defender Agent Configuration Manager</a>
+</h1>
+</td><td>
+<table class=title-version-info border=0>
+<tr><td>Patched Version</td><td align=right></td></tr>
+<tr><td>Last Vulnerable Version</td><td align=right></td></tr>
+<tr><td>First Vulnerable Version</td><td align=right></td></tr>
+</table>
+</td></tr></table><br>
+<div class=title-data><b>Vendor Data</b>
+</div>
+<div class=title-data-divider></div>
+<div class=title-data><b>Community Data</b>
+</div>
+</div>
+</div>
+<div class=hidem id=97_hidden>
+<div class="article-entry text-muted" itemprop=description>
+<h2 id=community-resources>Community Resources</h2>
+<table>
+<thead>
+<tr>
+<th>Resource</th>
+<th>Link</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>source</td>
+<td><a href=https://community.bmc.com/s/news/aA33n000000TSUdCAO/bmc-security-advisory-for-cve202144228-log4shell-vulnerability>https://community.bmc.com/s/news/aA33n000000TSUdCAO/bmc-security-advisory-for-cve202144228-log4shell-vulnerability</a></td>
+</tr>
+</tbody>
+</table>
+<h2 id=sources>Sources</h2>
+<table>
+<thead>
+<tr>
+<th>Date</th>
+<th>Attribution</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2021-12-14 10:27:30</td>
+<td><a href=https://github.com/NCSC-NL/log4shell/blob/main/software/README.md>NCSC-NL</a></td>
+<td>Updated communityNotVulnerable. Updated community link source.</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<div class=post-expand-collapse>
+<div onclick="onClickExpand('97')" id=97_expander>
+Expand Details
+</div>
+</div>
+</article>
+<article class="article article-type-page" itemscope itemtype=http://schema.org/BlogPosting>
+<div class=article-container>
+<div>
+<div class=article-header>
+<table border=0 width=100%><tr><td>
+<h1 class=article-title>
+<a href=/posts/bmc-softwarebmc-defender-agent-for-sap/>BMC Software BMC Defender Agent for SAP</a>
+</h1>
+</td><td>
+<table class=title-version-info border=0>
+<tr><td>Patched Version</td><td align=right></td></tr>
+<tr><td>Last Vulnerable Version</td><td align=right></td></tr>
+<tr><td>First Vulnerable Version</td><td align=right></td></tr>
+</table>
+</td></tr></table><br>
+<div class=title-data><b>Vendor Data</b>
+</div>
+<div class=title-data-divider></div>
+<div class=title-data><b>Community Data</b>
+</div>
+</div>
+</div>
+<div class=hidem id=98_hidden>
+<div class="article-entry text-muted" itemprop=description>
+<h2 id=community-resources>Community Resources</h2>
+<table>
+<thead>
+<tr>
+<th>Resource</th>
+<th>Link</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>source</td>
+<td><a href=https://community.bmc.com/s/news/aA33n000000TSUdCAO/bmc-security-advisory-for-cve202144228-log4shell-vulnerability>https://community.bmc.com/s/news/aA33n000000TSUdCAO/bmc-security-advisory-for-cve202144228-log4shell-vulnerability</a></td>
+</tr>
+</tbody>
+</table>
+<h2 id=sources>Sources</h2>
+<table>
+<thead>
+<tr>
+<th>Date</th>
+<th>Attribution</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2021-12-14 10:27:30</td>
+<td><a href=https://github.com/NCSC-NL/log4shell/blob/main/software/README.md>NCSC-NL</a></td>
+<td>Updated communityNotVulnerable. Updated community link source.</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<div class=post-expand-collapse>
+<div onclick="onClickExpand('98')" id=98_expander>
+Expand Details
+</div>
+</div>
+</article>
+<article class="article article-type-page" itemscope itemtype=http://schema.org/BlogPosting>
+<div class=article-container>
+<div>
+<div class=article-header>
+<table border=0 width=100%><tr><td>
+<h1 class=article-title>
+<a href=/posts/bmc-softwarebmc-defender-agent-for-unix-linux/>BMC Software BMC Defender Agent for Unix/Linux</a>
+</h1>
+</td><td>
+<table class=title-version-info border=0>
+<tr><td>Patched Version</td><td align=right></td></tr>
+<tr><td>Last Vulnerable Version</td><td align=right></td></tr>
+<tr><td>First Vulnerable Version</td><td align=right></td></tr>
+</table>
+</td></tr></table><br>
+<div class=title-data><b>Vendor Data</b>
+</div>
+<div class=title-data-divider></div>
+<div class=title-data><b>Community Data</b>
+</div>
+</div>
+</div>
+<div class=hidem id=99_hidden>
+<div class="article-entry text-muted" itemprop=description>
+<h2 id=community-resources>Community Resources</h2>
+<table>
+<thead>
+<tr>
+<th>Resource</th>
+<th>Link</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>source</td>
+<td><a href=https://community.bmc.com/s/news/aA33n000000TSUdCAO/bmc-security-advisory-for-cve202144228-log4shell-vulnerability>https://community.bmc.com/s/news/aA33n000000TSUdCAO/bmc-security-advisory-for-cve202144228-log4shell-vulnerability</a></td>
+</tr>
+</tbody>
+</table>
+<h2 id=sources>Sources</h2>
+<table>
+<thead>
+<tr>
+<th>Date</th>
+<th>Attribution</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2021-12-14 10:27:30</td>
+<td><a href=https://github.com/NCSC-NL/log4shell/blob/main/software/README.md>NCSC-NL</a></td>
+<td>Updated communityNotVulnerable. Updated community link source.</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<div class=post-expand-collapse>
+<div onclick="onClickExpand('99')" id=99_expander>
+Expand Details
+</div>
+</div>
+</article></div>
+<nav class="bar bar-footer clearfix" data-stick-bottom>
+<div class=bar-inner>
+<ul class="pager pull-left"><li class=prev>
+<a href=/page/16/>
+<i class="icon icon-angle-left"></i>
+</a>
+</li><li class=next>
+<a href=/page/18/>
+<i class="icon icon-angle-right"></i>
+</a>
+</li>
+</ul>
+<div class="total-article bar-right">
+Page:17/31
+</div>
+</div>
+</nav>
+<script>function onClickExpand(b){var a=document.getElementById(b+'_hidden'),c=a.classList.contains('hidem'),d;c===!0?a.classList.remove('hidem'):a.classList.add('hidem'),d=document.getElementById(b+'_expander'),c===!0?d.innerText='Collapse Details':d.innerText='Expand Details'}</script>
+</main>
+<script src=https://cdn.jsdelivr.net/npm/jquery@3.4.1/dist/jquery.min.js></script>
+<script>window.jQuery||document.write('<script src="js/jquery.min.js"><\/script>')</script>
+<script type=text/javascript src=https://cdn.staticfile.org/highlight.js/9.15.10/highlight.min.js></script><script>hljs.configure({tabReplace:'    ',classPrefix:''}),hljs.initHighlightingOnLoad()</script>
+<script src=https://canilog4j.com/js/application.min.a94ab19cb63a95c8d7fbd7b85cab3ddeea8c369bdf75b9cab6708787ead123af.js></script>
+<script src=https://canilog4j.com/js/plugin.min.19c5bcb2fb0789ab4f2b7834e5ceb5e92635645605bab902c1024b25f1502364.js></script>
+<script>(function(a){var b={TRANSLATION:{POSTS:'Posts',PAGES:'Pages',CATEGORIES:'Categories',TAGS:'Tags',UNTITLED:'(Untitled)'},ROOT_URL:'https://canilog4j.com',CONTENT_URL:'https://canilog4j.com/searchindex.json '};a.INSIGHT_CONFIG=b})(window)</script>
+<script type=text/javascript src=https://canilog4j.com/js/insight.min.4a2d52de4bfff73e0c688404fe3d17c9a3ae12d9888e1e1ac9c690e4890de2ded50fe55f2b819c2ba55435a76f396f3ea6805765f0b0af5635cdf74ea459eab0.js defer></script>
+<script src=https://cdnjs.cloudflare.com/ajax/libs/tocbot/4.4.2/tocbot.min.js></script>
+<script>tocbot.init({tocSelector:'.js-toc',contentSelector:'.js-toc-content',headingSelector:'h1, h2, h3',hasInnerContainers:!0})</script>
+</body>
+</html>
