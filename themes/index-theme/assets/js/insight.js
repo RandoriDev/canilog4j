@@ -10,9 +10,16 @@
     $main.parent().remove('.ins-search');
     $('body').append($main);
 
-    function section (title) {
+    function section (title, count) {
+        extra = '';
+        if (count > 100){
+            extra = '   ('+(count-100)+' additional matches not shown)';
+        } else {
+            extra = '   ('+count+')';
+        }
         return $('<section>').addClass('ins-section')
-            .append($('<header>').addClass('ins-section-header').text(title));
+            .append($('<header>').addClass('ins-section-header').text(title + extra));
+
     }
 
     function searchItem (icon, title, slug, preview, url) {
@@ -23,9 +30,11 @@
             .attr('data-url', url);
     }
 
-    function sectionFactory (type, array) {
+    function sectionFactory (type, result) {
         var sectionTitle;
         var $searchItems;
+        var array = result[0];
+        var count = result[1];
         if (array.length === 0) return null;
         sectionTitle = CONFIG.TRANSLATION[type];
         switch (type) {
@@ -44,7 +53,7 @@
             default:
                 return null;
         }
-        return section(sectionTitle).append($searchItems);
+        return section(sectionTitle, count).append($searchItems);
     }
 
     function parseKeywords (keywords) {
@@ -138,9 +147,10 @@
         var tags = json.tags;
         var categories = json.categories;
         return {
-            posts: posts.filter(FILTERS.POST).sort(function (a, b) { return WEIGHTS.POST(b) - WEIGHTS.POST(a); }).slice(0,5),
-            categories: categories.filter(FILTERS.CATEGORY).sort(function (a, b) { return WEIGHTS.CATEGORY(b) - WEIGHTS.CATEGORY(a); }).slice(0,5),
-            tags: tags.filter(FILTERS.TAG).sort(function (a, b) { return WEIGHTS.TAG(b) - WEIGHTS.TAG(a); }).slice(0,5)
+            posts: [posts.filter(FILTERS.POST).sort(function (a, b) { return WEIGHTS.POST(b) - WEIGHTS.POST(a); }).slice(0,100),
+                    posts.filter(FILTERS.POST).length]
+            //categories: categories.filter(FILTERS.CATEGORY).sort(function (a, b) { return WEIGHTS.CATEGORY(b) - WEIGHTS.CATEGORY(a); }).slice(0,100),
+            //tags: tags.filter(FILTERS.TAG).sort(function (a, b) { return WEIGHTS.TAG(b) - WEIGHTS.TAG(a); }).slice(0,100)
         };
     }
 
