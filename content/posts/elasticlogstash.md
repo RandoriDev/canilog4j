@@ -3,6 +3,7 @@ draft: 'false'
 name: Logstash
 title: Elastic Logstash
 vendor: Elastic
+vendorPatchExists: true
 ---
 
 
@@ -11,8 +12,12 @@ vendor: Elastic
 | --- | --- |
 | source | [https://discuss.elastic.co/t/apache-log4j2-remote-code-execution-rce-vulnerability-cve-2021-44228-esa-2021-31/291476](https://discuss.elastic.co/t/apache-log4j2-remote-code-execution-rce-vulnerability-cve-2021-44228-esa-2021-31/291476) |
 
+## Community Notes
+| Source | Note |
+| --- | --- |
+| [NCSC-NL](https://github.com/NCSC-NL/log4shell/blob/main/software/README.md) | No known remote code execution exposure, Fixed in 6.8.21, 7.16.1 |
 
 ## Sources
 | Date | Attribution | Description |
 | --- | --- | --- |
-| 2021-12-12 16:24:13 | [NCSC-NL](https://github.com/NCSC-NL/log4shell/blob/main/software/README.md) | Updated community link source.  |
+| 2021-12-15 10:49:08 | [NCSC-NL](https://github.com/NCSC-NL/log4shell/blob/main/software/README.md) | Updated vendorPatchExists. Updated community link source. Updated community note.  |

@@ -1,9 +1,9 @@
 ---
+communityNotVulnerable: true
 draft: 'false'
 name: TeamCity
-title: Jetbrains TeamCity
-vendor: Jetbrains
-vendorInvestigating: true
+title: JetBrains TeamCity
+vendor: JetBrains
 ---
 
 
@@ -16,4 +16,4 @@ vendorInvestigating: true
 ## Sources
 | Date | Attribution | Description |
 | --- | --- | --- |
-| 2021-12-12 14:44:31 | [NCSC-NL](https://github.com/NCSC-NL/log4shell/blob/main/software/README.md) | Updated vendorInvestigating. Updated community link source.  |
+| 2021-12-15 13:16:17 | [NCSC-NL](https://github.com/NCSC-NL/log4shell/blob/main/software/README.md) | Updated communityNotVulnerable. Updated community link source.  |

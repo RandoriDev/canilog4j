@@ -15,9 +15,9 @@ vendor: Dell
 ## Community Notes
 | Source | Note |
 | --- | --- |
-| [NCSC-NL](https://github.com/NCSC-NL/log4shell/blob/main/software/README.md) | Fix Release Timeline TBD |
+| [NCSC-NL](https://github.com/NCSC-NL/log4shell/blob/main/software/README.md) | See [DSA-2021-265](https://www.dell.com/support/kbdoc/en-us/000194466/dsa-2021-265-dell-emc-vxrail-security-update-for-apache-log4j-remote-code-execution-vulnerability-cve-2021-44228) |
 
 ## Sources
 | Date | Attribution | Description |
 | --- | --- | --- |
-| 2021-12-13 13:56:31 | [NCSC-NL](https://github.com/NCSC-NL/log4shell/blob/main/software/README.md) | Updated communityVulnerable. Updated community link source. Updated community note.  |
+| 2021-12-15 12:13:08 | [NCSC-NL](https://github.com/NCSC-NL/log4shell/blob/main/software/README.md) | Updated communityVulnerable. Updated community link source. Updated community note.  |

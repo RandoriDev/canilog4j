@@ -3,7 +3,6 @@ draft: 'false'
 name: Geolus
 title: Siemens Geolus
 vendor: Siemens
-vendorInvestigating: true
 ---
 
 
@@ -16,4 +15,4 @@ vendorInvestigating: true
 ## Sources
 | Date | Attribution | Description |
 | --- | --- | --- |
-| 2021-12-14 9:39:16 | [NCSC-NL](https://github.com/NCSC-NL/log4shell/blob/main/software/README.md) | Updated vendorInvestigating. Updated community link source.  |
+| 2021-12-15 15:02:13 | [NCSC-NL](https://github.com/NCSC-NL/log4shell/blob/main/software/README.md) | Updated community link source.  |

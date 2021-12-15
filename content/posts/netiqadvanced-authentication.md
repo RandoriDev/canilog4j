@@ -3,7 +3,6 @@ draft: 'false'
 name: Advanced Authentication
 title: NetIQ Advanced Authentication
 vendor: NetIQ
-vendorInvestigating: true
 ---
 
 
@@ -16,4 +15,4 @@ vendorInvestigating: true
 ## Sources
 | Date | Attribution | Description |
 | --- | --- | --- |
-| 2021-12-14 12:03:59 | [NCSC-NL](https://github.com/NCSC-NL/log4shell/blob/main/software/README.md) | Updated vendorInvestigating. Updated community link source.  |
+| 2021-12-15 11:03:37 | [NCSC-NL](https://github.com/NCSC-NL/log4shell/blob/main/software/README.md) | Updated community link source.  |

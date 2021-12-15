@@ -16,4 +16,4 @@ vendor: Apache
 ## Sources
 | Date | Attribution | Description |
 | --- | --- | --- |
-| 2021-12-14 9:31:15 | [NCSC-NL](https://github.com/NCSC-NL/log4shell/blob/main/software/README.md) | Updated communityNotVulnerable. Updated community link source.  |
+| 2021-12-15 12:51:03 | [NCSC-NL](https://github.com/NCSC-NL/log4shell/blob/main/software/README.md) | Updated communityNotVulnerable. Updated community link source.  |

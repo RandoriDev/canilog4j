@@ -1,5 +1,4 @@
 ---
-communityVulnerable: true
 draft: 'false'
 name: Oracle Access Manager
 title: Oracle Oracle Access Manager
@@ -18,4 +17,4 @@ vendor: Oracle
 ## Sources
 | Date | Attribution | Description |
 | --- | --- | --- |
-| 2021-12-14 10:19:58 | [NCSC-NL](https://github.com/NCSC-NL/log4shell/blob/main/software/README.md) | Updated communityVulnerable. Updated community link source. Updated community link , . Updated community link Support note 2827611.1.  |
+| 2021-12-15 6:44:55 | [NCSC-NL](https://github.com/NCSC-NL/log4shell/blob/main/software/README.md) | Updated community link source. Updated community link , . Updated community link Support note 2827611.1.  |

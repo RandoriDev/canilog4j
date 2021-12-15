@@ -1,5 +1,5 @@
 ---
-communityVulnerable: true
+communityNotVulnerable: true
 draft: 'false'
 name: Privilege Management Cloud
 title: BeyondTrust Privilege Management Cloud
@@ -16,4 +16,4 @@ vendor: BeyondTrust
 ## Sources
 | Date | Attribution | Description |
 | --- | --- | --- |
-| 2021-12-14 11:41:51 | [NCSC-NL](https://github.com/NCSC-NL/log4shell/blob/main/software/README.md) | Updated communityVulnerable. Updated community link source.  |
+| 2021-12-15 9:29:28 | [NCSC-NL](https://github.com/NCSC-NL/log4shell/blob/main/software/README.md) | Updated communityNotVulnerable. Updated community link source.  |

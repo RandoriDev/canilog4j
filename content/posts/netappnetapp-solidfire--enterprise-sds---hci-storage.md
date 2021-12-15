@@ -3,7 +3,6 @@ draft: 'false'
 name: NetApp SolidFire, Enterprise SDS & HCI Storage
 title: NetApp NetApp SolidFire, Enterprise SDS & HCI Storage
 vendor: NetApp
-vendorInvestigating: true
 ---
 
 
@@ -16,4 +15,4 @@ vendorInvestigating: true
 ## Sources
 | Date | Attribution | Description |
 | --- | --- | --- |
-| 2021-12-14 12:43:00 | [NCSC-NL](https://github.com/NCSC-NL/log4shell/blob/main/software/README.md) | Updated vendorInvestigating. Updated community link source.  |
+| 2021-12-15 10:01:54 | [NCSC-NL](https://github.com/NCSC-NL/log4shell/blob/main/software/README.md) | Updated community link source.  |

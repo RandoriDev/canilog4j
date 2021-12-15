@@ -16,4 +16,4 @@ vendor: Dell
 ## Sources
 | Date | Attribution | Description |
 | --- | --- | --- |
-| 2021-12-13 13:22:28 | [NCSC-NL](https://github.com/NCSC-NL/log4shell/blob/main/software/README.md) | Updated communityNotVulnerable. Updated community link source.  |
+| 2021-12-15 12:13:08 | [NCSC-NL](https://github.com/NCSC-NL/log4shell/blob/main/software/README.md) | Updated communityNotVulnerable. Updated community link source.  |

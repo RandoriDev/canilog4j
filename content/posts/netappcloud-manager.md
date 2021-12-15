@@ -16,4 +16,4 @@ vendor: NetApp
 ## Sources
 | Date | Attribution | Description |
 | --- | --- | --- |
-| 2021-12-12 15:38:33 | [NCSC-NL](https://github.com/NCSC-NL/log4shell/blob/main/software/README.md) | Updated communityVulnerable. Updated community link source.  |
+| 2021-12-15 10:01:54 | [NCSC-NL](https://github.com/NCSC-NL/log4shell/blob/main/software/README.md) | Updated communityVulnerable. Updated community link source.  |

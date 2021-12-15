@@ -10,10 +10,10 @@ vendor: NetIQ
 ## Community Resources
 | Resource | Link |
 | --- | --- |
-| source | [https://portal.microfocus.com/s/article/KM0000030357](https://portal.microfocus.com/s/article/KM0000030357) |
+| source | [https://portal.microfocus.com/s/article/KM000003035](https://portal.microfocus.com/s/article/KM000003035) |
 
 
 ## Sources
 | Date | Attribution | Description |
 | --- | --- | --- |
-| 2021-12-14 12:03:59 | [NCSC-NL](https://github.com/NCSC-NL/log4shell/blob/main/software/README.md) | Updated communityNotVulnerable. Updated community link source.  |
+| 2021-12-15 11:03:37 | [NCSC-NL](https://github.com/NCSC-NL/log4shell/blob/main/software/README.md) | Updated communityNotVulnerable. Updated community link source.  |

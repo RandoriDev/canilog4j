@@ -1,9 +1,9 @@
 ---
+communityNotVulnerable: true
 draft: 'false'
 name: EMC PowerShell for PowerMax
 title: Dell EMC PowerShell for PowerMax
 vendor: Dell
-vendorInvestigating: true
 ---
 
 
@@ -16,4 +16,4 @@ vendorInvestigating: true
 ## Sources
 | Date | Attribution | Description |
 | --- | --- | --- |
-| 2021-12-13 13:56:31 | [NCSC-NL](https://github.com/NCSC-NL/log4shell/blob/main/software/README.md) | Updated vendorInvestigating. Updated community link source.  |
+| 2021-12-15 12:13:08 | [NCSC-NL](https://github.com/NCSC-NL/log4shell/blob/main/software/README.md) | Updated communityNotVulnerable. Updated community link source.  |

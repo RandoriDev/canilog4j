@@ -7848,9 +7848,12 @@ th {
   color: #4D6374;
 }
 
+
+#community-notes,
 #vendor-resources,
 #community-resources,
-#change-log {
+#change-log,
+#sources {
   margin-top: 30px;
   font-family: Open Sans;
   font-style: normal;

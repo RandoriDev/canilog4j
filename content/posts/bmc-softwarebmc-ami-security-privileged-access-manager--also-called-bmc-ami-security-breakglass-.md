@@ -18,4 +18,4 @@ vendor: BMC Software
 ## Sources
 | Date | Attribution | Description |
 | --- | --- | --- |
-| 2021-12-14 10:27:30 | [NCSC-NL](https://github.com/NCSC-NL/log4shell/blob/main/software/README.md) | Updated communityNotVulnerable. Updated community link source.  |
+| 2021-12-15 11:25:54 | [NCSC-NL](https://github.com/NCSC-NL/log4shell/blob/main/software/README.md) | Updated communityNotVulnerable. Updated community link source.  |

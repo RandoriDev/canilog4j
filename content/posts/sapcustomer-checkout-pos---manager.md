@@ -10,7 +10,7 @@ vendorPatchExists: true
 ## Community Resources
 | Resource | Link |
 | --- | --- |
-| https://launchpad.support.sap.com/#/notes/0003130499 | [https://launchpad.support.sap.com/#/notes/0003130499](https://launchpad.support.sap.com/#/notes/0003130499) |
+| source | [https://launchpad.support.sap.com/#/notes/0003130499](https://launchpad.support.sap.com/#/notes/0003130499) |
 
 ## Community Notes
 | Source | Note |
@@ -20,4 +20,4 @@ vendorPatchExists: true
 ## Sources
 | Date | Attribution | Description |
 | --- | --- | --- |
-| 2021-12-14 12:29:28 | [NCSC-NL](https://github.com/NCSC-NL/log4shell/blob/main/software/README.md) | Updated vendorPatchExists. Updated community link https://launchpad.support.sap.com/#/notes/0003130499. Updated community note.  |
+| 2021-12-15 11:31:14 | [NCSC-NL](https://github.com/NCSC-NL/log4shell/blob/main/software/README.md) | Updated vendorPatchExists. Updated community link source. Updated community note.  |
