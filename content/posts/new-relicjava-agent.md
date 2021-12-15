@@ -1,0 +1,19 @@
+---
+draft: 'false'
+name: Java Agent
+title: New Relic Java Agent
+vendor: New Relic
+vendorPatchExists: true
+---
+
+
+## Community Resources
+| Resource | Link |
+| --- | --- |
+| source | [https://docs.newrelic.com/docs/security/new-relic-security/security-bulletins/security-bulletin-nr21-03/](https://docs.newrelic.com/docs/security/new-relic-security/security-bulletins/security-bulletin-nr21-03/) |
+
+
+## Sources
+| Date | Attribution | Description |
+| --- | --- | --- |
+| 2021-12-13 14:32:53 | [NCSC-NL](https://github.com/NCSC-NL/log4shell/blob/main/software/README.md) | Updated vendorPatchExists. Updated community link source.  |

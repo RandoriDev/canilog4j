@@ -1,0 +1,22 @@
+---
+draft: 'false'
+name: McAfee Active Response (MAR)
+title: McAfee McAfee Active Response (MAR)
+vendor: McAfee
+---
+
+
+## Community Resources
+| Resource | Link |
+| --- | --- |
+| source | [https://kc.mcafee.com/corporate/index?page=content&id=KB95091](https://kc.mcafee.com/corporate/index?page=content&id=KB95091) |
+
+## Community Notes
+| Source | Note |
+| --- | --- |
+| [NCSC-NL](https://github.com/NCSC-NL/log4shell/blob/main/software/README.md) | Standalone MAR not vulnerable, for MAR included in bundle see TIE |
+
+## Sources
+| Date | Attribution | Description |
+| --- | --- | --- |
+| 2021-12-14 9:47:18 | [NCSC-NL](https://github.com/NCSC-NL/log4shell/blob/main/software/README.md) | Updated community link source. Updated community note.  |

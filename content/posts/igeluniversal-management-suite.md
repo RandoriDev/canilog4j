@@ -1,0 +1,18 @@
+---
+draft: 'false'
+name: Universal Management Suite
+title: IGEL Universal Management Suite
+vendor: IGEL
+---
+
+
+## Community Resources
+| Resource | Link |
+| --- | --- |
+| source | [https://kb.igel.com/securitysafety/en/isn-2021-11-ums-log4j-vulnerability-54086712.html](https://kb.igel.com/securitysafety/en/isn-2021-11-ums-log4j-vulnerability-54086712.html) |
+
+
+## Sources
+| Date | Attribution | Description |
+| --- | --- | --- |
+| 2021-12-14 13:29:41 | [NCSC-NL](https://github.com/NCSC-NL/log4shell/blob/main/software/README.md) | Updated community link source.  |

@@ -1,0 +1,19 @@
+---
+communityNotVulnerable: true
+draft: 'false'
+name: Adaptive Security Appliance (ASA) Software
+title: Cisco Adaptive Security Appliance (ASA) Software
+vendor: Cisco
+---
+
+
+## Community Resources
+| Resource | Link |
+| --- | --- |
+| source | [https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-apache-log4j-qRuKNEbd](https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-apache-log4j-qRuKNEbd) |
+
+
+## Sources
+| Date | Attribution | Description |
+| --- | --- | --- |
+| 2021-12-14 17:29:19 | [NCSC-NL](https://github.com/NCSC-NL/log4shell/blob/main/software/README.md) | Updated communityNotVulnerable. Updated community link source.  |

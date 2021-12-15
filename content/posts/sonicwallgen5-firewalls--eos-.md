@@ -1,0 +1,18 @@
+---
+draft: 'false'
+name: Gen5 Firewalls (EOS)
+title: SonicWall Gen5 Firewalls (EOS)
+vendor: SonicWall
+---
+
+
+## Community Resources
+| Resource | Link |
+| --- | --- |
+| source | [https://psirt.global.sonicwall.com/vuln-detail/SNWLID-2021-0032](https://psirt.global.sonicwall.com/vuln-detail/SNWLID-2021-0032) |
+
+
+## Sources
+| Date | Attribution | Description |
+| --- | --- | --- |
+| 2021-12-12 13:47:19 | [NCSC-NL](https://github.com/NCSC-NL/log4shell/blob/main/software/README.md) | Updated community link source.  |

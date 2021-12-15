@@ -1,0 +1,20 @@
+---
+draft: 'false'
+name: Silver Peak Orchestrator
+title: HPE Silver Peak Orchestrator
+vendor: HPE
+---
+
+
+## Community Resources
+| Resource | Link |
+| --- | --- |
+| source | [https://www.arubanetworks.com/assets/alert/ARUBA-PSA-2021-019.txt](https://www.arubanetworks.com/assets/alert/ARUBA-PSA-2021-019.txt) |
+| ,  | [https://www.arubanetworks.com/assets/alert/ARUBA-PSA-2021-019.txt](https://www.arubanetworks.com/assets/alert/ARUBA-PSA-2021-019.txt) |
+| workaround | [https://www.arubanetworks.com/website/techdocs/sdwan/docs/advisories/media/security_advisory_notice_apache_log4j2_cve_2021_44228.pdf](https://www.arubanetworks.com/website/techdocs/sdwan/docs/advisories/media/security_advisory_notice_apache_log4j2_cve_2021_44228.pdf) |
+
+
+## Sources
+| Date | Attribution | Description |
+| --- | --- | --- |
+| 2021-12-14 18:04:16 | [NCSC-NL](https://github.com/NCSC-NL/log4shell/blob/main/software/README.md) | Updated community link source. Updated community link , . Updated community link workaround.  |
