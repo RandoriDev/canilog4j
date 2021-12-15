@@ -14,6 +14,7 @@ communityLog4jOptional: YES
 communityLog4jDefault: NO
 communityVulnerable: NO
 communityExploitable: NO
+communityNotVulnerable: NO
 date: 2021-12-13T22:46:04.087064
 draft: false
 ---

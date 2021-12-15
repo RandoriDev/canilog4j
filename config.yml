@@ -3,7 +3,7 @@ theme: index-theme
 title: Log4j Exploitability Index
 defaultContentLanguage: en
 hasCJKLanguage: true
-paginate: 7
+paginate: 100
 enableEmoji: true
 
 taxonomies:
