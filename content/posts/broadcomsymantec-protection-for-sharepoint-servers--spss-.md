@@ -22,4 +22,4 @@ vendorInvestigating: true
 | Date | Attribution | Description |
 | --- | --- | --- |
 | 2021-12-13 20:24:36 | [NCSC-NL](https://github.com/NCSC-NL/log4shell/blob/main/software/README.md) | Updated communityNotVulnerable. Updated community link source.  |
-| 2021-12-15 2:46:48 | [CISAGov](https://raw.githubusercontent.com/cisagov/log4j-affected-db/develop/README.md) | Updated vendorInvestigating. Updated vendor link Broadcom Support Portal.  |
+| 2021-12-15 20:24:47 | [CISAGov](https://raw.githubusercontent.com/cisagov/log4j-affected-db/develop/README.md) | Updated vendorInvestigating. Updated vendor link Broadcom Support Portal.  |

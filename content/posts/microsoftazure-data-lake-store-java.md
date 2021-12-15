@@ -16,4 +16,4 @@ vendor: Microsoft
 ## Sources
 | Date | Attribution | Description |
 | --- | --- | --- |
-| 2021-12-15 13:48:56 | [CISAGov](https://raw.githubusercontent.com/cisagov/log4j-affected-db/develop/README.md) | Updated communityVulnerable. Updated vendor link azure-data-lake-store-java/CHANGES.md at ed5d6304783286c3cfff0a1dee457a922e23ad48 · Azure/azure-data-lake-store-java · GitHub.  |
+| 2021-12-15 20:24:47 | [CISAGov](https://raw.githubusercontent.com/cisagov/log4j-affected-db/develop/README.md) | Updated communityVulnerable. Updated vendor link azure-data-lake-store-java/CHANGES.md at ed5d6304783286c3cfff0a1dee457a922e23ad48 · Azure/azure-data-lake-store-java · GitHub.  |

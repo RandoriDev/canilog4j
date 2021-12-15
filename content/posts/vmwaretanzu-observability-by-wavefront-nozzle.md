@@ -11,7 +11,6 @@ vendorPatchExists: true
 | Resource | Link |
 | --- | --- |
 | source | [https://kb.vmware.com/s/article/87068](https://kb.vmware.com/s/article/87068) |
-| ,  | [https://kb.vmware.com/s/article/87068](https://kb.vmware.com/s/article/87068) |
 | fix | [https://network.pivotal.io/products/wavefront-nozzle](https://network.pivotal.io/products/wavefront-nozzle) |
 
 ## Community Notes
@@ -22,4 +21,4 @@ vendorPatchExists: true
 ## Sources
 | Date | Attribution | Description |
 | --- | --- | --- |
-| 2021-12-14 21:41:28 | [NCSC-NL](https://github.com/NCSC-NL/log4shell/blob/main/software/README.md) | Updated vendorPatchExists. Updated community link source. Updated community link , . Updated community link fix. Updated community note.  |
+| 2021-12-14 21:41:28 | [NCSC-NL](https://github.com/NCSC-NL/log4shell/blob/main/software/README.md) | Updated vendorPatchExists. Updated community link source. Updated community link fix. Updated community note.  |
