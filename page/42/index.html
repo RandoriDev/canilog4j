@@ -1,0 +1,4935 @@
+<!doctype html><html lang=en>
+<head>
+<title>
+Log4j Exploitability Index</title>
+<meta charset=utf-8>
+<meta http-equiv=x-ua-compatible content="IE=edge,chrome=1">
+<meta name=viewport content="width=device-width,initial-scale=1,maximum-scale=1,minimum-scale=1,user-scalable=no,minimal-ui">
+<meta name=renderer content="webkit">
+<meta http-equiv=cache-control content="no-transform">
+<meta http-equiv=cache-control content="no-siteapp">
+<meta name=apple-mobile-web-app-capable content="yes">
+<meta name=apple-mobile-web-app-status-bar-style content="black">
+<meta name=format-detection content="telephone=no,email=no,adress=no">
+<meta name=theme-color content="#000000">
+<meta http-equiv=window-target content="_top">
+<meta name=generator content="Hugo 0.90.1 with theme pure">
+<title>Log4j Exploitability Index</title>
+<link rel=alternate type=application/rss+xml href=https://canilog4j.com/index.xml title="Log4j Exploitability Index">
+<link rel=stylesheet href=https://canilog4j.com/css/style.min.101cddd5973823bc729d02c440935ba297cdfa0a8a6c02bfaaf0f6c6056fb009.css>
+<link rel=stylesheet href=https://cdn.staticfile.org/highlight.js/9.15.10/styles/github.min.css async>
+<link rel=stylesheet href=https://cdnjs.cloudflare.com/ajax/libs/tocbot/4.4.2/tocbot.css async>
+<meta property="og:title" content="Log4j Exploitability Index">
+<meta property="og:description" content>
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://canilog4j.com/">
+<meta itemprop=name content="Log4j Exploitability Index">
+<meta itemprop=description content><meta name=twitter:card content="summary">
+<meta name=twitter:title content="Log4j Exploitability Index">
+<meta name=twitter:description content><!--[if lte IE 9]><script src=https://cdnjs.cloudflare.com/ajax/libs/classlist/1.1.20170427/classList.min.js></script><![endif]--><!--[if lt IE 9]><script src=https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv.min.js></script>
+<script src=https://cdn.jsdelivr.net/npm/respond.js@1.4.2/dest/respond.min.js></script><![endif]-->
+</head>
+<body class="main-center main-center main-center main-center main-center main-center main-center main-center main-center main-center main-center main-center main-center main-center main-center main-center main-center main-center main-center main-center main-center main-center main-center main-center main-center main-center main-center main-center main-center main-center main-center main-center main-center main-center main-center main-center main-center main-center main-center main-center main-center main-center" itemscope itemtype=http://schema.org/WebPage><header class=header itemscope itemtype=http://schema.org/WPHeader>
+<h1 class=site-title>
+<a href=/>
+<span class=h1-bold>LOG4J</span> Exploitability Index
+</a>
+</h1>
+<p class=site-subhead>
+a consolidated collection of information and resources for defenders
+</p>
+<div class=slimContent>
+<div class=navbar-header><div class=search id=search-form-wrap>
+<form class="search-form sidebar-form">
+<div class=input-group>
+<input type=text class="search-form-input form-control" placeholder=Search>
+<span class=input-group-btn>
+<button type=submit class="search-form-submit btn btn-flat" onclick=return!1><i class="icon icon-search"></i></button>
+</span>
+</div>
+<div class=ins-search>
+<div class=ins-search-mask></div>
+<div class=ins-search-container>
+<div class=ins-input-wrapper>
+<input type=text class=ins-search-input placeholder="Type something..." x-webkit-speech>
+<button type=button class="close ins-close ins-selectable" data-dismiss=modal aria-label=Close><span aria-hidden=true>×</span></button>
+</div>
+<div class=ins-section-wrapper>
+<div class=ins-section-container></div>
+</div>
+</div>
+</div>
+</form>
+</div>
+</div>
+</div>
+<div class=sponsors>
+<h2 class=sponsors-title>Sponsored by</h2>
+<ul class=sponsors-list>
+<li>
+<a href=https://randori.com target=_blank>
+<img src=https://www.randori.com/wp-content/uploads/2021/08/cropped-logo_a2181bf2.png>
+</a>
+</li>
+</ul>
+</div>
+</header>
+<main class=main role=main>
+<div class="content article-list">
+<article class="article article-type-page" itemscope itemtype=http://schema.org/BlogPosting>
+<div class=article-container>
+<div>
+<div class=article-header>
+<table border=0 width=100%><tr><td>
+<h1 class=article-title>
+<a href=/posts/vmwarevmware-tanzu-gemfire/>VMware VMware Tanzu GemFire</a>
+</h1>
+</td><td>
+<table class=title-version-info border=0>
+</table>
+</td></tr></table><br>
+<div class=title-data><b>Vendor Data</b>
+</div>
+<div class=title-data-divider></div>
+<div class=title-data><b>Community Data</b>
+<span class=tag>
+<img src="/images/Icon - Vulnerable - Confirmed.png">
+Vulnerable</span>
+</div>
+</div>
+</div>
+<div class=hidem id=0_hidden>
+<div class="article-entry text-muted" itemprop=description>
+<h2 id=vendor-resources>Vendor Resources</h2>
+<table>
+<thead>
+<tr>
+<th>Resource</th>
+<th>Link</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>VMSA-2021-0028.1 (vmware.com)</td>
+<td><a href=https://www.vmware.com/security/advisories/VMSA-2021-0028.html>https://www.vmware.com/security/advisories/VMSA-2021-0028.html</a></td>
+</tr>
+</tbody>
+</table>
+<h2 id=community-notes>Community Notes</h2>
+<table>
+<thead>
+<tr>
+<th>Source</th>
+<th>Note</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href=https://raw.githubusercontent.com/cisagov/log4j-affected-db/develop/README.md>CISAGov</a></td>
+<td>Last Update: 12/12/2021</td>
+</tr>
+</tbody>
+</table>
+<h2 id=sources>Sources</h2>
+<table>
+<thead>
+<tr>
+<th>Date</th>
+<th>Attribution</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2021-12-15 13:48:56</td>
+<td><a href=https://raw.githubusercontent.com/cisagov/log4j-affected-db/develop/README.md>CISAGov</a></td>
+<td>Updated communityVulnerable. Updated vendor link VMSA-2021-0028.1 (vmware.com). Updated community note.</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<div class=post-expand-collapse>
+<div onclick="onClickExpand('0')" id=0_expander>
+Expand Details
+</div>
+</div>
+</article>
+<article class="article article-type-page" itemscope itemtype=http://schema.org/BlogPosting>
+<div class=article-container>
+<div>
+<div class=article-header>
+<table border=0 width=100%><tr><td>
+<h1 class=article-title>
+<a href=/posts/vmwarevmware-tanzu-greenplum/>VMware VMware Tanzu Greenplum</a>
+</h1>
+</td><td>
+<table class=title-version-info border=0>
+</table>
+</td></tr></table><br>
+<div class=title-data><b>Vendor Data</b>
+</div>
+<div class=title-data-divider></div>
+<div class=title-data><b>Community Data</b>
+<span class=tag>
+<img src="/images/Icon - Vulnerable - Confirmed.png">
+Vulnerable</span>
+</div>
+</div>
+</div>
+<div class=hidem id=1_hidden>
+<div class="article-entry text-muted" itemprop=description>
+<h2 id=vendor-resources>Vendor Resources</h2>
+<table>
+<thead>
+<tr>
+<th>Resource</th>
+<th>Link</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>VMSA-2021-0028.1 (vmware.com)</td>
+<td><a href=https://www.vmware.com/security/advisories/VMSA-2021-0028.html>https://www.vmware.com/security/advisories/VMSA-2021-0028.html</a></td>
+</tr>
+</tbody>
+</table>
+<h2 id=community-notes>Community Notes</h2>
+<table>
+<thead>
+<tr>
+<th>Source</th>
+<th>Note</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href=https://raw.githubusercontent.com/cisagov/log4j-affected-db/develop/README.md>CISAGov</a></td>
+<td>Last Update: 12/12/2021</td>
+</tr>
+</tbody>
+</table>
+<h2 id=sources>Sources</h2>
+<table>
+<thead>
+<tr>
+<th>Date</th>
+<th>Attribution</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2021-12-15 13:48:56</td>
+<td><a href=https://raw.githubusercontent.com/cisagov/log4j-affected-db/develop/README.md>CISAGov</a></td>
+<td>Updated communityVulnerable. Updated vendor link VMSA-2021-0028.1 (vmware.com). Updated community note.</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<div class=post-expand-collapse>
+<div onclick="onClickExpand('1')" id=1_expander>
+Expand Details
+</div>
+</div>
+</article>
+<article class="article article-type-page" itemscope itemtype=http://schema.org/BlogPosting>
+<div class=article-container>
+<div>
+<div class=article-header>
+<table border=0 width=100%><tr><td>
+<h1 class=article-title>
+<a href=/posts/vmwarevmware-tanzu-kubernetes-grid-integrated-edition/>VMware VMware Tanzu Kubernetes Grid Integrated Edition</a>
+</h1>
+</td><td>
+<table class=title-version-info border=0>
+</table>
+</td></tr></table><br>
+<div class=title-data><b>Vendor Data</b>
+</div>
+<div class=title-data-divider></div>
+<div class=title-data><b>Community Data</b>
+<span class=tag>
+<img src="/images/Icon - Vulnerable - Confirmed.png">
+Vulnerable</span>
+</div>
+</div>
+</div>
+<div class=hidem id=2_hidden>
+<div class="article-entry text-muted" itemprop=description>
+<h2 id=vendor-resources>Vendor Resources</h2>
+<table>
+<thead>
+<tr>
+<th>Resource</th>
+<th>Link</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>VMSA-2021-0028.1 (vmware.com)</td>
+<td><a href=https://www.vmware.com/security/advisories/VMSA-2021-0028.html>https://www.vmware.com/security/advisories/VMSA-2021-0028.html</a></td>
+</tr>
+</tbody>
+</table>
+<h2 id=community-notes>Community Notes</h2>
+<table>
+<thead>
+<tr>
+<th>Source</th>
+<th>Note</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href=https://raw.githubusercontent.com/cisagov/log4j-affected-db/develop/README.md>CISAGov</a></td>
+<td>Last Update: 12/12/2021</td>
+</tr>
+</tbody>
+</table>
+<h2 id=sources>Sources</h2>
+<table>
+<thead>
+<tr>
+<th>Date</th>
+<th>Attribution</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2021-12-15 13:48:56</td>
+<td><a href=https://raw.githubusercontent.com/cisagov/log4j-affected-db/develop/README.md>CISAGov</a></td>
+<td>Updated communityVulnerable. Updated vendor link VMSA-2021-0028.1 (vmware.com). Updated community note.</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<div class=post-expand-collapse>
+<div onclick="onClickExpand('2')" id=2_expander>
+Expand Details
+</div>
+</div>
+</article>
+<article class="article article-type-page" itemscope itemtype=http://schema.org/BlogPosting>
+<div class=article-container>
+<div>
+<div class=article-header>
+<table border=0 width=100%><tr><td>
+<h1 class=article-title>
+<a href=/posts/vmwarevmware-tanzu-observability-by-wavefront-nozzle/>VMware VMware Tanzu Observability by Wavefront Nozzle</a>
+</h1>
+</td><td>
+<table class=title-version-info border=0>
+</table>
+</td></tr></table><br>
+<div class=title-data><b>Vendor Data</b>
+<span class=tag>
+<img src="/images/Icon - Vendor Patch Exists.png">
+Vendor Patch Exists</span>
+</div>
+<div class=title-data-divider></div>
+<div class=title-data><b>Community Data</b>
+<span class=tag>
+<img src="/images/Icon - Vulnerable - Confirmed.png">
+Vulnerable</span>
+</div>
+</div>
+</div>
+<div class=hidem id=3_hidden>
+<div class="article-entry text-muted" itemprop=description>
+<h2 id=vendor-resources>Vendor Resources</h2>
+<table>
+<thead>
+<tr>
+<th>Resource</th>
+<th>Link</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>VMSA-2021-0028.1 (vmware.com)</td>
+<td><a href=https://www.vmware.com/security/advisories/VMSA-2021-0028.html>https://www.vmware.com/security/advisories/VMSA-2021-0028.html</a></td>
+</tr>
+</tbody>
+</table>
+<h2 id=community-notes>Community Notes</h2>
+<table>
+<thead>
+<tr>
+<th>Source</th>
+<th>Note</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href=https://raw.githubusercontent.com/cisagov/log4j-affected-db/develop/README.md>CISAGov</a></td>
+<td>Last Update: 12/12/2021</td>
+</tr>
+</tbody>
+</table>
+<h2 id=sources>Sources</h2>
+<table>
+<thead>
+<tr>
+<th>Date</th>
+<th>Attribution</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2021-12-15 13:48:56</td>
+<td><a href=https://raw.githubusercontent.com/cisagov/log4j-affected-db/develop/README.md>CISAGov</a></td>
+<td>Updated communityVulnerable. Updated vendorPatchExists. Updated vendor link VMSA-2021-0028.1 (vmware.com). Updated community note.</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<div class=post-expand-collapse>
+<div onclick="onClickExpand('3')" id=3_expander>
+Expand Details
+</div>
+</div>
+</article>
+<article class="article article-type-page" itemscope itemtype=http://schema.org/BlogPosting>
+<div class=article-container>
+<div>
+<div class=article-header>
+<table border=0 width=100%><tr><td>
+<h1 class=article-title>
+<a href=/posts/vmwarevmware-tanzu-operations-manager/>VMware VMware Tanzu Operations Manager</a>
+</h1>
+</td><td>
+<table class=title-version-info border=0>
+</table>
+</td></tr></table><br>
+<div class=title-data><b>Vendor Data</b>
+<span class=tag>
+<img src="/images/Icon - Vendor Patch Exists.png">
+Vendor Patch Exists</span>
+</div>
+<div class=title-data-divider></div>
+<div class=title-data><b>Community Data</b>
+<span class=tag>
+<img src="/images/Icon - Vulnerable - Confirmed.png">
+Vulnerable</span>
+</div>
+</div>
+</div>
+<div class=hidem id=4_hidden>
+<div class="article-entry text-muted" itemprop=description>
+<h2 id=vendor-resources>Vendor Resources</h2>
+<table>
+<thead>
+<tr>
+<th>Resource</th>
+<th>Link</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>VMSA-2021-0028.1 (vmware.com)</td>
+<td><a href=https://www.vmware.com/security/advisories/VMSA-2021-0028.html>https://www.vmware.com/security/advisories/VMSA-2021-0028.html</a></td>
+</tr>
+</tbody>
+</table>
+<h2 id=community-notes>Community Notes</h2>
+<table>
+<thead>
+<tr>
+<th>Source</th>
+<th>Note</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href=https://raw.githubusercontent.com/cisagov/log4j-affected-db/develop/README.md>CISAGov</a></td>
+<td>Last Update: 12/12/2021</td>
+</tr>
+</tbody>
+</table>
+<h2 id=sources>Sources</h2>
+<table>
+<thead>
+<tr>
+<th>Date</th>
+<th>Attribution</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2021-12-15 13:48:56</td>
+<td><a href=https://raw.githubusercontent.com/cisagov/log4j-affected-db/develop/README.md>CISAGov</a></td>
+<td>Updated communityVulnerable. Updated vendorPatchExists. Updated vendor link VMSA-2021-0028.1 (vmware.com). Updated community note.</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<div class=post-expand-collapse>
+<div onclick="onClickExpand('4')" id=4_expander>
+Expand Details
+</div>
+</div>
+</article>
+<article class="article article-type-page" itemscope itemtype=http://schema.org/BlogPosting>
+<div class=article-container>
+<div>
+<div class=article-header>
+<table border=0 width=100%><tr><td>
+<h1 class=article-title>
+<a href=/posts/vmwarevmware-tanzu-sql-with-mysql-for-vms/>VMware VMware Tanzu SQL with MySQL for VMs</a>
+</h1>
+</td><td>
+<table class=title-version-info border=0>
+</table>
+</td></tr></table><br>
+<div class=title-data><b>Vendor Data</b>
+</div>
+<div class=title-data-divider></div>
+<div class=title-data><b>Community Data</b>
+<span class=tag>
+<img src="/images/Icon - Vulnerable - Confirmed.png">
+Vulnerable</span>
+</div>
+</div>
+</div>
+<div class=hidem id=5_hidden>
+<div class="article-entry text-muted" itemprop=description>
+<h2 id=vendor-resources>Vendor Resources</h2>
+<table>
+<thead>
+<tr>
+<th>Resource</th>
+<th>Link</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>VMSA-2021-0028.1 (vmware.com)</td>
+<td><a href=https://www.vmware.com/security/advisories/VMSA-2021-0028.html>https://www.vmware.com/security/advisories/VMSA-2021-0028.html</a></td>
+</tr>
+</tbody>
+</table>
+<h2 id=community-notes>Community Notes</h2>
+<table>
+<thead>
+<tr>
+<th>Source</th>
+<th>Note</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href=https://raw.githubusercontent.com/cisagov/log4j-affected-db/develop/README.md>CISAGov</a></td>
+<td>Last Update: 12/12/2021</td>
+</tr>
+</tbody>
+</table>
+<h2 id=sources>Sources</h2>
+<table>
+<thead>
+<tr>
+<th>Date</th>
+<th>Attribution</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2021-12-15 13:48:56</td>
+<td><a href=https://raw.githubusercontent.com/cisagov/log4j-affected-db/develop/README.md>CISAGov</a></td>
+<td>Updated communityVulnerable. Updated vendor link VMSA-2021-0028.1 (vmware.com). Updated community note.</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<div class=post-expand-collapse>
+<div onclick="onClickExpand('5')" id=5_expander>
+Expand Details
+</div>
+</div>
+</article>
+<article class="article article-type-page" itemscope itemtype=http://schema.org/BlogPosting>
+<div class=article-container>
+<div>
+<div class=article-header>
+<table border=0 width=100%><tr><td>
+<h1 class=article-title>
+<a href=/posts/vmwarevmware-telco-cloud-automation/>VMware VMware Telco Cloud Automation</a>
+</h1>
+</td><td>
+<table class=title-version-info border=0>
+</table>
+</td></tr></table><br>
+<div class=title-data><b>Vendor Data</b>
+</div>
+<div class=title-data-divider></div>
+<div class=title-data><b>Community Data</b>
+<span class=tag>
+<img src="/images/Icon - Vulnerable - Confirmed.png">
+Vulnerable</span>
+</div>
+</div>
+</div>
+<div class=hidem id=6_hidden>
+<div class="article-entry text-muted" itemprop=description>
+<h2 id=vendor-resources>Vendor Resources</h2>
+<table>
+<thead>
+<tr>
+<th>Resource</th>
+<th>Link</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>VMSA-2021-0028.1 (vmware.com)</td>
+<td><a href=https://www.vmware.com/security/advisories/VMSA-2021-0028.html>https://www.vmware.com/security/advisories/VMSA-2021-0028.html</a></td>
+</tr>
+</tbody>
+</table>
+<h2 id=community-notes>Community Notes</h2>
+<table>
+<thead>
+<tr>
+<th>Source</th>
+<th>Note</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href=https://raw.githubusercontent.com/cisagov/log4j-affected-db/develop/README.md>CISAGov</a></td>
+<td>Last Update: 12/12/2021</td>
+</tr>
+</tbody>
+</table>
+<h2 id=sources>Sources</h2>
+<table>
+<thead>
+<tr>
+<th>Date</th>
+<th>Attribution</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2021-12-15 13:48:56</td>
+<td><a href=https://raw.githubusercontent.com/cisagov/log4j-affected-db/develop/README.md>CISAGov</a></td>
+<td>Updated communityVulnerable. Updated vendor link VMSA-2021-0028.1 (vmware.com). Updated community note.</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<div class=post-expand-collapse>
+<div onclick="onClickExpand('6')" id=6_expander>
+Expand Details
+</div>
+</div>
+</article>
+<article class="article article-type-page" itemscope itemtype=http://schema.org/BlogPosting>
+<div class=article-container>
+<div>
+<div class=article-header>
+<table border=0 width=100%><tr><td>
+<h1 class=article-title>
+<a href=/posts/vmwarevmware-unified-access-gateway/>VMware VMware Unified Access Gateway</a>
+</h1>
+</td><td>
+<table class=title-version-info border=0>
+</table>
+</td></tr></table><br>
+<div class=title-data><b>Vendor Data</b>
+</div>
+<div class=title-data-divider></div>
+<div class=title-data><b>Community Data</b>
+<span class=tag>
+<img src="/images/Icon - Vulnerable - Confirmed.png">
+Vulnerable</span>
+</div>
+</div>
+</div>
+<div class=hidem id=7_hidden>
+<div class="article-entry text-muted" itemprop=description>
+<h2 id=vendor-resources>Vendor Resources</h2>
+<table>
+<thead>
+<tr>
+<th>Resource</th>
+<th>Link</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>VMSA-2021-0028.1 (vmware.com)</td>
+<td><a href=https://www.vmware.com/security/advisories/VMSA-2021-0028.html>https://www.vmware.com/security/advisories/VMSA-2021-0028.html</a></td>
+</tr>
+</tbody>
+</table>
+<h2 id=community-notes>Community Notes</h2>
+<table>
+<thead>
+<tr>
+<th>Source</th>
+<th>Note</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href=https://raw.githubusercontent.com/cisagov/log4j-affected-db/develop/README.md>CISAGov</a></td>
+<td>Last Update: 12/12/2021</td>
+</tr>
+</tbody>
+</table>
+<h2 id=sources>Sources</h2>
+<table>
+<thead>
+<tr>
+<th>Date</th>
+<th>Attribution</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2021-12-15 13:48:56</td>
+<td><a href=https://raw.githubusercontent.com/cisagov/log4j-affected-db/develop/README.md>CISAGov</a></td>
+<td>Updated communityVulnerable. Updated vendor link VMSA-2021-0028.1 (vmware.com). Updated community note.</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<div class=post-expand-collapse>
+<div onclick="onClickExpand('7')" id=7_expander>
+Expand Details
+</div>
+</div>
+</article>
+<article class="article article-type-page" itemscope itemtype=http://schema.org/BlogPosting>
+<div class=article-container>
+<div>
+<div class=article-header>
+<table border=0 width=100%><tr><td>
+<h1 class=article-title>
+<a href=/posts/vmwarevmware-vcenter-cloud-gateway/>VMware VMware vCenter Cloud Gateway</a>
+</h1>
+</td><td>
+<table class=title-version-info border=0>
+</table>
+</td></tr></table><br>
+<div class=title-data><b>Vendor Data</b>
+</div>
+<div class=title-data-divider></div>
+<div class=title-data><b>Community Data</b>
+<span class=tag>
+<img src="/images/Icon - Vulnerable - Confirmed.png">
+Vulnerable</span>
+</div>
+</div>
+</div>
+<div class=hidem id=8_hidden>
+<div class="article-entry text-muted" itemprop=description>
+<h2 id=vendor-resources>Vendor Resources</h2>
+<table>
+<thead>
+<tr>
+<th>Resource</th>
+<th>Link</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>VMSA-2021-0028.1 (vmware.com)</td>
+<td><a href=https://www.vmware.com/security/advisories/VMSA-2021-0028.html>https://www.vmware.com/security/advisories/VMSA-2021-0028.html</a></td>
+</tr>
+</tbody>
+</table>
+<h2 id=community-notes>Community Notes</h2>
+<table>
+<thead>
+<tr>
+<th>Source</th>
+<th>Note</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href=https://raw.githubusercontent.com/cisagov/log4j-affected-db/develop/README.md>CISAGov</a></td>
+<td>Last Update: 12/12/2021</td>
+</tr>
+</tbody>
+</table>
+<h2 id=sources>Sources</h2>
+<table>
+<thead>
+<tr>
+<th>Date</th>
+<th>Attribution</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2021-12-15 13:48:56</td>
+<td><a href=https://raw.githubusercontent.com/cisagov/log4j-affected-db/develop/README.md>CISAGov</a></td>
+<td>Updated communityVulnerable. Updated vendor link VMSA-2021-0028.1 (vmware.com). Updated community note.</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<div class=post-expand-collapse>
+<div onclick="onClickExpand('8')" id=8_expander>
+Expand Details
+</div>
+</div>
+</article>
+<article class="article article-type-page" itemscope itemtype=http://schema.org/BlogPosting>
+<div class=article-container>
+<div>
+<div class=article-header>
+<table border=0 width=100%><tr><td>
+<h1 class=article-title>
+<a href=/posts/vmwarevmware-vcenter-server/>VMware VMware vCenter Server</a>
+</h1>
+</td><td>
+<table class=title-version-info border=0>
+</table>
+</td></tr></table><br>
+<div class=title-data><b>Vendor Data</b>
+</div>
+<div class=title-data-divider></div>
+<div class=title-data><b>Community Data</b>
+<span class=tag>
+<img src="/images/Icon - Vulnerable - Confirmed.png">
+Vulnerable</span>
+</div>
+</div>
+</div>
+<div class=hidem id=9_hidden>
+<div class="article-entry text-muted" itemprop=description>
+<h2 id=vendor-resources>Vendor Resources</h2>
+<table>
+<thead>
+<tr>
+<th>Resource</th>
+<th>Link</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>VMSA-2021-0028.1 (vmware.com)</td>
+<td><a href=https://www.vmware.com/security/advisories/VMSA-2021-0028.html>https://www.vmware.com/security/advisories/VMSA-2021-0028.html</a></td>
+</tr>
+</tbody>
+</table>
+<h2 id=community-notes>Community Notes</h2>
+<table>
+<thead>
+<tr>
+<th>Source</th>
+<th>Note</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href=https://raw.githubusercontent.com/cisagov/log4j-affected-db/develop/README.md>CISAGov</a></td>
+<td>Last Update: 12/12/2021</td>
+</tr>
+</tbody>
+</table>
+<h2 id=sources>Sources</h2>
+<table>
+<thead>
+<tr>
+<th>Date</th>
+<th>Attribution</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2021-12-15 13:48:56</td>
+<td><a href=https://raw.githubusercontent.com/cisagov/log4j-affected-db/develop/README.md>CISAGov</a></td>
+<td>Updated communityVulnerable. Updated vendor link VMSA-2021-0028.1 (vmware.com). Updated community note.</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<div class=post-expand-collapse>
+<div onclick="onClickExpand('9')" id=9_expander>
+Expand Details
+</div>
+</div>
+</article>
+<article class="article article-type-page" itemscope itemtype=http://schema.org/BlogPosting>
+<div class=article-container>
+<div>
+<div class=article-header>
+<table border=0 width=100%><tr><td>
+<h1 class=article-title>
+<a href=/posts/vmwarevmware-vrealize-automation/>VMware VMware vRealize Automation</a>
+</h1>
+</td><td>
+<table class=title-version-info border=0>
+</table>
+</td></tr></table><br>
+<div class=title-data><b>Vendor Data</b>
+</div>
+<div class=title-data-divider></div>
+<div class=title-data><b>Community Data</b>
+<span class=tag>
+<img src="/images/Icon - Vulnerable - Confirmed.png">
+Vulnerable</span>
+</div>
+</div>
+</div>
+<div class=hidem id=10_hidden>
+<div class="article-entry text-muted" itemprop=description>
+<h2 id=vendor-resources>Vendor Resources</h2>
+<table>
+<thead>
+<tr>
+<th>Resource</th>
+<th>Link</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>VMSA-2021-0028.1 (vmware.com)</td>
+<td><a href=https://www.vmware.com/security/advisories/VMSA-2021-0028.html>https://www.vmware.com/security/advisories/VMSA-2021-0028.html</a></td>
+</tr>
+</tbody>
+</table>
+<h2 id=community-notes>Community Notes</h2>
+<table>
+<thead>
+<tr>
+<th>Source</th>
+<th>Note</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href=https://raw.githubusercontent.com/cisagov/log4j-affected-db/develop/README.md>CISAGov</a></td>
+<td>Last Update: 12/12/2021</td>
+</tr>
+</tbody>
+</table>
+<h2 id=sources>Sources</h2>
+<table>
+<thead>
+<tr>
+<th>Date</th>
+<th>Attribution</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2021-12-15 13:48:56</td>
+<td><a href=https://raw.githubusercontent.com/cisagov/log4j-affected-db/develop/README.md>CISAGov</a></td>
+<td>Updated communityVulnerable. Updated vendor link VMSA-2021-0028.1 (vmware.com). Updated community note.</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<div class=post-expand-collapse>
+<div onclick="onClickExpand('10')" id=10_expander>
+Expand Details
+</div>
+</div>
+</article>
+<article class="article article-type-page" itemscope itemtype=http://schema.org/BlogPosting>
+<div class=article-container>
+<div>
+<div class=article-header>
+<table border=0 width=100%><tr><td>
+<h1 class=article-title>
+<a href=/posts/vmwarevmware-vrealize-lifecycle-manager/>VMware VMware vRealize Lifecycle Manager</a>
+</h1>
+</td><td>
+<table class=title-version-info border=0>
+</table>
+</td></tr></table><br>
+<div class=title-data><b>Vendor Data</b>
+</div>
+<div class=title-data-divider></div>
+<div class=title-data><b>Community Data</b>
+<span class=tag>
+<img src="/images/Icon - Vulnerable - Confirmed.png">
+Vulnerable</span>
+</div>
+</div>
+</div>
+<div class=hidem id=11_hidden>
+<div class="article-entry text-muted" itemprop=description>
+<h2 id=vendor-resources>Vendor Resources</h2>
+<table>
+<thead>
+<tr>
+<th>Resource</th>
+<th>Link</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>VMSA-2021-0028.1 (vmware.com)</td>
+<td><a href=https://www.vmware.com/security/advisories/VMSA-2021-0028.html>https://www.vmware.com/security/advisories/VMSA-2021-0028.html</a></td>
+</tr>
+</tbody>
+</table>
+<h2 id=community-notes>Community Notes</h2>
+<table>
+<thead>
+<tr>
+<th>Source</th>
+<th>Note</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href=https://raw.githubusercontent.com/cisagov/log4j-affected-db/develop/README.md>CISAGov</a></td>
+<td>Last Update: 12/12/2021</td>
+</tr>
+</tbody>
+</table>
+<h2 id=sources>Sources</h2>
+<table>
+<thead>
+<tr>
+<th>Date</th>
+<th>Attribution</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2021-12-15 13:48:56</td>
+<td><a href=https://raw.githubusercontent.com/cisagov/log4j-affected-db/develop/README.md>CISAGov</a></td>
+<td>Updated communityVulnerable. Updated vendor link VMSA-2021-0028.1 (vmware.com). Updated community note.</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<div class=post-expand-collapse>
+<div onclick="onClickExpand('11')" id=11_expander>
+Expand Details
+</div>
+</div>
+</article>
+<article class="article article-type-page" itemscope itemtype=http://schema.org/BlogPosting>
+<div class=article-container>
+<div>
+<div class=article-header>
+<table border=0 width=100%><tr><td>
+<h1 class=article-title>
+<a href=/posts/vmwarevmware-vrealize-log-insight/>VMware VMware vRealize Log Insight</a>
+</h1>
+</td><td>
+<table class=title-version-info border=0>
+</table>
+</td></tr></table><br>
+<div class=title-data><b>Vendor Data</b>
+</div>
+<div class=title-data-divider></div>
+<div class=title-data><b>Community Data</b>
+<span class=tag>
+<img src="/images/Icon - Vulnerable - Confirmed.png">
+Vulnerable</span>
+</div>
+</div>
+</div>
+<div class=hidem id=12_hidden>
+<div class="article-entry text-muted" itemprop=description>
+<h2 id=vendor-resources>Vendor Resources</h2>
+<table>
+<thead>
+<tr>
+<th>Resource</th>
+<th>Link</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>VMSA-2021-0028.1 (vmware.com)</td>
+<td><a href=https://www.vmware.com/security/advisories/VMSA-2021-0028.html>https://www.vmware.com/security/advisories/VMSA-2021-0028.html</a></td>
+</tr>
+</tbody>
+</table>
+<h2 id=community-notes>Community Notes</h2>
+<table>
+<thead>
+<tr>
+<th>Source</th>
+<th>Note</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href=https://raw.githubusercontent.com/cisagov/log4j-affected-db/develop/README.md>CISAGov</a></td>
+<td>Last Update: 12/12/2021</td>
+</tr>
+</tbody>
+</table>
+<h2 id=sources>Sources</h2>
+<table>
+<thead>
+<tr>
+<th>Date</th>
+<th>Attribution</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2021-12-15 13:48:56</td>
+<td><a href=https://raw.githubusercontent.com/cisagov/log4j-affected-db/develop/README.md>CISAGov</a></td>
+<td>Updated communityVulnerable. Updated vendor link VMSA-2021-0028.1 (vmware.com). Updated community note.</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<div class=post-expand-collapse>
+<div onclick="onClickExpand('12')" id=12_expander>
+Expand Details
+</div>
+</div>
+</article>
+<article class="article article-type-page" itemscope itemtype=http://schema.org/BlogPosting>
+<div class=article-container>
+<div>
+<div class=article-header>
+<table border=0 width=100%><tr><td>
+<h1 class=article-title>
+<a href=/posts/vmwarevmware-vrealize-operations/>VMware VMware vRealize Operations</a>
+</h1>
+</td><td>
+<table class=title-version-info border=0>
+</table>
+</td></tr></table><br>
+<div class=title-data><b>Vendor Data</b>
+</div>
+<div class=title-data-divider></div>
+<div class=title-data><b>Community Data</b>
+<span class=tag>
+<img src="/images/Icon - Vulnerable - Confirmed.png">
+Vulnerable</span>
+</div>
+</div>
+</div>
+<div class=hidem id=13_hidden>
+<div class="article-entry text-muted" itemprop=description>
+<h2 id=vendor-resources>Vendor Resources</h2>
+<table>
+<thead>
+<tr>
+<th>Resource</th>
+<th>Link</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>VMSA-2021-0028.1 (vmware.com)</td>
+<td><a href=https://www.vmware.com/security/advisories/VMSA-2021-0028.html>https://www.vmware.com/security/advisories/VMSA-2021-0028.html</a></td>
+</tr>
+</tbody>
+</table>
+<h2 id=community-notes>Community Notes</h2>
+<table>
+<thead>
+<tr>
+<th>Source</th>
+<th>Note</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href=https://raw.githubusercontent.com/cisagov/log4j-affected-db/develop/README.md>CISAGov</a></td>
+<td>Last Update: 12/12/2021</td>
+</tr>
+</tbody>
+</table>
+<h2 id=sources>Sources</h2>
+<table>
+<thead>
+<tr>
+<th>Date</th>
+<th>Attribution</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2021-12-15 13:48:56</td>
+<td><a href=https://raw.githubusercontent.com/cisagov/log4j-affected-db/develop/README.md>CISAGov</a></td>
+<td>Updated communityVulnerable. Updated vendor link VMSA-2021-0028.1 (vmware.com). Updated community note.</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<div class=post-expand-collapse>
+<div onclick="onClickExpand('13')" id=13_expander>
+Expand Details
+</div>
+</div>
+</article>
+<article class="article article-type-page" itemscope itemtype=http://schema.org/BlogPosting>
+<div class=article-container>
+<div>
+<div class=article-header>
+<table border=0 width=100%><tr><td>
+<h1 class=article-title>
+<a href=/posts/vmwarevmware-vrealize-operations-cloud-proxy/>VMware VMware vRealize Operations Cloud Proxy</a>
+</h1>
+</td><td>
+<table class=title-version-info border=0>
+</table>
+</td></tr></table><br>
+<div class=title-data><b>Vendor Data</b>
+</div>
+<div class=title-data-divider></div>
+<div class=title-data><b>Community Data</b>
+<span class=tag>
+<img src="/images/Icon - Vulnerable - Confirmed.png">
+Vulnerable</span>
+</div>
+</div>
+</div>
+<div class=hidem id=14_hidden>
+<div class="article-entry text-muted" itemprop=description>
+<h2 id=vendor-resources>Vendor Resources</h2>
+<table>
+<thead>
+<tr>
+<th>Resource</th>
+<th>Link</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>VMSA-2021-0028.1 (vmware.com)</td>
+<td><a href=https://www.vmware.com/security/advisories/VMSA-2021-0028.html>https://www.vmware.com/security/advisories/VMSA-2021-0028.html</a></td>
+</tr>
+</tbody>
+</table>
+<h2 id=community-notes>Community Notes</h2>
+<table>
+<thead>
+<tr>
+<th>Source</th>
+<th>Note</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href=https://raw.githubusercontent.com/cisagov/log4j-affected-db/develop/README.md>CISAGov</a></td>
+<td>Last Update: 12/12/2021</td>
+</tr>
+</tbody>
+</table>
+<h2 id=sources>Sources</h2>
+<table>
+<thead>
+<tr>
+<th>Date</th>
+<th>Attribution</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2021-12-15 13:48:56</td>
+<td><a href=https://raw.githubusercontent.com/cisagov/log4j-affected-db/develop/README.md>CISAGov</a></td>
+<td>Updated communityVulnerable. Updated vendor link VMSA-2021-0028.1 (vmware.com). Updated community note.</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<div class=post-expand-collapse>
+<div onclick="onClickExpand('14')" id=14_expander>
+Expand Details
+</div>
+</div>
+</article>
+<article class="article article-type-page" itemscope itemtype=http://schema.org/BlogPosting>
+<div class=article-container>
+<div>
+<div class=article-header>
+<table border=0 width=100%><tr><td>
+<h1 class=article-title>
+<a href=/posts/vmwarevmware-vrealize-orchestrator/>VMware VMware vRealize Orchestrator</a>
+</h1>
+</td><td>
+<table class=title-version-info border=0>
+</table>
+</td></tr></table><br>
+<div class=title-data><b>Vendor Data</b>
+</div>
+<div class=title-data-divider></div>
+<div class=title-data><b>Community Data</b>
+<span class=tag>
+<img src="/images/Icon - Vulnerable - Confirmed.png">
+Vulnerable</span>
+</div>
+</div>
+</div>
+<div class=hidem id=15_hidden>
+<div class="article-entry text-muted" itemprop=description>
+<h2 id=vendor-resources>Vendor Resources</h2>
+<table>
+<thead>
+<tr>
+<th>Resource</th>
+<th>Link</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>VMSA-2021-0028.1 (vmware.com)</td>
+<td><a href=https://www.vmware.com/security/advisories/VMSA-2021-0028.html>https://www.vmware.com/security/advisories/VMSA-2021-0028.html</a></td>
+</tr>
+</tbody>
+</table>
+<h2 id=community-notes>Community Notes</h2>
+<table>
+<thead>
+<tr>
+<th>Source</th>
+<th>Note</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href=https://raw.githubusercontent.com/cisagov/log4j-affected-db/develop/README.md>CISAGov</a></td>
+<td>Last Update: 12/12/2021</td>
+</tr>
+</tbody>
+</table>
+<h2 id=sources>Sources</h2>
+<table>
+<thead>
+<tr>
+<th>Date</th>
+<th>Attribution</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2021-12-15 13:48:56</td>
+<td><a href=https://raw.githubusercontent.com/cisagov/log4j-affected-db/develop/README.md>CISAGov</a></td>
+<td>Updated communityVulnerable. Updated vendor link VMSA-2021-0028.1 (vmware.com). Updated community note.</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<div class=post-expand-collapse>
+<div onclick="onClickExpand('15')" id=15_expander>
+Expand Details
+</div>
+</div>
+</article>
+<article class="article article-type-page" itemscope itemtype=http://schema.org/BlogPosting>
+<div class=article-container>
+<div>
+<div class=article-header>
+<table border=0 width=100%><tr><td>
+<h1 class=article-title>
+<a href=/posts/vmwarevmware-workspace-one-access/>VMware VMware Workspace ONE Access</a>
+</h1>
+</td><td>
+<table class=title-version-info border=0>
+</table>
+</td></tr></table><br>
+<div class=title-data><b>Vendor Data</b>
+</div>
+<div class=title-data-divider></div>
+<div class=title-data><b>Community Data</b>
+<span class=tag>
+<img src="/images/Icon - Vulnerable - Confirmed.png">
+Vulnerable</span>
+</div>
+</div>
+</div>
+<div class=hidem id=16_hidden>
+<div class="article-entry text-muted" itemprop=description>
+<h2 id=vendor-resources>Vendor Resources</h2>
+<table>
+<thead>
+<tr>
+<th>Resource</th>
+<th>Link</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>VMSA-2021-0028.1 (vmware.com)</td>
+<td><a href=https://www.vmware.com/security/advisories/VMSA-2021-0028.html>https://www.vmware.com/security/advisories/VMSA-2021-0028.html</a></td>
+</tr>
+</tbody>
+</table>
+<h2 id=community-notes>Community Notes</h2>
+<table>
+<thead>
+<tr>
+<th>Source</th>
+<th>Note</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href=https://raw.githubusercontent.com/cisagov/log4j-affected-db/develop/README.md>CISAGov</a></td>
+<td>Last Update: 12/12/2021</td>
+</tr>
+</tbody>
+</table>
+<h2 id=sources>Sources</h2>
+<table>
+<thead>
+<tr>
+<th>Date</th>
+<th>Attribution</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2021-12-15 13:48:56</td>
+<td><a href=https://raw.githubusercontent.com/cisagov/log4j-affected-db/develop/README.md>CISAGov</a></td>
+<td>Updated communityVulnerable. Updated vendor link VMSA-2021-0028.1 (vmware.com). Updated community note.</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<div class=post-expand-collapse>
+<div onclick="onClickExpand('16')" id=16_expander>
+Expand Details
+</div>
+</div>
+</article>
+<article class="article article-type-page" itemscope itemtype=http://schema.org/BlogPosting>
+<div class=article-container>
+<div>
+<div class=article-header>
+<table border=0 width=100%><tr><td>
+<h1 class=article-title>
+<a href=/posts/vmwarevmware-workspace-one-access-connector-vmware-identity-manager-connector-/>VMware VMware Workspace ONE Access Connector (VMware Identity Manager Connector)</a>
+</h1>
+</td><td>
+<table class=title-version-info border=0>
+</table>
+</td></tr></table><br>
+<div class=title-data><b>Vendor Data</b>
+</div>
+<div class=title-data-divider></div>
+<div class=title-data><b>Community Data</b>
+<span class=tag>
+<img src="/images/Icon - Vulnerable - Confirmed.png">
+Vulnerable</span>
+</div>
+</div>
+</div>
+<div class=hidem id=17_hidden>
+<div class="article-entry text-muted" itemprop=description>
+<h2 id=vendor-resources>Vendor Resources</h2>
+<table>
+<thead>
+<tr>
+<th>Resource</th>
+<th>Link</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>VMSA-2021-0028.1 (vmware.com)</td>
+<td><a href=https://www.vmware.com/security/advisories/VMSA-2021-0028.html>https://www.vmware.com/security/advisories/VMSA-2021-0028.html</a></td>
+</tr>
+</tbody>
+</table>
+<h2 id=community-notes>Community Notes</h2>
+<table>
+<thead>
+<tr>
+<th>Source</th>
+<th>Note</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href=https://raw.githubusercontent.com/cisagov/log4j-affected-db/develop/README.md>CISAGov</a></td>
+<td>Last Update: 12/12/2021</td>
+</tr>
+</tbody>
+</table>
+<h2 id=sources>Sources</h2>
+<table>
+<thead>
+<tr>
+<th>Date</th>
+<th>Attribution</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2021-12-15 13:48:56</td>
+<td><a href=https://raw.githubusercontent.com/cisagov/log4j-affected-db/develop/README.md>CISAGov</a></td>
+<td>Updated communityVulnerable. Updated vendor link VMSA-2021-0028.1 (vmware.com). Updated community note.</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<div class=post-expand-collapse>
+<div onclick="onClickExpand('17')" id=17_expander>
+Expand Details
+</div>
+</div>
+</article>
+<article class="article article-type-page" itemscope itemtype=http://schema.org/BlogPosting>
+<div class=article-container>
+<div>
+<div class=article-header>
+<table border=0 width=100%><tr><td>
+<h1 class=article-title>
+<a href=/posts/vmwarevrealize-automation/>VMware vRealize Automation</a>
+</h1>
+</td><td>
+<table class=title-version-info border=0>
+</table>
+</td></tr></table><br>
+<div class=title-data><b>Vendor Data</b>
+</div>
+<div class=title-data-divider></div>
+<div class=title-data><b>Community Data</b>
+<span class=tag>
+<img src="/images/Icon - Vulnerable - Confirmed.png">
+Vulnerable</span>
+</div>
+</div>
+</div>
+<div class=hidem id=18_hidden>
+<div class="article-entry text-muted" itemprop=description>
+<h2 id=community-resources>Community Resources</h2>
+<table>
+<thead>
+<tr>
+<th>Resource</th>
+<th>Link</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>source</td>
+<td><a href=https://www.vmware.com/security/advisories/VMSA-2021-0028.html>https://www.vmware.com/security/advisories/VMSA-2021-0028.html</a></td>
+</tr>
+</tbody>
+</table>
+<h2 id=sources>Sources</h2>
+<table>
+<thead>
+<tr>
+<th>Date</th>
+<th>Attribution</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2021-12-13 14:26:01</td>
+<td><a href=https://github.com/NCSC-NL/log4shell/blob/main/software/README.md>NCSC-NL</a></td>
+<td>Updated communityVulnerable. Updated community link source.</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<div class=post-expand-collapse>
+<div onclick="onClickExpand('18')" id=18_expander>
+Expand Details
+</div>
+</div>
+</article>
+<article class="article article-type-page" itemscope itemtype=http://schema.org/BlogPosting>
+<div class=article-container>
+<div>
+<div class=article-header>
+<table border=0 width=100%><tr><td>
+<h1 class=article-title>
+<a href=/posts/vmwarevrealize-lifecycle-manager/>VMware vRealize Lifecycle Manager</a>
+</h1>
+</td><td>
+<table class=title-version-info border=0>
+</table>
+</td></tr></table><br>
+<div class=title-data><b>Vendor Data</b>
+</div>
+<div class=title-data-divider></div>
+<div class=title-data><b>Community Data</b>
+</div>
+</div>
+</div>
+<div class=hidem id=19_hidden>
+<div class="article-entry text-muted" itemprop=description>
+<h2 id=community-resources>Community Resources</h2>
+<table>
+<thead>
+<tr>
+<th>Resource</th>
+<th>Link</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>source</td>
+<td><a href=https://www.vmware.com/security/advisories/VMSA-2021-0028.html>https://www.vmware.com/security/advisories/VMSA-2021-0028.html</a></td>
+</tr>
+<tr>
+<td>,</td>
+<td><a href=https://www.vmware.com/security/advisories/VMSA-2021-0028.html>https://www.vmware.com/security/advisories/VMSA-2021-0028.html</a></td>
+</tr>
+<tr>
+<td>workaround</td>
+<td><a href=https://kb.vmware.com/s/article/87097>https://kb.vmware.com/s/article/87097</a></td>
+</tr>
+</tbody>
+</table>
+<h2 id=sources>Sources</h2>
+<table>
+<thead>
+<tr>
+<th>Date</th>
+<th>Attribution</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2021-12-13 14:26:01</td>
+<td><a href=https://github.com/NCSC-NL/log4shell/blob/main/software/README.md>NCSC-NL</a></td>
+<td>Updated community link source. Updated community link , . Updated community link workaround.</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<div class=post-expand-collapse>
+<div onclick="onClickExpand('19')" id=19_expander>
+Expand Details
+</div>
+</div>
+</article>
+<article class="article article-type-page" itemscope itemtype=http://schema.org/BlogPosting>
+<div class=article-container>
+<div>
+<div class=article-header>
+<table border=0 width=100%><tr><td>
+<h1 class=article-title>
+<a href=/posts/vmwarevrealize-log-insight/>VMware vRealize Log Insight</a>
+</h1>
+</td><td>
+<table class=title-version-info border=0>
+</table>
+</td></tr></table><br>
+<div class=title-data><b>Vendor Data</b>
+</div>
+<div class=title-data-divider></div>
+<div class=title-data><b>Community Data</b>
+</div>
+</div>
+</div>
+<div class=hidem id=20_hidden>
+<div class="article-entry text-muted" itemprop=description>
+<h2 id=community-resources>Community Resources</h2>
+<table>
+<thead>
+<tr>
+<th>Resource</th>
+<th>Link</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>source</td>
+<td><a href=https://www.vmware.com/security/advisories/VMSA-2021-0028.html>https://www.vmware.com/security/advisories/VMSA-2021-0028.html</a></td>
+</tr>
+<tr>
+<td>,</td>
+<td><a href=https://www.vmware.com/security/advisories/VMSA-2021-0028.html>https://www.vmware.com/security/advisories/VMSA-2021-0028.html</a></td>
+</tr>
+<tr>
+<td>workaround</td>
+<td><a href=https://kb.vmware.com/s/article/87089>https://kb.vmware.com/s/article/87089</a></td>
+</tr>
+</tbody>
+</table>
+<h2 id=sources>Sources</h2>
+<table>
+<thead>
+<tr>
+<th>Date</th>
+<th>Attribution</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2021-12-13 14:26:01</td>
+<td><a href=https://github.com/NCSC-NL/log4shell/blob/main/software/README.md>NCSC-NL</a></td>
+<td>Updated community link source. Updated community link , . Updated community link workaround.</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<div class=post-expand-collapse>
+<div onclick="onClickExpand('20')" id=20_expander>
+Expand Details
+</div>
+</div>
+</article>
+<article class="article article-type-page" itemscope itemtype=http://schema.org/BlogPosting>
+<div class=article-container>
+<div>
+<div class=article-header>
+<table border=0 width=100%><tr><td>
+<h1 class=article-title>
+<a href=/posts/vmwarevrealize-operations/>VMware vRealize Operations</a>
+</h1>
+</td><td>
+<table class=title-version-info border=0>
+</table>
+</td></tr></table><br>
+<div class=title-data><b>Vendor Data</b>
+</div>
+<div class=title-data-divider></div>
+<div class=title-data><b>Community Data</b>
+</div>
+</div>
+</div>
+<div class=hidem id=21_hidden>
+<div class="article-entry text-muted" itemprop=description>
+<h2 id=community-resources>Community Resources</h2>
+<table>
+<thead>
+<tr>
+<th>Resource</th>
+<th>Link</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>source</td>
+<td><a href=https://www.vmware.com/security/advisories/VMSA-2021-0028.html>https://www.vmware.com/security/advisories/VMSA-2021-0028.html</a></td>
+</tr>
+<tr>
+<td>,</td>
+<td><a href=https://www.vmware.com/security/advisories/VMSA-2021-0028.html>https://www.vmware.com/security/advisories/VMSA-2021-0028.html</a></td>
+</tr>
+<tr>
+<td>workaround</td>
+<td><a href=https://kb.vmware.com/s/article/87076>https://kb.vmware.com/s/article/87076</a></td>
+</tr>
+</tbody>
+</table>
+<h2 id=sources>Sources</h2>
+<table>
+<thead>
+<tr>
+<th>Date</th>
+<th>Attribution</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2021-12-13 14:26:01</td>
+<td><a href=https://github.com/NCSC-NL/log4shell/blob/main/software/README.md>NCSC-NL</a></td>
+<td>Updated community link source. Updated community link , . Updated community link workaround.</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<div class=post-expand-collapse>
+<div onclick="onClickExpand('21')" id=21_expander>
+Expand Details
+</div>
+</div>
+</article>
+<article class="article article-type-page" itemscope itemtype=http://schema.org/BlogPosting>
+<div class=article-container>
+<div>
+<div class=article-header>
+<table border=0 width=100%><tr><td>
+<h1 class=article-title>
+<a href=/posts/vmwarevrealize-operations-cloud-proxy/>VMware vRealize Operations Cloud Proxy</a>
+</h1>
+</td><td>
+<table class=title-version-info border=0>
+</table>
+</td></tr></table><br>
+<div class=title-data><b>Vendor Data</b>
+</div>
+<div class=title-data-divider></div>
+<div class=title-data><b>Community Data</b>
+</div>
+</div>
+</div>
+<div class=hidem id=22_hidden>
+<div class="article-entry text-muted" itemprop=description>
+<h2 id=community-resources>Community Resources</h2>
+<table>
+<thead>
+<tr>
+<th>Resource</th>
+<th>Link</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>source</td>
+<td><a href=https://www.vmware.com/security/advisories/VMSA-2021-0028.html>https://www.vmware.com/security/advisories/VMSA-2021-0028.html</a></td>
+</tr>
+<tr>
+<td>,</td>
+<td><a href=https://www.vmware.com/security/advisories/VMSA-2021-0028.html>https://www.vmware.com/security/advisories/VMSA-2021-0028.html</a></td>
+</tr>
+<tr>
+<td>workaround</td>
+<td><a href=https://kb.vmware.com/s/article/87080>https://kb.vmware.com/s/article/87080</a></td>
+</tr>
+</tbody>
+</table>
+<h2 id=sources>Sources</h2>
+<table>
+<thead>
+<tr>
+<th>Date</th>
+<th>Attribution</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2021-12-13 14:26:01</td>
+<td><a href=https://github.com/NCSC-NL/log4shell/blob/main/software/README.md>NCSC-NL</a></td>
+<td>Updated community link source. Updated community link , . Updated community link workaround.</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<div class=post-expand-collapse>
+<div onclick="onClickExpand('22')" id=22_expander>
+Expand Details
+</div>
+</div>
+</article>
+<article class="article article-type-page" itemscope itemtype=http://schema.org/BlogPosting>
+<div class=article-container>
+<div>
+<div class=article-header>
+<table border=0 width=100%><tr><td>
+<h1 class=article-title>
+<a href=/posts/vmwarevrealize-orchestrator/>VMware vRealize Orchestrator</a>
+</h1>
+</td><td>
+<table class=title-version-info border=0>
+</table>
+</td></tr></table><br>
+<div class=title-data><b>Vendor Data</b>
+</div>
+<div class=title-data-divider></div>
+<div class=title-data><b>Community Data</b>
+<span class=tag>
+<img src="/images/Icon - Vulnerable - Confirmed.png">
+Vulnerable</span>
+</div>
+</div>
+</div>
+<div class=hidem id=23_hidden>
+<div class="article-entry text-muted" itemprop=description>
+<h2 id=community-resources>Community Resources</h2>
+<table>
+<thead>
+<tr>
+<th>Resource</th>
+<th>Link</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>source</td>
+<td><a href=https://kb.vmware.com/s/article/87068>https://kb.vmware.com/s/article/87068</a></td>
+</tr>
+</tbody>
+</table>
+<h2 id=sources>Sources</h2>
+<table>
+<thead>
+<tr>
+<th>Date</th>
+<th>Attribution</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2021-12-13 14:28:09</td>
+<td><a href=https://github.com/NCSC-NL/log4shell/blob/main/software/README.md>NCSC-NL</a></td>
+<td>Updated communityVulnerable. Updated community link source.</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<div class=post-expand-collapse>
+<div onclick="onClickExpand('23')" id=23_expander>
+Expand Details
+</div>
+</div>
+</article>
+<article class="article article-type-page" itemscope itemtype=http://schema.org/BlogPosting>
+<div class=article-container>
+<div>
+<div class=article-header>
+<table border=0 width=100%><tr><td>
+<h1 class=article-title>
+<a href=/posts/vmwarevsphere-esxi/>VMware vSphere ESXi</a>
+</h1>
+</td><td>
+<table class=title-version-info border=0>
+</table>
+</td></tr></table><br>
+<div class=title-data><b>Vendor Data</b>
+</div>
+<div class=title-data-divider></div>
+<div class=title-data><b>Community Data</b>
+</div>
+</div>
+</div>
+<div class=hidem id=24_hidden>
+<div class="article-entry text-muted" itemprop=description>
+<h2 id=community-resources>Community Resources</h2>
+<table>
+<thead>
+<tr>
+<th>Resource</th>
+<th>Link</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>source</td>
+<td><a href=https://kb.vmware.com/s/article/87068>https://kb.vmware.com/s/article/87068</a></td>
+</tr>
+</tbody>
+</table>
+<h2 id=sources>Sources</h2>
+<table>
+<thead>
+<tr>
+<th>Date</th>
+<th>Attribution</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2021-12-13 14:26:01</td>
+<td><a href=https://github.com/NCSC-NL/log4shell/blob/main/software/README.md>NCSC-NL</a></td>
+<td>Updated community link source.</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<div class=post-expand-collapse>
+<div onclick="onClickExpand('24')" id=24_expander>
+Expand Details
+</div>
+</div>
+</article>
+<article class="article article-type-page" itemscope itemtype=http://schema.org/BlogPosting>
+<div class=article-container>
+<div>
+<div class=article-header>
+<table border=0 width=100%><tr><td>
+<h1 class=article-title>
+<a href=/posts/vmwareworkspace-one-access/>VMware Workspace ONE Access</a>
+</h1>
+</td><td>
+<table class=title-version-info border=0>
+</table>
+</td></tr></table><br>
+<div class=title-data><b>Vendor Data</b>
+</div>
+<div class=title-data-divider></div>
+<div class=title-data><b>Community Data</b>
+</div>
+</div>
+</div>
+<div class=hidem id=25_hidden>
+<div class="article-entry text-muted" itemprop=description>
+<h2 id=community-resources>Community Resources</h2>
+<table>
+<thead>
+<tr>
+<th>Resource</th>
+<th>Link</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>source</td>
+<td><a href=https://www.vmware.com/security/advisories/VMSA-2021-0028.html>https://www.vmware.com/security/advisories/VMSA-2021-0028.html</a></td>
+</tr>
+<tr>
+<td>,</td>
+<td><a href=https://www.vmware.com/security/advisories/VMSA-2021-0028.html>https://www.vmware.com/security/advisories/VMSA-2021-0028.html</a></td>
+</tr>
+<tr>
+<td>workaround</td>
+<td><a href=https://kb.vmware.com/s/article/87090>https://kb.vmware.com/s/article/87090</a></td>
+</tr>
+</tbody>
+</table>
+<h2 id=sources>Sources</h2>
+<table>
+<thead>
+<tr>
+<th>Date</th>
+<th>Attribution</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2021-12-13 14:26:01</td>
+<td><a href=https://github.com/NCSC-NL/log4shell/blob/main/software/README.md>NCSC-NL</a></td>
+<td>Updated community link source. Updated community link , . Updated community link workaround.</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<div class=post-expand-collapse>
+<div onclick="onClickExpand('25')" id=25_expander>
+Expand Details
+</div>
+</div>
+</article>
+<article class="article article-type-page" itemscope itemtype=http://schema.org/BlogPosting>
+<div class=article-container>
+<div>
+<div class=article-header>
+<table border=0 width=100%><tr><td>
+<h1 class=article-title>
+<a href=/posts/vmwareworkspace-one-access-connector-vmware-identity-manager-connector-/>VMware Workspace ONE Access Connector (VMware Identity Manager Connector)</a>
+</h1>
+</td><td>
+<table class=title-version-info border=0>
+</table>
+</td></tr></table><br>
+<div class=title-data><b>Vendor Data</b>
+</div>
+<div class=title-data-divider></div>
+<div class=title-data><b>Community Data</b>
+</div>
+</div>
+</div>
+<div class=hidem id=26_hidden>
+<div class="article-entry text-muted" itemprop=description>
+<h2 id=community-resources>Community Resources</h2>
+<table>
+<thead>
+<tr>
+<th>Resource</th>
+<th>Link</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>source</td>
+<td><a href=https://kb.vmware.com/s/article/87068>https://kb.vmware.com/s/article/87068</a></td>
+</tr>
+<tr>
+<td>,</td>
+<td><a href=https://kb.vmware.com/s/article/87068>https://kb.vmware.com/s/article/87068</a></td>
+</tr>
+<tr>
+<td>workaround</td>
+<td><a href=https://kb.vmware.com/s/article/87091>https://kb.vmware.com/s/article/87091</a></td>
+</tr>
+</tbody>
+</table>
+<h2 id=sources>Sources</h2>
+<table>
+<thead>
+<tr>
+<th>Date</th>
+<th>Attribution</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2021-12-13 14:28:09</td>
+<td><a href=https://github.com/NCSC-NL/log4shell/blob/main/software/README.md>NCSC-NL</a></td>
+<td>Updated community link source. Updated community link , . Updated community link workaround.</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<div class=post-expand-collapse>
+<div onclick="onClickExpand('26')" id=26_expander>
+Expand Details
+</div>
+</div>
+</article>
+<article class="article article-type-page" itemscope itemtype=http://schema.org/BlogPosting>
+<div class=article-container>
+<div>
+<div class=article-header>
+<table border=0 width=100%><tr><td>
+<h1 class=article-title>
+<a href=/posts/watchguarddimension/>WatchGuard Dimension</a>
+</h1>
+</td><td>
+<table class=title-version-info border=0>
+</table>
+</td></tr></table><br>
+<div class=title-data><b>Vendor Data</b>
+</div>
+<div class=title-data-divider></div>
+<div class=title-data><b>Community Data</b>
+<span class=tag>
+<img src="/images/Icon - Not Vulnerable.png">
+Not Vulnerable</span>
+</div>
+</div>
+</div>
+<div class=hidem id=27_hidden>
+<div class="article-entry text-muted" itemprop=description>
+<h2 id=community-resources>Community Resources</h2>
+<table>
+<thead>
+<tr>
+<th>Resource</th>
+<th>Link</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>source</td>
+<td><a href=https://www.secplicity.org/2021/12/10/critical-rce-vulnerability-in-log4js/>https://www.secplicity.org/2021/12/10/critical-rce-vulnerability-in-log4js/</a></td>
+</tr>
+</tbody>
+</table>
+<h2 id=sources>Sources</h2>
+<table>
+<thead>
+<tr>
+<th>Date</th>
+<th>Attribution</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2021-12-14 12:29:24</td>
+<td><a href=https://github.com/NCSC-NL/log4shell/blob/main/software/README.md>NCSC-NL</a></td>
+<td>Updated communityNotVulnerable. Updated community link source.</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<div class=post-expand-collapse>
+<div onclick="onClickExpand('27')" id=27_expander>
+Expand Details
+</div>
+</div>
+</article>
+<article class="article article-type-page" itemscope itemtype=http://schema.org/BlogPosting>
+<div class=article-container>
+<div>
+<div class=article-header>
+<table border=0 width=100%><tr><td>
+<h1 class=article-title>
+<a href=/posts/watchguardfirebox/>WatchGuard Firebox</a>
+</h1>
+</td><td>
+<table class=title-version-info border=0>
+</table>
+</td></tr></table><br>
+<div class=title-data><b>Vendor Data</b>
+</div>
+<div class=title-data-divider></div>
+<div class=title-data><b>Community Data</b>
+<span class=tag>
+<img src="/images/Icon - Not Vulnerable.png">
+Not Vulnerable</span>
+</div>
+</div>
+</div>
+<div class=hidem id=28_hidden>
+<div class="article-entry text-muted" itemprop=description>
+<h2 id=community-resources>Community Resources</h2>
+<table>
+<thead>
+<tr>
+<th>Resource</th>
+<th>Link</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>source</td>
+<td><a href=https://www.secplicity.org/2021/12/10/critical-rce-vulnerability-in-log4js/>https://www.secplicity.org/2021/12/10/critical-rce-vulnerability-in-log4js/</a></td>
+</tr>
+</tbody>
+</table>
+<h2 id=sources>Sources</h2>
+<table>
+<thead>
+<tr>
+<th>Date</th>
+<th>Attribution</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2021-12-14 12:44:12</td>
+<td><a href=https://github.com/NCSC-NL/log4shell/blob/main/software/README.md>NCSC-NL</a></td>
+<td>Updated communityNotVulnerable. Updated community link source.</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<div class=post-expand-collapse>
+<div onclick="onClickExpand('28')" id=28_expander>
+Expand Details
+</div>
+</div>
+</article>
+<article class="article article-type-page" itemscope itemtype=http://schema.org/BlogPosting>
+<div class=article-container>
+<div>
+<div class=article-header>
+<table border=0 width=100%><tr><td>
+<h1 class=article-title>
+<a href=/posts/watchguardwatchguard-epdr-and-panda-ad360/>WatchGuard WatchGuard EPDR and Panda AD360</a>
+</h1>
+</td><td>
+<table class=title-version-info border=0>
+</table>
+</td></tr></table><br>
+<div class=title-data><b>Vendor Data</b>
+</div>
+<div class=title-data-divider></div>
+<div class=title-data><b>Community Data</b>
+<span class=tag>
+<img src="/images/Icon - Not Vulnerable.png">
+Not Vulnerable</span>
+</div>
+</div>
+</div>
+<div class=hidem id=29_hidden>
+<div class="article-entry text-muted" itemprop=description>
+<h2 id=community-resources>Community Resources</h2>
+<table>
+<thead>
+<tr>
+<th>Resource</th>
+<th>Link</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>source</td>
+<td><a href=https://www.secplicity.org/2021/12/10/critical-rce-vulnerability-in-log4js/>https://www.secplicity.org/2021/12/10/critical-rce-vulnerability-in-log4js/</a></td>
+</tr>
+</tbody>
+</table>
+<h2 id=sources>Sources</h2>
+<table>
+<thead>
+<tr>
+<th>Date</th>
+<th>Attribution</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2021-12-14 12:29:24</td>
+<td><a href=https://github.com/NCSC-NL/log4shell/blob/main/software/README.md>NCSC-NL</a></td>
+<td>Updated communityNotVulnerable. Updated community link source.</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<div class=post-expand-collapse>
+<div onclick="onClickExpand('29')" id=29_expander>
+Expand Details
+</div>
+</div>
+</article>
+<article class="article article-type-page" itemscope itemtype=http://schema.org/BlogPosting>
+<div class=article-container>
+<div>
+<div class=article-header>
+<table border=0 width=100%><tr><td>
+<h1 class=article-title>
+<a href=/posts/watchguardwatchguard-system-manager-dimension-watchguard-epdr-and-panda-ad360/>WatchGuard WatchGuard System Manager, Dimension, WatchGuard EPDR and Panda AD360</a>
+</h1>
+</td><td>
+<table class=title-version-info border=0>
+</table>
+</td></tr></table><br>
+<div class=title-data><b>Vendor Data</b>
+</div>
+<div class=title-data-divider></div>
+<div class=title-data><b>Community Data</b>
+<span class=tag>
+<img src="/images/Icon - Not Vulnerable.png">
+Not Vulnerable</span>
+</div>
+</div>
+</div>
+<div class=hidem id=30_hidden>
+<div class="article-entry text-muted" itemprop=description>
+<h2 id=community-resources>Community Resources</h2>
+<table>
+<thead>
+<tr>
+<th>Resource</th>
+<th>Link</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>source</td>
+<td><a href=https://www.secplicity.org/2021/12/10/critical-rce-vulnerability-in-log4js/>https://www.secplicity.org/2021/12/10/critical-rce-vulnerability-in-log4js/</a></td>
+</tr>
+</tbody>
+</table>
+<h2 id=sources>Sources</h2>
+<table>
+<thead>
+<tr>
+<th>Date</th>
+<th>Attribution</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2021-12-14 12:44:12</td>
+<td><a href=https://github.com/NCSC-NL/log4shell/blob/main/software/README.md>NCSC-NL</a></td>
+<td>Updated communityNotVulnerable. Updated community link source.</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<div class=post-expand-collapse>
+<div onclick="onClickExpand('30')" id=30_expander>
+Expand Details
+</div>
+</div>
+</article>
+<article class="article article-type-page" itemscope itemtype=http://schema.org/BlogPosting>
+<div class=article-container>
+<div>
+<div class=article-header>
+<table border=0 width=100%><tr><td>
+<h1 class=article-title>
+<a href=/posts/wildflywildfly/>WildFly WildFly</a>
+</h1>
+</td><td>
+<table class=title-version-info border=0>
+</table>
+</td></tr></table><br>
+<div class=title-data><b>Vendor Data</b>
+</div>
+<div class=title-data-divider></div>
+<div class=title-data><b>Community Data</b>
+<span class=tag>
+<img src="/images/Icon - Not Vulnerable.png">
+Not Vulnerable</span>
+</div>
+</div>
+</div>
+<div class=hidem id=31_hidden>
+<div class="article-entry text-muted" itemprop=description>
+<h2 id=community-resources>Community Resources</h2>
+<table>
+<thead>
+<tr>
+<th>Resource</th>
+<th>Link</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>source</td>
+<td><a href=https://www.wildfly.org/news/2021/12/13/Log4j-CVEs/>https://www.wildfly.org/news/2021/12/13/Log4j-CVEs/</a></td>
+</tr>
+</tbody>
+</table>
+<h2 id=community-notes>Community Notes</h2>
+<table>
+<thead>
+<tr>
+<th>Source</th>
+<th>Note</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href=https://github.com/NCSC-NL/log4shell/blob/main/software/README.md>NCSC-NL</a></td>
+<td>&ldquo;ships log4j-api where version matches patched version&rdquo;</td>
+</tr>
+</tbody>
+</table>
+<h2 id=sources>Sources</h2>
+<table>
+<thead>
+<tr>
+<th>Date</th>
+<th>Attribution</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2021-12-15 9:49:17</td>
+<td><a href=https://github.com/NCSC-NL/log4shell/blob/main/software/README.md>NCSC-NL</a></td>
+<td>Updated communityNotVulnerable. Updated community link source. Updated community note.</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<div class=post-expand-collapse>
+<div onclick="onClickExpand('31')" id=31_expander>
+Expand Details
+</div>
+</div>
+</article>
+<article class="article article-type-page" itemscope itemtype=http://schema.org/BlogPosting>
+<div class=article-container>
+<div>
+<div class=article-header>
+<table border=0 width=100%><tr><td>
+<h1 class=article-title>
+<a href=/posts/wind-riverwind-river-linux/>Wind River Wind River Linux</a>
+</h1>
+</td><td>
+<table class=title-version-info border=0>
+</table>
+</td></tr></table><br>
+<div class=title-data><b>Vendor Data</b>
+</div>
+<div class=title-data-divider></div>
+<div class=title-data><b>Community Data</b>
+<span class=tag>
+<img src="/images/Icon - Not Vulnerable.png">
+Not Vulnerable</span>
+</div>
+</div>
+</div>
+<div class=hidem id=32_hidden>
+<div class="article-entry text-muted" itemprop=description>
+<h2 id=community-resources>Community Resources</h2>
+<table>
+<thead>
+<tr>
+<th>Resource</th>
+<th>Link</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>source</td>
+<td><a href="https://support2.windriver.com/index.php?page=security-notices&on=view&id=7191">https://support2.windriver.com/index.php?page=security-notices&on=view&id=7191</a></td>
+</tr>
+</tbody>
+</table>
+<h2 id=community-notes>Community Notes</h2>
+<table>
+<thead>
+<tr>
+<th>Source</th>
+<th>Note</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href=https://github.com/NCSC-NL/log4shell/blob/main/software/README.md>NCSC-NL</a></td>
+<td>no support for log4j</td>
+</tr>
+</tbody>
+</table>
+<h2 id=sources>Sources</h2>
+<table>
+<thead>
+<tr>
+<th>Date</th>
+<th>Attribution</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2021-12-14 12:29:24</td>
+<td><a href=https://github.com/NCSC-NL/log4shell/blob/main/software/README.md>NCSC-NL</a></td>
+<td>Updated communityNotVulnerable. Updated community link source. Updated community note.</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<div class=post-expand-collapse>
+<div onclick="onClickExpand('32')" id=32_expander>
+Expand Details
+</div>
+</div>
+</article>
+<article class="article article-type-page" itemscope itemtype=http://schema.org/BlogPosting>
+<div class=article-container>
+<div>
+<div class=article-header>
+<table border=0 width=100%><tr><td>
+<h1 class=article-title>
+<a href=/posts/witfoowitfoo-precinct/>WitFoo WitFoo Precinct</a>
+</h1>
+</td><td>
+<table class=title-version-info border=0>
+</table>
+</td></tr></table><br>
+<div class=title-data><b>Vendor Data</b>
+<span class=tag>
+<img src="/images/Icon - Vendor Patch Exists.png">
+Vendor Patch Exists</span>
+</div>
+<div class=title-data-divider></div>
+<div class=title-data><b>Community Data</b>
+</div>
+</div>
+</div>
+<div class=hidem id=33_hidden>
+<div class="article-entry text-muted" itemprop=description>
+<h2 id=community-resources>Community Resources</h2>
+<table>
+<thead>
+<tr>
+<th>Resource</th>
+<th>Link</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>source</td>
+<td><a href=https://www.witfoo.com/blog/emergency-update-for-cve-2021-44228-log4j/>https://www.witfoo.com/blog/emergency-update-for-cve-2021-44228-log4j/</a></td>
+</tr>
+</tbody>
+</table>
+<h2 id=community-notes>Community Notes</h2>
+<table>
+<thead>
+<tr>
+<th>Source</th>
+<th>Note</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href=https://github.com/NCSC-NL/log4shell/blob/main/software/README.md>NCSC-NL</a></td>
+<td>WitFoo Streamer & Apache Kafka Docker containers are/were vulnerable</td>
+</tr>
+</tbody>
+</table>
+<h2 id=sources>Sources</h2>
+<table>
+<thead>
+<tr>
+<th>Date</th>
+<th>Attribution</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2021-12-14 12:29:24</td>
+<td><a href=https://github.com/NCSC-NL/log4shell/blob/main/software/README.md>NCSC-NL</a></td>
+<td>Updated vendorPatchExists. Updated community link source. Updated community note.</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<div class=post-expand-collapse>
+<div onclick="onClickExpand('33')" id=33_expander>
+Expand Details
+</div>
+</div>
+</article>
+<article class="article article-type-page" itemscope itemtype=http://schema.org/BlogPosting>
+<div class=article-container>
+<div>
+<div class=article-header>
+<table border=0 width=100%><tr><td>
+<h1 class=article-title>
+<a href=/posts/wowzawowza-streaming-engine/>Wowza Wowza Streaming Engine</a>
+</h1>
+</td><td>
+<table class=title-version-info border=0>
+</table>
+</td></tr></table><br>
+<div class=title-data><b>Vendor Data</b>
+</div>
+<div class=title-data-divider></div>
+<div class=title-data><b>Community Data</b>
+</div>
+</div>
+</div>
+<div class=hidem id=34_hidden>
+<div class="article-entry text-muted" itemprop=description>
+<h2 id=community-resources>Community Resources</h2>
+<table>
+<thead>
+<tr>
+<th>Resource</th>
+<th>Link</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>source</td>
+<td><a href=https://www.wowza.com/docs/known-issues-with-wowza-streaming-engine#log4j2-cve>https://www.wowza.com/docs/known-issues-with-wowza-streaming-engine#log4j2-cve</a></td>
+</tr>
+</tbody>
+</table>
+<h2 id=sources>Sources</h2>
+<table>
+<thead>
+<tr>
+<th>Date</th>
+<th>Attribution</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2021-12-13 10:31:51</td>
+<td><a href=https://github.com/NCSC-NL/log4shell/blob/main/software/README.md>NCSC-NL</a></td>
+<td>Updated community link source.</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<div class=post-expand-collapse>
+<div onclick="onClickExpand('34')" id=34_expander>
+Expand Details
+</div>
+</div>
+</article>
+<article class="article article-type-page" itemscope itemtype=http://schema.org/BlogPosting>
+<div class=article-container>
+<div>
+<div class=article-header>
+<table border=0 width=100%><tr><td>
+<h1 class=article-title>
+<a href=/posts/xeroxall-other-products/>Xerox All other products</a>
+</h1>
+</td><td>
+<table class=title-version-info border=0>
+</table>
+</td></tr></table><br>
+<div class=title-data><b>Vendor Data</b>
+<span class=tag>
+<img src="/images/Icon - Vulnerable - Unknown.png">
+Vendor Investigating</span>
+</div>
+<div class=title-data-divider></div>
+<div class=title-data><b>Community Data</b>
+</div>
+</div>
+</div>
+<div class=hidem id=35_hidden>
+<div class="article-entry text-muted" itemprop=description>
+<h2 id=community-resources>Community Resources</h2>
+<table>
+<thead>
+<tr>
+<th>Resource</th>
+<th>Link</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>source</td>
+<td><a href=https://security.business.xerox.com/wp-content/uploads/2021/12/Xerox-Special-Bulletin-Regarding-CVE-2021-44228.pdf>https://security.business.xerox.com/wp-content/uploads/2021/12/Xerox-Special-Bulletin-Regarding-CVE-2021-44228.pdf</a></td>
+</tr>
+</tbody>
+</table>
+<h2 id=sources>Sources</h2>
+<table>
+<thead>
+<tr>
+<th>Date</th>
+<th>Attribution</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2021-12-15 15:40:07</td>
+<td><a href=https://github.com/NCSC-NL/log4shell/blob/main/software/README.md>NCSC-NL</a></td>
+<td>Updated vendorInvestigating. Updated community link source.</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<div class=post-expand-collapse>
+<div onclick="onClickExpand('35')" id=35_expander>
+Expand Details
+</div>
+</div>
+</article>
+<article class="article article-type-page" itemscope itemtype=http://schema.org/BlogPosting>
+<div class=article-container>
+<div>
+<div class=article-header>
+<table border=0 width=100%><tr><td>
+<h1 class=article-title>
+<a href=/posts/xeroxaltalink-b8000-series/>Xerox AltaLink B8000 Series</a>
+</h1>
+</td><td>
+<table class=title-version-info border=0>
+</table>
+</td></tr></table><br>
+<div class=title-data><b>Vendor Data</b>
+</div>
+<div class=title-data-divider></div>
+<div class=title-data><b>Community Data</b>
+<span class=tag>
+<img src="/images/Icon - Not Vulnerable.png">
+Not Vulnerable</span>
+</div>
+</div>
+</div>
+<div class=hidem id=36_hidden>
+<div class="article-entry text-muted" itemprop=description>
+<h2 id=community-resources>Community Resources</h2>
+<table>
+<thead>
+<tr>
+<th>Resource</th>
+<th>Link</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>source</td>
+<td><a href=https://security.business.xerox.com/wp-content/uploads/2021/12/Xerox-Special-Bulletin-Regarding-CVE-2021-44228.pdf>https://security.business.xerox.com/wp-content/uploads/2021/12/Xerox-Special-Bulletin-Regarding-CVE-2021-44228.pdf</a></td>
+</tr>
+</tbody>
+</table>
+<h2 id=sources>Sources</h2>
+<table>
+<thead>
+<tr>
+<th>Date</th>
+<th>Attribution</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2021-12-15 15:40:07</td>
+<td><a href=https://github.com/NCSC-NL/log4shell/blob/main/software/README.md>NCSC-NL</a></td>
+<td>Updated communityNotVulnerable. Updated community link source.</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<div class=post-expand-collapse>
+<div onclick="onClickExpand('36')" id=36_expander>
+Expand Details
+</div>
+</div>
+</article>
+<article class="article article-type-page" itemscope itemtype=http://schema.org/BlogPosting>
+<div class=article-container>
+<div>
+<div class=article-header>
+<table border=0 width=100%><tr><td>
+<h1 class=article-title>
+<a href=/posts/xeroxaltalink-b8100-series/>Xerox AltaLink B8100 Series</a>
+</h1>
+</td><td>
+<table class=title-version-info border=0>
+</table>
+</td></tr></table><br>
+<div class=title-data><b>Vendor Data</b>
+</div>
+<div class=title-data-divider></div>
+<div class=title-data><b>Community Data</b>
+<span class=tag>
+<img src="/images/Icon - Not Vulnerable.png">
+Not Vulnerable</span>
+</div>
+</div>
+</div>
+<div class=hidem id=37_hidden>
+<div class="article-entry text-muted" itemprop=description>
+<h2 id=community-resources>Community Resources</h2>
+<table>
+<thead>
+<tr>
+<th>Resource</th>
+<th>Link</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>source</td>
+<td><a href=https://security.business.xerox.com/wp-content/uploads/2021/12/Xerox-Special-Bulletin-Regarding-CVE-2021-44228.pdf>https://security.business.xerox.com/wp-content/uploads/2021/12/Xerox-Special-Bulletin-Regarding-CVE-2021-44228.pdf</a></td>
+</tr>
+</tbody>
+</table>
+<h2 id=sources>Sources</h2>
+<table>
+<thead>
+<tr>
+<th>Date</th>
+<th>Attribution</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2021-12-15 15:40:07</td>
+<td><a href=https://github.com/NCSC-NL/log4shell/blob/main/software/README.md>NCSC-NL</a></td>
+<td>Updated communityNotVulnerable. Updated community link source.</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<div class=post-expand-collapse>
+<div onclick="onClickExpand('37')" id=37_expander>
+Expand Details
+</div>
+</div>
+</article>
+<article class="article article-type-page" itemscope itemtype=http://schema.org/BlogPosting>
+<div class=article-container>
+<div>
+<div class=article-header>
+<table border=0 width=100%><tr><td>
+<h1 class=article-title>
+<a href=/posts/xeroxaltalink-c8000-series/>Xerox AltaLink C8000 Series</a>
+</h1>
+</td><td>
+<table class=title-version-info border=0>
+</table>
+</td></tr></table><br>
+<div class=title-data><b>Vendor Data</b>
+</div>
+<div class=title-data-divider></div>
+<div class=title-data><b>Community Data</b>
+<span class=tag>
+<img src="/images/Icon - Not Vulnerable.png">
+Not Vulnerable</span>
+</div>
+</div>
+</div>
+<div class=hidem id=38_hidden>
+<div class="article-entry text-muted" itemprop=description>
+<h2 id=community-resources>Community Resources</h2>
+<table>
+<thead>
+<tr>
+<th>Resource</th>
+<th>Link</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>source</td>
+<td><a href=https://security.business.xerox.com/wp-content/uploads/2021/12/Xerox-Special-Bulletin-Regarding-CVE-2021-44228.pdf>https://security.business.xerox.com/wp-content/uploads/2021/12/Xerox-Special-Bulletin-Regarding-CVE-2021-44228.pdf</a></td>
+</tr>
+</tbody>
+</table>
+<h2 id=sources>Sources</h2>
+<table>
+<thead>
+<tr>
+<th>Date</th>
+<th>Attribution</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2021-12-15 15:40:07</td>
+<td><a href=https://github.com/NCSC-NL/log4shell/blob/main/software/README.md>NCSC-NL</a></td>
+<td>Updated communityNotVulnerable. Updated community link source.</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<div class=post-expand-collapse>
+<div onclick="onClickExpand('38')" id=38_expander>
+Expand Details
+</div>
+</div>
+</article>
+<article class="article article-type-page" itemscope itemtype=http://schema.org/BlogPosting>
+<div class=article-container>
+<div>
+<div class=article-header>
+<table border=0 width=100%><tr><td>
+<h1 class=article-title>
+<a href=/posts/xeroxaltalink-c8100-series/>Xerox AltaLink C8100 Series</a>
+</h1>
+</td><td>
+<table class=title-version-info border=0>
+</table>
+</td></tr></table><br>
+<div class=title-data><b>Vendor Data</b>
+</div>
+<div class=title-data-divider></div>
+<div class=title-data><b>Community Data</b>
+<span class=tag>
+<img src="/images/Icon - Not Vulnerable.png">
+Not Vulnerable</span>
+</div>
+</div>
+</div>
+<div class=hidem id=39_hidden>
+<div class="article-entry text-muted" itemprop=description>
+<h2 id=community-resources>Community Resources</h2>
+<table>
+<thead>
+<tr>
+<th>Resource</th>
+<th>Link</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>source</td>
+<td><a href=https://security.business.xerox.com/wp-content/uploads/2021/12/Xerox-Special-Bulletin-Regarding-CVE-2021-44228.pdf>https://security.business.xerox.com/wp-content/uploads/2021/12/Xerox-Special-Bulletin-Regarding-CVE-2021-44228.pdf</a></td>
+</tr>
+</tbody>
+</table>
+<h2 id=sources>Sources</h2>
+<table>
+<thead>
+<tr>
+<th>Date</th>
+<th>Attribution</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2021-12-15 15:40:07</td>
+<td><a href=https://github.com/NCSC-NL/log4shell/blob/main/software/README.md>NCSC-NL</a></td>
+<td>Updated communityNotVulnerable. Updated community link source.</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<div class=post-expand-collapse>
+<div onclick="onClickExpand('39')" id=39_expander>
+Expand Details
+</div>
+</div>
+</article>
+<article class="article article-type-page" itemscope itemtype=http://schema.org/BlogPosting>
+<div class=article-container>
+<div>
+<div class=article-header>
+<table border=0 width=100%><tr><td>
+<h1 class=article-title>
+<a href=/posts/xeroxb1022-1025/>Xerox B1022/1025</a>
+</h1>
+</td><td>
+<table class=title-version-info border=0>
+</table>
+</td></tr></table><br>
+<div class=title-data><b>Vendor Data</b>
+</div>
+<div class=title-data-divider></div>
+<div class=title-data><b>Community Data</b>
+<span class=tag>
+<img src="/images/Icon - Not Vulnerable.png">
+Not Vulnerable</span>
+</div>
+</div>
+</div>
+<div class=hidem id=40_hidden>
+<div class="article-entry text-muted" itemprop=description>
+<h2 id=community-resources>Community Resources</h2>
+<table>
+<thead>
+<tr>
+<th>Resource</th>
+<th>Link</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>source</td>
+<td><a href=https://security.business.xerox.com/wp-content/uploads/2021/12/Xerox-Special-Bulletin-Regarding-CVE-2021-44228.pdf>https://security.business.xerox.com/wp-content/uploads/2021/12/Xerox-Special-Bulletin-Regarding-CVE-2021-44228.pdf</a></td>
+</tr>
+</tbody>
+</table>
+<h2 id=sources>Sources</h2>
+<table>
+<thead>
+<tr>
+<th>Date</th>
+<th>Attribution</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2021-12-15 15:40:07</td>
+<td><a href=https://github.com/NCSC-NL/log4shell/blob/main/software/README.md>NCSC-NL</a></td>
+<td>Updated communityNotVulnerable. Updated community link source.</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<div class=post-expand-collapse>
+<div onclick="onClickExpand('40')" id=40_expander>
+Expand Details
+</div>
+</div>
+</article>
+<article class="article article-type-page" itemscope itemtype=http://schema.org/BlogPosting>
+<div class=article-container>
+<div>
+<div class=article-header>
+<table border=0 width=100%><tr><td>
+<h1 class=article-title>
+<a href=/posts/xeroxbaltoro-hf-inkjet-press/>Xerox Baltoro HF Inkjet Press</a>
+</h1>
+</td><td>
+<table class=title-version-info border=0>
+</table>
+</td></tr></table><br>
+<div class=title-data><b>Vendor Data</b>
+</div>
+<div class=title-data-divider></div>
+<div class=title-data><b>Community Data</b>
+<span class=tag>
+<img src="/images/Icon - Not Vulnerable.png">
+Not Vulnerable</span>
+</div>
+</div>
+</div>
+<div class=hidem id=41_hidden>
+<div class="article-entry text-muted" itemprop=description>
+<h2 id=community-resources>Community Resources</h2>
+<table>
+<thead>
+<tr>
+<th>Resource</th>
+<th>Link</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>source</td>
+<td><a href=https://security.business.xerox.com/wp-content/uploads/2021/12/Xerox-Special-Bulletin-Regarding-CVE-2021-44228.pdf>https://security.business.xerox.com/wp-content/uploads/2021/12/Xerox-Special-Bulletin-Regarding-CVE-2021-44228.pdf</a></td>
+</tr>
+</tbody>
+</table>
+<h2 id=sources>Sources</h2>
+<table>
+<thead>
+<tr>
+<th>Date</th>
+<th>Attribution</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2021-12-15 15:40:07</td>
+<td><a href=https://github.com/NCSC-NL/log4shell/blob/main/software/README.md>NCSC-NL</a></td>
+<td>Updated communityNotVulnerable. Updated community link source.</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<div class=post-expand-collapse>
+<div onclick="onClickExpand('41')" id=41_expander>
+Expand Details
+</div>
+</div>
+</article>
+<article class="article article-type-page" itemscope itemtype=http://schema.org/BlogPosting>
+<div class=article-container>
+<div>
+<div class=article-header>
+<table border=0 width=100%><tr><td>
+<h1 class=article-title>
+<a href=/posts/xeroxec8036-ec8056/>Xerox EC8036/EC8056</a>
+</h1>
+</td><td>
+<table class=title-version-info border=0>
+</table>
+</td></tr></table><br>
+<div class=title-data><b>Vendor Data</b>
+</div>
+<div class=title-data-divider></div>
+<div class=title-data><b>Community Data</b>
+<span class=tag>
+<img src="/images/Icon - Not Vulnerable.png">
+Not Vulnerable</span>
+</div>
+</div>
+</div>
+<div class=hidem id=42_hidden>
+<div class="article-entry text-muted" itemprop=description>
+<h2 id=community-resources>Community Resources</h2>
+<table>
+<thead>
+<tr>
+<th>Resource</th>
+<th>Link</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>source</td>
+<td><a href=https://security.business.xerox.com/wp-content/uploads/2021/12/Xerox-Special-Bulletin-Regarding-CVE-2021-44228.pdf>https://security.business.xerox.com/wp-content/uploads/2021/12/Xerox-Special-Bulletin-Regarding-CVE-2021-44228.pdf</a></td>
+</tr>
+</tbody>
+</table>
+<h2 id=sources>Sources</h2>
+<table>
+<thead>
+<tr>
+<th>Date</th>
+<th>Attribution</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2021-12-15 15:40:07</td>
+<td><a href=https://github.com/NCSC-NL/log4shell/blob/main/software/README.md>NCSC-NL</a></td>
+<td>Updated communityNotVulnerable. Updated community link source.</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<div class=post-expand-collapse>
+<div onclick="onClickExpand('42')" id=42_expander>
+Expand Details
+</div>
+</div>
+</article>
+<article class="article article-type-page" itemscope itemtype=http://schema.org/BlogPosting>
+<div class=article-container>
+<div>
+<div class=article-header>
+<table border=0 width=100%><tr><td>
+<h1 class=article-title>
+<a href=/posts/xeroxigen-5/>Xerox iGen 5</a>
+</h1>
+</td><td>
+<table class=title-version-info border=0>
+</table>
+</td></tr></table><br>
+<div class=title-data><b>Vendor Data</b>
+</div>
+<div class=title-data-divider></div>
+<div class=title-data><b>Community Data</b>
+<span class=tag>
+<img src="/images/Icon - Not Vulnerable.png">
+Not Vulnerable</span>
+</div>
+</div>
+</div>
+<div class=hidem id=43_hidden>
+<div class="article-entry text-muted" itemprop=description>
+<h2 id=community-resources>Community Resources</h2>
+<table>
+<thead>
+<tr>
+<th>Resource</th>
+<th>Link</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>source</td>
+<td><a href=https://security.business.xerox.com/wp-content/uploads/2021/12/Xerox-Special-Bulletin-Regarding-CVE-2021-44228.pdf>https://security.business.xerox.com/wp-content/uploads/2021/12/Xerox-Special-Bulletin-Regarding-CVE-2021-44228.pdf</a></td>
+</tr>
+</tbody>
+</table>
+<h2 id=sources>Sources</h2>
+<table>
+<thead>
+<tr>
+<th>Date</th>
+<th>Attribution</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2021-12-15 15:40:07</td>
+<td><a href=https://github.com/NCSC-NL/log4shell/blob/main/software/README.md>NCSC-NL</a></td>
+<td>Updated communityNotVulnerable. Updated community link source.</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<div class=post-expand-collapse>
+<div onclick="onClickExpand('43')" id=43_expander>
+Expand Details
+</div>
+</div>
+</article>
+<article class="article article-type-page" itemscope itemtype=http://schema.org/BlogPosting>
+<div class=article-container>
+<div>
+<div class=article-header>
+<table border=0 width=100%><tr><td>
+<h1 class=article-title>
+<a href=/posts/xeroxinstant-print-kiosk/>Xerox Instant Print Kiosk</a>
+</h1>
+</td><td>
+<table class=title-version-info border=0>
+</table>
+</td></tr></table><br>
+<div class=title-data><b>Vendor Data</b>
+</div>
+<div class=title-data-divider></div>
+<div class=title-data><b>Community Data</b>
+<span class=tag>
+<img src="/images/Icon - Not Vulnerable.png">
+Not Vulnerable</span>
+</div>
+</div>
+</div>
+<div class=hidem id=44_hidden>
+<div class="article-entry text-muted" itemprop=description>
+<h2 id=community-resources>Community Resources</h2>
+<table>
+<thead>
+<tr>
+<th>Resource</th>
+<th>Link</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>source</td>
+<td><a href=https://security.business.xerox.com/wp-content/uploads/2021/12/Xerox-Special-Bulletin-Regarding-CVE-2021-44228.pdf>https://security.business.xerox.com/wp-content/uploads/2021/12/Xerox-Special-Bulletin-Regarding-CVE-2021-44228.pdf</a></td>
+</tr>
+</tbody>
+</table>
+<h2 id=sources>Sources</h2>
+<table>
+<thead>
+<tr>
+<th>Date</th>
+<th>Attribution</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2021-12-15 15:40:07</td>
+<td><a href=https://github.com/NCSC-NL/log4shell/blob/main/software/README.md>NCSC-NL</a></td>
+<td>Updated communityNotVulnerable. Updated community link source.</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<div class=post-expand-collapse>
+<div onclick="onClickExpand('44')" id=44_expander>
+Expand Details
+</div>
+</div>
+</article>
+<article class="article article-type-page" itemscope itemtype=http://schema.org/BlogPosting>
+<div class=article-container>
+<div>
+<div class=article-header>
+<table border=0 width=100%><tr><td>
+<h1 class=article-title>
+<a href=/posts/xeroxnuvera-ea-perfecting-production-systems/>Xerox Nuvera EA Perfecting Production Systems</a>
+</h1>
+</td><td>
+<table class=title-version-info border=0>
+</table>
+</td></tr></table><br>
+<div class=title-data><b>Vendor Data</b>
+</div>
+<div class=title-data-divider></div>
+<div class=title-data><b>Community Data</b>
+<span class=tag>
+<img src="/images/Icon - Not Vulnerable.png">
+Not Vulnerable</span>
+</div>
+</div>
+</div>
+<div class=hidem id=45_hidden>
+<div class="article-entry text-muted" itemprop=description>
+<h2 id=community-resources>Community Resources</h2>
+<table>
+<thead>
+<tr>
+<th>Resource</th>
+<th>Link</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>source</td>
+<td><a href=https://security.business.xerox.com/wp-content/uploads/2021/12/Xerox-Special-Bulletin-Regarding-CVE-2021-44228.pdf>https://security.business.xerox.com/wp-content/uploads/2021/12/Xerox-Special-Bulletin-Regarding-CVE-2021-44228.pdf</a></td>
+</tr>
+</tbody>
+</table>
+<h2 id=sources>Sources</h2>
+<table>
+<thead>
+<tr>
+<th>Date</th>
+<th>Attribution</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2021-12-15 15:40:07</td>
+<td><a href=https://github.com/NCSC-NL/log4shell/blob/main/software/README.md>NCSC-NL</a></td>
+<td>Updated communityNotVulnerable. Updated community link source.</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<div class=post-expand-collapse>
+<div onclick="onClickExpand('45')" id=45_expander>
+Expand Details
+</div>
+</div>
+</article>
+<article class="article article-type-page" itemscope itemtype=http://schema.org/BlogPosting>
+<div class=article-container>
+<div>
+<div class=article-header>
+<table border=0 width=100%><tr><td>
+<h1 class=article-title>
+<a href=/posts/xeroxnuvera-ea-production-systems/>Xerox Nuvera EA Production Systems</a>
+</h1>
+</td><td>
+<table class=title-version-info border=0>
+</table>
+</td></tr></table><br>
+<div class=title-data><b>Vendor Data</b>
+</div>
+<div class=title-data-divider></div>
+<div class=title-data><b>Community Data</b>
+<span class=tag>
+<img src="/images/Icon - Not Vulnerable.png">
+Not Vulnerable</span>
+</div>
+</div>
+</div>
+<div class=hidem id=46_hidden>
+<div class="article-entry text-muted" itemprop=description>
+<h2 id=community-resources>Community Resources</h2>
+<table>
+<thead>
+<tr>
+<th>Resource</th>
+<th>Link</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>source</td>
+<td><a href=https://security.business.xerox.com/wp-content/uploads/2021/12/Xerox-Special-Bulletin-Regarding-CVE-2021-44228.pdf>https://security.business.xerox.com/wp-content/uploads/2021/12/Xerox-Special-Bulletin-Regarding-CVE-2021-44228.pdf</a></td>
+</tr>
+</tbody>
+</table>
+<h2 id=sources>Sources</h2>
+<table>
+<thead>
+<tr>
+<th>Date</th>
+<th>Attribution</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2021-12-15 15:40:07</td>
+<td><a href=https://github.com/NCSC-NL/log4shell/blob/main/software/README.md>NCSC-NL</a></td>
+<td>Updated communityNotVulnerable. Updated community link source.</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<div class=post-expand-collapse>
+<div onclick="onClickExpand('46')" id=46_expander>
+Expand Details
+</div>
+</div>
+</article>
+<article class="article article-type-page" itemscope itemtype=http://schema.org/BlogPosting>
+<div class=article-container>
+<div>
+<div class=article-header>
+<table border=0 width=100%><tr><td>
+<h1 class=article-title>
+<a href=/posts/xeroxphaser-3330/>Xerox Phaser 3330</a>
+</h1>
+</td><td>
+<table class=title-version-info border=0>
+</table>
+</td></tr></table><br>
+<div class=title-data><b>Vendor Data</b>
+</div>
+<div class=title-data-divider></div>
+<div class=title-data><b>Community Data</b>
+<span class=tag>
+<img src="/images/Icon - Not Vulnerable.png">
+Not Vulnerable</span>
+</div>
+</div>
+</div>
+<div class=hidem id=47_hidden>
+<div class="article-entry text-muted" itemprop=description>
+<h2 id=community-resources>Community Resources</h2>
+<table>
+<thead>
+<tr>
+<th>Resource</th>
+<th>Link</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>source</td>
+<td><a href=https://security.business.xerox.com/wp-content/uploads/2021/12/Xerox-Special-Bulletin-Regarding-CVE-2021-44228.pdf>https://security.business.xerox.com/wp-content/uploads/2021/12/Xerox-Special-Bulletin-Regarding-CVE-2021-44228.pdf</a></td>
+</tr>
+</tbody>
+</table>
+<h2 id=sources>Sources</h2>
+<table>
+<thead>
+<tr>
+<th>Date</th>
+<th>Attribution</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2021-12-15 15:40:07</td>
+<td><a href=https://github.com/NCSC-NL/log4shell/blob/main/software/README.md>NCSC-NL</a></td>
+<td>Updated communityNotVulnerable. Updated community link source.</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<div class=post-expand-collapse>
+<div onclick="onClickExpand('47')" id=47_expander>
+Expand Details
+</div>
+</div>
+</article>
+<article class="article article-type-page" itemscope itemtype=http://schema.org/BlogPosting>
+<div class=article-container>
+<div>
+<div class=article-header>
+<table border=0 width=100%><tr><td>
+<h1 class=article-title>
+<a href=/posts/xeroxphaser-3435/>Xerox Phaser 3435</a>
+</h1>
+</td><td>
+<table class=title-version-info border=0>
+</table>
+</td></tr></table><br>
+<div class=title-data><b>Vendor Data</b>
+</div>
+<div class=title-data-divider></div>
+<div class=title-data><b>Community Data</b>
+<span class=tag>
+<img src="/images/Icon - Not Vulnerable.png">
+Not Vulnerable</span>
+</div>
+</div>
+</div>
+<div class=hidem id=48_hidden>
+<div class="article-entry text-muted" itemprop=description>
+<h2 id=community-resources>Community Resources</h2>
+<table>
+<thead>
+<tr>
+<th>Resource</th>
+<th>Link</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>source</td>
+<td><a href=https://security.business.xerox.com/wp-content/uploads/2021/12/Xerox-Special-Bulletin-Regarding-CVE-2021-44228.pdf>https://security.business.xerox.com/wp-content/uploads/2021/12/Xerox-Special-Bulletin-Regarding-CVE-2021-44228.pdf</a></td>
+</tr>
+</tbody>
+</table>
+<h2 id=sources>Sources</h2>
+<table>
+<thead>
+<tr>
+<th>Date</th>
+<th>Attribution</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2021-12-15 15:40:07</td>
+<td><a href=https://github.com/NCSC-NL/log4shell/blob/main/software/README.md>NCSC-NL</a></td>
+<td>Updated communityNotVulnerable. Updated community link source.</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<div class=post-expand-collapse>
+<div onclick="onClickExpand('48')" id=48_expander>
+Expand Details
+</div>
+</div>
+</article>
+<article class="article article-type-page" itemscope itemtype=http://schema.org/BlogPosting>
+<div class=article-container>
+<div>
+<div class=article-header>
+<table border=0 width=100%><tr><td>
+<h1 class=article-title>
+<a href=/posts/xeroxversant-180-280/>Xerox Versant 180/280</a>
+</h1>
+</td><td>
+<table class=title-version-info border=0>
+</table>
+</td></tr></table><br>
+<div class=title-data><b>Vendor Data</b>
+</div>
+<div class=title-data-divider></div>
+<div class=title-data><b>Community Data</b>
+<span class=tag>
+<img src="/images/Icon - Not Vulnerable.png">
+Not Vulnerable</span>
+</div>
+</div>
+</div>
+<div class=hidem id=49_hidden>
+<div class="article-entry text-muted" itemprop=description>
+<h2 id=community-resources>Community Resources</h2>
+<table>
+<thead>
+<tr>
+<th>Resource</th>
+<th>Link</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>source</td>
+<td><a href=https://security.business.xerox.com/wp-content/uploads/2021/12/Xerox-Special-Bulletin-Regarding-CVE-2021-44228.pdf>https://security.business.xerox.com/wp-content/uploads/2021/12/Xerox-Special-Bulletin-Regarding-CVE-2021-44228.pdf</a></td>
+</tr>
+</tbody>
+</table>
+<h2 id=sources>Sources</h2>
+<table>
+<thead>
+<tr>
+<th>Date</th>
+<th>Attribution</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2021-12-15 15:40:07</td>
+<td><a href=https://github.com/NCSC-NL/log4shell/blob/main/software/README.md>NCSC-NL</a></td>
+<td>Updated communityNotVulnerable. Updated community link source.</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<div class=post-expand-collapse>
+<div onclick="onClickExpand('49')" id=49_expander>
+Expand Details
+</div>
+</div>
+</article>
+<article class="article article-type-page" itemscope itemtype=http://schema.org/BlogPosting>
+<div class=article-container>
+<div>
+<div class=article-header>
+<table border=0 width=100%><tr><td>
+<h1 class=article-title>
+<a href=/posts/xeroxversant-3100-4100/>Xerox Versant 3100/4100</a>
+</h1>
+</td><td>
+<table class=title-version-info border=0>
+</table>
+</td></tr></table><br>
+<div class=title-data><b>Vendor Data</b>
+</div>
+<div class=title-data-divider></div>
+<div class=title-data><b>Community Data</b>
+<span class=tag>
+<img src="/images/Icon - Not Vulnerable.png">
+Not Vulnerable</span>
+</div>
+</div>
+</div>
+<div class=hidem id=50_hidden>
+<div class="article-entry text-muted" itemprop=description>
+<h2 id=community-resources>Community Resources</h2>
+<table>
+<thead>
+<tr>
+<th>Resource</th>
+<th>Link</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>source</td>
+<td><a href=https://security.business.xerox.com/wp-content/uploads/2021/12/Xerox-Special-Bulletin-Regarding-CVE-2021-44228.pdf>https://security.business.xerox.com/wp-content/uploads/2021/12/Xerox-Special-Bulletin-Regarding-CVE-2021-44228.pdf</a></td>
+</tr>
+</tbody>
+</table>
+<h2 id=sources>Sources</h2>
+<table>
+<thead>
+<tr>
+<th>Date</th>
+<th>Attribution</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2021-12-15 15:40:07</td>
+<td><a href=https://github.com/NCSC-NL/log4shell/blob/main/software/README.md>NCSC-NL</a></td>
+<td>Updated communityNotVulnerable. Updated community link source.</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<div class=post-expand-collapse>
+<div onclick="onClickExpand('50')" id=50_expander>
+Expand Details
+</div>
+</div>
+</article>
+<article class="article article-type-page" itemscope itemtype=http://schema.org/BlogPosting>
+<div class=article-container>
+<div>
+<div class=article-header>
+<table border=0 width=100%><tr><td>
+<h1 class=article-title>
+<a href=/posts/xeroxworkcentre-3335-45/>Xerox WorkCentre 3335/45</a>
+</h1>
+</td><td>
+<table class=title-version-info border=0>
+</table>
+</td></tr></table><br>
+<div class=title-data><b>Vendor Data</b>
+</div>
+<div class=title-data-divider></div>
+<div class=title-data><b>Community Data</b>
+<span class=tag>
+<img src="/images/Icon - Not Vulnerable.png">
+Not Vulnerable</span>
+</div>
+</div>
+</div>
+<div class=hidem id=51_hidden>
+<div class="article-entry text-muted" itemprop=description>
+<h2 id=community-resources>Community Resources</h2>
+<table>
+<thead>
+<tr>
+<th>Resource</th>
+<th>Link</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>source</td>
+<td><a href=https://security.business.xerox.com/wp-content/uploads/2021/12/Xerox-Special-Bulletin-Regarding-CVE-2021-44228.pdf>https://security.business.xerox.com/wp-content/uploads/2021/12/Xerox-Special-Bulletin-Regarding-CVE-2021-44228.pdf</a></td>
+</tr>
+</tbody>
+</table>
+<h2 id=sources>Sources</h2>
+<table>
+<thead>
+<tr>
+<th>Date</th>
+<th>Attribution</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2021-12-15 15:40:07</td>
+<td><a href=https://github.com/NCSC-NL/log4shell/blob/main/software/README.md>NCSC-NL</a></td>
+<td>Updated communityNotVulnerable. Updated community link source.</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<div class=post-expand-collapse>
+<div onclick="onClickExpand('51')" id=51_expander>
+Expand Details
+</div>
+</div>
+</article>
+<article class="article article-type-page" itemscope itemtype=http://schema.org/BlogPosting>
+<div class=article-container>
+<div>
+<div class=article-header>
+<table border=0 width=100%><tr><td>
+<h1 class=article-title>
+<a href=/posts/xeroxworkcentre-5865i-5875i-58901/>Xerox WorkCentre 5865i/5875i/58901</a>
+</h1>
+</td><td>
+<table class=title-version-info border=0>
+</table>
+</td></tr></table><br>
+<div class=title-data><b>Vendor Data</b>
+</div>
+<div class=title-data-divider></div>
+<div class=title-data><b>Community Data</b>
+<span class=tag>
+<img src="/images/Icon - Not Vulnerable.png">
+Not Vulnerable</span>
+</div>
+</div>
+</div>
+<div class=hidem id=52_hidden>
+<div class="article-entry text-muted" itemprop=description>
+<h2 id=community-resources>Community Resources</h2>
+<table>
+<thead>
+<tr>
+<th>Resource</th>
+<th>Link</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>source</td>
+<td><a href=https://security.business.xerox.com/wp-content/uploads/2021/12/Xerox-Special-Bulletin-Regarding-CVE-2021-44228.pdf>https://security.business.xerox.com/wp-content/uploads/2021/12/Xerox-Special-Bulletin-Regarding-CVE-2021-44228.pdf</a></td>
+</tr>
+</tbody>
+</table>
+<h2 id=sources>Sources</h2>
+<table>
+<thead>
+<tr>
+<th>Date</th>
+<th>Attribution</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2021-12-15 15:40:07</td>
+<td><a href=https://github.com/NCSC-NL/log4shell/blob/main/software/README.md>NCSC-NL</a></td>
+<td>Updated communityNotVulnerable. Updated community link source.</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<div class=post-expand-collapse>
+<div onclick="onClickExpand('52')" id=52_expander>
+Expand Details
+</div>
+</div>
+</article>
+<article class="article article-type-page" itemscope itemtype=http://schema.org/BlogPosting>
+<div class=article-container>
+<div>
+<div class=article-header>
+<table border=0 width=100%><tr><td>
+<h1 class=article-title>
+<a href=/posts/xeroxworkcentre-7970i/>Xerox WorkCentre 7970i</a>
+</h1>
+</td><td>
+<table class=title-version-info border=0>
+</table>
+</td></tr></table><br>
+<div class=title-data><b>Vendor Data</b>
+</div>
+<div class=title-data-divider></div>
+<div class=title-data><b>Community Data</b>
+<span class=tag>
+<img src="/images/Icon - Not Vulnerable.png">
+Not Vulnerable</span>
+</div>
+</div>
+</div>
+<div class=hidem id=53_hidden>
+<div class="article-entry text-muted" itemprop=description>
+<h2 id=community-resources>Community Resources</h2>
+<table>
+<thead>
+<tr>
+<th>Resource</th>
+<th>Link</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>source</td>
+<td><a href=https://security.business.xerox.com/wp-content/uploads/2021/12/Xerox-Special-Bulletin-Regarding-CVE-2021-44228.pdf>https://security.business.xerox.com/wp-content/uploads/2021/12/Xerox-Special-Bulletin-Regarding-CVE-2021-44228.pdf</a></td>
+</tr>
+</tbody>
+</table>
+<h2 id=sources>Sources</h2>
+<table>
+<thead>
+<tr>
+<th>Date</th>
+<th>Attribution</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2021-12-15 15:40:07</td>
+<td><a href=https://github.com/NCSC-NL/log4shell/blob/main/software/README.md>NCSC-NL</a></td>
+<td>Updated communityNotVulnerable. Updated community link source.</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<div class=post-expand-collapse>
+<div onclick="onClickExpand('53')" id=53_expander>
+Expand Details
+</div>
+</div>
+</article>
+<article class="article article-type-page" itemscope itemtype=http://schema.org/BlogPosting>
+<div class=article-container>
+<div>
+<div class=article-header>
+<table border=0 width=100%><tr><td>
+<h1 class=article-title>
+<a href=/posts/xeroxworkcentre-ec7836-ec7856/>Xerox WorkCentre EC7836/EC7856</a>
+</h1>
+</td><td>
+<table class=title-version-info border=0>
+</table>
+</td></tr></table><br>
+<div class=title-data><b>Vendor Data</b>
+</div>
+<div class=title-data-divider></div>
+<div class=title-data><b>Community Data</b>
+<span class=tag>
+<img src="/images/Icon - Not Vulnerable.png">
+Not Vulnerable</span>
+</div>
+</div>
+</div>
+<div class=hidem id=54_hidden>
+<div class="article-entry text-muted" itemprop=description>
+<h2 id=community-resources>Community Resources</h2>
+<table>
+<thead>
+<tr>
+<th>Resource</th>
+<th>Link</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>source</td>
+<td><a href=https://security.business.xerox.com/wp-content/uploads/2021/12/Xerox-Special-Bulletin-Regarding-CVE-2021-44228.pdf>https://security.business.xerox.com/wp-content/uploads/2021/12/Xerox-Special-Bulletin-Regarding-CVE-2021-44228.pdf</a></td>
+</tr>
+</tbody>
+</table>
+<h2 id=sources>Sources</h2>
+<table>
+<thead>
+<tr>
+<th>Date</th>
+<th>Attribution</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2021-12-15 15:40:07</td>
+<td><a href=https://github.com/NCSC-NL/log4shell/blob/main/software/README.md>NCSC-NL</a></td>
+<td>Updated communityNotVulnerable. Updated community link source.</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<div class=post-expand-collapse>
+<div onclick="onClickExpand('54')" id=54_expander>
+Expand Details
+</div>
+</div>
+</article>
+<article class="article article-type-page" itemscope itemtype=http://schema.org/BlogPosting>
+<div class=article-container>
+<div>
+<div class=article-header>
+<table border=0 width=100%><tr><td>
+<h1 class=article-title>
+<a href=/posts/xeroxworkplace-kiosk/>Xerox Workplace Kiosk</a>
+</h1>
+</td><td>
+<table class=title-version-info border=0>
+</table>
+</td></tr></table><br>
+<div class=title-data><b>Vendor Data</b>
+</div>
+<div class=title-data-divider></div>
+<div class=title-data><b>Community Data</b>
+<span class=tag>
+<img src="/images/Icon - Not Vulnerable.png">
+Not Vulnerable</span>
+</div>
+</div>
+</div>
+<div class=hidem id=55_hidden>
+<div class="article-entry text-muted" itemprop=description>
+<h2 id=community-resources>Community Resources</h2>
+<table>
+<thead>
+<tr>
+<th>Resource</th>
+<th>Link</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>source</td>
+<td><a href=https://security.business.xerox.com/wp-content/uploads/2021/12/Xerox-Special-Bulletin-Regarding-CVE-2021-44228.pdf>https://security.business.xerox.com/wp-content/uploads/2021/12/Xerox-Special-Bulletin-Regarding-CVE-2021-44228.pdf</a></td>
+</tr>
+</tbody>
+</table>
+<h2 id=sources>Sources</h2>
+<table>
+<thead>
+<tr>
+<th>Date</th>
+<th>Attribution</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2021-12-15 15:40:07</td>
+<td><a href=https://github.com/NCSC-NL/log4shell/blob/main/software/README.md>NCSC-NL</a></td>
+<td>Updated communityNotVulnerable. Updated community link source.</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<div class=post-expand-collapse>
+<div onclick="onClickExpand('55')" id=55_expander>
+Expand Details
+</div>
+</div>
+</article>
+<article class="article article-type-page" itemscope itemtype=http://schema.org/BlogPosting>
+<div class=article-container>
+<div>
+<div class=article-header>
+<table border=0 width=100%><tr><td>
+<h1 class=article-title>
+<a href=/posts/y-softsafeq-6/>Y Soft SAFEQ 6</a>
+</h1>
+</td><td>
+<table class=title-version-info border=0>
+</table>
+</td></tr></table><br>
+<div class=title-data><b>Vendor Data</b>
+</div>
+<div class=title-data-divider></div>
+<div class=title-data><b>Community Data</b>
+</div>
+</div>
+</div>
+<div class=hidem id=56_hidden>
+<div class="article-entry text-muted" itemprop=description>
+<h2 id=community-resources>Community Resources</h2>
+<table>
+<thead>
+<tr>
+<th>Resource</th>
+<th>Link</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>source</td>
+<td><a href=https://www.ysoft.com/getattachment/Products/Security/Standards-Compliance/text/Information-Security-Policy-Statement/YSOFT-SAFEQ-LOG4J-VULNERABILITY-PRODUCT-UPDATE-WORKAROUND-1.pdf>https://www.ysoft.com/getattachment/Products/Security/Standards-Compliance/text/Information-Security-Policy-Statement/YSOFT-SAFEQ-LOG4J-VULNERABILITY-PRODUCT-UPDATE-WORKAROUND-1.pdf</a></td>
+</tr>
+</tbody>
+</table>
+<h2 id=sources>Sources</h2>
+<table>
+<thead>
+<tr>
+<th>Date</th>
+<th>Attribution</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2021-12-14 20:05:40</td>
+<td><a href=https://github.com/NCSC-NL/log4shell/blob/main/software/README.md>NCSC-NL</a></td>
+<td>Updated community link source.</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<div class=post-expand-collapse>
+<div onclick="onClickExpand('56')" id=56_expander>
+Expand Details
+</div>
+</div>
+</article>
+<article class="article article-type-page" itemscope itemtype=http://schema.org/BlogPosting>
+<div class=article-container>
+<div>
+<div class=article-header>
+<table border=0 width=100%><tr><td>
+<h1 class=article-title>
+<a href=/posts/yahoovespa/>Yahoo Vespa</a>
+</h1>
+</td><td>
+<table class=title-version-info border=0>
+</table>
+</td></tr></table><br>
+<div class=title-data><b>Vendor Data</b>
+</div>
+<div class=title-data-divider></div>
+<div class=title-data><b>Community Data</b>
+<span class=tag>
+<img src="/images/Icon - Not Vulnerable.png">
+Not Vulnerable</span>
+</div>
+</div>
+</div>
+<div class=hidem id=57_hidden>
+<div class="article-entry text-muted" itemprop=description>
+<h2 id=community-resources>Community Resources</h2>
+<table>
+<thead>
+<tr>
+<th>Resource</th>
+<th>Link</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>source</td>
+<td><a href=https://blog.vespa.ai/log4j-vulnerability/>https://blog.vespa.ai/log4j-vulnerability/</a></td>
+</tr>
+</tbody>
+</table>
+<h2 id=community-notes>Community Notes</h2>
+<table>
+<thead>
+<tr>
+<th>Source</th>
+<th>Note</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href=https://github.com/NCSC-NL/log4shell/blob/main/software/README.md>NCSC-NL</a></td>
+<td>Your Vespa application may still be affected if log4j is included in your application package</td>
+</tr>
+</tbody>
+</table>
+<h2 id=sources>Sources</h2>
+<table>
+<thead>
+<tr>
+<th>Date</th>
+<th>Attribution</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2021-12-13 11:13:47</td>
+<td><a href=https://github.com/NCSC-NL/log4shell/blob/main/software/README.md>NCSC-NL</a></td>
+<td>Updated communityNotVulnerable. Updated community link source. Updated community note.</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<div class=post-expand-collapse>
+<div onclick="onClickExpand('57')" id=57_expander>
+Expand Details
+</div>
+</div>
+</article>
+<article class="article article-type-page" itemscope itemtype=http://schema.org/BlogPosting>
+<div class=article-container>
+<div>
+<div class=article-header>
+<table border=0 width=100%><tr><td>
+<h1 class=article-title>
+<a href=/posts/yellowfinyellowfin/>Yellowfin Yellowfin</a>
+</h1>
+</td><td>
+<table class=title-version-info border=0>
+</table>
+</td></tr></table><br>
+<div class=title-data><b>Vendor Data</b>
+<span class=tag>
+<img src="/images/Icon - Vendor Patch Exists.png">
+Vendor Patch Exists</span>
+</div>
+<div class=title-data-divider></div>
+<div class=title-data><b>Community Data</b>
+</div>
+</div>
+</div>
+<div class=hidem id=58_hidden>
+<div class="article-entry text-muted" itemprop=description>
+<h2 id=community-resources>Community Resources</h2>
+<table>
+<thead>
+<tr>
+<th>Resource</th>
+<th>Link</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>source</td>
+<td><a href=https://community.yellowfinbi.com/announcement/notice-critical-vulnerability-in-log4j2>https://community.yellowfinbi.com/announcement/notice-critical-vulnerability-in-log4j2</a></td>
+</tr>
+</tbody>
+</table>
+<h2 id=community-notes>Community Notes</h2>
+<table>
+<thead>
+<tr>
+<th>Source</th>
+<th>Note</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href=https://github.com/NCSC-NL/log4shell/blob/main/software/README.md>NCSC-NL</a></td>
+<td>v7 and v6 releases are not affected unless you have manually upgraded to Log4j2</td>
+</tr>
+</tbody>
+</table>
+<h2 id=sources>Sources</h2>
+<table>
+<thead>
+<tr>
+<th>Date</th>
+<th>Attribution</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2021-12-15 9:31:14</td>
+<td><a href=https://github.com/NCSC-NL/log4shell/blob/main/software/README.md>NCSC-NL</a></td>
+<td>Updated vendorPatchExists. Updated community link source. Updated community note.</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<div class=post-expand-collapse>
+<div onclick="onClickExpand('58')" id=58_expander>
+Expand Details
+</div>
+</div>
+</article>
+<article class="article article-type-page" itemscope itemtype=http://schema.org/BlogPosting>
+<div class=article-container>
+<div>
+<div class=article-header>
+<table border=0 width=100%><tr><td>
+<h1 class=article-title>
+<a href=/posts/zabbixzabbix/>Zabbix Zabbix</a>
+</h1>
+</td><td>
+<table class=title-version-info border=0>
+</table>
+</td></tr></table><br>
+<div class=title-data><b>Vendor Data</b>
+</div>
+<div class=title-data-divider></div>
+<div class=title-data><b>Community Data</b>
+<span class=tag>
+<img src="/images/Icon - Not Vulnerable.png">
+Not Vulnerable</span>
+</div>
+</div>
+</div>
+<div class=hidem id=59_hidden>
+<div class="article-entry text-muted" itemprop=description>
+<h2 id=community-resources>Community Resources</h2>
+<table>
+<thead>
+<tr>
+<th>Resource</th>
+<th>Link</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>source</td>
+<td><a href=https://blog.zabbix.com/zabbix-not-affected-by-the-log4j-exploit/17873/>https://blog.zabbix.com/zabbix-not-affected-by-the-log4j-exploit/17873/</a></td>
+</tr>
+</tbody>
+</table>
+<h2 id=community-notes>Community Notes</h2>
+<table>
+<thead>
+<tr>
+<th>Source</th>
+<th>Note</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href=https://github.com/NCSC-NL/log4shell/blob/main/software/README.md>NCSC-NL</a></td>
+<td>Zabbix is aware of this vulnerability, has completed verification, and can conclude that the only product where we use Java is Zabbix Java Gateway, which does not utilize the log4j library, thereby is not impacted by this vulnerability.</td>
+</tr>
+</tbody>
+</table>
+<h2 id=sources>Sources</h2>
+<table>
+<thead>
+<tr>
+<th>Date</th>
+<th>Attribution</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2021-12-13 13:38:50</td>
+<td><a href=https://github.com/NCSC-NL/log4shell/blob/main/software/README.md>NCSC-NL</a></td>
+<td>Updated communityNotVulnerable. Updated community link source. Updated community note.</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<div class=post-expand-collapse>
+<div onclick="onClickExpand('59')" id=59_expander>
+Expand Details
+</div>
+</div>
+</article>
+<article class="article article-type-page" itemscope itemtype=http://schema.org/BlogPosting>
+<div class=article-container>
+<div>
+<div class=article-header>
+<table border=0 width=100%><tr><td>
+<h1 class=article-title>
+<a href=/posts/zammadzammad/>Zammad Zammad</a>
+</h1>
+</td><td>
+<table class=title-version-info border=0>
+</table>
+</td></tr></table><br>
+<div class=title-data><b>Vendor Data</b>
+</div>
+<div class=title-data-divider></div>
+<div class=title-data><b>Community Data</b>
+</div>
+</div>
+</div>
+<div class=hidem id=60_hidden>
+<div class="article-entry text-muted" itemprop=description>
+<h2 id=community-resources>Community Resources</h2>
+<table>
+<thead>
+<tr>
+<th>Resource</th>
+<th>Link</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>source</td>
+<td><a href=https://community.zammad.org/t/cve-2021-44228-elasticsearch-users-be-aware/8256>https://community.zammad.org/t/cve-2021-44228-elasticsearch-users-be-aware/8256</a></td>
+</tr>
+</tbody>
+</table>
+<h2 id=community-notes>Community Notes</h2>
+<table>
+<thead>
+<tr>
+<th>Source</th>
+<th>Note</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href=https://github.com/NCSC-NL/log4shell/blob/main/software/README.md>NCSC-NL</a></td>
+<td>Most of Zammad instances make use of Elasticsearch which might be vulnerable.</td>
+</tr>
+</tbody>
+</table>
+<h2 id=sources>Sources</h2>
+<table>
+<thead>
+<tr>
+<th>Date</th>
+<th>Attribution</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2021-12-13 14:43:39</td>
+<td><a href=https://github.com/NCSC-NL/log4shell/blob/main/software/README.md>NCSC-NL</a></td>
+<td>Updated community link source. Updated community note.</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<div class=post-expand-collapse>
+<div onclick="onClickExpand('60')" id=60_expander>
+Expand Details
+</div>
+</div>
+</article>
+<article class="article article-type-page" itemscope itemtype=http://schema.org/BlogPosting>
+<div class=article-container>
+<div>
+<div class=article-header>
+<table border=0 width=100%><tr><td>
+<h1 class=article-title>
+<a href=/posts/zendeskzendesk/>Zendesk Zendesk</a>
+</h1>
+</td><td>
+<table class=title-version-info border=0>
+</table>
+</td></tr></table><br>
+<div class=title-data><b>Vendor Data</b>
+</div>
+<div class=title-data-divider></div>
+<div class=title-data><b>Community Data</b>
+</div>
+</div>
+</div>
+<div class=hidem id=61_hidden>
+<div class="article-entry text-muted" itemprop=description>
+<h2 id=community-resources>Community Resources</h2>
+<table>
+<thead>
+<tr>
+<th>Resource</th>
+<th>Link</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>source</td>
+<td><a href=https://support.zendesk.com/hc/en-us/articles/4413583476122-2021-12-13-Security-Advisory-Apache-Log4j-CVE-2021-44228->https://support.zendesk.com/hc/en-us/articles/4413583476122-2021-12-13-Security-Advisory-Apache-Log4j-CVE-2021-44228-</a></td>
+</tr>
+</tbody>
+</table>
+<h2 id=community-notes>Community Notes</h2>
+<table>
+<thead>
+<tr>
+<th>Source</th>
+<th>Note</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href=https://github.com/NCSC-NL/log4shell/blob/main/software/README.md>NCSC-NL</a></td>
+<td>SaaS - No user action</td>
+</tr>
+</tbody>
+</table>
+<h2 id=sources>Sources</h2>
+<table>
+<thead>
+<tr>
+<th>Date</th>
+<th>Attribution</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2021-12-15 11:21:36</td>
+<td><a href=https://github.com/NCSC-NL/log4shell/blob/main/software/README.md>NCSC-NL</a></td>
+<td>Updated community link source. Updated community note.</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<div class=post-expand-collapse>
+<div onclick="onClickExpand('61')" id=61_expander>
+Expand Details
+</div>
+</div>
+</article>
+<article class="article article-type-page" itemscope itemtype=http://schema.org/BlogPosting>
+<div class=article-container>
+<div>
+<div class=article-header>
+<table border=0 width=100%><tr><td>
+<h1 class=article-title>
+<a href=/posts/zertovirtual-replication-appliance/>Zerto Virtual Replication Appliance</a>
+</h1>
+</td><td>
+<table class=title-version-info border=0>
+</table>
+</td></tr></table><br>
+<div class=title-data><b>Vendor Data</b>
+</div>
+<div class=title-data-divider></div>
+<div class=title-data><b>Community Data</b>
+<span class=tag>
+<img src="/images/Icon - Not Vulnerable.png">
+Not Vulnerable</span>
+</div>
+</div>
+</div>
+<div class=hidem id=62_hidden>
+<div class="article-entry text-muted" itemprop=description>
+<h2 id=community-resources>Community Resources</h2>
+<table>
+<thead>
+<tr>
+<th>Resource</th>
+<th>Link</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>source</td>
+<td><a href=https://help.zerto.com/kb/000004822>https://help.zerto.com/kb/000004822</a></td>
+</tr>
+</tbody>
+</table>
+<h2 id=sources>Sources</h2>
+<table>
+<thead>
+<tr>
+<th>Date</th>
+<th>Attribution</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2021-12-13 14:43:39</td>
+<td><a href=https://github.com/NCSC-NL/log4shell/blob/main/software/README.md>NCSC-NL</a></td>
+<td>Updated communityNotVulnerable. Updated community link source.</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<div class=post-expand-collapse>
+<div onclick="onClickExpand('62')" id=62_expander>
+Expand Details
+</div>
+</div>
+</article>
+<article class="article article-type-page" itemscope itemtype=http://schema.org/BlogPosting>
+<div class=article-container>
+<div>
+<div class=article-header>
+<table border=0 width=100%><tr><td>
+<h1 class=article-title>
+<a href=/posts/zertozerto-cloud-appliance/>Zerto Zerto Cloud Appliance</a>
+</h1>
+</td><td>
+<table class=title-version-info border=0>
+</table>
+</td></tr></table><br>
+<div class=title-data><b>Vendor Data</b>
+</div>
+<div class=title-data-divider></div>
+<div class=title-data><b>Community Data</b>
+<span class=tag>
+<img src="/images/Icon - Not Vulnerable.png">
+Not Vulnerable</span>
+</div>
+</div>
+</div>
+<div class=hidem id=63_hidden>
+<div class="article-entry text-muted" itemprop=description>
+<h2 id=community-resources>Community Resources</h2>
+<table>
+<thead>
+<tr>
+<th>Resource</th>
+<th>Link</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>source</td>
+<td><a href=https://help.zerto.com/kb/000004822>https://help.zerto.com/kb/000004822</a></td>
+</tr>
+</tbody>
+</table>
+<h2 id=sources>Sources</h2>
+<table>
+<thead>
+<tr>
+<th>Date</th>
+<th>Attribution</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2021-12-13 14:43:39</td>
+<td><a href=https://github.com/NCSC-NL/log4shell/blob/main/software/README.md>NCSC-NL</a></td>
+<td>Updated communityNotVulnerable. Updated community link source.</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<div class=post-expand-collapse>
+<div onclick="onClickExpand('63')" id=63_expander>
+Expand Details
+</div>
+</div>
+</article>
+<article class="article article-type-page" itemscope itemtype=http://schema.org/BlogPosting>
+<div class=article-container>
+<div>
+<div class=article-header>
+<table border=0 width=100%><tr><td>
+<h1 class=article-title>
+<a href=/posts/zertozerto-cloud-manager/>Zerto Zerto Cloud Manager</a>
+</h1>
+</td><td>
+<table class=title-version-info border=0>
+</table>
+</td></tr></table><br>
+<div class=title-data><b>Vendor Data</b>
+</div>
+<div class=title-data-divider></div>
+<div class=title-data><b>Community Data</b>
+<span class=tag>
+<img src="/images/Icon - Not Vulnerable.png">
+Not Vulnerable</span>
+</div>
+</div>
+</div>
+<div class=hidem id=64_hidden>
+<div class="article-entry text-muted" itemprop=description>
+<h2 id=community-resources>Community Resources</h2>
+<table>
+<thead>
+<tr>
+<th>Resource</th>
+<th>Link</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>source</td>
+<td><a href=https://help.zerto.com/kb/000004822>https://help.zerto.com/kb/000004822</a></td>
+</tr>
+</tbody>
+</table>
+<h2 id=sources>Sources</h2>
+<table>
+<thead>
+<tr>
+<th>Date</th>
+<th>Attribution</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2021-12-13 14:43:39</td>
+<td><a href=https://github.com/NCSC-NL/log4shell/blob/main/software/README.md>NCSC-NL</a></td>
+<td>Updated communityNotVulnerable. Updated community link source.</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<div class=post-expand-collapse>
+<div onclick="onClickExpand('64')" id=64_expander>
+Expand Details
+</div>
+</div>
+</article>
+<article class="article article-type-page" itemscope itemtype=http://schema.org/BlogPosting>
+<div class=article-container>
+<div>
+<div class=article-header>
+<table border=0 width=100%><tr><td>
+<h1 class=article-title>
+<a href=/posts/zertozerto-virtual-manager/>Zerto Zerto Virtual Manager</a>
+</h1>
+</td><td>
+<table class=title-version-info border=0>
+</table>
+</td></tr></table><br>
+<div class=title-data><b>Vendor Data</b>
+</div>
+<div class=title-data-divider></div>
+<div class=title-data><b>Community Data</b>
+<span class=tag>
+<img src="/images/Icon - Not Vulnerable.png">
+Not Vulnerable</span>
+</div>
+</div>
+</div>
+<div class=hidem id=65_hidden>
+<div class="article-entry text-muted" itemprop=description>
+<h2 id=community-resources>Community Resources</h2>
+<table>
+<thead>
+<tr>
+<th>Resource</th>
+<th>Link</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>source</td>
+<td><a href=https://help.zerto.com/kb/000004822>https://help.zerto.com/kb/000004822</a></td>
+</tr>
+</tbody>
+</table>
+<h2 id=sources>Sources</h2>
+<table>
+<thead>
+<tr>
+<th>Date</th>
+<th>Attribution</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2021-12-13 14:43:39</td>
+<td><a href=https://github.com/NCSC-NL/log4shell/blob/main/software/README.md>NCSC-NL</a></td>
+<td>Updated communityNotVulnerable. Updated community link source.</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<div class=post-expand-collapse>
+<div onclick="onClickExpand('65')" id=65_expander>
+Expand Details
+</div>
+</div>
+</article>
+<article class="article article-type-page" itemscope itemtype=http://schema.org/BlogPosting>
+<div class=article-container>
+<div>
+<div class=article-header>
+<table border=0 width=100%><tr><td>
+<h1 class=article-title>
+<a href=/posts/zestyzesty.io/>Zesty Zesty.io</a>
+</h1>
+</td><td>
+<table class=title-version-info border=0>
+</table>
+</td></tr></table><br>
+<div class=title-data><b>Vendor Data</b>
+</div>
+<div class=title-data-divider></div>
+<div class=title-data><b>Community Data</b>
+<span class=tag>
+<img src="/images/Icon - Not Vulnerable.png">
+Not Vulnerable</span>
+</div>
+</div>
+</div>
+<div class=hidem id=66_hidden>
+<div class="article-entry text-muted" itemprop=description>
+<h2 id=community-resources>Community Resources</h2>
+<table>
+<thead>
+<tr>
+<th>Resource</th>
+<th>Link</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>source</td>
+<td><a href=https://www.zesty.io/mindshare/company-announcements/log4j-exploit/>https://www.zesty.io/mindshare/company-announcements/log4j-exploit/</a></td>
+</tr>
+</tbody>
+</table>
+<h2 id=sources>Sources</h2>
+<table>
+<thead>
+<tr>
+<th>Date</th>
+<th>Attribution</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2021-12-13 15:02:44</td>
+<td><a href=https://github.com/NCSC-NL/log4shell/blob/main/software/README.md>NCSC-NL</a></td>
+<td>Updated communityNotVulnerable. Updated community link source.</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<div class=post-expand-collapse>
+<div onclick="onClickExpand('66')" id=66_expander>
+Expand Details
+</div>
+</div>
+</article>
+<article class="article article-type-page" itemscope itemtype=http://schema.org/BlogPosting>
+<div class=article-container>
+<div>
+<div class=article-header>
+<table border=0 width=100%><tr><td>
+<h1 class=article-title>
+<a href=/posts/zyxelall-products/>Zyxel All products</a>
+</h1>
+</td><td>
+<table class=title-version-info border=0>
+</table>
+</td></tr></table><br>
+<div class=title-data><b>Vendor Data</b>
+<span class=tag>
+<img src="/images/Icon - Vulnerable - Unknown.png">
+Vendor Investigating</span>
+</div>
+<div class=title-data-divider></div>
+<div class=title-data><b>Community Data</b>
+</div>
+</div>
+</div>
+<div class=hidem id=67_hidden>
+<div class="article-entry text-muted" itemprop=description>
+<h2 id=community-resources>Community Resources</h2>
+<table>
+<thead>
+<tr>
+<th>Resource</th>
+<th>Link</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>source</td>
+<td><a href=https://community.zyxel.com/en/discussion/12229/zyxel-security-advisory-for-apache-log4j-rce-vulnerability>https://community.zyxel.com/en/discussion/12229/zyxel-security-advisory-for-apache-log4j-rce-vulnerability</a></td>
+</tr>
+</tbody>
+</table>
+<h2 id=sources>Sources</h2>
+<table>
+<thead>
+<tr>
+<th>Date</th>
+<th>Attribution</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2021-12-15 11:19:17</td>
+<td><a href=https://github.com/NCSC-NL/log4shell/blob/main/software/README.md>NCSC-NL</a></td>
+<td>Updated vendorInvestigating. Updated community link source.</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<div class=post-expand-collapse>
+<div onclick="onClickExpand('67')" id=67_expander>
+Expand Details
+</div>
+</div>
+</article></div>
+<nav class="bar bar-footer clearfix" data-stick-bottom>
+<div class=bar-inner>
+<ul class="pager pull-left"><li class=prev>
+<a href=/page/41/>
+<i class="icon icon-angle-left"></i>
+</a>
+</li>
+</ul>
+<div class="total-article bar-right">
+Page:42/42
+</div>
+</div>
+</nav>
+<script>function onClickExpand(b){var a=document.getElementById(b+'_hidden'),c=a.classList.contains('hidem'),d;c===!0?a.classList.remove('hidem'):a.classList.add('hidem'),d=document.getElementById(b+'_expander'),c===!0?d.innerText='Collapse Details':d.innerText='Expand Details'}</script>
+</main>
+<script src=https://cdn.jsdelivr.net/npm/jquery@3.4.1/dist/jquery.min.js></script>
+<script>window.jQuery||document.write('<script src="js/jquery.min.js"><\/script>')</script>
+<script type=text/javascript src=https://cdn.staticfile.org/highlight.js/9.15.10/highlight.min.js></script><script>hljs.configure({tabReplace:'    ',classPrefix:''}),hljs.initHighlightingOnLoad()</script>
+<script src=https://canilog4j.com/js/application.min.a94ab19cb63a95c8d7fbd7b85cab3ddeea8c369bdf75b9cab6708787ead123af.js></script>
+<script src=https://canilog4j.com/js/plugin.min.19c5bcb2fb0789ab4f2b7834e5ceb5e92635645605bab902c1024b25f1502364.js></script>
+<script>(function(a){var b={TRANSLATION:{POSTS:'Posts',PAGES:'Pages',CATEGORIES:'Categories',TAGS:'Tags',UNTITLED:'(Untitled)'},ROOT_URL:'https://canilog4j.com',CONTENT_URL:'https://canilog4j.com/searchindex.json '};a.INSIGHT_CONFIG=b})(window)</script>
+<script type=text/javascript src=https://canilog4j.com/js/insight.min.4a2d52de4bfff73e0c688404fe3d17c9a3ae12d9888e1e1ac9c690e4890de2ded50fe55f2b819c2ba55435a76f396f3ea6805765f0b0af5635cdf74ea459eab0.js defer></script>
+<script src=https://cdnjs.cloudflare.com/ajax/libs/tocbot/4.4.2/tocbot.min.js></script>
+<script>tocbot.init({tocSelector:'.js-toc',contentSelector:'.js-toc-content',headingSelector:'h1, h2, h3',hasInnerContainers:!0})</script>
+</body>
+</html>
