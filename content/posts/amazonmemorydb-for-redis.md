@@ -1,7 +1,7 @@
 ---
 draft: 'false'
-name: RDS
-title: Amazon RDS
+name: MemoryDB for Redis
+title: Amazon MemoryDB for Redis
 vendor: Amazon
 vendorPatchExists: true
 ---
@@ -15,7 +15,7 @@ vendorPatchExists: true
 ## Community Notes
 | Source | Note |
 | --- | --- |
-| [NCSC-NL](https://github.com/NCSC-NL/log4shell/blob/main/software/README.md) | Update in progress, portion of customers may still be vulnerable. Amazon RDS and Amazon Aurora are actively addressing all service usage of Log4j2 by applying updates |
+| [NCSC-NL](https://github.com/NCSC-NL/log4shell/blob/main/software/README.md) | Amazon MemoryDB for Redis completed patching the Apache Log4j2 issue |
 
 ## Sources
 | Date | Attribution | Description |

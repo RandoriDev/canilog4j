@@ -1,7 +1,7 @@
 ---
 draft: 'false'
-name: RDS
-title: Amazon RDS
+name: AWS IoT SiteWise Edge
+title: Amazon AWS IoT SiteWise Edge
 vendor: Amazon
 vendorPatchExists: true
 ---
@@ -15,7 +15,7 @@ vendorPatchExists: true
 ## Community Notes
 | Source | Note |
 | --- | --- |
-| [NCSC-NL](https://github.com/NCSC-NL/log4shell/blob/main/software/README.md) | Update in progress, portion of customers may still be vulnerable. Amazon RDS and Amazon Aurora are actively addressing all service usage of Log4j2 by applying updates |
+| [NCSC-NL](https://github.com/NCSC-NL/log4shell/blob/main/software/README.md) | Updates for all AWS IoT SiteWise Edge components that use Log4j were made available; OPC-UA collector (v2.0.3), Data processing pack (v2.0.14), and Publisher (v2.0.2) |
 
 ## Sources
 | Date | Attribution | Description |

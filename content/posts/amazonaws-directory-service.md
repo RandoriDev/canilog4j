@@ -1,7 +1,7 @@
 ---
 draft: 'false'
-name: RDS
-title: Amazon RDS
+name: AWS Directory Service
+title: Amazon AWS Directory Service
 vendor: Amazon
 vendorPatchExists: true
 ---
@@ -15,7 +15,7 @@ vendorPatchExists: true
 ## Community Notes
 | Source | Note |
 | --- | --- |
-| [NCSC-NL](https://github.com/NCSC-NL/log4shell/blob/main/software/README.md) | Update in progress, portion of customers may still be vulnerable. Amazon RDS and Amazon Aurora are actively addressing all service usage of Log4j2 by applying updates |
+| [NCSC-NL](https://github.com/NCSC-NL/log4shell/blob/main/software/README.md) | Updated to mitigate the issues identified in CVE-2021-44228 |
 
 ## Sources
 | Date | Attribution | Description |

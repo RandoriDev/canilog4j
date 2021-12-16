@@ -15,9 +15,9 @@ vendorPatchExists: true
 ## Community Notes
 | Source | Note |
 | --- | --- |
-| [NCSC-NL](https://github.com/NCSC-NL/log4shell/blob/main/software/README.md) | Lake Formation is being updated |
+| [NCSC-NL](https://github.com/NCSC-NL/log4shell/blob/main/software/README.md) | Update in progress, portion of customers may still be vulnerable. AWS Lake Formation service hosts are being updated to the latest version of Log4j |
 
 ## Sources
 | Date | Attribution | Description |
 | --- | --- | --- |
-| 2021-12-14 15:24:48 | [NCSC-NL](https://github.com/NCSC-NL/log4shell/blob/main/software/README.md) | Updated vendorPatchExists. Updated community link source. Updated community note.  |
+| 2021-12-16 15:34:24 | [NCSC-NL](https://github.com/NCSC-NL/log4shell/blob/main/software/README.md) | Updated vendorPatchExists. Updated community link source. Updated community note.  |

@@ -1,7 +1,7 @@
 ---
 draft: 'false'
-name: RDS
-title: Amazon RDS
+name: Kafka (MSK)
+title: Amazon Kafka (MSK)
 vendor: Amazon
 vendorPatchExists: true
 ---
@@ -15,7 +15,7 @@ vendorPatchExists: true
 ## Community Notes
 | Source | Note |
 | --- | --- |
-| [NCSC-NL](https://github.com/NCSC-NL/log4shell/blob/main/software/README.md) | Update in progress, portion of customers may still be vulnerable. Amazon RDS and Amazon Aurora are actively addressing all service usage of Log4j2 by applying updates |
+| [NCSC-NL](https://github.com/NCSC-NL/log4shell/blob/main/software/README.md) | Applying updates as required, portion of customers may still be vulnerable. Some MSK-specific service components use Log4j > 2.0.0 library and are being patched where needed |
 
 ## Sources
 | Date | Attribution | Description |

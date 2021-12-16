@@ -1,7 +1,7 @@
 ---
 draft: 'false'
-name: RDS
-title: Amazon RDS
+name: RDS for Oracle
+title: Amazon RDS for Oracle
 vendor: Amazon
 vendorPatchExists: true
 ---
@@ -15,7 +15,7 @@ vendorPatchExists: true
 ## Community Notes
 | Source | Note |
 | --- | --- |
-| [NCSC-NL](https://github.com/NCSC-NL/log4shell/blob/main/software/README.md) | Update in progress, portion of customers may still be vulnerable. Amazon RDS and Amazon Aurora are actively addressing all service usage of Log4j2 by applying updates |
+| [NCSC-NL](https://github.com/NCSC-NL/log4shell/blob/main/software/README.md) | Amazon RDS Oracle has updated the version of Log4j2 in use within the service |
 
 ## Sources
 | Date | Attribution | Description |

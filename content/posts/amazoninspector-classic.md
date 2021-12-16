@@ -1,7 +1,7 @@
 ---
 draft: 'false'
-name: Kafka
-title: Amazon Kafka
+name: Inspector Classic
+title: Amazon Inspector Classic
 vendor: Amazon
 vendorPatchExists: true
 ---
@@ -15,9 +15,9 @@ vendorPatchExists: true
 ## Community Notes
 | Source | Note |
 | --- | --- |
-| [NCSC-NL](https://github.com/NCSC-NL/log4shell/blob/main/software/README.md) | Updates are being applied |
+| [NCSC-NL](https://github.com/NCSC-NL/log4shell/blob/main/software/README.md) | Patched against the Log4j issue |
 
 ## Sources
 | Date | Attribution | Description |
 | --- | --- | --- |
-| 2021-12-14 15:24:48 | [NCSC-NL](https://github.com/NCSC-NL/log4shell/blob/main/software/README.md) | Updated vendorPatchExists. Updated community link source. Updated community note.  |
+| 2021-12-16 15:34:24 | [NCSC-NL](https://github.com/NCSC-NL/log4shell/blob/main/software/README.md) | Updated vendorPatchExists. Updated community link source. Updated community note.  |

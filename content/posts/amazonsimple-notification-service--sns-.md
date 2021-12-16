@@ -1,7 +1,7 @@
 ---
 draft: 'false'
-name: RDS
-title: Amazon RDS
+name: Simple Notification Service (SNS)
+title: Amazon Simple Notification Service (SNS)
 vendor: Amazon
 vendorPatchExists: true
 ---
@@ -15,7 +15,7 @@ vendorPatchExists: true
 ## Community Notes
 | Source | Note |
 | --- | --- |
-| [NCSC-NL](https://github.com/NCSC-NL/log4shell/blob/main/software/README.md) | Update in progress, portion of customers may still be vulnerable. Amazon RDS and Amazon Aurora are actively addressing all service usage of Log4j2 by applying updates |
+| [NCSC-NL](https://github.com/NCSC-NL/log4shell/blob/main/software/README.md) | Systems that serve customer traffic are patched against the Log4j2 issue. Working to apply the patch to sub-systems that operate separately from SNS’s systems that serve customer traffic. |
 
 ## Sources
 | Date | Attribution | Description |

@@ -1,7 +1,7 @@
 ---
 draft: 'false'
-name: Cloudfront
-title: Amazon Cloudfront
+name: CloudFront
+title: Amazon CloudFront
 vendor: Amazon
 vendorPatchExists: true
 ---
@@ -20,4 +20,4 @@ vendorPatchExists: true
 ## Sources
 | Date | Attribution | Description |
 | --- | --- | --- |
-| 2021-12-14 15:24:48 | [NCSC-NL](https://github.com/NCSC-NL/log4shell/blob/main/software/README.md) | Updated vendorPatchExists. Updated community link source. Updated community note.  |
+| 2021-12-16 15:34:24 | [NCSC-NL](https://github.com/NCSC-NL/log4shell/blob/main/software/README.md) | Updated vendorPatchExists. Updated community link source. Updated community note.  |
