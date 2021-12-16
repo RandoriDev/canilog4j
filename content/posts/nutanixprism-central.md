@@ -20,4 +20,4 @@ vendor: Nutanix
 ## Sources
 | Date | Attribution | Description |
 | --- | --- | --- |
-| 2021-12-14 17:19:14 | [NCSC-NL](https://github.com/NCSC-NL/log4shell/blob/main/software/README.md) | Updated communityVulnerable. Updated community link source. Updated community note.  |
+| 2021-12-16 13:54:19 | [NCSC-NL](https://github.com/NCSC-NL/log4shell/blob/main/software/README.md) | Updated communityVulnerable. Updated community link source. Updated community note.  |

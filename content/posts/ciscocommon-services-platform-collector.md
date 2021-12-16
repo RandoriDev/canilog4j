@@ -1,5 +1,5 @@
 ---
-communityNotVulnerable: true
+communityVulnerable: true
 draft: 'false'
 name: Common Services Platform Collector
 title: Cisco Common Services Platform Collector
@@ -16,4 +16,4 @@ vendor: Cisco
 ## Sources
 | Date | Attribution | Description |
 | --- | --- | --- |
-| 2021-12-14 13:22:15 | [NCSC-NL](https://github.com/NCSC-NL/log4shell/blob/main/software/README.md) | Updated communityNotVulnerable. Updated community link source.  |
+| 2021-12-16 8:37:56 | [NCSC-NL](https://github.com/NCSC-NL/log4shell/blob/main/software/README.md) | Updated communityVulnerable. Updated community link source.  |

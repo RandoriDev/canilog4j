@@ -16,4 +16,4 @@ vendorPatchExists: true
 ## Sources
 | Date | Attribution | Description |
 | --- | --- | --- |
-| 2021-12-12 15:38:33 | [NCSC-NL](https://github.com/NCSC-NL/log4shell/blob/main/software/README.md) | Updated vendorPatchExists. Updated community link fix.  |
+| 2021-12-16 13:54:19 | [NCSC-NL](https://github.com/NCSC-NL/log4shell/blob/main/software/README.md) | Updated vendorPatchExists. Updated community link fix.  |

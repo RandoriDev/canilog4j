@@ -10,7 +10,7 @@ vendorPatchExists: true
 ## Vendor Resources
 | Resource | Link |
 | --- | --- |
-| Vendor Link | [https://cert-portal.siemens.com/productcert/pdf/ssa-661247.pdf](https://cert-portal.siemens.com/productcert/pdf/ssa-661247.pdf) |
+| Siemens Advisory Link | [https://cert-portal.siemens.com/productcert/pdf/ssa-661247.pdf](https://cert-portal.siemens.com/productcert/pdf/ssa-661247.pdf) |
 
 
 ## Community Notes
@@ -22,4 +22,4 @@ vendorPatchExists: true
 ## Sources
 | Date | Attribution | Description |
 | --- | --- | --- |
-| 2021-12-15 22:54:02 | [CISAGov](https://raw.githubusercontent.com/cisagov/log4j-affected-db/develop/README.md) | Updated communityVulnerable. Updated vendorPatchExists. Updated vendor link Vendor Link. Updated community note. Updated community note.  |
+| 2021-12-16 0:05:23 | [CISAGov](https://raw.githubusercontent.com/cisagov/log4j-affected-db/develop/README.md) | Updated communityVulnerable. Updated vendorPatchExists. Updated vendor link Siemens Advisory Link. Updated community note. Updated community note.  |

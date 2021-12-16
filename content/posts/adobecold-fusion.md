@@ -1,20 +1,23 @@
 ---
+communityVulnerable: true
 draft: 'false'
 name: Cold Fusion
 title: Adobe Cold Fusion
 vendor: Adobe
-vendorInvestigating: true
 ---
 
 
 ## Community Resources
 | Resource | Link |
 | --- | --- |
-| source | [https://www.petefreitag.com/item/923.cfm](https://www.petefreitag.com/item/923.cfm) |
-| fix | [https://helpx.adobe.com/security/security-bulletin.html#coldfusion](https://helpx.adobe.com/security/security-bulletin.html#coldfusion) |
+| source | [https://helpx.adobe.com/coldfusion/kb/log4j-vulnerability-coldfusion.html](https://helpx.adobe.com/coldfusion/kb/log4j-vulnerability-coldfusion.html) |
 
+## Community Notes
+| Source | Note |
+| --- | --- |
+| [NCSC-NL](https://github.com/NCSC-NL/log4shell/blob/main/software/README.md) | Fix planned for Dec 17th |
 
 ## Sources
 | Date | Attribution | Description |
 | --- | --- | --- |
-| 2021-12-14 12:01:10 | [NCSC-NL](https://github.com/NCSC-NL/log4shell/blob/main/software/README.md) | Updated vendorInvestigating. Updated community link source. Updated community link fix.  |
+| 2021-12-15 20:15:41 | [NCSC-NL](https://github.com/NCSC-NL/log4shell/blob/main/software/README.md) | Updated communityVulnerable. Updated community link source. Updated community note.  |

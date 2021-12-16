@@ -1,4 +1,5 @@
 ---
+communityNotVulnerable: true
 draft: 'false'
 name: Management Center (MC)
 title: Broadcom Management Center (MC)
@@ -20,5 +21,5 @@ vendorInvestigating: true
 ## Sources
 | Date | Attribution | Description |
 | --- | --- | --- |
-| 2021-12-12 13:50:07 | [NCSC-NL](https://github.com/NCSC-NL/log4shell/blob/main/software/README.md) | Updated vendorInvestigating. Updated community link source.  |
+| 2021-12-16 8:29:44 | [NCSC-NL](https://github.com/NCSC-NL/log4shell/blob/main/software/README.md) | Updated communityNotVulnerable. Updated community link source.  |
 | 2021-12-15 2:46:48 | [CISAGov](https://raw.githubusercontent.com/cisagov/log4j-affected-db/develop/README.md) | Updated vendorInvestigating. Updated vendor link Broadcom Support Portal.  |

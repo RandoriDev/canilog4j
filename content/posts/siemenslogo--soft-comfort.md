@@ -1,10 +1,16 @@
 ---
+communityVulnerable: true
 draft: 'false'
 name: LOGO! Soft Comfort
 title: Siemens LOGO! Soft Comfort
 vendor: Siemens
+vendorPatchExists: true
 ---
 
+## Vendor Resources
+| Resource | Link |
+| --- | --- |
+| Siemens Advisory Link | [https://cert-portal.siemens.com/productcert/pdf/ssa-661247.pdf](https://cert-portal.siemens.com/productcert/pdf/ssa-661247.pdf) |
 
 ## Community Resources
 | Resource | Link |
@@ -15,8 +21,10 @@ vendor: Siemens
 | Source | Note |
 | --- | --- |
 | [NCSC-NL](https://github.com/NCSC-NL/log4shell/blob/main/software/README.md) | Only LOGO! Web Projects deployed to AWS are potentially affected |
+| [CISAGov](https://raw.githubusercontent.com/cisagov/log4j-affected-db/develop/README.md) | Last Update: 12/15/2021 |
 
 ## Sources
 | Date | Attribution | Description |
 | --- | --- | --- |
 | 2021-12-15 15:02:13 | [NCSC-NL](https://github.com/NCSC-NL/log4shell/blob/main/software/README.md) | Updated community link source. Updated community note.  |
+| 2021-12-16 0:05:23 | [CISAGov](https://raw.githubusercontent.com/cisagov/log4j-affected-db/develop/README.md) | Updated communityVulnerable. Updated vendorPatchExists. Updated vendor link Siemens Advisory Link. Updated community note.  |

@@ -16,4 +16,4 @@ vendor: Apigee
 ## Sources
 | Date | Attribution | Description |
 | --- | --- | --- |
-| 2021-12-13 12:43:02 | [NCSC-NL](https://github.com/NCSC-NL/log4shell/blob/main/software/README.md) | Updated communityNotVulnerable. Updated community link source.  |
+| 2021-12-16 6:49:21 | [NCSC-NL](https://github.com/NCSC-NL/log4shell/blob/main/software/README.md) | Updated communityNotVulnerable. Updated community link source.  |

@@ -16,4 +16,4 @@ vendor: Netwrix
 ## Sources
 | Date | Attribution | Description |
 | --- | --- | --- |
-| 2021-12-13 21:59:08 | [NCSC-NL](https://github.com/NCSC-NL/log4shell/blob/main/software/README.md) | Updated communityNotVulnerable. Updated community link source.  |
+| 2021-12-16 13:54:19 | [NCSC-NL](https://github.com/NCSC-NL/log4shell/blob/main/software/README.md) | Updated communityNotVulnerable. Updated community link source.  |

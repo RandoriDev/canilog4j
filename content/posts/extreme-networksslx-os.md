@@ -1,9 +1,9 @@
 ---
+communityNotVulnerable: true
 draft: 'false'
 name: SLX-OS
 title: Extreme Networks SLX-OS
 vendor: Extreme Networks
-vendorInvestigating: true
 ---
 
 
@@ -16,4 +16,4 @@ vendorInvestigating: true
 ## Sources
 | Date | Attribution | Description |
 | --- | --- | --- |
-| 2021-12-14 14:54:44 | [NCSC-NL](https://github.com/NCSC-NL/log4shell/blob/main/software/README.md) | Updated vendorInvestigating. Updated community link source.  |
+| 2021-12-16 9:31:01 | [NCSC-NL](https://github.com/NCSC-NL/log4shell/blob/main/software/README.md) | Updated communityNotVulnerable. Updated community link source.  |
