@@ -1,7 +1,7 @@
 <!doctype html><html lang=en>
 <head>
 <title>
-Riverbed Client Accelerator Controllers and Client Accelerator (aka SteelCentral Controller for SteelHead Mobile and SteelHead Mobile) - Log4j Exploitability Index
+Amazon Redshift - Log4j Exploitability Index
 </title>
 <meta charset=utf-8>
 <meta http-equiv=x-ua-compatible content="IE=edge,chrome=1">
@@ -14,22 +14,22 @@ Riverbed Client Accelerator Controllers and Client Accelerator (aka SteelCentral
 <meta name=format-detection content="telephone=no,email=no,adress=no">
 <meta name=theme-color content="#000000">
 <meta http-equiv=window-target content="_top">
-<meta name=description content="Community Resources    Resource Link     source https://supportkb.riverbed.com/support/index?page=content&amp;amp;id=S35645&amp;amp;actp=LIST_RECENT    Sources    Date Attribution Description     2021-12-14 10:53:57 NCSC-NL Updated community link source.    ">
+<meta name=description content="Community Resources    Resource Link     source https://aws.amazon.com/security/security-bulletins/AWS-2021-006/    Community Notes    Source Note     NCSC-NL Amazon Redshift clusters have been automatically updated to mitigate the issues identified in CVE-2021-44228    Sources    Date Attribution Description     2021-12-16 15:34:24 NCSC-NL Updated vendorPatchExists. Updated community link source. Updated community note.    ">
 <meta name=generator content="Hugo 0.90.1 with theme pure">
-<title>Riverbed Client Accelerator Controllers and Client Accelerator (aka SteelCentral Controller for SteelHead Mobile and SteelHead Mobile) - Log4j Exploitability Index</title>
+<title>Amazon Redshift - Log4j Exploitability Index</title>
 <link rel=stylesheet href=https://canilog4j.com/css/style.min.101cddd5973823bc729d02c440935ba297cdfa0a8a6c02bfaaf0f6c6056fb009.css>
 <link rel=stylesheet href=https://cdn.staticfile.org/highlight.js/9.15.10/styles/github.min.css async>
 <link rel=stylesheet href=https://cdnjs.cloudflare.com/ajax/libs/tocbot/4.4.2/tocbot.css async>
-<meta property="og:title" content="Riverbed Client Accelerator Controllers and Client Accelerator (aka SteelCentral Controller for SteelHead Mobile and SteelHead Mobile)">
-<meta property="og:description" content="Community Resources    Resource Link     source https://supportkb.riverbed.com/support/index?page=content&id=S35645&actp=LIST_RECENT    Sources    Date Attribution Description     2021-12-14 10:53:57 NCSC-NL Updated community link source.    ">
+<meta property="og:title" content="Amazon Redshift">
+<meta property="og:description" content="Community Resources    Resource Link     source https://aws.amazon.com/security/security-bulletins/AWS-2021-006/    Community Notes    Source Note     NCSC-NL Amazon Redshift clusters have been automatically updated to mitigate the issues identified in CVE-2021-44228    Sources    Date Attribution Description     2021-12-16 15:34:24 NCSC-NL Updated vendorPatchExists. Updated community link source. Updated community note.    ">
 <meta property="og:type" content="article">
-<meta property="og:url" content="https://canilog4j.com/posts/riverbedclient-accelerator-controllers-and-client-accelerator-aka-steelcentral-controller-for-steelhead-mobile-and-steelhead-mobile-/"><meta property="article:section" content="posts">
-<meta itemprop=name content="Riverbed Client Accelerator Controllers and Client Accelerator (aka SteelCentral Controller for SteelHead Mobile and SteelHead Mobile)">
-<meta itemprop=description content="Community Resources    Resource Link     source https://supportkb.riverbed.com/support/index?page=content&id=S35645&actp=LIST_RECENT    Sources    Date Attribution Description     2021-12-14 10:53:57 NCSC-NL Updated community link source.    ">
-<meta itemprop=wordCount content="17">
+<meta property="og:url" content="https://canilog4j.com/posts/amazonredshift/"><meta property="article:section" content="posts">
+<meta itemprop=name content="Amazon Redshift">
+<meta itemprop=description content="Community Resources    Resource Link     source https://aws.amazon.com/security/security-bulletins/AWS-2021-006/    Community Notes    Source Note     NCSC-NL Amazon Redshift clusters have been automatically updated to mitigate the issues identified in CVE-2021-44228    Sources    Date Attribution Description     2021-12-16 15:34:24 NCSC-NL Updated vendorPatchExists. Updated community link source. Updated community note.    ">
+<meta itemprop=wordCount content="41">
 <meta itemprop=keywords content><meta name=twitter:card content="summary">
-<meta name=twitter:title content="Riverbed Client Accelerator Controllers and Client Accelerator (aka SteelCentral Controller for SteelHead Mobile and SteelHead Mobile)">
-<meta name=twitter:description content="Community Resources    Resource Link     source https://supportkb.riverbed.com/support/index?page=content&id=S35645&actp=LIST_RECENT    Sources    Date Attribution Description     2021-12-14 10:53:57 NCSC-NL Updated community link source.    "><!--[if lte IE 9]><script src=https://cdnjs.cloudflare.com/ajax/libs/classlist/1.1.20170427/classList.min.js></script><![endif]--><!--[if lt IE 9]><script src=https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv.min.js></script>
+<meta name=twitter:title content="Amazon Redshift">
+<meta name=twitter:description content="Community Resources    Resource Link     source https://aws.amazon.com/security/security-bulletins/AWS-2021-006/    Community Notes    Source Note     NCSC-NL Amazon Redshift clusters have been automatically updated to mitigate the issues identified in CVE-2021-44228    Sources    Date Attribution Description     2021-12-16 15:34:24 NCSC-NL Updated vendorPatchExists. Updated community link source. Updated community note.    "><!--[if lte IE 9]><script src=https://cdnjs.cloudflare.com/ajax/libs/classlist/1.1.20170427/classList.min.js></script><![endif]--><!--[if lt IE 9]><script src=https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv.min.js></script>
 <script src=https://cdn.jsdelivr.net/npm/respond.js@1.4.2/dest/respond.min.js></script><![endif]-->
 </head>
 <body class=main-center itemscope itemtype=http://schema.org/WebPage><header class=header itemscope itemtype=http://schema.org/WPHeader>
@@ -82,13 +82,16 @@ a consolidated collection of information and resources for defenders
 <div class=article-container>
 <div class=article-header><table border=0 width=100%><tr><td>
 <h1>
-<a href=/posts/riverbedclient-accelerator-controllers-and-client-accelerator-aka-steelcentral-controller-for-steelhead-mobile-and-steelhead-mobile-/>Riverbed Client Accelerator Controllers and Client Accelerator (aka SteelCentral Controller for SteelHead Mobile and SteelHead Mobile)</a>
+<a href=/posts/amazonredshift/>Amazon Redshift</a>
 </h1>
 </td><td>
 <table class=title-version-info border=0>
 </table>
 </td></tr></table><br>
 <div class=title-data><b>Vendor Data</b>
+<span class=tag>
+<img src="/images/Icon - Vendor Patch Exists.png">
+Vendor Patch Exists</span>
 </div>
 <div class=title-data-divider></div>
 <div class=title-data><b>Community Data</b>
@@ -108,7 +111,22 @@ a consolidated collection of information and resources for defenders
 <tbody>
 <tr>
 <td>source</td>
-<td><a href="https://supportkb.riverbed.com/support/index?page=content&id=S35645&actp=LIST_RECENT">https://supportkb.riverbed.com/support/index?page=content&id=S35645&actp=LIST_RECENT</a></td>
+<td><a href=https://aws.amazon.com/security/security-bulletins/AWS-2021-006/>https://aws.amazon.com/security/security-bulletins/AWS-2021-006/</a></td>
+</tr>
+</tbody>
+</table>
+<h2 id=community-notes>Community Notes</h2>
+<table>
+<thead>
+<tr>
+<th>Source</th>
+<th>Note</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href=https://github.com/NCSC-NL/log4shell/blob/main/software/README.md>NCSC-NL</a></td>
+<td>Amazon Redshift clusters have been automatically updated to mitigate the issues identified in CVE-2021-44228</td>
 </tr>
 </tbody>
 </table>
@@ -123,9 +141,9 @@ a consolidated collection of information and resources for defenders
 </thead>
 <tbody>
 <tr>
-<td>2021-12-14 10:53:57</td>
+<td>2021-12-16 15:34:24</td>
 <td><a href=https://github.com/NCSC-NL/log4shell/blob/main/software/README.md>NCSC-NL</a></td>
-<td>Updated community link source.</td>
+<td>Updated vendorPatchExists. Updated community link source. Updated community note.</td>
 </tr>
 </tbody>
 </table>
@@ -138,10 +156,10 @@ a consolidated collection of information and resources for defenders
 <div class=bar-inner>
 <ul class="pager pull-left">
 <li class=prev>
-<a href=https://canilog4j.com/posts/riverbedflow-gateway/ title="Riverbed Flow Gateway"><i class="icon icon-angle-left" aria-hidden=true></i><span>&nbsp;&nbsp;Older</span></a>
+<a href=https://canilog4j.com/posts/amazons3/ title="Amazon S3"><i class="icon icon-angle-left" aria-hidden=true></i><span>&nbsp;&nbsp;Older</span></a>
 </li>
 <li class=next>
-<a href=https://canilog4j.com/posts/riverbedaternity/ title="Riverbed Aternity"><span>Newer&nbsp;&nbsp;</span><i class="icon icon-angle-right" aria-hidden=true></i></a>
+<a href=https://canilog4j.com/posts/amazonrds-for-oracle/ title="Amazon RDS for Oracle"><span>Newer&nbsp;&nbsp;</span><i class="icon icon-angle-right" aria-hidden=true></i></a>
 </li>
 </ul>
 <div class=bar-right>
