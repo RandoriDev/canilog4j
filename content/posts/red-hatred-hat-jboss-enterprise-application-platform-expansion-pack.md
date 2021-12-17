@@ -1,5 +1,4 @@
 ---
-communityVulnerable: true
 draft: 'false'
 name: Red Hat JBoss Enterprise Application Platform Expansion Pack
 title: Red Hat Red Hat JBoss Enterprise Application Platform Expansion Pack
@@ -16,4 +15,4 @@ vendor: Red Hat
 ## Sources
 | Date | Attribution | Description |
 | --- | --- | --- |
-| 2021-12-14 12:43:00 | [NCSC-NL](https://github.com/NCSC-NL/log4shell/blob/main/software/README.md) | Updated communityVulnerable. Updated community link source.  |
+| 2021-12-17 9:35:07 | [NCSC-NL](https://github.com/NCSC-NL/log4shell/blob/main/software/README.md) | Updated community link source.  |

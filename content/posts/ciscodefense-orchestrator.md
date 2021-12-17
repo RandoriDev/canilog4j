@@ -1,9 +1,9 @@
 ---
+communityNotVulnerable: true
 draft: 'false'
 name: Defense Orchestrator
 title: Cisco Defense Orchestrator
 vendor: Cisco
-vendorInvestigating: true
 ---
 
 
@@ -16,4 +16,4 @@ vendorInvestigating: true
 ## Sources
 | Date | Attribution | Description |
 | --- | --- | --- |
-| 2021-12-14 12:33:39 | [NCSC-NL](https://github.com/NCSC-NL/log4shell/blob/main/software/README.md) | Updated vendorInvestigating. Updated community link source.  |
+| 2021-12-16 18:56:16 | [NCSC-NL](https://github.com/NCSC-NL/log4shell/blob/main/software/README.md) | Updated communityNotVulnerable. Updated community link source.  |

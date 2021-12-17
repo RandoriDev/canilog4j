@@ -1,0 +1,22 @@
+---
+draft: 'false'
+name: Secure Enterprise
+title: MicroStrategy Secure Enterprise
+vendor: MicroStrategy
+---
+
+
+## Community Resources
+| Resource | Link |
+| --- | --- |
+| source | [https://community.microstrategy.com/s/article/MicroStrategy-s-response-to-CVE-2021-44228-The-Log4j-0-Day-Vulnerability?language=en_US](https://community.microstrategy.com/s/article/MicroStrategy-s-response-to-CVE-2021-44228-The-Log4j-0-Day-Vulnerability?language=en_US) |
+
+## Community Notes
+| Source | Note |
+| --- | --- |
+| [NCSC-NL](https://github.com/NCSC-NL/log4shell/blob/main/software/README.md) | Workaround available, Update scheduled for Week 51/2021 |
+
+## Sources
+| Date | Attribution | Description |
+| --- | --- | --- |
+| 2021-12-17 12:10:04 | [NCSC-NL](https://github.com/NCSC-NL/log4shell/blob/main/software/README.md) | Updated community link source. Updated community note.  |

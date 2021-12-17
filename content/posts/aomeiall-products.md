@@ -15,4 +15,4 @@ vendor: AOMEI
 ## Sources
 | Date | Attribution | Description |
 | --- | --- | --- |
-| 2021-12-16 12:41:17 | [NCSC-NL](https://github.com/NCSC-NL/log4shell/blob/main/software/README.md) | Updated community link source.  |
+| 2021-12-17 8:26:45 | [NCSC-NL](https://github.com/NCSC-NL/log4shell/blob/main/software/README.md) | Updated community link source.  |

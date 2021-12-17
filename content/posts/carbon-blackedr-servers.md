@@ -20,4 +20,4 @@ vendor: Carbon Black
 ## Sources
 | Date | Attribution | Description |
 | --- | --- | --- |
-| 2021-12-12 15:46:33 | [NCSC-NL](https://github.com/NCSC-NL/log4shell/blob/main/software/README.md) | Updated communityVulnerable. Updated community link source. Updated community note.  |
+| 2021-12-17 11:44:30 | [NCSC-NL](https://github.com/NCSC-NL/log4shell/blob/main/software/README.md) | Updated communityVulnerable. Updated community link source. Updated community note.  |

@@ -16,4 +16,4 @@ vendor: GitLab
 ## Sources
 | Date | Attribution | Description |
 | --- | --- | --- |
-| 2021-12-14 13:41:31 | [NCSC-NL](https://github.com/NCSC-NL/log4shell/blob/main/software/README.md) | Updated communityNotVulnerable. Updated community link source.  |
+| 2021-12-17 13:37:37 | [NCSC-NL](https://github.com/NCSC-NL/log4shell/blob/main/software/README.md) | Updated communityNotVulnerable. Updated community link source.  |

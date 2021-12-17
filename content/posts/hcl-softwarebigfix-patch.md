@@ -12,8 +12,12 @@ vendor: HCL Software
 | --- | --- |
 | source | [https://support.hcltechsw.com/csm?id=kb_article&sysparm_article=KB0095486](https://support.hcltechsw.com/csm?id=kb_article&sysparm_article=KB0095486) |
 
+## Community Notes
+| Source | Note |
+| --- | --- |
+| [NCSC-NL](https://github.com/NCSC-NL/log4shell/blob/main/software/README.md) | not vuln for CVE-2021-45046 |
 
 ## Sources
 | Date | Attribution | Description |
 | --- | --- | --- |
-| 2021-12-15 9:38:26 | [NCSC-NL](https://github.com/NCSC-NL/log4shell/blob/main/software/README.md) | Updated communityNotVulnerable. Updated community link source.  |
+| 2021-12-17 8:25:58 | [NCSC-NL](https://github.com/NCSC-NL/log4shell/blob/main/software/README.md) | Updated communityNotVulnerable. Updated community link source. Updated community note.  |

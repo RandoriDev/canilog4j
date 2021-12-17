@@ -1,0 +1,23 @@
+---
+draft: 'false'
+name: Atlas Search
+title: MongoDB Atlas Search
+vendor: MongoDB
+vendorPatchExists: true
+---
+
+
+## Community Resources
+| Resource | Link |
+| --- | --- |
+| source | [https://www.mongodb.com/blog/post/log4shell-vulnerability-cve-2021-44228-and-mongodb](https://www.mongodb.com/blog/post/log4shell-vulnerability-cve-2021-44228-and-mongodb) |
+
+## Community Notes
+| Source | Note |
+| --- | --- |
+| [NCSC-NL](https://github.com/NCSC-NL/log4shell/blob/main/software/README.md) | Affected and patched. No evidence of exploitation or indicators of compromise prior to the patch were discovered. |
+
+## Sources
+| Date | Attribution | Description |
+| --- | --- | --- |
+| 2021-12-17 11:44:30 | [NCSC-NL](https://github.com/NCSC-NL/log4shell/blob/main/software/README.md) | Updated vendorPatchExists. Updated community link source. Updated community note.  |

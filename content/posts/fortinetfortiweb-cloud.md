@@ -21,4 +21,4 @@ vendor: Fortinet
 | Date | Attribution | Description |
 | --- | --- | --- |
 | 2021-12-13 11:37:21 | [NCSC-NL](https://github.com/NCSC-NL/log4shell/blob/main/software/README.md) | Updated community link source.  |
-| 2021-12-15 20:24:47 | [CISAGov](https://raw.githubusercontent.com/cisagov/log4j-affected-db/develop/README.md) | Updated communityNotVulnerable. Updated vendor link PSIRT Advisories  FortiGuard.  |
+| 2021-12-17 14:04:59 | [CISAGov](https://raw.githubusercontent.com/cisagov/log4j-affected-db/develop/README.md) | Updated communityNotVulnerable. Updated vendor link PSIRT Advisories  FortiGuard.  |

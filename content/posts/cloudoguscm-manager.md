@@ -16,4 +16,4 @@ vendor: Cloudogu
 ## Sources
 | Date | Attribution | Description |
 | --- | --- | --- |
-| 2021-12-16 13:18:29 | [CISAGov](https://raw.githubusercontent.com/cisagov/log4j-affected-db/develop/README.md) | Updated communityNotVulnerable. Updated vendor link SCM-Manager Blog.  |
+| 2021-12-17 14:04:59 | [CISAGov](https://raw.githubusercontent.com/cisagov/log4j-affected-db/develop/README.md) | Updated communityNotVulnerable. Updated vendor link SCM-Manager Blog.  |

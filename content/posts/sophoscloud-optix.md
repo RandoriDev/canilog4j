@@ -26,4 +26,4 @@ vendorPatchExists: true
 | Date | Attribution | Description |
 | --- | --- | --- |
 | 2021-12-14 12:43:00 | [NCSC-NL](https://github.com/NCSC-NL/log4shell/blob/main/software/README.md) | Updated vendorPatchExists. Updated community link source.  |
-| 2021-12-15 20:24:47 | [CISAGov](https://raw.githubusercontent.com/cisagov/log4j-affected-db/develop/README.md) | Updated vendor link Advisory: Log4J zero-day vulnerability AKA Log4Shell (CVE-2021-44228)  Sophos. Updated community note. Updated community note.  |
+| 2021-12-17 14:04:59 | [CISAGov](https://raw.githubusercontent.com/cisagov/log4j-affected-db/develop/README.md) | Updated vendor link Advisory: Log4J zero-day vulnerability AKA Log4Shell (CVE-2021-44228)  Sophos. Updated community note. Updated community note.  |

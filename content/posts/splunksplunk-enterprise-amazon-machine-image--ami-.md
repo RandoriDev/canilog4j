@@ -25,4 +25,4 @@ vendor: Splunk
 | Date | Attribution | Description |
 | --- | --- | --- |
 | 2021-12-14 12:43:00 | [NCSC-NL](https://github.com/NCSC-NL/log4shell/blob/main/software/README.md) | Updated community link source.  |
-| 2021-12-15 13:48:56 | [CISAGov](https://raw.githubusercontent.com/cisagov/log4j-affected-db/develop/README.md) | Updated communityVulnerable. Updated vendor link Splunk Security Advisory for Apache Log4j (CVE-2021-44228)  Splunk. Updated community note.  |
+| 2021-12-17 14:04:59 | [CISAGov](https://raw.githubusercontent.com/cisagov/log4j-affected-db/develop/README.md) | Updated communityVulnerable. Updated vendor link Splunk Security Advisory for Apache Log4j (CVE-2021-44228)  Splunk. Updated community note.  |

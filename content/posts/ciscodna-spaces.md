@@ -3,7 +3,7 @@ draft: 'false'
 name: DNA Spaces
 title: Cisco DNA Spaces
 vendor: Cisco
-vendorInvestigating: true
+vendorPatchExists: true
 ---
 
 
@@ -16,4 +16,4 @@ vendorInvestigating: true
 ## Sources
 | Date | Attribution | Description |
 | --- | --- | --- |
-| 2021-12-14 12:33:39 | [NCSC-NL](https://github.com/NCSC-NL/log4shell/blob/main/software/README.md) | Updated vendorInvestigating. Updated community link source.  |
+| 2021-12-16 18:56:16 | [NCSC-NL](https://github.com/NCSC-NL/log4shell/blob/main/software/README.md) | Updated vendorPatchExists. Updated community link source.  |

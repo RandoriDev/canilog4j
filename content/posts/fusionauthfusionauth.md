@@ -21,4 +21,4 @@ vendor: FusionAuth
 | Date | Attribution | Description |
 | --- | --- | --- |
 | 2021-12-12 16:14:27 | [NCSC-NL](https://github.com/NCSC-NL/log4shell/blob/main/software/README.md) | Updated community link source.  |
-| 2021-12-15 13:48:56 | [CISAGov](https://raw.githubusercontent.com/cisagov/log4j-affected-db/develop/README.md) | Updated communityNotVulnerable. Updated vendor link log4j CVE: How it affects FusionAuth (TLDR: It doesn't) - FusionAuth.  |
+| 2021-12-17 14:04:59 | [CISAGov](https://raw.githubusercontent.com/cisagov/log4j-affected-db/develop/README.md) | Updated communityNotVulnerable. Updated vendor link log4j CVE: How it affects FusionAuth (TLDR: It doesn't) - FusionAuth.  |

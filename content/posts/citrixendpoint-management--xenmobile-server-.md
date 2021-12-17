@@ -3,7 +3,7 @@ draft: 'false'
 name: Endpoint Management (XenMobile Server)
 title: Citrix Endpoint Management (XenMobile Server)
 vendor: Citrix
-vendorInvestigating: true
+vendorPatchExists: true
 ---
 
 
@@ -16,4 +16,4 @@ vendorInvestigating: true
 ## Sources
 | Date | Attribution | Description |
 | --- | --- | --- |
-| 2021-12-15 13:47:46 | [NCSC-NL](https://github.com/NCSC-NL/log4shell/blob/main/software/README.md) | Updated vendorInvestigating. Updated community link source.  |
+| 2021-12-17 8:45:11 | [NCSC-NL](https://github.com/NCSC-NL/log4shell/blob/main/software/README.md) | Updated vendorPatchExists. Updated community link source.  |

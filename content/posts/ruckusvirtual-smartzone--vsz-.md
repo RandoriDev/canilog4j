@@ -26,4 +26,4 @@ vendor: Ruckus
 | Date | Attribution | Description |
 | --- | --- | --- |
 | 2021-12-15 6:48:42 | [NCSC-NL](https://github.com/NCSC-NL/log4shell/blob/main/software/README.md) | Updated community link source. Updated community note.  |
-| 2021-12-15 19:31:56 | [CISAGov](https://raw.githubusercontent.com/cisagov/log4j-affected-db/develop/README.md) | Updated communityVulnerable. Updated vendor link Ruckus Wireless (support.ruckuswireless.com). Updated community note.  |
+| 2021-12-17 14:04:59 | [CISAGov](https://raw.githubusercontent.com/cisagov/log4j-affected-db/develop/README.md) | Updated communityVulnerable. Updated vendor link Ruckus Wireless (support.ruckuswireless.com). Updated community note.  |

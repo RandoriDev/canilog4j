@@ -16,4 +16,4 @@ vendor: Ahsay
 ## Sources
 | Date | Attribution | Description |
 | --- | --- | --- |
-| 2021-12-16 15:33:36 | [NCSC-NL](https://github.com/NCSC-NL/log4shell/blob/main/software/README.md) | Updated communityNotVulnerable. Updated community link source.  |
+| 2021-12-17 10:21:43 | [NCSC-NL](https://github.com/NCSC-NL/log4shell/blob/main/software/README.md) | Updated communityNotVulnerable. Updated community link source.  |

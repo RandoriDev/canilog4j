@@ -3,7 +3,7 @@ draft: 'false'
 name: Trend Micro Web Security
 title: Trend Micro Trend Micro Web Security
 vendor: Trend Micro
-vendorInvestigating: true
+vendorPatchExists: true
 ---
 
 
@@ -16,4 +16,4 @@ vendorInvestigating: true
 ## Sources
 | Date | Attribution | Description |
 | --- | --- | --- |
-| 2021-12-15 13:55:27 | [NCSC-NL](https://github.com/NCSC-NL/log4shell/blob/main/software/README.md) | Updated vendorInvestigating. Updated community link source.  |
+| 2021-12-17 8:11:31 | [NCSC-NL](https://github.com/NCSC-NL/log4shell/blob/main/software/README.md) | Updated vendorPatchExists. Updated community link source.  |

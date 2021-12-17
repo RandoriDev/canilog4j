@@ -22,4 +22,4 @@ vendor: SolarWinds
 ## Sources
 | Date | Attribution | Description |
 | --- | --- | --- |
-| 2021-12-15 22:33:17 | [CISAGov](https://raw.githubusercontent.com/cisagov/log4j-affected-db/develop/README.md) | Updated communityVulnerable. Updated vendor link Apache Log4j Critical Vulnerability (CVE-2021-44228). Updated vendor link Server & Application Monitor (SAM) and the Apache Log4j Vulnerability (CVE-2021-44228). Updated community note. Updated community note.  |
+| 2021-12-17 14:04:59 | [CISAGov](https://raw.githubusercontent.com/cisagov/log4j-affected-db/develop/README.md) | Updated communityVulnerable. Updated vendor link Apache Log4j Critical Vulnerability (CVE-2021-44228). Updated vendor link Server & Application Monitor (SAM) and the Apache Log4j Vulnerability (CVE-2021-44228). Updated community note. Updated community note.  |

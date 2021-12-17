@@ -16,4 +16,4 @@ vendor: Cisco
 ## Sources
 | Date | Attribution | Description |
 | --- | --- | --- |
-| 2021-12-15 2:46:48 | [CISAGov](https://raw.githubusercontent.com/cisagov/log4j-affected-db/develop/README.md) | Updated communityVulnerable. Updated vendor link Vulnerability in Apache Log4j Library Affecting Cisco Products: December 2021.  |
+| 2021-12-17 14:04:59 | [CISAGov](https://raw.githubusercontent.com/cisagov/log4j-affected-db/develop/README.md) | Updated communityVulnerable. Updated vendor link Vulnerability in Apache Log4j Library Affecting Cisco Products: December 2021.  |

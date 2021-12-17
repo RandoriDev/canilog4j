@@ -24,4 +24,4 @@ vendor: Avaya
 ## Sources
 | Date | Attribution | Description |
 | --- | --- | --- |
-| 2021-12-15 5:53:12 | [CISAGov](https://raw.githubusercontent.com/cisagov/log4j-affected-db/develop/README.md) | Updated communityVulnerable. Updated vendor link Apache Log4J Vulnerability - Impact for Avaya products Avaya Product Security. Updated community link PSN020550u. Updated community note.  |
+| 2021-12-17 14:04:59 | [CISAGov](https://raw.githubusercontent.com/cisagov/log4j-affected-db/develop/README.md) | Updated communityVulnerable. Updated vendor link Apache Log4J Vulnerability - Impact for Avaya products Avaya Product Security. Updated community link PSN020550u. Updated community note.  |

@@ -1,5 +1,5 @@
 ---
-communityVulnerable: true
+communityNotVulnerable: true
 draft: 'false'
 name: log4j-core low
 title: Red Hat build of Quarkus log4j-core low
@@ -16,4 +16,4 @@ vendor: Red Hat build of Quarkus
 ## Sources
 | Date | Attribution | Description |
 | --- | --- | --- |
-| 2021-12-15 13:48:56 | [CISAGov](https://raw.githubusercontent.com/cisagov/log4j-affected-db/develop/README.md) | Updated communityVulnerable. Updated vendor link CVE-2021-44228- Red Hat Customer Portal.  |
+| 2021-12-17 14:04:59 | [CISAGov](https://raw.githubusercontent.com/cisagov/log4j-affected-db/develop/README.md) | Updated communityNotVulnerable. Updated vendor link CVE-2021-44228- Red Hat Customer Portal.  |

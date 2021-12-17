@@ -25,4 +25,4 @@ vendor: Akamai
 | Date | Attribution | Description |
 | --- | --- | --- |
 | 2021-12-14 12:33:39 | [NCSC-NL](https://github.com/NCSC-NL/log4shell/blob/main/software/README.md) | Updated community link source. Updated community note.  |
-| 2021-12-15 2:46:48 | [CISAGov](https://raw.githubusercontent.com/cisagov/log4j-affected-db/develop/README.md) | Updated communityVulnerable. Updated vendor link GitHub - akamai/siem-splunk-connector: Akamai SIEM Connector for Splunk.  |
+| 2021-12-17 14:04:59 | [CISAGov](https://raw.githubusercontent.com/cisagov/log4j-affected-db/develop/README.md) | Updated communityVulnerable. Updated vendor link GitHub - akamai/siem-splunk-connector: Akamai SIEM Connector for Splunk.  |
