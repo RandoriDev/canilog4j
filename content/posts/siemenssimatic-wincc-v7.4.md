@@ -3,7 +3,6 @@ draft: 'false'
 name: SIMATIC WinCC V7.4
 title: Siemens SIMATIC WinCC V7.4
 vendor: Siemens
-vendorPatchExists: true
 ---
 
 
@@ -16,4 +15,4 @@ vendorPatchExists: true
 ## Sources
 | Date | Attribution | Description |
 | --- | --- | --- |
-| 2021-12-15 15:02:13 | [NCSC-NL](https://github.com/NCSC-NL/log4shell/blob/main/software/README.md) | Updated vendorPatchExists. Updated community link source.  |
+| 2021-12-18 12:01:20 | [NCSC-NL](https://github.com/NCSC-NL/log4shell/blob/main/software/README.md) | Updated community link source.  |

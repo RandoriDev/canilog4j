@@ -6,14 +6,23 @@ title: Illumio CLI
 vendor: Illumio
 ---
 
+## Vendor Resources
+| Resource | Link |
+| --- | --- |
+| Illumio KB article | [https://support.illumio.com/knowledge-base/articles/Customer-Security-Advisory-on-log4j-RCE-CVE-2021-44228.html](https://support.illumio.com/knowledge-base/articles/Customer-Security-Advisory-on-log4j-RCE-CVE-2021-44228.html) |
 
 ## Community Resources
 | Resource | Link |
 | --- | --- |
 | source | [https://support.illumio.com/knowledge-base/articles/Customer-Security-Advisory-on-log4j-RCE-CVE-2021-44228.html](https://support.illumio.com/knowledge-base/articles/Customer-Security-Advisory-on-log4j-RCE-CVE-2021-44228.html) |
 
+## Community Notes
+| Source | Note |
+| --- | --- |
+| [CISAGov](https://raw.githubusercontent.com/cisagov/log4j-affected-db/develop/README.md) | Last Update: 12/16/2021 |
 
 ## Sources
 | Date | Attribution | Description |
 | --- | --- | --- |
 | 2021-12-15 6:49:31 | [NCSC-NL](https://github.com/NCSC-NL/log4shell/blob/main/software/README.md) | Updated communityNotVulnerable. Updated community link source.  |
+| 2021-12-17 18:01:10 | [CISAGov](https://raw.githubusercontent.com/cisagov/log4j-affected-db/develop/README.md) | Updated communityNotVulnerable. Updated vendor link Illumio KB article. Updated community note.  |

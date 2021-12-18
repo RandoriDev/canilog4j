@@ -1,9 +1,9 @@
 ---
-communityVulnerable: true
 draft: 'false'
 name: EasyAccess
 title: Clavister EasyAccess
 vendor: Clavister
+vendorPatchExists: true
 ---
 
 
@@ -12,12 +12,8 @@ vendor: Clavister
 | --- | --- |
 | source | [https://kb.clavister.com/343410234/high-severity-vulnerability-in-apache-log4j-2](https://kb.clavister.com/343410234/high-severity-vulnerability-in-apache-log4j-2) |
 
-## Community Notes
-| Source | Note |
-| --- | --- |
-| [NCSC-NL](https://github.com/NCSC-NL/log4shell/blob/main/software/README.md) | See link for fix |
 
 ## Sources
 | Date | Attribution | Description |
 | --- | --- | --- |
-| 2021-12-16 10:50:16 | [NCSC-NL](https://github.com/NCSC-NL/log4shell/blob/main/software/README.md) | Updated communityVulnerable. Updated community link source. Updated community note.  |
+| 2021-12-18 12:06:56 | [NCSC-NL](https://github.com/NCSC-NL/log4shell/blob/main/software/README.md) | Updated vendorPatchExists. Updated community link source.  |

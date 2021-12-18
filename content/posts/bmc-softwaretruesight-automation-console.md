@@ -15,9 +15,9 @@ vendor: BMC Software
 ## Community Notes
 | Source | Note |
 | --- | --- |
-| [NCSC-NL](https://github.com/NCSC-NL/log4shell/blob/main/software/README.md) | Fix expected on Dec 17th |
+| [NCSC-NL](https://github.com/NCSC-NL/log4shell/blob/main/software/README.md) | ETA for Fix: Dec 23, 2021 |
 
 ## Sources
 | Date | Attribution | Description |
 | --- | --- | --- |
-| 2021-12-15 11:25:54 | [NCSC-NL](https://github.com/NCSC-NL/log4shell/blob/main/software/README.md) | Updated communityVulnerable. Updated community link source. Updated community note.  |
+| 2021-12-18 13:39:16 | [NCSC-NL](https://github.com/NCSC-NL/log4shell/blob/main/software/README.md) | Updated communityVulnerable. Updated community link source. Updated community note.  |

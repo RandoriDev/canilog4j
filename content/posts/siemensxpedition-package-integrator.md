@@ -15,4 +15,4 @@ vendor: Siemens
 ## Sources
 | Date | Attribution | Description |
 | --- | --- | --- |
-| 2021-12-15 15:02:13 | [NCSC-NL](https://github.com/NCSC-NL/log4shell/blob/main/software/README.md) | Updated community link source.  |
+| 2021-12-18 12:01:20 | [NCSC-NL](https://github.com/NCSC-NL/log4shell/blob/main/software/README.md) | Updated community link source.  |

@@ -19,7 +19,7 @@ vendor: Intel
 ## Community Notes
 | Source | Note |
 | --- | --- |
-| [CISAGov](https://raw.githubusercontent.com/cisagov/log4j-affected-db/develop/README.md) | Last Update: 12/16/2021 |
+| [CISAGov](https://raw.githubusercontent.com/cisagov/log4j-affected-db/develop/README.md) | Last Update: 2021-12-16 |
 
 ## Sources
 | Date | Attribution | Description |

@@ -1,23 +1,19 @@
 ---
-communityVulnerable: true
 draft: 'false'
 name: "TrueSight\_IT Data Analytics"
 title: "BMC Software TrueSight\_IT Data Analytics"
 vendor: BMC Software
+vendorPatchExists: true
 ---
 
 
 ## Community Resources
 | Resource | Link |
 | --- | --- |
-| source | [https://community.bmc.com/s/news/aA33n000000TSUdCAO/bmc-security-advisory-for-cve202144228-log4shell-vulnerability](https://community.bmc.com/s/news/aA33n000000TSUdCAO/bmc-security-advisory-for-cve202144228-log4shell-vulnerability) |
+| source | [https://community.bmc.com/s/news/aA33n000000TSUdCAO/bmc-security-advisory-for-cve202144228-cve202145046-log4shell-vulnerability#:~:text=TrueSight%20Operations%20Management%3A%20IT%20Data%20Analytics](https://community.bmc.com/s/news/aA33n000000TSUdCAO/bmc-security-advisory-for-cve202144228-cve202145046-log4shell-vulnerability#:~:text=TrueSight%20Operations%20Management%3A%20IT%20Data%20Analytics) |
 
-## Community Notes
-| Source | Note |
-| --- | --- |
-| [NCSC-NL](https://github.com/NCSC-NL/log4shell/blob/main/software/README.md) | Fix expected on Dec 15th |
 
 ## Sources
 | Date | Attribution | Description |
 | --- | --- | --- |
-| 2021-12-15 11:25:54 | [NCSC-NL](https://github.com/NCSC-NL/log4shell/blob/main/software/README.md) | Updated communityVulnerable. Updated community link source. Updated community note.  |
+| 2021-12-18 13:39:16 | [NCSC-NL](https://github.com/NCSC-NL/log4shell/blob/main/software/README.md) | Updated vendorPatchExists. Updated community link source.  |

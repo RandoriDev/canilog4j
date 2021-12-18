@@ -1,18 +1,28 @@
 ---
+communityNotVulnerable: true
 draft: 'false'
 name: Machine Learning
 title: Elastic Machine Learning
 vendor: Elastic
 ---
 
+## Vendor Resources
+| Resource | Link |
+| --- | --- |
+| Apache Log4j2 Remote Code Execution (RCE) Vulnerability - CVE-2021-44228 - ESA-2021-31 | [https://discuss.elastic.co/t/apache-log4j2-remote-code-execution-rce-vulnerability-cve-2021-44228-esa-2021-31/291476](https://discuss.elastic.co/t/apache-log4j2-remote-code-execution-rce-vulnerability-cve-2021-44228-esa-2021-31/291476) |
 
 ## Community Resources
 | Resource | Link |
 | --- | --- |
 | source | [https://discuss.elastic.co/t/apache-log4j2-remote-code-execution-rce-vulnerability-cve-2021-44228-esa-2021-31/291476](https://discuss.elastic.co/t/apache-log4j2-remote-code-execution-rce-vulnerability-cve-2021-44228-esa-2021-31/291476) |
 
+## Community Notes
+| Source | Note |
+| --- | --- |
+| [CISAGov](https://raw.githubusercontent.com/cisagov/log4j-affected-db/develop/README.md) | Last Update: 12/15/2021 |
 
 ## Sources
 | Date | Attribution | Description |
 | --- | --- | --- |
 | 2021-12-12 15:42:15 | [NCSC-NL](https://github.com/NCSC-NL/log4shell/blob/main/software/README.md) | Updated community link source.  |
+| 2021-12-17 0:55:09 | [CISAGov](https://raw.githubusercontent.com/cisagov/log4j-affected-db/develop/README.md) | Updated communityNotVulnerable. Updated vendor link Apache Log4j2 Remote Code Execution (RCE) Vulnerability - CVE-2021-44228 - ESA-2021-31. Updated community note.  |

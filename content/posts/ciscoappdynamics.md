@@ -1,9 +1,9 @@
 ---
+communityVulnerable: true
 draft: 'false'
 name: AppDynamics
 title: Cisco AppDynamics
 vendor: Cisco
-vendorInvestigating: true
 vendorPatchExists: true
 ---
 
@@ -22,4 +22,4 @@ vendorPatchExists: true
 | Date | Attribution | Description |
 | --- | --- | --- |
 | 2021-12-14 12:33:39 | [NCSC-NL](https://github.com/NCSC-NL/log4shell/blob/main/software/README.md) | Updated vendorPatchExists. Updated community link source.  |
-| 2021-12-17 14:04:59 | [CISAGov](https://raw.githubusercontent.com/cisagov/log4j-affected-db/develop/README.md) | Updated vendorInvestigating. Updated vendor link Vulnerability in Apache Log4j Library Affecting Cisco Products: December 2021.  |
+| 2021-12-17 17:53:11 | [CISAGov](https://raw.githubusercontent.com/cisagov/log4j-affected-db/develop/README.md) | Updated communityVulnerable. Updated vendorPatchExists. Updated vendor link Vulnerability in Apache Log4j Library Affecting Cisco Products: December 2021.  |

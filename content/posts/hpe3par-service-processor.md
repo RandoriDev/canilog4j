@@ -1,9 +1,9 @@
 ---
-communityVulnerable: true
 draft: 'false'
 name: 3PAR Service Processor
 title: HPE 3PAR Service Processor
 vendor: HPE
+vendorPatchExists: true
 ---
 
 
@@ -11,9 +11,14 @@ vendor: HPE
 | Resource | Link |
 | --- | --- |
 | source | [https://support.hpe.com/hpesc/public/docDisplay?docId=hpesbgn04215en_us](https://support.hpe.com/hpesc/public/docDisplay?docId=hpesbgn04215en_us) |
+| release notes | [https://support.hpe.com/hpesc/public/docDisplay?docLocale=en_US&docId=a00002915en_us](https://support.hpe.com/hpesc/public/docDisplay?docLocale=en_US&docId=a00002915en_us) |
 
+## Community Notes
+| Source | Note |
+| --- | --- |
+| [NCSC-NL](https://github.com/NCSC-NL/log4shell/blob/main/software/README.md) | Fixed in version 5.0.9.2 |
 
 ## Sources
 | Date | Attribution | Description |
 | --- | --- | --- |
-| 2021-12-16 12:06:57 | [NCSC-NL](https://github.com/NCSC-NL/log4shell/blob/main/software/README.md) | Updated communityVulnerable. Updated community link source.  |
+| 2021-12-18 12:24:41 | [NCSC-NL](https://github.com/NCSC-NL/log4shell/blob/main/software/README.md) | Updated vendorPatchExists. Updated community link source. Updated community link release notes. Updated community note.  |

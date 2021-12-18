@@ -20,11 +20,11 @@ vendorPatchExists: true
 ## Community Notes
 | Source | Note |
 | --- | --- |
-| [NCSC-NL](https://github.com/NCSC-NL/log4shell/blob/main/software/README.md) | Vulnerability fixed on central cloud service starting2021-12-13; no user actions necessary |
+| [NCSC-NL](https://github.com/NCSC-NL/log4shell/blob/main/software/README.md) | Vulnerability fixed on central cloud service starting 2021-12-13; no user actions necessary |
 | [CISAGov](https://raw.githubusercontent.com/cisagov/log4j-affected-db/develop/README.md) | Last Update: 12/15/2021 |
 
 ## Sources
 | Date | Attribution | Description |
 | --- | --- | --- |
-| 2021-12-14 9:39:16 | [NCSC-NL](https://github.com/NCSC-NL/log4shell/blob/main/software/README.md) | Updated vendorPatchExists. Updated community link source. Updated community note.  |
+| 2021-12-18 12:01:20 | [NCSC-NL](https://github.com/NCSC-NL/log4shell/blob/main/software/README.md) | Updated vendorPatchExists. Updated community link source. Updated community note.  |
 | 2021-12-17 5:43:39 | [CISAGov](https://raw.githubusercontent.com/cisagov/log4j-affected-db/develop/README.md) | Updated communityVulnerable. Updated vendorPatchExists. Updated vendor link Siemens Advisory Link. Updated community note.  |

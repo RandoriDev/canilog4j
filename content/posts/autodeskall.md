@@ -1,9 +1,9 @@
 ---
-communityNotVulnerable: true
 draft: 'false'
 name: All
 title: Autodesk All
 vendor: Autodesk
+vendorInvestigating: true
 ---
 
 
@@ -16,4 +16,4 @@ vendor: Autodesk
 ## Sources
 | Date | Attribution | Description |
 | --- | --- | --- |
-| 2021-12-17 12:28:04 | [NCSC-NL](https://github.com/NCSC-NL/log4shell/blob/main/software/README.md) | Updated communityNotVulnerable. Updated community link source.  |
+| 2021-12-17 16:26:54 | [NCSC-NL](https://github.com/NCSC-NL/log4shell/blob/main/software/README.md) | Updated vendorInvestigating. Updated community link source.  |

@@ -2,7 +2,6 @@
 communityExploitable: true
 communityLog4jDefault: true
 communityVulnerable: true
-communtityVulnerable: true
 cpe: cpe:2.3:a:jamf:jamf:*:*:*:*:*:*:*:*
 draft: 'false'
 firstVulnerable: 10.31.0
@@ -30,4 +29,4 @@ vendorPatchExists: true
 | Date | Attribution | Description |
 | --- | --- | --- |
 | 2021-12-17 14:04:59 | [CISAGov](https://raw.githubusercontent.com/cisagov/log4j-affected-db/develop/README.md) | Updated communityVulnerable. Updated vendorPatchExists. Updated vendor link Mitigating the Apache Log4j 2 Vulnerability.  |
-| 2021-12-13T14:07:00-07:00 | [Randori](https://www.randori.com/log4j/) | Updated cpe. Updated patchedVersion. Updated firstVulnerable. Updated lastVulnerable. Updated vendorConfirmedVulnerable. Updated vendorPatchExists. Updated communityLog4jDefault. Updated communtityVulnerable. Updated communityExploitable. Updated community link Randori Advisory.  |
+| 2021-12-13T14:07:00-07:00 | [Randori](https://www.randori.com/log4j/) | Updated cpe. Updated patchedVersion. Updated firstVulnerable. Updated lastVulnerable. Updated vendorConfirmedVulnerable. Updated vendorPatchExists. Updated communityLog4jDefault. Updated communityVulnerable. Updated communityExploitable. Updated community link Randori Advisory.  |

@@ -1,7 +1,7 @@
 ---
 communityExploitable: true
 communityLog4jDefault: true
-communtityVulnerable: true
+communityVulnerable: true
 cpe: cpe:2.3:a:vmware:horizon:*:*:*:*:*:*:*:*
 draft: 'false'
 lastVulnerable: 8.4.0
@@ -30,4 +30,4 @@ vendorExploitInWild: true
 | Date | Attribution | Description |
 | --- | --- | --- |
 | 2021-12-13 14:26:01 | [NCSC-NL](https://github.com/NCSC-NL/log4shell/blob/main/software/README.md) | Updated community link source. Updated community link workaround.  |
-| 2021-12-13T14:07:00-07:00 | [Randori](https://www.randori.com/log4j/) | Updated cpe. Updated lastVulnerable. Updated vendorExploitInWild. Updated vendorConfirmedVulnerable. Updated communityLog4jDefault. Updated communtityVulnerable. Updated communityExploitable. Updated community link Randori Advisory. Updated vendor link Advisory. Updated vendor link Workarounds.  |
+| 2021-12-13T14:07:00-07:00 | [Randori](https://www.randori.com/log4j/) | Updated cpe. Updated lastVulnerable. Updated vendorExploitInWild. Updated vendorConfirmedVulnerable. Updated communityLog4jDefault. Updated communityVulnerable. Updated communityExploitable. Updated community link Randori Advisory. Updated vendor link Advisory. Updated vendor link Workarounds.  |

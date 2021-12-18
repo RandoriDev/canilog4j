@@ -16,4 +16,4 @@ vendor: Clavister
 ## Sources
 | Date | Attribution | Description |
 | --- | --- | --- |
-| 2021-12-16 10:50:16 | [NCSC-NL](https://github.com/NCSC-NL/log4shell/blob/main/software/README.md) | Updated communityNotVulnerable. Updated community link source.  |
+| 2021-12-18 12:06:56 | [NCSC-NL](https://github.com/NCSC-NL/log4shell/blob/main/software/README.md) | Updated communityNotVulnerable. Updated community link source.  |
