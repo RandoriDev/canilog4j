@@ -1,0 +1,28 @@
+---
+draft: 'false'
+name: (Multiple Products)
+title: Liongard (Multiple Products)
+vendor: Liongard
+vendorInvestigating: true
+---
+
+## Vendor Resources
+| Resource | Link |
+| --- | --- |
+| LIONGARD FAQ | [https://insights.liongard.com/faq-apache-log4j-vulnerability](https://insights.liongard.com/faq-apache-log4j-vulnerability) |
+
+## Community Resources
+| Resource | Link |
+| --- | --- |
+| source | [https://insights.liongard.com/faq-apache-log4j-vulnerability](https://insights.liongard.com/faq-apache-log4j-vulnerability) |
+
+## Community Notes
+| Source | Note |
+| --- | --- |
+| [NCSC-NL](https://github.com/NCSC-NL/log4shell/blob/main/software/README.md) | CVE-2021-44228: Investigation </ul> |
+
+## Sources
+| Date | Attribution | Description |
+| --- | --- | --- |
+| 2021-12-20 12:37:57 | [NCSC-NL](https://github.com/NCSC-NL/log4shell/blob/main/software/README.md) | Updated vendorInvestigating. Updated community note. Updated community link source.  |
+| 2021-12-17 14:04:59 | [CISAGov](https://raw.githubusercontent.com/cisagov/log4j-affected-db/develop/README.md) | Updated vendor link LIONGARD FAQ.  |

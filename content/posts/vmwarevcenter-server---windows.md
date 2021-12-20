@@ -16,7 +16,7 @@ vendor: VMware
 | Source | Note |
 | --- | --- |
 | [CISAGov](https://raw.githubusercontent.com/cisagov/log4j-affected-db/develop/README.md) | [Workaround @ KB87096 (vmware.com)](https://kb.vmware.com/s/article/87096 ) |
-| [CISAGov](https://raw.githubusercontent.com/cisagov/log4j-affected-db/develop/README.md) | Last Update: 2021-12-17 |
+| [CISAGov](https://raw.githubusercontent.com/cisagov/log4j-affected-db/develop/README.md) | Last Update: 12/17/2021 |
 
 ## Sources
 | Date | Attribution | Description |

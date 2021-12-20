@@ -1,0 +1,18 @@
+---
+draft: 'false'
+name: (Multiple Products)
+title: GoCD (Multiple Products)
+vendor: GoCD
+---
+
+## Vendor Resources
+| Resource | Link |
+| --- | --- |
+| GoCD Statement | [https://www.gocd.org/2021/12/14/log4j-vulnerability.html](https://www.gocd.org/2021/12/14/log4j-vulnerability.html) |
+
+
+
+## Sources
+| Date | Attribution | Description |
+| --- | --- | --- |
+| 2021-12-17 14:04:59 | [CISAGov](https://raw.githubusercontent.com/cisagov/log4j-affected-db/develop/README.md) | Updated vendor link GoCD Statement.  |
