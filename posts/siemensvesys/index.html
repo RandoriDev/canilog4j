@@ -14,22 +14,22 @@ Siemens VeSys - Log4j Exploitability Index
 <meta name=format-detection content="telephone=no,email=no,adress=no">
 <meta name=theme-color content="#000000">
 <meta http-equiv=window-target content="_top">
-<meta name=description content="Vendor Resources    Resource Link     Siemens Advisory Link https://cert-portal.siemens.com/productcert/pdf/ssa-661247.pdf    Community Resources    Resource Link     source https://cert-portal.siemens.com/productcert/pdf/ssa-661247.pdf    Community Notes    Source Note     NCSC-NL Only vulnerable if Teamcenter integration feature is used   CISAGov only if Teamcenter integration feature is used   CISAGov Last Update: 12/15/2021    Sources    Date Attribution Description     2021-12-15 15:02:13 NCSC-NL Updated community link source.">
+<meta name=description content="Vendor Resources    Resource Link     Siemens Advisory - SSA-661257: Apache Log4j Vulnerabilities https://cert-portal.siemens.com/productcert/pdf/ssa-661247.pdf    Community Resources    Resource Link     source https://cert-portal.siemens.com/productcert/pdf/ssa-661247.pdf    Community Notes    Source Note     NCSC-NL CVE-2021-4104: Not vuln ; CVE-2021-44228: Workaround    NCSC-NL Only vulnerable if Teamcenter integration feature is used   CISAGov Currently no remediation is available.">
 <meta name=generator content="Hugo 0.90.1 with theme pure">
 <title>Siemens VeSys - Log4j Exploitability Index</title>
 <link rel=stylesheet href=https://canilog4j.com/css/style.min.101cddd5973823bc729d02c440935ba297cdfa0a8a6c02bfaaf0f6c6056fb009.css>
 <link rel=stylesheet href=https://cdn.staticfile.org/highlight.js/9.15.10/styles/github.min.css async>
 <link rel=stylesheet href=https://cdnjs.cloudflare.com/ajax/libs/tocbot/4.4.2/tocbot.css async>
 <meta property="og:title" content="Siemens VeSys">
-<meta property="og:description" content="Vendor Resources    Resource Link     Siemens Advisory Link https://cert-portal.siemens.com/productcert/pdf/ssa-661247.pdf    Community Resources    Resource Link     source https://cert-portal.siemens.com/productcert/pdf/ssa-661247.pdf    Community Notes    Source Note     NCSC-NL Only vulnerable if Teamcenter integration feature is used   CISAGov only if Teamcenter integration feature is used   CISAGov Last Update: 12/15/2021    Sources    Date Attribution Description     2021-12-15 15:02:13 NCSC-NL Updated community link source.">
+<meta property="og:description" content="Vendor Resources    Resource Link     Siemens Advisory - SSA-661257: Apache Log4j Vulnerabilities https://cert-portal.siemens.com/productcert/pdf/ssa-661247.pdf    Community Resources    Resource Link     source https://cert-portal.siemens.com/productcert/pdf/ssa-661247.pdf    Community Notes    Source Note     NCSC-NL CVE-2021-4104: Not vuln ; CVE-2021-44228: Workaround    NCSC-NL Only vulnerable if Teamcenter integration feature is used   CISAGov Currently no remediation is available.">
 <meta property="og:type" content="article">
 <meta property="og:url" content="https://canilog4j.com/posts/siemensvesys/"><meta property="article:section" content="posts">
 <meta itemprop=name content="Siemens VeSys">
-<meta itemprop=description content="Vendor Resources    Resource Link     Siemens Advisory Link https://cert-portal.siemens.com/productcert/pdf/ssa-661247.pdf    Community Resources    Resource Link     source https://cert-portal.siemens.com/productcert/pdf/ssa-661247.pdf    Community Notes    Source Note     NCSC-NL Only vulnerable if Teamcenter integration feature is used   CISAGov only if Teamcenter integration feature is used   CISAGov Last Update: 12/15/2021    Sources    Date Attribution Description     2021-12-15 15:02:13 NCSC-NL Updated community link source.">
-<meta itemprop=wordCount content="72">
+<meta itemprop=description content="Vendor Resources    Resource Link     Siemens Advisory - SSA-661257: Apache Log4j Vulnerabilities https://cert-portal.siemens.com/productcert/pdf/ssa-661247.pdf    Community Resources    Resource Link     source https://cert-portal.siemens.com/productcert/pdf/ssa-661247.pdf    Community Notes    Source Note     NCSC-NL CVE-2021-4104: Not vuln ; CVE-2021-44228: Workaround    NCSC-NL Only vulnerable if Teamcenter integration feature is used   CISAGov Currently no remediation is available.">
+<meta itemprop=wordCount content="100">
 <meta itemprop=keywords content><meta name=twitter:card content="summary">
 <meta name=twitter:title content="Siemens VeSys">
-<meta name=twitter:description content="Vendor Resources    Resource Link     Siemens Advisory Link https://cert-portal.siemens.com/productcert/pdf/ssa-661247.pdf    Community Resources    Resource Link     source https://cert-portal.siemens.com/productcert/pdf/ssa-661247.pdf    Community Notes    Source Note     NCSC-NL Only vulnerable if Teamcenter integration feature is used   CISAGov only if Teamcenter integration feature is used   CISAGov Last Update: 12/15/2021    Sources    Date Attribution Description     2021-12-15 15:02:13 NCSC-NL Updated community link source."><!--[if lte IE 9]><script src=https://cdnjs.cloudflare.com/ajax/libs/classlist/1.1.20170427/classList.min.js></script><![endif]--><!--[if lt IE 9]><script src=https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv.min.js></script>
+<meta name=twitter:description content="Vendor Resources    Resource Link     Siemens Advisory - SSA-661257: Apache Log4j Vulnerabilities https://cert-portal.siemens.com/productcert/pdf/ssa-661247.pdf    Community Resources    Resource Link     source https://cert-portal.siemens.com/productcert/pdf/ssa-661247.pdf    Community Notes    Source Note     NCSC-NL CVE-2021-4104: Not vuln ; CVE-2021-44228: Workaround    NCSC-NL Only vulnerable if Teamcenter integration feature is used   CISAGov Currently no remediation is available."><!--[if lte IE 9]><script src=https://cdnjs.cloudflare.com/ajax/libs/classlist/1.1.20170427/classList.min.js></script><![endif]--><!--[if lt IE 9]><script src=https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv.min.js></script>
 <script src=https://cdn.jsdelivr.net/npm/respond.js@1.4.2/dest/respond.min.js></script><![endif]-->
 </head>
 <body class=main-center itemscope itemtype=http://schema.org/WebPage><header class=header itemscope itemtype=http://schema.org/WPHeader>
@@ -89,9 +89,6 @@ a consolidated collection of information and resources for defenders
 </table>
 </td></tr></table><br>
 <div class=title-data><b>Vendor Data</b>
-<span class=tag>
-<img src="/images/Icon - Vendor Patch Exists.png">
-Vendor Patch Exists</span>
 </div>
 <div class=title-data-divider></div>
 <div class=title-data><b>Community Data</b>
@@ -113,7 +110,7 @@ Vulnerable</span>
 </thead>
 <tbody>
 <tr>
-<td>Siemens Advisory Link</td>
+<td>Siemens Advisory - SSA-661257: Apache Log4j Vulnerabilities</td>
 <td><a href=https://cert-portal.siemens.com/productcert/pdf/ssa-661247.pdf>https://cert-portal.siemens.com/productcert/pdf/ssa-661247.pdf</a></td>
 </tr>
 </tbody>
@@ -144,15 +141,19 @@ Vulnerable</span>
 <tbody>
 <tr>
 <td><a href=https://github.com/NCSC-NL/log4shell/blob/main/software/README.md>NCSC-NL</a></td>
+<td>CVE-2021-4104: Not vuln ; CVE-2021-44228: Workaround </td>
+</tr>
+<tr>
+<td><a href=https://github.com/NCSC-NL/log4shell/blob/main/software/README.md>NCSC-NL</a></td>
 <td>Only vulnerable if Teamcenter integration feature is used</td>
 </tr>
 <tr>
 <td><a href=https://raw.githubusercontent.com/cisagov/log4j-affected-db/develop/README.md>CISAGov</a></td>
-<td>only if Teamcenter integration feature is used</td>
+<td>Currently no remediation is available. Find detailed mitigation steps <a href=https://support.sw.siemens.com/en-US/knowledgebase/MG618363>here</a>. See further recommendations from <a href=https://cert-portal.siemens.com/productcert/pdf/ssa-661247.pdf>Siemens Advisory SSA-661257</a></td>
 </tr>
 <tr>
 <td><a href=https://raw.githubusercontent.com/cisagov/log4j-affected-db/develop/README.md>CISAGov</a></td>
-<td>Last Update: 12/15/2021</td>
+<td>Last Update: 12/18/2021</td>
 </tr>
 </tbody>
 </table>
@@ -167,14 +168,14 @@ Vulnerable</span>
 </thead>
 <tbody>
 <tr>
-<td>2021-12-15 15:02:13</td>
+<td>2021-12-20 12:37:57</td>
 <td><a href=https://github.com/NCSC-NL/log4shell/blob/main/software/README.md>NCSC-NL</a></td>
-<td>Updated community link source. Updated community note.</td>
+<td>Updated communityVulnerable. Updated community note. Updated community link source. Updated community note.</td>
 </tr>
 <tr>
-<td>2021-12-17 14:04:59</td>
+<td>2021-12-18 19:49:41</td>
 <td><a href=https://raw.githubusercontent.com/cisagov/log4j-affected-db/develop/README.md>CISAGov</a></td>
-<td>Updated communityVulnerable. Updated vendorPatchExists. Updated vendor link Siemens Advisory Link. Updated community note. Updated community note.</td>
+<td>Updated communityVulnerable. Updated vendor link Siemens Advisory - SSA-661257: Apache Log4j Vulnerabilities. Updated community note. Updated community note.</td>
 </tr>
 </tbody>
 </table>

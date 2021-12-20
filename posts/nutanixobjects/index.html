@@ -14,22 +14,22 @@ Nutanix Objects - Log4j Exploitability Index
 <meta name=format-detection content="telephone=no,email=no,adress=no">
 <meta name=theme-color content="#000000">
 <meta http-equiv=window-target content="_top">
-<meta name=description content="Community Resources    Resource Link     source https://download.nutanix.com/alerts/Security_Advisory_0023.pdf    Sources    Date Attribution Description     2021-12-16 13:54:19 NCSC-NL Updated vendorInvestigating. Updated community link source.    ">
+<meta name=description content="Community Resources    Resource Link     source https://portal.nutanix.com/kb/12482    Community Notes    Source Note     NCSC-NL CVE-2021-4104: Not vuln ; CVE-2021-44228: Workaround ; CVE-2021-45046: Workaround ; CVE-2021-45105: Vulnerable     Sources    Date Attribution Description     2021-12-20 13:47:11 NCSC-NL Updated communityVulnerable. Updated community note. Updated community link source.    ">
 <meta name=generator content="Hugo 0.90.1 with theme pure">
 <title>Nutanix Objects - Log4j Exploitability Index</title>
 <link rel=stylesheet href=https://canilog4j.com/css/style.min.101cddd5973823bc729d02c440935ba297cdfa0a8a6c02bfaaf0f6c6056fb009.css>
 <link rel=stylesheet href=https://cdn.staticfile.org/highlight.js/9.15.10/styles/github.min.css async>
 <link rel=stylesheet href=https://cdnjs.cloudflare.com/ajax/libs/tocbot/4.4.2/tocbot.css async>
 <meta property="og:title" content="Nutanix Objects">
-<meta property="og:description" content="Community Resources    Resource Link     source https://download.nutanix.com/alerts/Security_Advisory_0023.pdf    Sources    Date Attribution Description     2021-12-16 13:54:19 NCSC-NL Updated vendorInvestigating. Updated community link source.    ">
+<meta property="og:description" content="Community Resources    Resource Link     source https://portal.nutanix.com/kb/12482    Community Notes    Source Note     NCSC-NL CVE-2021-4104: Not vuln ; CVE-2021-44228: Workaround ; CVE-2021-45046: Workaround ; CVE-2021-45105: Vulnerable     Sources    Date Attribution Description     2021-12-20 13:47:11 NCSC-NL Updated communityVulnerable. Updated community note. Updated community link source.    ">
 <meta property="og:type" content="article">
 <meta property="og:url" content="https://canilog4j.com/posts/nutanixobjects/"><meta property="article:section" content="posts">
 <meta itemprop=name content="Nutanix Objects">
-<meta itemprop=description content="Community Resources    Resource Link     source https://download.nutanix.com/alerts/Security_Advisory_0023.pdf    Sources    Date Attribution Description     2021-12-16 13:54:19 NCSC-NL Updated vendorInvestigating. Updated community link source.    ">
-<meta itemprop=wordCount content="19">
+<meta itemprop=description content="Community Resources    Resource Link     source https://portal.nutanix.com/kb/12482    Community Notes    Source Note     NCSC-NL CVE-2021-4104: Not vuln ; CVE-2021-44228: Workaround ; CVE-2021-45046: Workaround ; CVE-2021-45105: Vulnerable     Sources    Date Attribution Description     2021-12-20 13:47:11 NCSC-NL Updated communityVulnerable. Updated community note. Updated community link source.    ">
+<meta itemprop=wordCount content="39">
 <meta itemprop=keywords content><meta name=twitter:card content="summary">
 <meta name=twitter:title content="Nutanix Objects">
-<meta name=twitter:description content="Community Resources    Resource Link     source https://download.nutanix.com/alerts/Security_Advisory_0023.pdf    Sources    Date Attribution Description     2021-12-16 13:54:19 NCSC-NL Updated vendorInvestigating. Updated community link source.    "><!--[if lte IE 9]><script src=https://cdnjs.cloudflare.com/ajax/libs/classlist/1.1.20170427/classList.min.js></script><![endif]--><!--[if lt IE 9]><script src=https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv.min.js></script>
+<meta name=twitter:description content="Community Resources    Resource Link     source https://portal.nutanix.com/kb/12482    Community Notes    Source Note     NCSC-NL CVE-2021-4104: Not vuln ; CVE-2021-44228: Workaround ; CVE-2021-45046: Workaround ; CVE-2021-45105: Vulnerable     Sources    Date Attribution Description     2021-12-20 13:47:11 NCSC-NL Updated communityVulnerable. Updated community note. Updated community link source.    "><!--[if lte IE 9]><script src=https://cdnjs.cloudflare.com/ajax/libs/classlist/1.1.20170427/classList.min.js></script><![endif]--><!--[if lt IE 9]><script src=https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv.min.js></script>
 <script src=https://cdn.jsdelivr.net/npm/respond.js@1.4.2/dest/respond.min.js></script><![endif]-->
 </head>
 <body class=main-center itemscope itemtype=http://schema.org/WebPage><header class=header itemscope itemtype=http://schema.org/WPHeader>
@@ -89,12 +89,12 @@ a consolidated collection of information and resources for defenders
 </table>
 </td></tr></table><br>
 <div class=title-data><b>Vendor Data</b>
-<span class=tag>
-<img src="/images/Icon - Vulnerable - Unknown.png">
-Vendor Investigating</span>
 </div>
 <div class=title-data-divider></div>
 <div class=title-data><b>Community Data</b>
+<span class=tag>
+<img src="/images/Icon - Vulnerable - Confirmed.png">
+Vulnerable</span>
 </div>
 <div class=article-meta>
 </div>
@@ -111,7 +111,22 @@ Vendor Investigating</span>
 <tbody>
 <tr>
 <td>source</td>
-<td><a href=https://download.nutanix.com/alerts/Security_Advisory_0023.pdf>https://download.nutanix.com/alerts/Security_Advisory_0023.pdf</a></td>
+<td><a href=https://portal.nutanix.com/kb/12482>https://portal.nutanix.com/kb/12482</a></td>
+</tr>
+</tbody>
+</table>
+<h2 id=community-notes>Community Notes</h2>
+<table>
+<thead>
+<tr>
+<th>Source</th>
+<th>Note</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href=https://github.com/NCSC-NL/log4shell/blob/main/software/README.md>NCSC-NL</a></td>
+<td>CVE-2021-4104: Not vuln ; CVE-2021-44228: Workaround ; CVE-2021-45046: Workaround ; CVE-2021-45105: Vulnerable </td>
 </tr>
 </tbody>
 </table>
@@ -126,9 +141,9 @@ Vendor Investigating</span>
 </thead>
 <tbody>
 <tr>
-<td>2021-12-16 13:54:19</td>
+<td>2021-12-20 13:47:11</td>
 <td><a href=https://github.com/NCSC-NL/log4shell/blob/main/software/README.md>NCSC-NL</a></td>
-<td>Updated vendorInvestigating. Updated community link source.</td>
+<td>Updated communityVulnerable. Updated community note. Updated community link source.</td>
 </tr>
 </tbody>
 </table>
@@ -144,7 +159,7 @@ Vendor Investigating</span>
 <a href=https://canilog4j.com/posts/nutanixprism-central/ title="Nutanix Prism Central"><i class="icon icon-angle-left" aria-hidden=true></i><span>&nbsp;&nbsp;Older</span></a>
 </li>
 <li class=next>
-<a href=https://canilog4j.com/posts/nutanixncc/ title="Nutanix NCC"><span>Newer&nbsp;&nbsp;</span><i class="icon icon-angle-right" aria-hidden=true></i></a>
+<a href=https://canilog4j.com/posts/nutanixngt/ title="Nutanix NGT"><span>Newer&nbsp;&nbsp;</span><i class="icon icon-angle-right" aria-hidden=true></i></a>
 </li>
 </ul>
 <div class=bar-right>

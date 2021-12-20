@@ -14,22 +14,22 @@ Siemens NX - Log4j Exploitability Index
 <meta name=format-detection content="telephone=no,email=no,adress=no">
 <meta name=theme-color content="#000000">
 <meta http-equiv=window-target content="_top">
-<meta name=description content="Vendor Resources    Resource Link     Siemens Advisory Link https://cert-portal.siemens.com/productcert/pdf/ssa-661247.pdf    Community Resources    Resource Link     source https://cert-portal.siemens.com/productcert/pdf/ssa-661247.pdf    Community Notes    Source Note     CISAGov Last Update: 12/15/2021    Sources    Date Attribution Description     2021-12-18 12:01:20 NCSC-NL Updated community link source.   2021-12-17 14:04:59 CISAGov Updated communityVulnerable.">
+<meta name=description content="Vendor Resources    Resource Link     Siemens Advisory - SSA-661257: Apache Log4j Vulnerabilities https://cert-portal.siemens.com/productcert/pdf/ssa-661247.pdf    Community Resources    Resource Link     source https://cert-portal.siemens.com/productcert/pdf/ssa-661247.pdf    Community Notes    Source Note     NCSC-NL CVE-2021-4104: Not vuln ; CVE-2021-44228: Workaround    CISAGov Currently no remediation is available. Find detailed mitigation steps here. See further recommendations from Siemens Advisory SSA-661257   CISAGov Last Update: 12/18/2021    Sources    Date Attribution Description     2021-12-20 12:37:57 NCSC-NL Updated communityVulnerable.">
 <meta name=generator content="Hugo 0.90.1 with theme pure">
 <title>Siemens NX - Log4j Exploitability Index</title>
 <link rel=stylesheet href=https://canilog4j.com/css/style.min.101cddd5973823bc729d02c440935ba297cdfa0a8a6c02bfaaf0f6c6056fb009.css>
 <link rel=stylesheet href=https://cdn.staticfile.org/highlight.js/9.15.10/styles/github.min.css async>
 <link rel=stylesheet href=https://cdnjs.cloudflare.com/ajax/libs/tocbot/4.4.2/tocbot.css async>
 <meta property="og:title" content="Siemens NX">
-<meta property="og:description" content="Vendor Resources    Resource Link     Siemens Advisory Link https://cert-portal.siemens.com/productcert/pdf/ssa-661247.pdf    Community Resources    Resource Link     source https://cert-portal.siemens.com/productcert/pdf/ssa-661247.pdf    Community Notes    Source Note     CISAGov Last Update: 12/15/2021    Sources    Date Attribution Description     2021-12-18 12:01:20 NCSC-NL Updated community link source.   2021-12-17 14:04:59 CISAGov Updated communityVulnerable.">
+<meta property="og:description" content="Vendor Resources    Resource Link     Siemens Advisory - SSA-661257: Apache Log4j Vulnerabilities https://cert-portal.siemens.com/productcert/pdf/ssa-661247.pdf    Community Resources    Resource Link     source https://cert-portal.siemens.com/productcert/pdf/ssa-661247.pdf    Community Notes    Source Note     NCSC-NL CVE-2021-4104: Not vuln ; CVE-2021-44228: Workaround    CISAGov Currently no remediation is available. Find detailed mitigation steps here. See further recommendations from Siemens Advisory SSA-661257   CISAGov Last Update: 12/18/2021    Sources    Date Attribution Description     2021-12-20 12:37:57 NCSC-NL Updated communityVulnerable.">
 <meta property="og:type" content="article">
 <meta property="og:url" content="https://canilog4j.com/posts/siemensnx/"><meta property="article:section" content="posts">
 <meta itemprop=name content="Siemens NX">
-<meta itemprop=description content="Vendor Resources    Resource Link     Siemens Advisory Link https://cert-portal.siemens.com/productcert/pdf/ssa-661247.pdf    Community Resources    Resource Link     source https://cert-portal.siemens.com/productcert/pdf/ssa-661247.pdf    Community Notes    Source Note     CISAGov Last Update: 12/15/2021    Sources    Date Attribution Description     2021-12-18 12:01:20 NCSC-NL Updated community link source.   2021-12-17 14:04:59 CISAGov Updated communityVulnerable.">
-<meta itemprop=wordCount content="49">
+<meta itemprop=description content="Vendor Resources    Resource Link     Siemens Advisory - SSA-661257: Apache Log4j Vulnerabilities https://cert-portal.siemens.com/productcert/pdf/ssa-661247.pdf    Community Resources    Resource Link     source https://cert-portal.siemens.com/productcert/pdf/ssa-661247.pdf    Community Notes    Source Note     NCSC-NL CVE-2021-4104: Not vuln ; CVE-2021-44228: Workaround    CISAGov Currently no remediation is available. Find detailed mitigation steps here. See further recommendations from Siemens Advisory SSA-661257   CISAGov Last Update: 12/18/2021    Sources    Date Attribution Description     2021-12-20 12:37:57 NCSC-NL Updated communityVulnerable.">
+<meta itemprop=wordCount content="88">
 <meta itemprop=keywords content><meta name=twitter:card content="summary">
 <meta name=twitter:title content="Siemens NX">
-<meta name=twitter:description content="Vendor Resources    Resource Link     Siemens Advisory Link https://cert-portal.siemens.com/productcert/pdf/ssa-661247.pdf    Community Resources    Resource Link     source https://cert-portal.siemens.com/productcert/pdf/ssa-661247.pdf    Community Notes    Source Note     CISAGov Last Update: 12/15/2021    Sources    Date Attribution Description     2021-12-18 12:01:20 NCSC-NL Updated community link source.   2021-12-17 14:04:59 CISAGov Updated communityVulnerable."><!--[if lte IE 9]><script src=https://cdnjs.cloudflare.com/ajax/libs/classlist/1.1.20170427/classList.min.js></script><![endif]--><!--[if lt IE 9]><script src=https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv.min.js></script>
+<meta name=twitter:description content="Vendor Resources    Resource Link     Siemens Advisory - SSA-661257: Apache Log4j Vulnerabilities https://cert-portal.siemens.com/productcert/pdf/ssa-661247.pdf    Community Resources    Resource Link     source https://cert-portal.siemens.com/productcert/pdf/ssa-661247.pdf    Community Notes    Source Note     NCSC-NL CVE-2021-4104: Not vuln ; CVE-2021-44228: Workaround    CISAGov Currently no remediation is available. Find detailed mitigation steps here. See further recommendations from Siemens Advisory SSA-661257   CISAGov Last Update: 12/18/2021    Sources    Date Attribution Description     2021-12-20 12:37:57 NCSC-NL Updated communityVulnerable."><!--[if lte IE 9]><script src=https://cdnjs.cloudflare.com/ajax/libs/classlist/1.1.20170427/classList.min.js></script><![endif]--><!--[if lt IE 9]><script src=https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv.min.js></script>
 <script src=https://cdn.jsdelivr.net/npm/respond.js@1.4.2/dest/respond.min.js></script><![endif]-->
 </head>
 <body class=main-center itemscope itemtype=http://schema.org/WebPage><header class=header itemscope itemtype=http://schema.org/WPHeader>
@@ -89,9 +89,6 @@ a consolidated collection of information and resources for defenders
 </table>
 </td></tr></table><br>
 <div class=title-data><b>Vendor Data</b>
-<span class=tag>
-<img src="/images/Icon - Vendor Patch Exists.png">
-Vendor Patch Exists</span>
 </div>
 <div class=title-data-divider></div>
 <div class=title-data><b>Community Data</b>
@@ -113,7 +110,7 @@ Vulnerable</span>
 </thead>
 <tbody>
 <tr>
-<td>Siemens Advisory Link</td>
+<td>Siemens Advisory - SSA-661257: Apache Log4j Vulnerabilities</td>
 <td><a href=https://cert-portal.siemens.com/productcert/pdf/ssa-661247.pdf>https://cert-portal.siemens.com/productcert/pdf/ssa-661247.pdf</a></td>
 </tr>
 </tbody>
@@ -143,8 +140,16 @@ Vulnerable</span>
 </thead>
 <tbody>
 <tr>
+<td><a href=https://github.com/NCSC-NL/log4shell/blob/main/software/README.md>NCSC-NL</a></td>
+<td>CVE-2021-4104: Not vuln ; CVE-2021-44228: Workaround </td>
+</tr>
+<tr>
 <td><a href=https://raw.githubusercontent.com/cisagov/log4j-affected-db/develop/README.md>CISAGov</a></td>
-<td>Last Update: 12/15/2021</td>
+<td>Currently no remediation is available. Find detailed mitigation steps <a href="https://solutions.industrysoftware.automation.siemens.com/view.php?si=sfb-nx-8600959">here</a>. See further recommendations from <a href=https://cert-portal.siemens.com/productcert/pdf/ssa-661247.pdf>Siemens Advisory SSA-661257</a></td>
+</tr>
+<tr>
+<td><a href=https://raw.githubusercontent.com/cisagov/log4j-affected-db/develop/README.md>CISAGov</a></td>
+<td>Last Update: 12/18/2021</td>
 </tr>
 </tbody>
 </table>
@@ -159,14 +164,14 @@ Vulnerable</span>
 </thead>
 <tbody>
 <tr>
-<td>2021-12-18 12:01:20</td>
+<td>2021-12-20 12:37:57</td>
 <td><a href=https://github.com/NCSC-NL/log4shell/blob/main/software/README.md>NCSC-NL</a></td>
-<td>Updated community link source.</td>
+<td>Updated communityVulnerable. Updated community note. Updated community link source.</td>
 </tr>
 <tr>
-<td>2021-12-17 14:04:59</td>
+<td>2021-12-18 19:49:41</td>
 <td><a href=https://raw.githubusercontent.com/cisagov/log4j-affected-db/develop/README.md>CISAGov</a></td>
-<td>Updated communityVulnerable. Updated vendorPatchExists. Updated vendor link Siemens Advisory Link. Updated community note.</td>
+<td>Updated communityVulnerable. Updated vendor link Siemens Advisory - SSA-661257: Apache Log4j Vulnerabilities. Updated community note. Updated community note.</td>
 </tr>
 </tbody>
 </table>
@@ -182,7 +187,7 @@ Vulnerable</span>
 <a href=https://canilog4j.com/posts/siemensopcenter-ex-cp-process-automation-control/ title="Siemens Opcenter EX CP Process Automation Control"><i class="icon icon-angle-left" aria-hidden=true></i><span>&nbsp;&nbsp;Older</span></a>
 </li>
 <li class=next>
-<a href=https://canilog4j.com/posts/siemensmindsphere-cloud-foundry/ title="Siemens Mindsphere Cloud Foundry"><span>Newer&nbsp;&nbsp;</span><i class="icon icon-angle-right" aria-hidden=true></i></a>
+<a href=https://canilog4j.com/posts/siemensmindsphere-visual-explorer/ title="Siemens MindSphere Visual Explorer"><span>Newer&nbsp;&nbsp;</span><i class="icon icon-angle-right" aria-hidden=true></i></a>
 </li>
 </ul>
 <div class=bar-right>

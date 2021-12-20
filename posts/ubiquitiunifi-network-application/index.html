@@ -14,22 +14,22 @@ Ubiquiti UniFi Network Application - Log4j Exploitability Index
 <meta name=format-detection content="telephone=no,email=no,adress=no">
 <meta name=theme-color content="#000000">
 <meta http-equiv=window-target content="_top">
-<meta name=description content="Vendor Resources    Resource Link     UniFi Network Application 6.5.54 Ubiquiti Community https://community.ui.com/releases/UniFi-Network-Application-6-5-54/d717f241-48bb-4979-8b10-99db36ddabe1    Community Resources    Resource Link     source https://community.ui.com/releases/UniFi-Network-Application-6-5-55/48c64137-4a4a-41f7-b7e4-3bee505ae16e    Community Notes    Source Note     NCSC-NL Update log4j version to 2.16.0 (CVE-2021-45046)    Sources    Date Attribution Description     2021-12-15 12:42:48 NCSC-NL Updated vendorPatchExists.">
+<meta name=description content="Vendor Resources    Resource Link     UniFi Network Application 6.5.54 Ubiquiti Community https://community.ui.com/releases/UniFi-Network-Application-6-5-54/d717f241-48bb-4979-8b10-99db36ddabe1    Community Resources    Resource Link     source1 https://community.ui.com/releases/UniFi-Network-Application-6-5-55/48c64137-4a4a-41f7-b7e4-3bee505ae16e   source2 https://community.ui.com/releases/Security-Advisory-Bulletin-023-023/808a1db0-5f8e-4b91-9097-9822f3f90207#comment/f689e3fb-6ad8-46b0-8054-2ea3656a8778    Community Notes    Source Note     NCSC-NL CVE-2021-4104: Not vuln ; CVE-2021-44228: Fix ; CVE-2021-45046: Not vuln    NCSC-NL Update log4j version to 2.">
 <meta name=generator content="Hugo 0.90.1 with theme pure">
 <title>Ubiquiti UniFi Network Application - Log4j Exploitability Index</title>
 <link rel=stylesheet href=https://canilog4j.com/css/style.min.101cddd5973823bc729d02c440935ba297cdfa0a8a6c02bfaaf0f6c6056fb009.css>
 <link rel=stylesheet href=https://cdn.staticfile.org/highlight.js/9.15.10/styles/github.min.css async>
 <link rel=stylesheet href=https://cdnjs.cloudflare.com/ajax/libs/tocbot/4.4.2/tocbot.css async>
 <meta property="og:title" content="Ubiquiti UniFi Network Application">
-<meta property="og:description" content="Vendor Resources    Resource Link     UniFi Network Application 6.5.54 Ubiquiti Community https://community.ui.com/releases/UniFi-Network-Application-6-5-54/d717f241-48bb-4979-8b10-99db36ddabe1    Community Resources    Resource Link     source https://community.ui.com/releases/UniFi-Network-Application-6-5-55/48c64137-4a4a-41f7-b7e4-3bee505ae16e    Community Notes    Source Note     NCSC-NL Update log4j version to 2.16.0 (CVE-2021-45046)    Sources    Date Attribution Description     2021-12-15 12:42:48 NCSC-NL Updated vendorPatchExists.">
+<meta property="og:description" content="Vendor Resources    Resource Link     UniFi Network Application 6.5.54 Ubiquiti Community https://community.ui.com/releases/UniFi-Network-Application-6-5-54/d717f241-48bb-4979-8b10-99db36ddabe1    Community Resources    Resource Link     source1 https://community.ui.com/releases/UniFi-Network-Application-6-5-55/48c64137-4a4a-41f7-b7e4-3bee505ae16e   source2 https://community.ui.com/releases/Security-Advisory-Bulletin-023-023/808a1db0-5f8e-4b91-9097-9822f3f90207#comment/f689e3fb-6ad8-46b0-8054-2ea3656a8778    Community Notes    Source Note     NCSC-NL CVE-2021-4104: Not vuln ; CVE-2021-44228: Fix ; CVE-2021-45046: Not vuln    NCSC-NL Update log4j version to 2.">
 <meta property="og:type" content="article">
 <meta property="og:url" content="https://canilog4j.com/posts/ubiquitiunifi-network-application/"><meta property="article:section" content="posts">
 <meta itemprop=name content="Ubiquiti UniFi Network Application">
-<meta itemprop=description content="Vendor Resources    Resource Link     UniFi Network Application 6.5.54 Ubiquiti Community https://community.ui.com/releases/UniFi-Network-Application-6-5-54/d717f241-48bb-4979-8b10-99db36ddabe1    Community Resources    Resource Link     source https://community.ui.com/releases/UniFi-Network-Application-6-5-55/48c64137-4a4a-41f7-b7e4-3bee505ae16e    Community Notes    Source Note     NCSC-NL Update log4j version to 2.16.0 (CVE-2021-45046)    Sources    Date Attribution Description     2021-12-15 12:42:48 NCSC-NL Updated vendorPatchExists.">
-<meta itemprop=wordCount content="60">
+<meta itemprop=description content="Vendor Resources    Resource Link     UniFi Network Application 6.5.54 Ubiquiti Community https://community.ui.com/releases/UniFi-Network-Application-6-5-54/d717f241-48bb-4979-8b10-99db36ddabe1    Community Resources    Resource Link     source1 https://community.ui.com/releases/UniFi-Network-Application-6-5-55/48c64137-4a4a-41f7-b7e4-3bee505ae16e   source2 https://community.ui.com/releases/Security-Advisory-Bulletin-023-023/808a1db0-5f8e-4b91-9097-9822f3f90207#comment/f689e3fb-6ad8-46b0-8054-2ea3656a8778    Community Notes    Source Note     NCSC-NL CVE-2021-4104: Not vuln ; CVE-2021-44228: Fix ; CVE-2021-45046: Not vuln    NCSC-NL Update log4j version to 2.">
+<meta itemprop=wordCount content="80">
 <meta itemprop=keywords content><meta name=twitter:card content="summary">
 <meta name=twitter:title content="Ubiquiti UniFi Network Application">
-<meta name=twitter:description content="Vendor Resources    Resource Link     UniFi Network Application 6.5.54 Ubiquiti Community https://community.ui.com/releases/UniFi-Network-Application-6-5-54/d717f241-48bb-4979-8b10-99db36ddabe1    Community Resources    Resource Link     source https://community.ui.com/releases/UniFi-Network-Application-6-5-55/48c64137-4a4a-41f7-b7e4-3bee505ae16e    Community Notes    Source Note     NCSC-NL Update log4j version to 2.16.0 (CVE-2021-45046)    Sources    Date Attribution Description     2021-12-15 12:42:48 NCSC-NL Updated vendorPatchExists."><!--[if lte IE 9]><script src=https://cdnjs.cloudflare.com/ajax/libs/classlist/1.1.20170427/classList.min.js></script><![endif]--><!--[if lt IE 9]><script src=https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv.min.js></script>
+<meta name=twitter:description content="Vendor Resources    Resource Link     UniFi Network Application 6.5.54 Ubiquiti Community https://community.ui.com/releases/UniFi-Network-Application-6-5-54/d717f241-48bb-4979-8b10-99db36ddabe1    Community Resources    Resource Link     source1 https://community.ui.com/releases/UniFi-Network-Application-6-5-55/48c64137-4a4a-41f7-b7e4-3bee505ae16e   source2 https://community.ui.com/releases/Security-Advisory-Bulletin-023-023/808a1db0-5f8e-4b91-9097-9822f3f90207#comment/f689e3fb-6ad8-46b0-8054-2ea3656a8778    Community Notes    Source Note     NCSC-NL CVE-2021-4104: Not vuln ; CVE-2021-44228: Fix ; CVE-2021-45046: Not vuln    NCSC-NL Update log4j version to 2."><!--[if lte IE 9]><script src=https://cdnjs.cloudflare.com/ajax/libs/classlist/1.1.20170427/classList.min.js></script><![endif]--><!--[if lt IE 9]><script src=https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv.min.js></script>
 <script src=https://cdn.jsdelivr.net/npm/respond.js@1.4.2/dest/respond.min.js></script><![endif]-->
 </head>
 <body class=main-center itemscope itemtype=http://schema.org/WebPage><header class=header itemscope itemtype=http://schema.org/WPHeader>
@@ -128,8 +128,12 @@ Vulnerable</span>
 </thead>
 <tbody>
 <tr>
-<td>source</td>
+<td>source1</td>
 <td><a href=https://community.ui.com/releases/UniFi-Network-Application-6-5-55/48c64137-4a4a-41f7-b7e4-3bee505ae16e>https://community.ui.com/releases/UniFi-Network-Application-6-5-55/48c64137-4a4a-41f7-b7e4-3bee505ae16e</a></td>
+</tr>
+<tr>
+<td>source2</td>
+<td><a href=https://community.ui.com/releases/Security-Advisory-Bulletin-023-023/808a1db0-5f8e-4b91-9097-9822f3f90207#comment/f689e3fb-6ad8-46b0-8054-2ea3656a8778>https://community.ui.com/releases/Security-Advisory-Bulletin-023-023/808a1db0-5f8e-4b91-9097-9822f3f90207#comment/f689e3fb-6ad8-46b0-8054-2ea3656a8778</a></td>
 </tr>
 </tbody>
 </table>
@@ -142,6 +146,10 @@ Vulnerable</span>
 </tr>
 </thead>
 <tbody>
+<tr>
+<td><a href=https://github.com/NCSC-NL/log4shell/blob/main/software/README.md>NCSC-NL</a></td>
+<td>CVE-2021-4104: Not vuln ; CVE-2021-44228: Fix ; CVE-2021-45046: Not vuln </td>
+</tr>
 <tr>
 <td><a href=https://github.com/NCSC-NL/log4shell/blob/main/software/README.md>NCSC-NL</a></td>
 <td>Update log4j version to 2.16.0 (CVE-2021-45046)</td>
@@ -159,9 +167,9 @@ Vulnerable</span>
 </thead>
 <tbody>
 <tr>
-<td>2021-12-15 12:42:48</td>
+<td>2021-12-20 12:37:57</td>
 <td><a href=https://github.com/NCSC-NL/log4shell/blob/main/software/README.md>NCSC-NL</a></td>
-<td>Updated vendorPatchExists. Updated community link source. Updated community note.</td>
+<td>Updated vendorPatchExists. Updated community note. Updated community link source1. Updated community link source2. Updated community note.</td>
 </tr>
 <tr>
 <td>2021-12-17 14:04:59</td>
