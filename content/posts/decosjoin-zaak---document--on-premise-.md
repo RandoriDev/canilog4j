@@ -1,9 +1,9 @@
 ---
+communityVulnerable: true
 draft: 'false'
 name: JOIN Zaak & Document (on-premise)
 title: Decos JOIN Zaak & Document (on-premise)
 vendor: Decos
-vendorPatchExists: true
 ---
 
 
@@ -15,9 +15,10 @@ vendorPatchExists: true
 ## Community Notes
 | Source | Note |
 | --- | --- |
+| [NCSC-NL](https://github.com/NCSC-NL/log4shell/blob/main/software/README.md) | CVE-2021-4104: Not vuln ; CVE-2021-44228: Workaround </ul> |
 | [NCSC-NL](https://github.com/NCSC-NL/log4shell/blob/main/software/README.md) | The solution contains Elasticsearch (vulnerable). Mitigating actions available on our WIKI |
 
 ## Sources
 | Date | Attribution | Description |
 | --- | --- | --- |
-| 2021-12-18 12:29:44 | [NCSC-NL](https://github.com/NCSC-NL/log4shell/blob/main/software/README.md) | Updated vendorPatchExists. Updated community link source. Updated community note.  |
+| 2021-12-20 12:37:57 | [NCSC-NL](https://github.com/NCSC-NL/log4shell/blob/main/software/README.md) | Updated communityVulnerable. Updated community note. Updated community link source. Updated community note.  |

@@ -12,8 +12,12 @@ vendorInvestigating: true
 | --- | --- |
 | source | [https://www.huawei.com/en/psirt/security-notices/huawei-sn-20211210-01-log4j2-en](https://www.huawei.com/en/psirt/security-notices/huawei-sn-20211210-01-log4j2-en) |
 
+## Community Notes
+| Source | Note |
+| --- | --- |
+| [NCSC-NL](https://github.com/NCSC-NL/log4shell/blob/main/software/README.md) | CVE-2021-44228: Investigation </ul> |
 
 ## Sources
 | Date | Attribution | Description |
 | --- | --- | --- |
-| 2021-12-14 12:06:57 | [NCSC-NL](https://github.com/NCSC-NL/log4shell/blob/main/software/README.md) | Updated vendorInvestigating. Updated community link source.  |
+| 2021-12-20 12:37:57 | [NCSC-NL](https://github.com/NCSC-NL/log4shell/blob/main/software/README.md) | Updated vendorInvestigating. Updated community note. Updated community link source.  |

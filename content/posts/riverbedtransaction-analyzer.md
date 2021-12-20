@@ -12,8 +12,12 @@ vendorInvestigating: true
 | --- | --- |
 | source | [https://supportkb.riverbed.com/support/index?page=content&id=S35645&actp=LIST_RECENT](https://supportkb.riverbed.com/support/index?page=content&id=S35645&actp=LIST_RECENT) |
 
+## Community Notes
+| Source | Note |
+| --- | --- |
+| [NCSC-NL](https://github.com/NCSC-NL/log4shell/blob/main/software/README.md) | CVE-2021-44228: Investigation </ul> |
 
 ## Sources
 | Date | Attribution | Description |
 | --- | --- | --- |
-| 2021-12-14 10:53:57 | [NCSC-NL](https://github.com/NCSC-NL/log4shell/blob/main/software/README.md) | Updated vendorInvestigating. Updated community link source.  |
+| 2021-12-20 12:37:57 | [NCSC-NL](https://github.com/NCSC-NL/log4shell/blob/main/software/README.md) | Updated vendorInvestigating. Updated community note. Updated community link source.  |

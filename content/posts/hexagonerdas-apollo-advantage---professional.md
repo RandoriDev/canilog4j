@@ -10,10 +10,14 @@ vendorInvestigating: true
 ## Community Resources
 | Resource | Link |
 | --- | --- |
-| source | [https://supportsi.hexagon.com/help/s/article/Security-Vulnerability-CVE-2021-44228-log4j-2](https://supportsi.hexagon.com/help/s/article/Security-Vulnerability-CVE-2021-44228-log4j-2) |
+| source | [https://supportsi.hexagon.com/help/s/article/log4j2-Security-Product-Vulnerability-Summary-CVE-2021-44228?language=en_US](https://supportsi.hexagon.com/help/s/article/log4j2-Security-Product-Vulnerability-Summary-CVE-2021-44228?language=en_US) |
 
+## Community Notes
+| Source | Note |
+| --- | --- |
+| [NCSC-NL](https://github.com/NCSC-NL/log4shell/blob/main/software/README.md) | CVE-2021-44228: Investigation </ul> |
 
 ## Sources
 | Date | Attribution | Description |
 | --- | --- | --- |
-| 2021-12-13 19:44:11 | [NCSC-NL](https://github.com/NCSC-NL/log4shell/blob/main/software/README.md) | Updated vendorInvestigating. Updated community link source.  |
+| 2021-12-20 12:37:57 | [NCSC-NL](https://github.com/NCSC-NL/log4shell/blob/main/software/README.md) | Updated vendorInvestigating. Updated community note. Updated community link source.  |

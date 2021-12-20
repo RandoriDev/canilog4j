@@ -1,4 +1,5 @@
 ---
+communityVulnerable: true
 draft: 'false'
 name: IntelliSite Pathology Solution 5.1
 title: Philips IntelliSite Pathology Solution 5.1
@@ -11,8 +12,12 @@ vendor: Philips
 | --- | --- |
 | source | [https://www.philips.com/a-w/security/security-advisories.html](https://www.philips.com/a-w/security/security-advisories.html) |
 
+## Community Notes
+| Source | Note |
+| --- | --- |
+| [NCSC-NL](https://github.com/NCSC-NL/log4shell/blob/main/software/README.md) | CVE-2021-44228: Vulnerable </ul> |
 
 ## Sources
 | Date | Attribution | Description |
 | --- | --- | --- |
-| 2021-12-16 10:09:32 | [NCSC-NL](https://github.com/NCSC-NL/log4shell/blob/main/software/README.md) | Updated community link source.  |
+| 2021-12-20 12:37:57 | [NCSC-NL](https://github.com/NCSC-NL/log4shell/blob/main/software/README.md) | Updated communityVulnerable. Updated community note. Updated community link source.  |

@@ -7,9 +7,17 @@ vendor: Smartbear
 ---
 
 
+## Community Resources
+| Resource | Link |
+| --- | --- |
+| source | [https://community.smartbear.com/t5/SoapUI-Open-Source-Questions/Log4j-CVE-2021-44228-Zero-Day-Vulnerability-SOAP-UI-V5-6-0-or/m-p/227418](https://community.smartbear.com/t5/SoapUI-Open-Source-Questions/Log4j-CVE-2021-44228-Zero-Day-Vulnerability-SOAP-UI-V5-6-0-or/m-p/227418) |
 
+## Community Notes
+| Source | Note |
+| --- | --- |
+| [NCSC-NL](https://github.com/NCSC-NL/log4shell/blob/main/software/README.md) | CVE-2021-44228: Vulnerable </ul> |
 
 ## Sources
 | Date | Attribution | Description |
 | --- | --- | --- |
-| 2021-12-18 12:14:26 | [NCSC-NL](https://github.com/NCSC-NL/log4shell/blob/main/software/README.md) | Updated communityVulnerable.  |
+| 2021-12-20 13:29:18 | [NCSC-NL](https://github.com/NCSC-NL/log4shell/blob/main/software/README.md) | Updated communityVulnerable. Updated community note. Updated community link source.  |

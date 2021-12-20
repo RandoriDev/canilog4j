@@ -15,9 +15,9 @@ vendor: ThycoticCentrify
 ## Community Notes
 | Source | Note |
 | --- | --- |
-| [CISAGov](https://raw.githubusercontent.com/cisagov/log4j-affected-db/develop/README.md) | Last Update: 12/10/15 |
+| [CISAGov](https://raw.githubusercontent.com/cisagov/log4j-affected-db/develop/README.md) | Last Update: 12/10/2015 |
 
 ## Sources
 | Date | Attribution | Description |
 | --- | --- | --- |
-| 2021-12-17 15:28:34 | [CISAGov](https://raw.githubusercontent.com/cisagov/log4j-affected-db/develop/README.md) | Updated communityNotVulnerable. Updated vendor link ThycoticCentrify Products NOT Affected by CVE-2021-44228 Exploit. Updated community note.  |
+| 2021-12-20 14:27:20 | [CISAGov](https://raw.githubusercontent.com/cisagov/log4j-affected-db/develop/README.md) | Updated communityNotVulnerable. Updated vendor link ThycoticCentrify Products NOT Affected by CVE-2021-44228 Exploit. Updated community note.  |

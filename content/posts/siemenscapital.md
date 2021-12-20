@@ -4,22 +4,21 @@ draft: 'false'
 name: Capital
 title: Siemens Capital
 vendor: Siemens
-vendorPatchExists: true
 ---
 
 ## Vendor Resources
 | Resource | Link |
 | --- | --- |
-| Siemens Advisory Link | [https://cert-portal.siemens.com/productcert/pdf/ssa-661247.pdf](https://cert-portal.siemens.com/productcert/pdf/ssa-661247.pdf) |
+| Siemens Advisory - SSA-661257: Apache Log4j Vulnerabilities | [https://cert-portal.siemens.com/productcert/pdf/ssa-661247.pdf](https://cert-portal.siemens.com/productcert/pdf/ssa-661247.pdf) |
 
 
 ## Community Notes
 | Source | Note |
 | --- | --- |
-| [CISAGov](https://raw.githubusercontent.com/cisagov/log4j-affected-db/develop/README.md) | Only affected if Teamcenter integration feature is used. Mitigation: [Mitigation Link](https://support.sw.siemens.com/en-US/knowledge-base/MG618363) |
-| [CISAGov](https://raw.githubusercontent.com/cisagov/log4j-affected-db/develop/README.md) | Last Update: 12/15/2021 |
+| [CISAGov](https://raw.githubusercontent.com/cisagov/log4j-affected-db/develop/README.md) | Only affected if Teamcenter integration feature is used. Currently no remediation is available. Find detailed mitigations steps at:[Mitigations Link](https://support.sw.siemens.com/en-US/knowledge-base/MG618363); See further recommendations from [Siemens Advisory SSA-661257](https://cert-portal.siemens.com/productcert/pdf/ssa-661247.pdf) |
+| [CISAGov](https://raw.githubusercontent.com/cisagov/log4j-affected-db/develop/README.md) | Last Update: 12/18/2021 |
 
 ## Sources
 | Date | Attribution | Description |
 | --- | --- | --- |
-| 2021-12-16 0:05:23 | [CISAGov](https://raw.githubusercontent.com/cisagov/log4j-affected-db/develop/README.md) | Updated communityVulnerable. Updated vendorPatchExists. Updated vendor link Siemens Advisory Link. Updated community note. Updated community note.  |
+| 2021-12-18 19:49:41 | [CISAGov](https://raw.githubusercontent.com/cisagov/log4j-affected-db/develop/README.md) | Updated communityVulnerable. Updated vendor link Siemens Advisory - SSA-661257: Apache Log4j Vulnerabilities. Updated community note. Updated community note.  |

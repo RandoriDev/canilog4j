@@ -4,13 +4,12 @@ draft: 'false'
 name: Siveillance Command
 title: Siemens Siveillance Command
 vendor: Siemens
-vendorPatchExists: true
 ---
 
 ## Vendor Resources
 | Resource | Link |
 | --- | --- |
-| Siemens Advisory Link | [https://cert-portal.siemens.com/productcert/pdf/ssa-661247.pdf](https://cert-portal.siemens.com/productcert/pdf/ssa-661247.pdf) |
+| Siemens Advisory - SSA-661257: Apache Log4j Vulnerabilities | [https://cert-portal.siemens.com/productcert/pdf/ssa-661247.pdf](https://cert-portal.siemens.com/productcert/pdf/ssa-661247.pdf) |
 
 ## Community Resources
 | Resource | Link |
@@ -20,10 +19,12 @@ vendorPatchExists: true
 ## Community Notes
 | Source | Note |
 | --- | --- |
-| [CISAGov](https://raw.githubusercontent.com/cisagov/log4j-affected-db/develop/README.md) | Last Update: 12/15/2021 |
+| [NCSC-NL](https://github.com/NCSC-NL/log4shell/blob/main/software/README.md) | CVE-2021-44228: Vulnerable </ul> |
+| [CISAGov](https://raw.githubusercontent.com/cisagov/log4j-affected-db/develop/README.md) | Currently no remediation is available. Block both incoming and outgoing connections betwen the system and the Internet. See further recommendations from [Siemens Advisory SSA-661257](https://cert-portal.siemens.com/productcert/pdf/ssa-661247.pdf) |
+| [CISAGov](https://raw.githubusercontent.com/cisagov/log4j-affected-db/develop/README.md) | Last Update: 12/18/2021 |
 
 ## Sources
 | Date | Attribution | Description |
 | --- | --- | --- |
-| 2021-12-18 12:01:20 | [NCSC-NL](https://github.com/NCSC-NL/log4shell/blob/main/software/README.md) | Updated communityVulnerable. Updated community link source.  |
-| 2021-12-16 0:51:50 | [CISAGov](https://raw.githubusercontent.com/cisagov/log4j-affected-db/develop/README.md) | Updated communityVulnerable. Updated vendorPatchExists. Updated vendor link Siemens Advisory Link. Updated community note.  |
+| 2021-12-20 12:37:57 | [NCSC-NL](https://github.com/NCSC-NL/log4shell/blob/main/software/README.md) | Updated communityVulnerable. Updated community note. Updated community link source.  |
+| 2021-12-18 19:49:41 | [CISAGov](https://raw.githubusercontent.com/cisagov/log4j-affected-db/develop/README.md) | Updated communityVulnerable. Updated vendor link Siemens Advisory - SSA-661257: Apache Log4j Vulnerabilities. Updated community note. Updated community note.  |

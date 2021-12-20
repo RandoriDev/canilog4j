@@ -1,5 +1,4 @@
 ---
-communityVulnerable: true
 draft: 'false'
 name: On-premises (EOP) Environments
 title: Contrast On-premises (EOP) Environments
@@ -13,8 +12,12 @@ vendorPatchExists: true
 | --- | --- |
 | source | [https://support.contrastsecurity.com/hc/en-us/articles/4412612486548](https://support.contrastsecurity.com/hc/en-us/articles/4412612486548) |
 
+## Community Notes
+| Source | Note |
+| --- | --- |
+| [NCSC-NL](https://github.com/NCSC-NL/log4shell/blob/main/software/README.md) | CVE-2021-4104: Not vuln ; CVE-2021-44228: Fix </ul> |
 
 ## Sources
 | Date | Attribution | Description |
 | --- | --- | --- |
-| 2021-12-14 12:33:39 | [NCSC-NL](https://github.com/NCSC-NL/log4shell/blob/main/software/README.md) | Updated vendorPatchExists. Updated communityVulnerable. Updated community link source.  |
+| 2021-12-20 12:37:57 | [NCSC-NL](https://github.com/NCSC-NL/log4shell/blob/main/software/README.md) | Updated vendorPatchExists. Updated community note. Updated community link source.  |

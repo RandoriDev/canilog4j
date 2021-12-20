@@ -1,4 +1,5 @@
 ---
+communityVulnerable: true
 draft: 'false'
 name: Sizer
 title: Nutanix Sizer
@@ -15,9 +16,9 @@ vendorPatchExists: true
 ## Community Notes
 | Source | Note |
 | --- | --- |
-| [NCSC-NL](https://github.com/NCSC-NL/log4shell/blob/main/software/README.md) | WAF updated to block exploit, backend production patched |
+| [NCSC-NL](https://github.com/NCSC-NL/log4shell/blob/main/software/README.md) | CVE-2021-4104: Not vuln ; CVE-2021-44228: Fix ; CVE-2021-45046: Fix ; CVE-2021-45105: Vulnerable </ul> |
 
 ## Sources
 | Date | Attribution | Description |
 | --- | --- | --- |
-| 2021-12-16 13:54:19 | [NCSC-NL](https://github.com/NCSC-NL/log4shell/blob/main/software/README.md) | Updated vendorPatchExists. Updated community link source. Updated community note.  |
+| 2021-12-20 13:47:11 | [NCSC-NL](https://github.com/NCSC-NL/log4shell/blob/main/software/README.md) | Updated communityVulnerable. Updated vendorPatchExists. Updated community note. Updated community link source.  |

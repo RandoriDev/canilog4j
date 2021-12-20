@@ -15,8 +15,12 @@ vendorPatchExists: true
 | Support note 2827611.1 | [https://support.oracle.com/rs?type=doc&id=2827611.1](https://support.oracle.com/rs?type=doc&id=2827611.1) |
 | MOS Note 2827793.1 | [https://support.oracle.com/rs?type=doc&id=2827793.1](https://support.oracle.com/rs?type=doc&id=2827793.1) |
 
+## Community Notes
+| Source | Note |
+| --- | --- |
+| [NCSC-NL](https://github.com/NCSC-NL/log4shell/blob/main/software/README.md) | CVE-2021-4104: Not vuln ; CVE-2021-44228: Fix </ul> |
 
 ## Sources
 | Date | Attribution | Description |
 | --- | --- | --- |
-| 2021-12-15 6:44:55 | [NCSC-NL](https://github.com/NCSC-NL/log4shell/blob/main/software/README.md) | Updated vendorPatchExists. Updated community link source. Updated community link Support note 209768.1. Updated community link Support note 2827611.1. Updated community link MOS Note 2827793.1.  |
+| 2021-12-20 12:37:57 | [NCSC-NL](https://github.com/NCSC-NL/log4shell/blob/main/software/README.md) | Updated vendorPatchExists. Updated community note. Updated community link source. Updated community link Support note 209768.1. Updated community link Support note 2827611.1. Updated community link MOS Note 2827793.1.  |

@@ -3,7 +3,7 @@ draft: 'false'
 name: OVHcloud Internal Systems
 title: OVHCloud OVHcloud Internal Systems
 vendor: OVHCloud
-vendorPatchExists: true
+vendorInvestigating: true
 ---
 
 
@@ -12,8 +12,12 @@ vendorPatchExists: true
 | --- | --- |
 | source | [https://blog.ovhcloud.com/log4shell-how-to-protect-my-cloud-workloads/](https://blog.ovhcloud.com/log4shell-how-to-protect-my-cloud-workloads/) |
 
+## Community Notes
+| Source | Note |
+| --- | --- |
+| [NCSC-NL](https://github.com/NCSC-NL/log4shell/blob/main/software/README.md) | CVE-2021-4104: Not vuln ; CVE-2021-44228: Investigation </ul> |
 
 ## Sources
 | Date | Attribution | Description |
 | --- | --- | --- |
-| 2021-12-15 12:54:58 | [NCSC-NL](https://github.com/NCSC-NL/log4shell/blob/main/software/README.md) | Updated vendorPatchExists. Updated community link source.  |
+| 2021-12-20 12:37:57 | [NCSC-NL](https://github.com/NCSC-NL/log4shell/blob/main/software/README.md) | Updated vendorInvestigating. Updated community note. Updated community link source.  |

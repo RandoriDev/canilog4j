@@ -13,8 +13,12 @@ vendor: Oracle
 | Support note 209768.1 | [https://support.oracle.com/rs?type=doc&id=209768.1](https://support.oracle.com/rs?type=doc&id=209768.1) |
 | Support note 2827611.1 | [https://support.oracle.com/rs?type=doc&id=2827611.1](https://support.oracle.com/rs?type=doc&id=2827611.1) |
 
+## Community Notes
+| Source | Note |
+| --- | --- |
+| [NCSC-NL](https://github.com/NCSC-NL/log4shell/blob/main/software/README.md) | CVE-2021-44228: Not vuln </ul> |
 
 ## Sources
 | Date | Attribution | Description |
 | --- | --- | --- |
-| 2021-12-13 9:13:54 | [NCSC-NL](https://github.com/NCSC-NL/log4shell/blob/main/software/README.md) | Updated community link source. Updated community link Support note 209768.1. Updated community link Support note 2827611.1.  |
+| 2021-12-20 12:37:57 | [NCSC-NL](https://github.com/NCSC-NL/log4shell/blob/main/software/README.md) | Updated community note. Updated community link source. Updated community link Support note 209768.1. Updated community link Support note 2827611.1.  |

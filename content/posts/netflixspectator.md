@@ -10,10 +10,14 @@ vendorPatchExists: true
 ## Community Resources
 | Resource | Link |
 | --- | --- |
-| fix | [https://github.com/Netflix/spectator/releases/tag/v1.0.9](https://github.com/Netflix/spectator/releases/tag/v1.0.9) |
+| source | [https://github.com/Netflix/spectator/releases/tag/v1.0.9](https://github.com/Netflix/spectator/releases/tag/v1.0.9) |
 
+## Community Notes
+| Source | Note |
+| --- | --- |
+| [NCSC-NL](https://github.com/NCSC-NL/log4shell/blob/main/software/README.md) | CVE-2021-4104: Not vuln ; CVE-2021-44228: Fix </ul> |
 
 ## Sources
 | Date | Attribution | Description |
 | --- | --- | --- |
-| 2021-12-16 13:54:19 | [NCSC-NL](https://github.com/NCSC-NL/log4shell/blob/main/software/README.md) | Updated vendorPatchExists. Updated community link fix.  |
+| 2021-12-20 12:37:57 | [NCSC-NL](https://github.com/NCSC-NL/log4shell/blob/main/software/README.md) | Updated vendorPatchExists. Updated community note. Updated community link source.  |

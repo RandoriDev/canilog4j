@@ -16,9 +16,9 @@ vendor: Avaya
 | Source | Note |
 | --- | --- |
 | [CISAGov](https://raw.githubusercontent.com/cisagov/log4j-affected-db/develop/README.md) | Avaya is scanning and monitoring its OneCloud Private environments as part of its management activities.  Avaya will continue to monitor this fluid situation and remediations will be made as patches become available, in accordance with appropriate change processes. |
-| [CISAGov](https://raw.githubusercontent.com/cisagov/log4j-affected-db/develop/README.md) | Last Update: Tuesday, December 14, 2021 - 8:30pm ET |
+| [CISAGov](https://raw.githubusercontent.com/cisagov/log4j-affected-db/develop/README.md) | Last Update: 12/14/2021 |
 
 ## Sources
 | Date | Attribution | Description |
 | --- | --- | --- |
-| 2021-12-17 14:04:59 | [CISAGov](https://raw.githubusercontent.com/cisagov/log4j-affected-db/develop/README.md) | Updated communityVulnerable. Updated vendor link Apache Log4J Vulnerability - Impact for Avaya products Avaya Product Security. Updated community note. Updated community note.  |
+| 2021-12-18 16:57:55 | [CISAGov](https://raw.githubusercontent.com/cisagov/log4j-affected-db/develop/README.md) | Updated communityVulnerable. Updated vendor link Apache Log4J Vulnerability - Impact for Avaya products Avaya Product Security. Updated community note. Updated community note.  |
