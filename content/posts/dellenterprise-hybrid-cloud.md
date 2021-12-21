@@ -1,24 +1,33 @@
 ---
+communityNotVulnerable: true
 communityVulnerable: true
 draft: 'false'
 name: Enterprise Hybrid Cloud
 title: Dell Enterprise Hybrid Cloud
 vendor: Dell
+vendorPatchExists: true
 ---
 
+## Vendor Resources
+| Resource | Link |
+| --- | --- |
+| Dell Response to Apache Log4j Remote Code Execution Vulnerability (CVE-2021-44228) | [https://www.dell.com/support/kbdoc/en-us/000194414/dell-response-to-apache-log4j-remote-code-execution-vulnerability](https://www.dell.com/support/kbdoc/en-us/000194414/dell-response-to-apache-log4j-remote-code-execution-vulnerability) |
 
 ## Community Resources
 | Resource | Link |
 | --- | --- |
-| source | [https://www.dell.com/support/kbdoc/nl-nl/000194414/dell-response-to-apache-log4j-remote-code-execution-vulnerability](https://www.dell.com/support/kbdoc/nl-nl/000194414/dell-response-to-apache-log4j-remote-code-execution-vulnerability) |
+| source | [https://www.dell.com/support/kbdoc/nl-nl/000194490/dsa-2021-270-enterprise-hybrid-cloud-security-update-for-apache-log4j-remote-code-execution-vulnerability-cve-2021-44228](https://www.dell.com/support/kbdoc/nl-nl/000194490/dsa-2021-270-enterprise-hybrid-cloud-security-update-for-apache-log4j-remote-code-execution-vulnerability-cve-2021-44228) |
 
 ## Community Notes
 | Source | Note |
 | --- | --- |
-| [NCSC-NL](https://github.com/NCSC-NL/log4shell/blob/main/software/README.md) | CVE-2021-44228: Vulnerable </ul> |
-| [NCSC-NL](https://github.com/NCSC-NL/log4shell/blob/main/software/README.md) | See [DSA-2021-270](https://www.dell.com/support/kbdoc/en-us/000194490/dsa-2021-270-enterprise-hybrid-cloud-security-update-for-apache-log4j-remote-code-execution-vulnerability-cve-2021-44228) |
+| [NCSC-NL](https://github.com/NCSC-NL/log4shell/blob/main/software/README.md) | CVE-2021-4104: Not vuln ; CVE-2021-44228: Not vuln ; CVE-2021-45046: Not vuln ; CVE-2021-45105: Not vuln </ul> |
+| [NCSC-NL](https://github.com/NCSC-NL/log4shell/blob/main/software/README.md) | Refer to DSA for product updates |
+| [CISAGov](https://raw.githubusercontent.com/cisagov/log4j-affected-db/develop/README.md) | [link](https://www.dell.com/support/kbdoc/en-us/000194490/dsa-2021-270-enterprise-hybrid-cloud-security-update-for-apache-log4j-remote-code-execution-vulnerability-cve-2021-44228) |
+| [CISAGov](https://raw.githubusercontent.com/cisagov/log4j-affected-db/develop/README.md) | Last Update: 2021-12-15 |
 
 ## Sources
 | Date | Attribution | Description |
 | --- | --- | --- |
-| 2021-12-20 12:37:57 | [NCSC-NL](https://github.com/NCSC-NL/log4shell/blob/main/software/README.md) | Updated communityVulnerable. Updated community note. Updated community link source. Updated community note.  |
+| 2021-12-21 12:00:03 | [NCSC-NL](https://github.com/NCSC-NL/log4shell/blob/main/software/README.md) | Updated communityNotVulnerable. Updated community note. Updated community link source. Updated community note.  |
+| 2021-12-21 12:19:31 | [CISAGov](https://raw.githubusercontent.com/cisagov/log4j-affected-db/develop/README.md) | Updated communityVulnerable. Updated vendorPatchExists. Updated vendor link Dell Response to Apache Log4j Remote Code Execution Vulnerability (CVE-2021-44228). Updated community note. Updated community note.  |

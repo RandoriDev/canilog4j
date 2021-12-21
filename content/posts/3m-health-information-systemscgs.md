@@ -21,4 +21,4 @@ vendor: 3M Health Information Systems
 ## Sources
 | Date | Attribution | Description |
 | --- | --- | --- |
-| 2021-12-17 17:43:59 | [CISAGov](https://raw.githubusercontent.com/cisagov/log4j-affected-db/develop/README.md) | Updated communityVulnerable. Updated vendor link CGS: Log4j Software Update(login required). Updated community note. Updated community note.  |
+| 2021-12-21 12:28:57 | [CISAGov](https://raw.githubusercontent.com/cisagov/log4j-affected-db/develop/README.md) | Updated communityVulnerable. Updated vendor link CGS: Log4j Software Update(login required). Updated community note. Updated community note.  |

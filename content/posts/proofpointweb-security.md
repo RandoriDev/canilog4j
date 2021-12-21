@@ -1,9 +1,9 @@
 ---
-communityVulnerable: true
 draft: 'false'
 name: Web Security
 title: Proofpoint Web Security
 vendor: Proofpoint
+vendorPatchExists: true
 ---
 
 
@@ -15,9 +15,9 @@ vendor: Proofpoint
 ## Community Notes
 | Source | Note |
 | --- | --- |
-| [NCSC-NL](https://github.com/NCSC-NL/log4shell/blob/main/software/README.md) | CVE-2021-44228: Vulnerable </ul> |
+| [NCSC-NL](https://github.com/NCSC-NL/log4shell/blob/main/software/README.md) | CVE-2021-44228: Fix </ul> |
 
 ## Sources
 | Date | Attribution | Description |
 | --- | --- | --- |
-| 2021-12-20 12:37:57 | [NCSC-NL](https://github.com/NCSC-NL/log4shell/blob/main/software/README.md) | Updated communityVulnerable. Updated community note. Updated community link source.  |
+| 2021-12-21 15:12:47 | [NCSC-NL](https://github.com/NCSC-NL/log4shell/blob/main/software/README.md) | Updated vendorPatchExists. Updated community note. Updated community link source.  |

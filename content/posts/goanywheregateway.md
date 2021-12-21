@@ -1,4 +1,5 @@
 ---
+communityVulnerable: true
 draft: 'false'
 name: Gateway
 title: GoAnywhere Gateway
@@ -6,6 +7,10 @@ vendor: GoAnywhere
 vendorPatchExists: true
 ---
 
+## Vendor Resources
+| Resource | Link |
+| --- | --- |
+| GoAnywhere Statement | [https://www.goanywhere.com/cve-2021-44228-and-cve-2021-45046-goanywhere-mitigation-steps](https://www.goanywhere.com/cve-2021-44228-and-cve-2021-45046-goanywhere-mitigation-steps) |
 
 ## Community Resources
 | Resource | Link |
@@ -16,8 +21,10 @@ vendorPatchExists: true
 | Source | Note |
 | --- | --- |
 | [NCSC-NL](https://github.com/NCSC-NL/log4shell/blob/main/software/README.md) | CVE-2021-4104: Not vuln ; CVE-2021-44228: Fix </ul> |
+| [CISAGov](https://raw.githubusercontent.com/cisagov/log4j-affected-db/develop/README.md) | Last Update: 12/18/2021 |
 
 ## Sources
 | Date | Attribution | Description |
 | --- | --- | --- |
 | 2021-12-20 12:37:57 | [NCSC-NL](https://github.com/NCSC-NL/log4shell/blob/main/software/README.md) | Updated vendorPatchExists. Updated community note. Updated community link source.  |
+| 2021-12-21 1:20:36 | [CISAGov](https://raw.githubusercontent.com/cisagov/log4j-affected-db/develop/README.md) | Updated communityVulnerable. Updated vendorPatchExists. Updated vendor link GoAnywhere Statement. Updated community note.  |

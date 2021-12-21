@@ -20,4 +20,4 @@ vendor: Confluent
 ## Sources
 | Date | Attribution | Description |
 | --- | --- | --- |
-| 2021-12-17 23:39:48 | [CISAGov](https://raw.githubusercontent.com/cisagov/log4j-affected-db/develop/README.md) | Updated communityNotVulnerable. Updated vendor link December 2021 Log4j Vulnerabilities Advisory. Updated community note.  |
+| 2021-12-21 1:49:31 | [CISAGov](https://raw.githubusercontent.com/cisagov/log4j-affected-db/develop/README.md) | Updated communityNotVulnerable. Updated vendor link December 2021 Log4j Vulnerabilities Advisory. Updated community note.  |

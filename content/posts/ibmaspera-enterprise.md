@@ -15,9 +15,9 @@ vendor: IBM
 ## Community Notes
 | Source | Note |
 | --- | --- |
-| [CISAGov](https://raw.githubusercontent.com/cisagov/log4j-affected-db/develop/README.md) | Last Update: 12/15/2021 |
+| [CISAGov](https://raw.githubusercontent.com/cisagov/log4j-affected-db/develop/README.md) | Last Update: 2021-12-15 |
 
 ## Sources
 | Date | Attribution | Description |
 | --- | --- | --- |
-| 2021-12-17 14:04:59 | [CISAGov](https://raw.githubusercontent.com/cisagov/log4j-affected-db/develop/README.md) | Updated communityNotVulnerable. Updated vendor link An update on the Apache Log4j CVE-2021-44228 vulnerability - IBM PSIRT Blog. Updated community note.  |
+| 2021-12-21 12:45:35 | [CISAGov](https://raw.githubusercontent.com/cisagov/log4j-affected-db/develop/README.md) | Updated communityNotVulnerable. Updated vendor link An update on the Apache Log4j CVE-2021-44228 vulnerability - IBM PSIRT Blog. Updated community note.  |

@@ -2,9 +2,9 @@
 nav_all:
   other: All
 nav_older:
-  other: Older
+  other: Previous
 nav_newer:
-  other: Newer
+  other: Next
 
 
 page_home:

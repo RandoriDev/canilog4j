@@ -16,7 +16,7 @@ vendor: Jenkins
 | Source | Note |
 | --- | --- |
 | [CISAGov](https://raw.githubusercontent.com/cisagov/log4j-affected-db/develop/README.md) | [Instructions to test your installations in announcement](https://www.jenkins.io/blog/2021/12/10/log4j2-rce-CVE-2021-44228/) |
-| [CISAGov](https://raw.githubusercontent.com/cisagov/log4j-affected-db/develop/README.md) | Last Update: 2021-12-16 |
+| [CISAGov](https://raw.githubusercontent.com/cisagov/log4j-affected-db/develop/README.md) | Last Update: 12/16/2021 |
 
 ## Sources
 | Date | Attribution | Description |

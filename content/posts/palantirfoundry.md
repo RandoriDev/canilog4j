@@ -1,0 +1,23 @@
+---
+draft: 'false'
+name: Foundry
+title: Palantir Foundry
+vendor: Palantir
+---
+
+## Vendor Resources
+| Resource | Link |
+| --- | --- |
+| Palantir Response to Log4j Vulnerability (palantir.com) | [https://www.palantir.com/security-advisories/log4j-vulnerability/](https://www.palantir.com/security-advisories/log4j-vulnerability/) |
+
+
+## Community Notes
+| Source | Note |
+| --- | --- |
+| [CISAGov](https://raw.githubusercontent.com/cisagov/log4j-affected-db/develop/README.md) | No impact to Palantir-hosted or Apollo-connected instances, and updates have been deployed for full remediation. Disconnected customer instances may require manual updates. |
+| [CISAGov](https://raw.githubusercontent.com/cisagov/log4j-affected-db/develop/README.md) | Last Update: 12/19/2021 |
+
+## Sources
+| Date | Attribution | Description |
+| --- | --- | --- |
+| 2021-12-20 23:39:13 | [CISAGov](https://raw.githubusercontent.com/cisagov/log4j-affected-db/develop/README.md) | Updated vendor link Palantir Response to Log4j Vulnerability (palantir.com). Updated community note. Updated community note.  |

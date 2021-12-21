@@ -100,6 +100,28 @@ abbr[title] {
   border-bottom: 1px dotted;
 }
 
+.about-page {
+  z-index: 1000;
+  display: block;
+  float: right;
+  position: fixed;
+  border-radius: 1px;
+  top: 3%;
+  left: 3%;
+  width: 94%;
+  height: 94%;
+  background-color: white;
+  border: 1px solid grey;
+  box-shadow: 3px 3px 9px -4px;
+  padding: 30px;
+  padding-top: 0px;
+  overflow-y: scroll;
+}
+
+.hidden {
+  display: none;
+}
+
 b,
 strong {
   font-weight: bold;
@@ -6264,6 +6286,12 @@ body.no-sidebar .sidebar {
 .bar .bar-right {
   margin: 10px 0;
   float: right;
+}
+
+.bar-center {
+  float: right;
+  position: relative;
+  left: -50%;
 }
 
 .toggle-toc {

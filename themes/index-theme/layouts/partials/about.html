@@ -1,0 +1,14 @@
+<div id="about-page" class="about-page hidden">
+    <h1>Loading...</h1>
+</div>
+    <script>
+        function show_about(){
+            about = document.getElementById('about-page');
+            fetch('/about.html').then(response => response.text()).then(html => about.innerHTML=html);
+            about.classList.remove('hidden');
+        }
+        function hide_about(){
+            about.classList.add('hidden');
+        }
+    </script>
+    

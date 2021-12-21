@@ -16,7 +16,7 @@ vendor: Lenovo
 | Source | Note |
 | --- | --- |
 | [CISAGov](https://raw.githubusercontent.com/cisagov/log4j-affected-db/develop/README.md) | Nutanix and VMware components only; hardware not affected. See [Nutanix](https://download.nutanix.com/alerts/Security_Advisory_0023.pdf) and [VMWare](https://www.vmware.com/security/advisories/VMSA-2021-0028.html) advisories. |
-| [CISAGov](https://raw.githubusercontent.com/cisagov/log4j-affected-db/develop/README.md) | Last Update: 2021-12-14 |
+| [CISAGov](https://raw.githubusercontent.com/cisagov/log4j-affected-db/develop/README.md) | Last Update: 12/14/2021 |
 
 ## Sources
 | Date | Attribution | Description |

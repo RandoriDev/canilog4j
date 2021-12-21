@@ -4,6 +4,7 @@ draft: 'false'
 name: Qlik Catalog
 title: QlikTech International Qlik Catalog
 vendor: QlikTech International
+vendorPatchExists: true
 ---
 
 
@@ -15,10 +16,10 @@ vendor: QlikTech International
 ## Community Notes
 | Source | Note |
 | --- | --- |
-| [NCSC-NL](https://github.com/NCSC-NL/log4shell/blob/main/software/README.md) | CVE-2021-4104: Not vuln ; CVE-2021-44228: Workaround </ul> |
+| [NCSC-NL](https://github.com/NCSC-NL/log4shell/blob/main/software/README.md) | CVE-2021-4104: Not vuln ; CVE-2021-44228: Fix ; CVE-2021-45046: Fix ; CVE-2021-45105: Vulnerable </ul> |
 | [NCSC-NL](https://github.com/NCSC-NL/log4shell/blob/main/software/README.md) | supported versions before May 2021 are not affected |
 
 ## Sources
 | Date | Attribution | Description |
 | --- | --- | --- |
-| 2021-12-20 12:37:57 | [NCSC-NL](https://github.com/NCSC-NL/log4shell/blob/main/software/README.md) | Updated communityVulnerable. Updated community note. Updated community link source. Updated community note.  |
+| 2021-12-21 11:19:11 | [NCSC-NL](https://github.com/NCSC-NL/log4shell/blob/main/software/README.md) | Updated communityVulnerable. Updated vendorPatchExists. Updated community note. Updated community link source. Updated community note.  |

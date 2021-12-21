@@ -22,7 +22,7 @@ vendorPatchExists: true
 | --- | --- |
 | [NCSC-NL](https://github.com/NCSC-NL/log4shell/blob/main/software/README.md) | CVE-2021-4104: Not vuln ; CVE-2021-44228: Workaround </ul> |
 | [CISAGov](https://raw.githubusercontent.com/cisagov/log4j-affected-db/develop/README.md) | Versions 21.0 and later are impacted. Versions 20 and earlier are NOT impacted by this. Workaround manual steps available in reference. Upgrade to PaperCut NG/MF version 21.2.3 Now Available to resolve. |
-| [CISAGov](https://raw.githubusercontent.com/cisagov/log4j-affected-db/develop/README.md) | Last Update: 2021-12-16 |
+| [CISAGov](https://raw.githubusercontent.com/cisagov/log4j-affected-db/develop/README.md) | Last Update: 12/16/2021 |
 
 ## Sources
 | Date | Attribution | Description |

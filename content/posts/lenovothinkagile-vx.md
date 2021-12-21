@@ -16,7 +16,7 @@ vendor: Lenovo
 | Source | Note |
 | --- | --- |
 | [CISAGov](https://raw.githubusercontent.com/cisagov/log4j-affected-db/develop/README.md) | VMware components only; hardware not affected. See [VMWare](https://www.vmware.com/security/advisories/VMSA-2021-0028.html) advisory. |
-| [CISAGov](https://raw.githubusercontent.com/cisagov/log4j-affected-db/develop/README.md) | Last Update: 2021-12-14 |
+| [CISAGov](https://raw.githubusercontent.com/cisagov/log4j-affected-db/develop/README.md) | Last Update: 12/14/2021 |
 
 ## Sources
 | Date | Attribution | Description |

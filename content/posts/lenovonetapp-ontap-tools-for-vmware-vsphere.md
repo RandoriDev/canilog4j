@@ -16,7 +16,7 @@ vendor: Lenovo
 | Source | Note |
 | --- | --- |
 | [CISAGov](https://raw.githubusercontent.com/cisagov/log4j-affected-db/develop/README.md) | See [NetApp](https://security.netapp.com/advisory/ntap-20211210-0007/) advisory. |
-| [CISAGov](https://raw.githubusercontent.com/cisagov/log4j-affected-db/develop/README.md) | Last Update: 2021-12-14 |
+| [CISAGov](https://raw.githubusercontent.com/cisagov/log4j-affected-db/develop/README.md) | Last Update: 12/14/2021 |
 
 ## Sources
 | Date | Attribution | Description |
