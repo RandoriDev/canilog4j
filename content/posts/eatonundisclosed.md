@@ -20,4 +20,4 @@ vendor: Eaton
 ## Sources
 | Date | Attribution | Description |
 | --- | --- | --- |
-| 2021-12-21 2:06:12 | [CISAGov](https://raw.githubusercontent.com/cisagov/log4j-affected-db/develop/README.md) | Updated communityVulnerable. Updated vendor link Security Bulletin. Updated community note.  |
+| 2021-12-21 22:43:46 | [CISAGov](https://raw.githubusercontent.com/cisagov/log4j-affected-db/develop/README.md) | Updated communityVulnerable. Updated vendor link Security Bulletin. Updated community note.  |

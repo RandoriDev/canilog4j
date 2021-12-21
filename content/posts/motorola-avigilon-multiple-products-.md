@@ -15,4 +15,4 @@ vendor: Motorola Avigilon
 ## Sources
 | Date | Attribution | Description |
 | --- | --- | --- |
-| 2021-12-17 14:04:59 | [CISAGov](https://raw.githubusercontent.com/cisagov/log4j-affected-db/develop/README.md) | Updated vendor link Motorola Avigilon Technical Notification.  |
+| 2021-12-21 22:43:46 | [CISAGov](https://raw.githubusercontent.com/cisagov/log4j-affected-db/develop/README.md) | Updated vendor link Motorola Avigilon Technical Notification.  |

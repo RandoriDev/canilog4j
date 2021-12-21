@@ -20,4 +20,4 @@ vendor: APC by Schneider Electric
 ## Sources
 | Date | Attribution | Description |
 | --- | --- | --- |
-| 2021-12-19 0:39:54 | [CISAGov](https://raw.githubusercontent.com/cisagov/log4j-affected-db/develop/README.md) | Updated vendor link https://community.exchange.se.com/t5/APC-UPS-Data-Center-Backup/Log4-versions-used-in-Powerchute-vulnerable/m-p/379866/highlight/true#M47345. Updated community note. Updated community note.  |
+| 2021-12-21 22:43:46 | [CISAGov](https://raw.githubusercontent.com/cisagov/log4j-affected-db/develop/README.md) | Updated vendor link https://community.exchange.se.com/t5/APC-UPS-Data-Center-Backup/Log4-versions-used-in-Powerchute-vulnerable/m-p/379866/highlight/true#M47345. Updated community note. Updated community note.  |

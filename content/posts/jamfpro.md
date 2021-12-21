@@ -28,5 +28,5 @@ vendorPatchExists: true
 ## Sources
 | Date | Attribution | Description |
 | --- | --- | --- |
-| 2021-12-17 14:04:59 | [CISAGov](https://raw.githubusercontent.com/cisagov/log4j-affected-db/develop/README.md) | Updated communityVulnerable. Updated vendorPatchExists. Updated vendor link Mitigating the Apache Log4j 2 Vulnerability.  |
+| 2021-12-21 22:43:46 | [CISAGov](https://raw.githubusercontent.com/cisagov/log4j-affected-db/develop/README.md) | Updated communityVulnerable. Updated vendorPatchExists. Updated vendor link Mitigating the Apache Log4j 2 Vulnerability.  |
 | 2021-12-13T14:07:00-07:00 | [Randori](https://www.randori.com/log4j/) | Updated cpe. Updated patchedVersion. Updated firstVulnerable. Updated lastVulnerable. Updated vendorConfirmedVulnerable. Updated vendorPatchExists. Updated communityLog4jDefault. Updated communityVulnerable. Updated communityExploitable. Updated community link Randori Advisory.  |

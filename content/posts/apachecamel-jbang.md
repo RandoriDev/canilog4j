@@ -20,4 +20,4 @@ vendor: Apache
 ## Sources
 | Date | Attribution | Description |
 | --- | --- | --- |
-| 2021-12-21 1:37:14 | [CISAGov](https://raw.githubusercontent.com/cisagov/log4j-affected-db/develop/README.md) | Updated communityVulnerable. Updated vendor link APACHE CAMEL AND CVE-2021-44228 (LOG4J). Updated community note.  |
+| 2021-12-21 22:43:46 | [CISAGov](https://raw.githubusercontent.com/cisagov/log4j-affected-db/develop/README.md) | Updated communityVulnerable. Updated vendor link APACHE CAMEL AND CVE-2021-44228 (LOG4J). Updated community note.  |

@@ -20,4 +20,4 @@ vendor: PTC
 ## Sources
 | Date | Attribution | Description |
 | --- | --- | --- |
-| 2021-12-21 17:14:48 | [CISAGov](https://raw.githubusercontent.com/cisagov/log4j-affected-db/develop/README.md) | Updated communityVulnerable. Updated vendor link ThingWorx Apache log4j vulnerability - Incident Response. Updated community note.  |
+| 2021-12-21 22:43:46 | [CISAGov](https://raw.githubusercontent.com/cisagov/log4j-affected-db/develop/README.md) | Updated communityVulnerable. Updated vendor link ThingWorx Apache log4j vulnerability - Incident Response. Updated community note.  |

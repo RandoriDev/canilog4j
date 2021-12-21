@@ -1,10 +1,15 @@
 ---
+communityNotVulnerable: true
 draft: 'false'
 name: victor
 title: Johnson Controls victor
 vendor: Johnson Controls
 ---
 
+## Vendor Resources
+| Resource | Link |
+| --- | --- |
+| Johnson Controls Advisory Link | [https://www.johnsoncontrols.com/cyber-solutions/security-advisories](https://www.johnsoncontrols.com/cyber-solutions/security-advisories) |
 
 ## Community Resources
 | Resource | Link |
@@ -15,8 +20,10 @@ vendor: Johnson Controls
 | Source | Note |
 | --- | --- |
 | [NCSC-NL](https://github.com/NCSC-NL/log4shell/blob/main/software/README.md) | CVE-2021-44228: Not vuln ; CVE-2021-45046: Not vuln ; CVE-2021-45105: Not vuln </ul> |
+| [CISAGov](https://raw.githubusercontent.com/cisagov/log4j-affected-db/develop/README.md) | Last Update: 12/21/2021 |
 
 ## Sources
 | Date | Attribution | Description |
 | --- | --- | --- |
 | 2021-12-20 15:44:33 | [NCSC-NL](https://github.com/NCSC-NL/log4shell/blob/main/software/README.md) | Updated community note. Updated community link source.  |
+| 2021-12-21 22:43:46 | [CISAGov](https://raw.githubusercontent.com/cisagov/log4j-affected-db/develop/README.md) | Updated communityNotVulnerable. Updated vendor link Johnson Controls Advisory Link. Updated community note.  |

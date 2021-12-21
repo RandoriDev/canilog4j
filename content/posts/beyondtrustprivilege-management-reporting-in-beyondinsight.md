@@ -21,4 +21,4 @@ vendor: BeyondTrust
 ## Sources
 | Date | Attribution | Description |
 | --- | --- | --- |
-| 2021-12-16 0:42:42 | [CISAGov](https://raw.githubusercontent.com/cisagov/log4j-affected-db/develop/README.md) | Updated communityVulnerable. Updated vendor link BeyondTrust Statement on log4j2 CVE-2021-44228 (Log4Shell). Updated community note. Updated community note.  |
+| 2021-12-21 22:43:46 | [CISAGov](https://raw.githubusercontent.com/cisagov/log4j-affected-db/develop/README.md) | Updated communityVulnerable. Updated vendor link BeyondTrust Statement on log4j2 CVE-2021-44228 (Log4Shell). Updated community note. Updated community note.  |

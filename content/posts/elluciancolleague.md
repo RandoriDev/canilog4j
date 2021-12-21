@@ -21,4 +21,4 @@ vendor: Ellucian
 ## Sources
 | Date | Attribution | Description |
 | --- | --- | --- |
-| 2021-12-21 2:23:34 | [CISAGov](https://raw.githubusercontent.com/cisagov/log4j-affected-db/develop/README.md) | Updated communityVulnerable. Updated vendor link Ellucian Response on Apache Log4j Issue. Updated community note. Updated community note.  |
+| 2021-12-21 22:43:46 | [CISAGov](https://raw.githubusercontent.com/cisagov/log4j-affected-db/develop/README.md) | Updated communityVulnerable. Updated vendor link Ellucian Response on Apache Log4j Issue. Updated community note. Updated community note.  |

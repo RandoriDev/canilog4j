@@ -20,4 +20,4 @@ vendor: ManageEngine
 ## Sources
 | Date | Attribution | Description |
 | --- | --- | --- |
-| 2021-12-18 3:18:34 | [CISAGov](https://raw.githubusercontent.com/cisagov/log4j-affected-db/develop/README.md) | Updated communityVulnerable. Updated vendor link Manage Engine Advisory. Updated community note.  |
+| 2021-12-21 22:43:46 | [CISAGov](https://raw.githubusercontent.com/cisagov/log4j-affected-db/develop/README.md) | Updated communityVulnerable. Updated vendor link Manage Engine Advisory. Updated community note.  |

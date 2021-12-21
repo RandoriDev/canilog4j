@@ -12,4 +12,4 @@ vendor: Broadcom
 ## Sources
 | Date | Attribution | Description |
 | --- | --- | --- |
-| 2021-12-15 2:46:48 | [CISAGov](https://raw.githubusercontent.com/cisagov/log4j-affected-db/develop/README.md) | Updated communityVulnerable.  |
+| 2021-12-21 22:43:46 | [CISAGov](https://raw.githubusercontent.com/cisagov/log4j-affected-db/develop/README.md) | Updated communityVulnerable.  |

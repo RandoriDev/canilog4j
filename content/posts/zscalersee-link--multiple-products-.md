@@ -20,4 +20,4 @@ vendor: Zscaler
 ## Sources
 | Date | Attribution | Description |
 | --- | --- | --- |
-| 2021-12-21 16:56:55 | [CISAGov](https://raw.githubusercontent.com/cisagov/log4j-affected-db/develop/README.md) | Updated communityNotVulnerable. Updated vendor link CVE-2021-44228 log4j Vulnerability. Updated community note.  |
+| 2021-12-21 22:43:46 | [CISAGov](https://raw.githubusercontent.com/cisagov/log4j-affected-db/develop/README.md) | Updated communityNotVulnerable. Updated vendor link CVE-2021-44228 log4j Vulnerability. Updated community note.  |

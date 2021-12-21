@@ -20,4 +20,4 @@ vendor: F5
 ## Sources
 | Date | Attribution | Description |
 | --- | --- | --- |
-| 2021-12-20 13:58:31 | [CISAGov](https://raw.githubusercontent.com/cisagov/log4j-affected-db/develop/README.md) | Updated communityVulnerable. Updated vendor link F5 Security Advisory. Updated community note.  |
+| 2021-12-21 22:43:46 | [CISAGov](https://raw.githubusercontent.com/cisagov/log4j-affected-db/develop/README.md) | Updated communityVulnerable. Updated vendor link F5 Security Advisory. Updated community note.  |

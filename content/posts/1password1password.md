@@ -19,4 +19,4 @@ vendor: 1Password
 ## Sources
 | Date | Attribution | Description |
 | --- | --- | --- |
-| 2021-12-20 21:37:34 | [CISAGov](https://raw.githubusercontent.com/cisagov/log4j-affected-db/develop/README.md) | Updated vendor link 1Password public response on Reddit. Updated community note.  |
+| 2021-12-21 22:43:46 | [CISAGov](https://raw.githubusercontent.com/cisagov/log4j-affected-db/develop/README.md) | Updated vendor link 1Password public response on Reddit. Updated community note.  |

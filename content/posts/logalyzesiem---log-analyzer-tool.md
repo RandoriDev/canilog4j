@@ -25,4 +25,4 @@ vendor: LOGalyze
 ## Sources
 | Date | Attribution | Description |
 | --- | --- | --- |
-| 2021-12-18 3:18:34 | [CISAGov](https://raw.githubusercontent.com/cisagov/log4j-affected-db/develop/README.md) | Updated communityVulnerable. Updated vendor link abandoned open-source software repo (sourceforge.net). Updated community link Forks (github.com). Updated community note. Updated community note.  |
+| 2021-12-21 22:43:46 | [CISAGov](https://raw.githubusercontent.com/cisagov/log4j-affected-db/develop/README.md) | Updated communityVulnerable. Updated vendor link abandoned open-source software repo (sourceforge.net). Updated community link Forks (github.com). Updated community note. Updated community note.  |
