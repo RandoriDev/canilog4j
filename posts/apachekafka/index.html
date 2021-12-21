@@ -14,22 +14,22 @@ Apache Kafka - Log4j Exploitability Index
 <meta name=format-detection content="telephone=no,email=no,adress=no">
 <meta name=theme-color content="#000000">
 <meta http-equiv=window-target content="_top">
-<meta name=description content="Vendor Resources    Resource Link     Log4j – Apache Log4j Security Vulnerabilities https://logging.apache.org/log4j/2.x/security.html    Community Resources    Resource Link     source https://lists.apache.org/thread/lgbtvvmy68p0059yoyn9qxzosdmx4jdv    Community Notes    Source Note     NCSC-NL CVE-2021-4104: Not vuln ; CVE-2021-44228: Not vuln ; CVE-2021-45046: Not vuln ; CVE-2021-45105: Not vuln    NCSC-NL Uses log4j 1.">
+<meta name=description content="Vendor Resources    Resource Link     Log4j – Apache Log4j Security Vulnerabilities https://logging.apache.org/log4j/2.x/security.html    Community Resources    Resource Link     source https://kafka.apache.org/cve-list    Community Notes    Source Note     NCSC-NL CVE-2021-4104: Workaround ; CVE-2021-44228: Not vuln ; CVE-2021-45046: Not vuln ; CVE-2021-45105: Not vuln    NCSC-NL Uses Log4j 1.2.17   CISAGov Only vulnerable in certain configuration(s)    Sources    Date Attribution Description     2021-12-21 13:11:57 NCSC-NL Updated communityVulnerable.">
 <meta name=generator content="Hugo 0.90.1 with theme pure">
 <title>Apache Kafka - Log4j Exploitability Index</title>
-<link rel=stylesheet href=https://canilog4j.com/css/style.min.101cddd5973823bc729d02c440935ba297cdfa0a8a6c02bfaaf0f6c6056fb009.css>
+<link rel=stylesheet href=https://canilog4j.com/css/style.min.3e9a267c4bade58bb22fe978b8e24e11ce87eafe6017578b0340bee1ef1e6cb1.css>
 <link rel=stylesheet href=https://cdn.staticfile.org/highlight.js/9.15.10/styles/github.min.css async>
 <link rel=stylesheet href=https://cdnjs.cloudflare.com/ajax/libs/tocbot/4.4.2/tocbot.css async>
 <meta property="og:title" content="Apache Kafka">
-<meta property="og:description" content="Vendor Resources    Resource Link     Log4j – Apache Log4j Security Vulnerabilities https://logging.apache.org/log4j/2.x/security.html    Community Resources    Resource Link     source https://lists.apache.org/thread/lgbtvvmy68p0059yoyn9qxzosdmx4jdv    Community Notes    Source Note     NCSC-NL CVE-2021-4104: Not vuln ; CVE-2021-44228: Not vuln ; CVE-2021-45046: Not vuln ; CVE-2021-45105: Not vuln    NCSC-NL Uses log4j 1.">
+<meta property="og:description" content="Vendor Resources    Resource Link     Log4j – Apache Log4j Security Vulnerabilities https://logging.apache.org/log4j/2.x/security.html    Community Resources    Resource Link     source https://kafka.apache.org/cve-list    Community Notes    Source Note     NCSC-NL CVE-2021-4104: Workaround ; CVE-2021-44228: Not vuln ; CVE-2021-45046: Not vuln ; CVE-2021-45105: Not vuln    NCSC-NL Uses Log4j 1.2.17   CISAGov Only vulnerable in certain configuration(s)    Sources    Date Attribution Description     2021-12-21 13:11:57 NCSC-NL Updated communityVulnerable.">
 <meta property="og:type" content="article">
 <meta property="og:url" content="https://canilog4j.com/posts/apachekafka/"><meta property="article:section" content="posts">
 <meta itemprop=name content="Apache Kafka">
-<meta itemprop=description content="Vendor Resources    Resource Link     Log4j – Apache Log4j Security Vulnerabilities https://logging.apache.org/log4j/2.x/security.html    Community Resources    Resource Link     source https://lists.apache.org/thread/lgbtvvmy68p0059yoyn9qxzosdmx4jdv    Community Notes    Source Note     NCSC-NL CVE-2021-4104: Not vuln ; CVE-2021-44228: Not vuln ; CVE-2021-45046: Not vuln ; CVE-2021-45105: Not vuln    NCSC-NL Uses log4j 1.">
-<meta itemprop=wordCount content="83">
+<meta itemprop=description content="Vendor Resources    Resource Link     Log4j – Apache Log4j Security Vulnerabilities https://logging.apache.org/log4j/2.x/security.html    Community Resources    Resource Link     source https://kafka.apache.org/cve-list    Community Notes    Source Note     NCSC-NL CVE-2021-4104: Workaround ; CVE-2021-44228: Not vuln ; CVE-2021-45046: Not vuln ; CVE-2021-45105: Not vuln    NCSC-NL Uses Log4j 1.2.17   CISAGov Only vulnerable in certain configuration(s)    Sources    Date Attribution Description     2021-12-21 13:11:57 NCSC-NL Updated communityVulnerable.">
+<meta itemprop=wordCount content="82">
 <meta itemprop=keywords content><meta name=twitter:card content="summary">
 <meta name=twitter:title content="Apache Kafka">
-<meta name=twitter:description content="Vendor Resources    Resource Link     Log4j – Apache Log4j Security Vulnerabilities https://logging.apache.org/log4j/2.x/security.html    Community Resources    Resource Link     source https://lists.apache.org/thread/lgbtvvmy68p0059yoyn9qxzosdmx4jdv    Community Notes    Source Note     NCSC-NL CVE-2021-4104: Not vuln ; CVE-2021-44228: Not vuln ; CVE-2021-45046: Not vuln ; CVE-2021-45105: Not vuln    NCSC-NL Uses log4j 1."><!--[if lte IE 9]><script src=https://cdnjs.cloudflare.com/ajax/libs/classlist/1.1.20170427/classList.min.js></script><![endif]--><!--[if lt IE 9]><script src=https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv.min.js></script>
+<meta name=twitter:description content="Vendor Resources    Resource Link     Log4j – Apache Log4j Security Vulnerabilities https://logging.apache.org/log4j/2.x/security.html    Community Resources    Resource Link     source https://kafka.apache.org/cve-list    Community Notes    Source Note     NCSC-NL CVE-2021-4104: Workaround ; CVE-2021-44228: Not vuln ; CVE-2021-45046: Not vuln ; CVE-2021-45105: Not vuln    NCSC-NL Uses Log4j 1.2.17   CISAGov Only vulnerable in certain configuration(s)    Sources    Date Attribution Description     2021-12-21 13:11:57 NCSC-NL Updated communityVulnerable."><!--[if lte IE 9]><script src=https://cdnjs.cloudflare.com/ajax/libs/classlist/1.1.20170427/classList.min.js></script><![endif]--><!--[if lt IE 9]><script src=https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv.min.js></script>
 <script src=https://cdn.jsdelivr.net/npm/respond.js@1.4.2/dest/respond.min.js></script><![endif]-->
 </head>
 <body class=main-center itemscope itemtype=http://schema.org/WebPage><header class=header itemscope itemtype=http://schema.org/WPHeader>
@@ -95,9 +95,6 @@ a consolidated collection of information and resources for defenders
 <span class=tag>
 <img src="/images/Icon - Vulnerable - Confirmed.png">
 Vulnerable</span>
-<span class=tag>
-<img src="/images/Icon - Not Vulnerable.png">
-Not Vulnerable</span>
 </div>
 <div class=article-meta>
 </div>
@@ -129,7 +126,7 @@ Not Vulnerable</span>
 <tbody>
 <tr>
 <td>source</td>
-<td><a href=https://lists.apache.org/thread/lgbtvvmy68p0059yoyn9qxzosdmx4jdv>https://lists.apache.org/thread/lgbtvvmy68p0059yoyn9qxzosdmx4jdv</a></td>
+<td><a href=https://kafka.apache.org/cve-list>https://kafka.apache.org/cve-list</a></td>
 </tr>
 </tbody>
 </table>
@@ -144,11 +141,11 @@ Not Vulnerable</span>
 <tbody>
 <tr>
 <td><a href=https://github.com/NCSC-NL/log4shell/blob/main/software/README.md>NCSC-NL</a></td>
-<td>CVE-2021-4104: Not vuln ; CVE-2021-44228: Not vuln ; CVE-2021-45046: Not vuln ; CVE-2021-45105: Not vuln </td>
+<td>CVE-2021-4104: Workaround ; CVE-2021-44228: Not vuln ; CVE-2021-45046: Not vuln ; CVE-2021-45105: Not vuln </td>
 </tr>
 <tr>
 <td><a href=https://github.com/NCSC-NL/log4shell/blob/main/software/README.md>NCSC-NL</a></td>
-<td>Uses log4j 1.x</td>
+<td>Uses Log4j 1.2.17</td>
 </tr>
 <tr>
 <td><a href=https://raw.githubusercontent.com/cisagov/log4j-affected-db/develop/README.md>CISAGov</a></td>
@@ -167,9 +164,9 @@ Not Vulnerable</span>
 </thead>
 <tbody>
 <tr>
-<td>2021-12-20 12:37:57</td>
+<td>2021-12-21 13:11:57</td>
 <td><a href=https://github.com/NCSC-NL/log4shell/blob/main/software/README.md>NCSC-NL</a></td>
-<td>Updated communityNotVulnerable. Updated community note. Updated community link source. Updated community note.</td>
+<td>Updated communityVulnerable. Updated community note. Updated community link source. Updated community note.</td>
 </tr>
 <tr>
 <td>2021-12-17 14:04:59</td>
@@ -187,10 +184,10 @@ Not Vulnerable</span>
 <div class=bar-inner>
 <ul class="pager pull-left">
 <li class=prev>
-<a href=https://canilog4j.com/posts/apachekaraf/ title="Apache Karaf"><i class="icon icon-angle-left" aria-hidden=true></i><span>&nbsp;&nbsp;Older</span></a>
+<a href=https://canilog4j.com/posts/apachekaraf/ title="Apache Karaf"><i class="icon icon-angle-left" aria-hidden=true></i><span>&nbsp;&nbsp;Previous</span></a>
 </li>
 <li class=next>
-<a href=https://canilog4j.com/posts/apachejspwiki/ title="Apache JSPWiki"><span>Newer&nbsp;&nbsp;</span><i class="icon icon-angle-right" aria-hidden=true></i></a>
+<a href=https://canilog4j.com/posts/apachejspwiki/ title="Apache JSPWiki"><span>Next&nbsp;&nbsp;</span><i class="icon icon-angle-right" aria-hidden=true></i></a>
 </li>
 </ul>
 <div class=bar-right>

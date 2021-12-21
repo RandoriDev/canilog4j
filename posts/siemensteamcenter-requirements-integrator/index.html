@@ -14,22 +14,22 @@ Siemens Teamcenter Requirements Integrator - Log4j Exploitability Index
 <meta name=format-detection content="telephone=no,email=no,adress=no">
 <meta name=theme-color content="#000000">
 <meta http-equiv=window-target content="_top">
-<meta name=description content="Community Resources    Resource Link     source https://cert-portal.siemens.com/productcert/pdf/ssa-661247.pdf    Community Notes    Source Note     NCSC-NL CVE-2021-4104: Not vuln ; CVE-2021-44228: Workaround     Sources    Date Attribution Description     2021-12-20 12:37:57 NCSC-NL Updated communityVulnerable. Updated community note. Updated community link source.    ">
+<meta name=description content="Vendor Resources    Resource Link     Siemens Advisory - SSA-661257: Apache Log4j Vulnerabilities https://cert-portal.siemens.com/productcert/pdf/ssa-661247.pdf    Community Notes    Source Note     CISAGov Remove the JndiLookup class from the classpath. Find detailed remediation and mitigation information here. See further recommendations from Siemens Advisory SSA-661257   CISAGov Last Update: 12/18/2021    Sources    Date Attribution Description     2021-12-21 11:40:33 CISAGov Updated communityVulnerable.">
 <meta name=generator content="Hugo 0.90.1 with theme pure">
 <title>Siemens Teamcenter Requirements Integrator - Log4j Exploitability Index</title>
-<link rel=stylesheet href=https://canilog4j.com/css/style.min.101cddd5973823bc729d02c440935ba297cdfa0a8a6c02bfaaf0f6c6056fb009.css>
+<link rel=stylesheet href=https://canilog4j.com/css/style.min.3e9a267c4bade58bb22fe978b8e24e11ce87eafe6017578b0340bee1ef1e6cb1.css>
 <link rel=stylesheet href=https://cdn.staticfile.org/highlight.js/9.15.10/styles/github.min.css async>
 <link rel=stylesheet href=https://cdnjs.cloudflare.com/ajax/libs/tocbot/4.4.2/tocbot.css async>
 <meta property="og:title" content="Siemens Teamcenter Requirements Integrator">
-<meta property="og:description" content="Community Resources    Resource Link     source https://cert-portal.siemens.com/productcert/pdf/ssa-661247.pdf    Community Notes    Source Note     NCSC-NL CVE-2021-4104: Not vuln ; CVE-2021-44228: Workaround     Sources    Date Attribution Description     2021-12-20 12:37:57 NCSC-NL Updated communityVulnerable. Updated community note. Updated community link source.    ">
+<meta property="og:description" content="Vendor Resources    Resource Link     Siemens Advisory - SSA-661257: Apache Log4j Vulnerabilities https://cert-portal.siemens.com/productcert/pdf/ssa-661247.pdf    Community Notes    Source Note     CISAGov Remove the JndiLookup class from the classpath. Find detailed remediation and mitigation information here. See further recommendations from Siemens Advisory SSA-661257   CISAGov Last Update: 12/18/2021    Sources    Date Attribution Description     2021-12-21 11:40:33 CISAGov Updated communityVulnerable.">
 <meta property="og:type" content="article">
 <meta property="og:url" content="https://canilog4j.com/posts/siemensteamcenter-requirements-integrator/"><meta property="article:section" content="posts">
 <meta itemprop=name content="Siemens Teamcenter Requirements Integrator">
-<meta itemprop=description content="Community Resources    Resource Link     source https://cert-portal.siemens.com/productcert/pdf/ssa-661247.pdf    Community Notes    Source Note     NCSC-NL CVE-2021-4104: Not vuln ; CVE-2021-44228: Workaround     Sources    Date Attribution Description     2021-12-20 12:37:57 NCSC-NL Updated communityVulnerable. Updated community note. Updated community link source.    ">
-<meta itemprop=wordCount content="33">
+<meta itemprop=description content="Vendor Resources    Resource Link     Siemens Advisory - SSA-661257: Apache Log4j Vulnerabilities https://cert-portal.siemens.com/productcert/pdf/ssa-661247.pdf    Community Notes    Source Note     CISAGov Remove the JndiLookup class from the classpath. Find detailed remediation and mitigation information here. See further recommendations from Siemens Advisory SSA-661257   CISAGov Last Update: 12/18/2021    Sources    Date Attribution Description     2021-12-21 11:40:33 CISAGov Updated communityVulnerable.">
+<meta itemprop=wordCount content="69">
 <meta itemprop=keywords content><meta name=twitter:card content="summary">
 <meta name=twitter:title content="Siemens Teamcenter Requirements Integrator">
-<meta name=twitter:description content="Community Resources    Resource Link     source https://cert-portal.siemens.com/productcert/pdf/ssa-661247.pdf    Community Notes    Source Note     NCSC-NL CVE-2021-4104: Not vuln ; CVE-2021-44228: Workaround     Sources    Date Attribution Description     2021-12-20 12:37:57 NCSC-NL Updated communityVulnerable. Updated community note. Updated community link source.    "><!--[if lte IE 9]><script src=https://cdnjs.cloudflare.com/ajax/libs/classlist/1.1.20170427/classList.min.js></script><![endif]--><!--[if lt IE 9]><script src=https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv.min.js></script>
+<meta name=twitter:description content="Vendor Resources    Resource Link     Siemens Advisory - SSA-661257: Apache Log4j Vulnerabilities https://cert-portal.siemens.com/productcert/pdf/ssa-661247.pdf    Community Notes    Source Note     CISAGov Remove the JndiLookup class from the classpath. Find detailed remediation and mitigation information here. See further recommendations from Siemens Advisory SSA-661257   CISAGov Last Update: 12/18/2021    Sources    Date Attribution Description     2021-12-21 11:40:33 CISAGov Updated communityVulnerable."><!--[if lte IE 9]><script src=https://cdnjs.cloudflare.com/ajax/libs/classlist/1.1.20170427/classList.min.js></script><![endif]--><!--[if lt IE 9]><script src=https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv.min.js></script>
 <script src=https://cdn.jsdelivr.net/npm/respond.js@1.4.2/dest/respond.min.js></script><![endif]-->
 </head>
 <body class=main-center itemscope itemtype=http://schema.org/WebPage><header class=header itemscope itemtype=http://schema.org/WPHeader>
@@ -89,6 +89,9 @@ a consolidated collection of information and resources for defenders
 </table>
 </td></tr></table><br>
 <div class=title-data><b>Vendor Data</b>
+<span class=tag>
+<img src="/images/Icon - Vendor Patch Exists.png">
+Vendor Patch Exists</span>
 </div>
 <div class=title-data-divider></div>
 <div class=title-data><b>Community Data</b>
@@ -100,7 +103,7 @@ Vulnerable</span>
 </div>
 </div>
 <div class="article-entry text-muted" itemprop=description>
-<h2 id=community-resources>Community Resources</h2>
+<h2 id=vendor-resources>Vendor Resources</h2>
 <table>
 <thead>
 <tr>
@@ -110,7 +113,7 @@ Vulnerable</span>
 </thead>
 <tbody>
 <tr>
-<td>source</td>
+<td>Siemens Advisory - SSA-661257: Apache Log4j Vulnerabilities</td>
 <td><a href=https://cert-portal.siemens.com/productcert/pdf/ssa-661247.pdf>https://cert-portal.siemens.com/productcert/pdf/ssa-661247.pdf</a></td>
 </tr>
 </tbody>
@@ -125,8 +128,12 @@ Vulnerable</span>
 </thead>
 <tbody>
 <tr>
-<td><a href=https://github.com/NCSC-NL/log4shell/blob/main/software/README.md>NCSC-NL</a></td>
-<td>CVE-2021-4104: Not vuln ; CVE-2021-44228: Workaround </td>
+<td><a href=https://raw.githubusercontent.com/cisagov/log4j-affected-db/develop/README.md>CISAGov</a></td>
+<td>Remove the JndiLookup class from the classpath. Find detailed remediation and mitigation information <a href=https://support.sw.siemens.com/en-US/knowledge-base/PL8600700>here</a>. See further recommendations from <a href=https://cert-portal.siemens.com/productcert/pdf/ssa-661247.pdf>Siemens Advisory SSA-661257</a></td>
+</tr>
+<tr>
+<td><a href=https://raw.githubusercontent.com/cisagov/log4j-affected-db/develop/README.md>CISAGov</a></td>
+<td>Last Update: 12/18/2021</td>
 </tr>
 </tbody>
 </table>
@@ -141,9 +148,9 @@ Vulnerable</span>
 </thead>
 <tbody>
 <tr>
-<td>2021-12-20 12:37:57</td>
-<td><a href=https://github.com/NCSC-NL/log4shell/blob/main/software/README.md>NCSC-NL</a></td>
-<td>Updated communityVulnerable. Updated community note. Updated community link source.</td>
+<td>2021-12-21 11:40:33</td>
+<td><a href=https://raw.githubusercontent.com/cisagov/log4j-affected-db/develop/README.md>CISAGov</a></td>
+<td>Updated communityVulnerable. Updated vendorPatchExists. Updated vendor link Siemens Advisory - SSA-661257: Apache Log4j Vulnerabilities. Updated community note. Updated community note.</td>
 </tr>
 </tbody>
 </table>
@@ -156,10 +163,10 @@ Vulnerable</span>
 <div class=bar-inner>
 <ul class="pager pull-left">
 <li class=prev>
-<a href=https://canilog4j.com/posts/siemensteamcenter-retail-footwear-and-apparel/ title="Siemens Teamcenter Retail Footwear and Apparel"><i class="icon icon-angle-left" aria-hidden=true></i><span>&nbsp;&nbsp;Older</span></a>
+<a href=https://canilog4j.com/posts/siemensteamcenter-retail-footwear-and-apparel/ title="Siemens Teamcenter Retail Footwear and Apparel"><i class="icon icon-angle-left" aria-hidden=true></i><span>&nbsp;&nbsp;Previous</span></a>
 </li>
 <li class=next>
-<a href=https://canilog4j.com/posts/siemensteamcenter-reporting-and-analytics/ title="Siemens Teamcenter Reporting and Analytics"><span>Newer&nbsp;&nbsp;</span><i class="icon icon-angle-right" aria-hidden=true></i></a>
+<a href=https://canilog4j.com/posts/siemensteamcenter-reporting-and-analytics/ title="Siemens Teamcenter Reporting and Analytics"><span>Next&nbsp;&nbsp;</span><i class="icon icon-angle-right" aria-hidden=true></i></a>
 </li>
 </ul>
 <div class=bar-right>
