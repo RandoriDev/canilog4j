@@ -14,22 +14,22 @@ Amazon AWS - Log4j Exploitability Index
 <meta name=format-detection content="telephone=no,email=no,adress=no">
 <meta name=theme-color content="#000000">
 <meta http-equiv=window-target content="_top">
-<meta name=description content="Community Notes    Source Note     CISAGov Notes: Amazon Linux 1 had aws apitools which were Java based but these were deprecated in 2015 AWS Forum. AMIs used to inspect and verify (base spin ups) - amzn-ami-hvm-2018.03.0.20200318.1-x86_64-gp2 and amzn2-ami-kernel-5.10-hvm-2.0.20211201.0-x86_64-gp2   CISAGov Last Update: 12/15/2021    Sources    Date Attribution Description     2021-12-17 5:43:39 CISAGov Updated communityNotVulnerable. Updated community note.">
+<meta name=description content="Community Notes    Source Note     CISAGov Notes: Amazon Linux 1 had aws apitools which were Java based but these were deprecated in 2015 AWS Forum. AMIs used to inspect and verify (base spin ups) - amzn-ami-hvm-2018.03.0.20200318.1-x86_64-gp2 and amzn2-ami-kernel-5.10-hvm-2.0.20211201.0-x86_64-gp2   CISAGov Last Update: 12/15/2021    Sources    Date Attribution Description     2021-12-21 22:43:46 CISAGov Updated communityNotVulnerable. Updated community note.">
 <meta name=generator content="Hugo 0.90.1 with theme pure">
 <title>Amazon AWS - Log4j Exploitability Index</title>
 <link rel=stylesheet href=https://canilog4j.com/css/style.min.60485721cef722c872336aad520e77b0d000a785fd17bea5da214299424991f6.css>
 <link rel=stylesheet href=https://cdn.staticfile.org/highlight.js/9.15.10/styles/github.min.css async>
 <link rel=stylesheet href=https://cdnjs.cloudflare.com/ajax/libs/tocbot/4.4.2/tocbot.css async>
 <meta property="og:title" content="Amazon AWS">
-<meta property="og:description" content="Community Notes    Source Note     CISAGov Notes: Amazon Linux 1 had aws apitools which were Java based but these were deprecated in 2015 AWS Forum. AMIs used to inspect and verify (base spin ups) - amzn-ami-hvm-2018.03.0.20200318.1-x86_64-gp2 and amzn2-ami-kernel-5.10-hvm-2.0.20211201.0-x86_64-gp2   CISAGov Last Update: 12/15/2021    Sources    Date Attribution Description     2021-12-17 5:43:39 CISAGov Updated communityNotVulnerable. Updated community note.">
+<meta property="og:description" content="Community Notes    Source Note     CISAGov Notes: Amazon Linux 1 had aws apitools which were Java based but these were deprecated in 2015 AWS Forum. AMIs used to inspect and verify (base spin ups) - amzn-ami-hvm-2018.03.0.20200318.1-x86_64-gp2 and amzn2-ami-kernel-5.10-hvm-2.0.20211201.0-x86_64-gp2   CISAGov Last Update: 12/15/2021    Sources    Date Attribution Description     2021-12-21 22:43:46 CISAGov Updated communityNotVulnerable. Updated community note.">
 <meta property="og:type" content="article">
 <meta property="og:url" content="https://canilog4j.com/posts/amazonaws/"><meta property="article:section" content="posts">
 <meta itemprop=name content="Amazon AWS">
-<meta itemprop=description content="Community Notes    Source Note     CISAGov Notes: Amazon Linux 1 had aws apitools which were Java based but these were deprecated in 2015 AWS Forum. AMIs used to inspect and verify (base spin ups) - amzn-ami-hvm-2018.03.0.20200318.1-x86_64-gp2 and amzn2-ami-kernel-5.10-hvm-2.0.20211201.0-x86_64-gp2   CISAGov Last Update: 12/15/2021    Sources    Date Attribution Description     2021-12-17 5:43:39 CISAGov Updated communityNotVulnerable. Updated community note.">
+<meta itemprop=description content="Community Notes    Source Note     CISAGov Notes: Amazon Linux 1 had aws apitools which were Java based but these were deprecated in 2015 AWS Forum. AMIs used to inspect and verify (base spin ups) - amzn-ami-hvm-2018.03.0.20200318.1-x86_64-gp2 and amzn2-ami-kernel-5.10-hvm-2.0.20211201.0-x86_64-gp2   CISAGov Last Update: 12/15/2021    Sources    Date Attribution Description     2021-12-21 22:43:46 CISAGov Updated communityNotVulnerable. Updated community note.">
 <meta itemprop=wordCount content="56">
 <meta itemprop=keywords content><meta name=twitter:card content="summary">
 <meta name=twitter:title content="Amazon AWS">
-<meta name=twitter:description content="Community Notes    Source Note     CISAGov Notes: Amazon Linux 1 had aws apitools which were Java based but these were deprecated in 2015 AWS Forum. AMIs used to inspect and verify (base spin ups) - amzn-ami-hvm-2018.03.0.20200318.1-x86_64-gp2 and amzn2-ami-kernel-5.10-hvm-2.0.20211201.0-x86_64-gp2   CISAGov Last Update: 12/15/2021    Sources    Date Attribution Description     2021-12-17 5:43:39 CISAGov Updated communityNotVulnerable. Updated community note."><!--[if lte IE 9]><script src=https://cdnjs.cloudflare.com/ajax/libs/classlist/1.1.20170427/classList.min.js></script><![endif]--><!--[if lt IE 9]><script src=https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv.min.js></script>
+<meta name=twitter:description content="Community Notes    Source Note     CISAGov Notes: Amazon Linux 1 had aws apitools which were Java based but these were deprecated in 2015 AWS Forum. AMIs used to inspect and verify (base spin ups) - amzn-ami-hvm-2018.03.0.20200318.1-x86_64-gp2 and amzn2-ami-kernel-5.10-hvm-2.0.20211201.0-x86_64-gp2   CISAGov Last Update: 12/15/2021    Sources    Date Attribution Description     2021-12-21 22:43:46 CISAGov Updated communityNotVulnerable. Updated community note."><!--[if lte IE 9]><script src=https://cdnjs.cloudflare.com/ajax/libs/classlist/1.1.20170427/classList.min.js></script><![endif]--><!--[if lt IE 9]><script src=https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv.min.js></script>
 <script src=https://cdn.jsdelivr.net/npm/respond.js@1.4.2/dest/respond.min.js></script><![endif]-->
 </head>
 <body class=main-center itemscope itemtype=http://schema.org/WebPage><header class=header itemscope itemtype=http://schema.org/WPHeader>
@@ -130,7 +130,7 @@ Not Vulnerable</span>
 </thead>
 <tbody>
 <tr>
-<td>2021-12-17 5:43:39</td>
+<td>2021-12-21 22:43:46</td>
 <td><a href=https://raw.githubusercontent.com/cisagov/log4j-affected-db/develop/README.md>CISAGov</a></td>
 <td>Updated communityNotVulnerable. Updated community note. Updated community note.</td>
 </tr>
@@ -145,7 +145,7 @@ Not Vulnerable</span>
 <div class=bar-inner>
 <ul class="pager pull-left">
 <li class=prev>
-<a href=https://canilog4j.com/posts/amazonaws-appflow/ title="Amazon AWS AppFlow"><i class="icon icon-angle-left" aria-hidden=true></i><span>&nbsp;&nbsp;Previous</span></a>
+<a href=https://canilog4j.com/posts/amazonaws-api-gateway/ title="Amazon AWS API Gateway"><i class="icon icon-angle-left" aria-hidden=true></i><span>&nbsp;&nbsp;Previous</span></a>
 </li>
 <li class=next>
 <a href=https://canilog4j.com/posts/amazonathena-jdbc-driver/ title="Amazon Athena JDBC driver"><span>Next&nbsp;&nbsp;</span><i class="icon icon-angle-right" aria-hidden=true></i></a>
