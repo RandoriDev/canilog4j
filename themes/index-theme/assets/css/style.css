@@ -7248,6 +7248,19 @@ body.okayNav-loaded {
   margin-left: -270px;
 }
 
+@media(max-width: 540px){
+.ins-search-container {
+  top: 100px;
+  z-index: 1051;
+  bottom: 100px;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  width: 100%;
+  margin-left: auto;
+  left: 0%;
+}
+}
+
 .ins-section-wrapper {
   left: 0;
   right: 0;
