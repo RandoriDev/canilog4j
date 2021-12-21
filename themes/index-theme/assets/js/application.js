@@ -40,6 +40,7 @@ $(function() {
   // });
 
   // sticky
+
   $('[data-stick-bottom]').keepInView({
     fixed: false,
     parentClass: "has-sticky",

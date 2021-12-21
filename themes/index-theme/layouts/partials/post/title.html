@@ -68,6 +68,14 @@
         Log4j Default</span>
     {{ end }}
 
+    {{ if and (eq .Params.communityVulnerable true) (eq .Params.communityNotVulnerable true) }}
+
+    <span class="tag">
+        <img src="/images/Icon - Vulnerable - Unconfirmed.png">
+        Vulnerability Disputed</span>
+
+    {{ else }}
+
     {{ if eq .Params.communityVulnerable true }}
     <span class="tag">
         <img src="/images/Icon - Vulnerable - Confirmed.png">
@@ -79,6 +87,8 @@
         <img src="/images/Icon - Not Vulnerable.png">
         Not Vulnerable</span>
     {{ end }} 
+
+    {{ end }}
 
     {{ if eq .Params.communityExploitable true }}
     <span class="tag">
