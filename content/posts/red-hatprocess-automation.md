@@ -1,5 +1,4 @@
 ---
-communityVulnerable: true
 draft: 'false'
 name: Process Automation
 title: Red Hat Process Automation
@@ -16,10 +15,10 @@ vendorPatchExists: true
 ## Community Notes
 | Source | Note |
 | --- | --- |
-| [CISAGov](https://raw.githubusercontent.com/cisagov/log4j-affected-db/develop/README.md) | [Maven Patch](https://access.redhat.com/jbossnetwork/restricted/softwareDetail.html?softwareId=103671&product=rhpam&version=7.11.1&downloadType=patches) |
-| [CISAGov](https://raw.githubusercontent.com/cisagov/log4j-affected-db/develop/README.md) | Last Update: 12/20/2021 |
+| [CISAGov](https://raw.githubusercontent.com/cisagov/log4j-affected-db/develop/README.md) | [Maven Patch](https://access.redhat.com/jbossnetwork/restricted/softwareDetail.html?softwareId=103671&product=rhpam&version=7.11.1&downloadType=patches) - Affects only the Mavenized distribution. Container, Zip and RPM distro aren't affected. |
+| [CISAGov](https://raw.githubusercontent.com/cisagov/log4j-affected-db/develop/README.md) | Last Update: 12/21/2021 |
 
 ## Sources
 | Date | Attribution | Description |
 | --- | --- | --- |
-| 2021-12-21 22:43:46 | [CISAGov](https://raw.githubusercontent.com/cisagov/log4j-affected-db/develop/README.md) | Updated communityVulnerable. Updated vendorPatchExists. Updated vendor link CVE-2021-44228- Red Hat Customer Portal. Updated community note. Updated community note.  |
+| 2021-12-21 22:58:21 | [CISAGov](https://raw.githubusercontent.com/cisagov/log4j-affected-db/develop/README.md) | Updated vendorPatchExists. Updated vendor link CVE-2021-44228- Red Hat Customer Portal. Updated community note. Updated community note.  |

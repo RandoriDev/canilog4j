@@ -1,5 +1,4 @@
 ---
-communityVulnerable: true
 draft: 'false'
 name: openshift4/ose-logging-elasticsearch6
 title: Red Hat OpenShift Container Platform 4 openshift4/ose-logging-elasticsearch6
@@ -17,8 +16,9 @@ vendorPatchExists: true
 | Source | Note |
 | --- | --- |
 | [CISAGov](https://raw.githubusercontent.com/cisagov/log4j-affected-db/develop/README.md) | Please refer to Red Hat Customer Portal to find the right errata for your version. |
+| [CISAGov](https://raw.githubusercontent.com/cisagov/log4j-affected-db/develop/README.md) | Last Update: 12/21/2021 |
 
 ## Sources
 | Date | Attribution | Description |
 | --- | --- | --- |
-| 2021-12-21 22:43:46 | [CISAGov](https://raw.githubusercontent.com/cisagov/log4j-affected-db/develop/README.md) | Updated communityVulnerable. Updated vendorPatchExists. Updated vendor link CVE-2021-44228- Red Hat Customer Portal. Updated community note.  |
+| 2021-12-21 22:58:21 | [CISAGov](https://raw.githubusercontent.com/cisagov/log4j-affected-db/develop/README.md) | Updated vendorPatchExists. Updated vendor link CVE-2021-44228- Red Hat Customer Portal. Updated community note. Updated community note.  |

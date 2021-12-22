@@ -1,24 +1,23 @@
 ---
-communityVulnerable: true
 draft: 'false'
 name: Privilege Management Reporting in BeyondInsight
 title: BeyondTrust Privilege Management Reporting in BeyondInsight
 vendor: BeyondTrust
+vendorPatchExists: true
 ---
 
 ## Vendor Resources
 | Resource | Link |
 | --- | --- |
-| BeyondTrust Statement on log4j2 CVE-2021-44228 (Log4Shell) | [https://beyondtrustcorp.service-now.com/kb_view.do?sysparm_article=KB0016542](https://beyondtrustcorp.service-now.com/kb_view.do?sysparm_article=KB0016542) |
+| Security Advisory – Apache Log4j2 CVE 2021-44228 (Log4Shell) | [https://www.beyondtrust.com/blog/entry/security-advisory-apache-log4j2-cve-2021-44228-log4shell](https://www.beyondtrust.com/blog/entry/security-advisory-apache-log4j2-cve-2021-44228-log4shell) |
 
 
 ## Community Notes
 | Source | Note |
 | --- | --- |
-| [CISAGov](https://raw.githubusercontent.com/cisagov/log4j-affected-db/develop/README.md) | Until a patch is available, BeyondTrust recommends ensuring access to the instance is restricted and monitoring for anomalous behavior. There is no known exploit path at this time. |
-| [CISAGov](https://raw.githubusercontent.com/cisagov/log4j-affected-db/develop/README.md) | Last Update: 2021-12-15 |
+| [CISAGov](https://raw.githubusercontent.com/cisagov/log4j-affected-db/develop/README.md) | Last Update: 2021-12-17 |
 
 ## Sources
 | Date | Attribution | Description |
 | --- | --- | --- |
-| 2021-12-21 22:43:46 | [CISAGov](https://raw.githubusercontent.com/cisagov/log4j-affected-db/develop/README.md) | Updated communityVulnerable. Updated vendor link BeyondTrust Statement on log4j2 CVE-2021-44228 (Log4Shell). Updated community note. Updated community note.  |
+| 2021-12-21 22:55:36 | [CISAGov](https://raw.githubusercontent.com/cisagov/log4j-affected-db/develop/README.md) | Updated vendorPatchExists. Updated vendor link Security Advisory – Apache Log4j2 CVE 2021-44228 (Log4Shell). Updated community note.  |

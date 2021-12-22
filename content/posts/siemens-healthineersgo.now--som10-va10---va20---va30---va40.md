@@ -1,0 +1,24 @@
+---
+communityVulnerable: true
+draft: 'false'
+name: go.Now, Som10 VA10 / VA20 / VA30 / VA40
+title: Siemens Healthineers go.Now, Som10 VA10 / VA20 / VA30 / VA40
+vendor: Siemens Healthineers
+---
+
+## Vendor Resources
+| Resource | Link |
+| --- | --- |
+| Siemens Healthineers | [https://www.siemens-healthineers.com/en-us/support-documentation/cybersecurity/cve-2021-44228](https://www.siemens-healthineers.com/en-us/support-documentation/cybersecurity/cve-2021-44228) |
+
+
+## Community Notes
+| Source | Note |
+| --- | --- |
+| [CISAGov](https://raw.githubusercontent.com/cisagov/log4j-affected-db/develop/README.md) | Workaround: In the meantime, we recommend preventing access to port 8090 from other devices by configuration of the hospital network. |
+| [CISAGov](https://raw.githubusercontent.com/cisagov/log4j-affected-db/develop/README.md) | Last Update: 12/22/2021 |
+
+## Sources
+| Date | Attribution | Description |
+| --- | --- | --- |
+| 2021-12-22 15:25:51 | [CISAGov](https://raw.githubusercontent.com/cisagov/log4j-affected-db/develop/README.md) | Updated communityVulnerable. Updated vendor link Siemens Healthineers. Updated community note. Updated community note.  |

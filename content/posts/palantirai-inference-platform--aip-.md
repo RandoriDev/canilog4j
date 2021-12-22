@@ -15,7 +15,7 @@ vendor: Palantir
 | Source | Note |
 | --- | --- |
 | [CISAGov](https://raw.githubusercontent.com/cisagov/log4j-affected-db/develop/README.md) | Fully remediated as of 1.97.0. Disconnected customer instances may require manual updates. |
-| [CISAGov](https://raw.githubusercontent.com/cisagov/log4j-affected-db/develop/README.md) | Last Update: 2021-12-19 |
+| [CISAGov](https://raw.githubusercontent.com/cisagov/log4j-affected-db/develop/README.md) | Last Update: 12/19/2021 |
 
 ## Sources
 | Date | Attribution | Description |

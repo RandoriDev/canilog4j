@@ -4,12 +4,13 @@ draft: 'false'
 name: Privilege Management Cloud
 title: BeyondTrust Privilege Management Cloud
 vendor: BeyondTrust
+vendorPatchExists: true
 ---
 
 ## Vendor Resources
 | Resource | Link |
 | --- | --- |
-| BeyondTrust Statement on log4j2 CVE-2021-44228 (Log4Shell) | [https://beyondtrustcorp.service-now.com/kb_view.do?sysparm_article=KB0016542](https://beyondtrustcorp.service-now.com/kb_view.do?sysparm_article=KB0016542) |
+| Security Advisory – Apache Log4j2 CVE 2021-44228 (Log4Shell) | [https://www.beyondtrust.com/blog/entry/security-advisory-apache-log4j2-cve-2021-44228-log4shell](https://www.beyondtrust.com/blog/entry/security-advisory-apache-log4j2-cve-2021-44228-log4shell) |
 
 ## Community Resources
 | Resource | Link |
@@ -20,11 +21,10 @@ vendor: BeyondTrust
 | Source | Note |
 | --- | --- |
 | [NCSC-NL](https://github.com/NCSC-NL/log4shell/blob/main/software/README.md) | CVE-2021-4104: Not vuln ; CVE-2021-44228: Not vuln ; CVE-2021-45046: Not vuln ; CVE-2021-45105: Not vuln </ul> |
-| [CISAGov](https://raw.githubusercontent.com/cisagov/log4j-affected-db/develop/README.md) | vulnerability has been mitigated on all customer instances as of December 10, 2021 |
-| [CISAGov](https://raw.githubusercontent.com/cisagov/log4j-affected-db/develop/README.md) | Last Update: 2021-12-15 |
+| [CISAGov](https://raw.githubusercontent.com/cisagov/log4j-affected-db/develop/README.md) | Last Update: 2021-12-17 |
 
 ## Sources
 | Date | Attribution | Description |
 | --- | --- | --- |
 | 2021-12-20 12:37:57 | [NCSC-NL](https://github.com/NCSC-NL/log4shell/blob/main/software/README.md) | Updated communityNotVulnerable. Updated community note. Updated community link source.  |
-| 2021-12-21 22:43:46 | [CISAGov](https://raw.githubusercontent.com/cisagov/log4j-affected-db/develop/README.md) | Updated vendor link BeyondTrust Statement on log4j2 CVE-2021-44228 (Log4Shell). Updated community note. Updated community note.  |
+| 2021-12-21 22:55:36 | [CISAGov](https://raw.githubusercontent.com/cisagov/log4j-affected-db/develop/README.md) | Updated vendorPatchExists. Updated vendor link Security Advisory – Apache Log4j2 CVE 2021-44228 (Log4Shell). Updated community note.  |
