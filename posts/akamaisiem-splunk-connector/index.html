@@ -14,22 +14,22 @@ Akamai Siem Splunk Connector - Log4j Exploitability Index
 <meta name=format-detection content="telephone=no,email=no,adress=no">
 <meta name=theme-color content="#000000">
 <meta http-equiv=window-target content="_top">
-<meta name=description content="Vendor Resources    Resource Link     Akamai SIEM Integration https://splunkbase.splunk.com/app/4310/    Community Resources    Resource Link     source https://splunkbase.splunk.com/app/4310/    Community Notes    Source Note     NCSC-NL CVE-2021-4104: Not vuln ; CVE-2021-44228: Workaround    NCSC-NL Akamai SIEM Integration Connector for Splunk is not vulnerable to CVE-2021-44228. Although it includes the vulnerable Log4J component, it is not used by the connector.">
+<meta name=description content="Vendor Resources    Resource Link     Akamai SIEM Integration https://splunkbase.splunk.com/app/4310/    Community Resources    Resource Link     source https://splunkbase.splunk.com/app/4310/    Community Notes    Source Note     NCSC-NL CVE-2021-4104: Not vuln ; CVE-2021-44228: Not vuln ; CVE-2021-45046: Not vuln ; CVE-2021-45105: Not vuln    NCSC-NL v1.4.11 is the new recommendation for mitigation of log4j vulnerabilities.">
 <meta name=generator content="Hugo 0.90.1 with theme pure">
 <title>Akamai Siem Splunk Connector - Log4j Exploitability Index</title>
 <link rel=stylesheet href=https://canilog4j.com/css/style.min.60485721cef722c872336aad520e77b0d000a785fd17bea5da214299424991f6.css>
 <link rel=stylesheet href=https://cdn.staticfile.org/highlight.js/9.15.10/styles/github.min.css async>
 <link rel=stylesheet href=https://cdnjs.cloudflare.com/ajax/libs/tocbot/4.4.2/tocbot.css async>
 <meta property="og:title" content="Akamai Siem Splunk Connector">
-<meta property="og:description" content="Vendor Resources    Resource Link     Akamai SIEM Integration https://splunkbase.splunk.com/app/4310/    Community Resources    Resource Link     source https://splunkbase.splunk.com/app/4310/    Community Notes    Source Note     NCSC-NL CVE-2021-4104: Not vuln ; CVE-2021-44228: Workaround    NCSC-NL Akamai SIEM Integration Connector for Splunk is not vulnerable to CVE-2021-44228. Although it includes the vulnerable Log4J component, it is not used by the connector.">
+<meta property="og:description" content="Vendor Resources    Resource Link     Akamai SIEM Integration https://splunkbase.splunk.com/app/4310/    Community Resources    Resource Link     source https://splunkbase.splunk.com/app/4310/    Community Notes    Source Note     NCSC-NL CVE-2021-4104: Not vuln ; CVE-2021-44228: Not vuln ; CVE-2021-45046: Not vuln ; CVE-2021-45105: Not vuln    NCSC-NL v1.4.11 is the new recommendation for mitigation of log4j vulnerabilities.">
 <meta property="og:type" content="article">
 <meta property="og:url" content="https://canilog4j.com/posts/akamaisiem-splunk-connector/"><meta property="article:section" content="posts">
 <meta itemprop=name content="Akamai Siem Splunk Connector">
-<meta itemprop=description content="Vendor Resources    Resource Link     Akamai SIEM Integration https://splunkbase.splunk.com/app/4310/    Community Resources    Resource Link     source https://splunkbase.splunk.com/app/4310/    Community Notes    Source Note     NCSC-NL CVE-2021-4104: Not vuln ; CVE-2021-44228: Workaround    NCSC-NL Akamai SIEM Integration Connector for Splunk is not vulnerable to CVE-2021-44228. Although it includes the vulnerable Log4J component, it is not used by the connector.">
-<meta itemprop=wordCount content="104">
+<meta itemprop=description content="Vendor Resources    Resource Link     Akamai SIEM Integration https://splunkbase.splunk.com/app/4310/    Community Resources    Resource Link     source https://splunkbase.splunk.com/app/4310/    Community Notes    Source Note     NCSC-NL CVE-2021-4104: Not vuln ; CVE-2021-44228: Not vuln ; CVE-2021-45046: Not vuln ; CVE-2021-45105: Not vuln    NCSC-NL v1.4.11 is the new recommendation for mitigation of log4j vulnerabilities.">
+<meta itemprop=wordCount content="98">
 <meta itemprop=keywords content><meta name=twitter:card content="summary">
 <meta name=twitter:title content="Akamai Siem Splunk Connector">
-<meta name=twitter:description content="Vendor Resources    Resource Link     Akamai SIEM Integration https://splunkbase.splunk.com/app/4310/    Community Resources    Resource Link     source https://splunkbase.splunk.com/app/4310/    Community Notes    Source Note     NCSC-NL CVE-2021-4104: Not vuln ; CVE-2021-44228: Workaround    NCSC-NL Akamai SIEM Integration Connector for Splunk is not vulnerable to CVE-2021-44228. Although it includes the vulnerable Log4J component, it is not used by the connector."><!--[if lte IE 9]><script src=https://cdnjs.cloudflare.com/ajax/libs/classlist/1.1.20170427/classList.min.js></script><![endif]--><!--[if lt IE 9]><script src=https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv.min.js></script>
+<meta name=twitter:description content="Vendor Resources    Resource Link     Akamai SIEM Integration https://splunkbase.splunk.com/app/4310/    Community Resources    Resource Link     source https://splunkbase.splunk.com/app/4310/    Community Notes    Source Note     NCSC-NL CVE-2021-4104: Not vuln ; CVE-2021-44228: Not vuln ; CVE-2021-45046: Not vuln ; CVE-2021-45105: Not vuln    NCSC-NL v1.4.11 is the new recommendation for mitigation of log4j vulnerabilities."><!--[if lte IE 9]><script src=https://cdnjs.cloudflare.com/ajax/libs/classlist/1.1.20170427/classList.min.js></script><![endif]--><!--[if lt IE 9]><script src=https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv.min.js></script>
 <script src=https://cdn.jsdelivr.net/npm/respond.js@1.4.2/dest/respond.min.js></script><![endif]-->
 </head>
 <body class=main-center itemscope itemtype=http://schema.org/WebPage><header class=header itemscope itemtype=http://schema.org/WPHeader>
@@ -96,8 +96,8 @@ Vendor Patch Exists</span>
 <div class=title-data-divider></div>
 <div class=title-data><b>Community Data</b>
 <span class=tag>
-<img src="/images/Icon - Vulnerable - Confirmed.png">
-Vulnerable</span>
+<img src="/images/Icon - Vulnerable - Unconfirmed.png">
+Vulnerability Disputed</span>
 </div>
 <div class=article-meta>
 </div>
@@ -144,11 +144,11 @@ Vulnerable</span>
 <tbody>
 <tr>
 <td><a href=https://github.com/NCSC-NL/log4shell/blob/main/software/README.md>NCSC-NL</a></td>
-<td>CVE-2021-4104: Not vuln ; CVE-2021-44228: Workaround </td>
+<td>CVE-2021-4104: Not vuln ; CVE-2021-44228: Not vuln ; CVE-2021-45046: Not vuln ; CVE-2021-45105: Not vuln </td>
 </tr>
 <tr>
 <td><a href=https://github.com/NCSC-NL/log4shell/blob/main/software/README.md>NCSC-NL</a></td>
-<td>Akamai SIEM Integration Connector for Splunk is not vulnerable to CVE-2021-44228. Although it includes the vulnerable Log4J component, it is not used by the connector.</td>
+<td>v1.4.11 is the new recommendation for mitigation of log4j vulnerabilities.</td>
 </tr>
 <tr>
 <td><a href=https://raw.githubusercontent.com/cisagov/log4j-affected-db/develop/README.md>CISAGov</a></td>
@@ -173,7 +173,7 @@ Vulnerable</span>
 <tr>
 <td>2021-12-20 12:37:57</td>
 <td><a href=https://github.com/NCSC-NL/log4shell/blob/main/software/README.md>NCSC-NL</a></td>
-<td>Updated communityVulnerable. Updated community note. Updated community link source. Updated community note.</td>
+<td>Updated communityNotVulnerable. Updated community note. Updated community link source. Updated community note.</td>
 </tr>
 <tr>
 <td>2021-12-21 22:43:46</td>
