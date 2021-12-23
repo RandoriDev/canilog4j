@@ -1,0 +1,23 @@
+---
+draft: 'false'
+name: Vitrea Advanced 7.x
+title: Canon Vitrea Advanced 7.x
+vendor: Canon
+vendorInvestigating: true
+---
+
+## Vendor Resources
+| Resource | Link |
+| --- | --- |
+| Canon Advisory Link | [https://global.medical.canon/service-support/securityinformation/apache_log4j_vulnerability](https://global.medical.canon/service-support/securityinformation/apache_log4j_vulnerability) |
+
+
+## Community Notes
+| Source | Note |
+| --- | --- |
+| [CISAGov](https://raw.githubusercontent.com/cisagov/log4j-affected-db/develop/README.md) | Last Update: 12/22/2021 |
+
+## Sources
+| Date | Attribution | Description |
+| --- | --- | --- |
+| 2021-12-22 22:50:33 | [CISAGov](https://raw.githubusercontent.com/cisagov/log4j-affected-db/develop/README.md) | Updated vendorInvestigating. Updated vendor link Canon Advisory Link. Updated community note.  |

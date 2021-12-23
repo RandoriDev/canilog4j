@@ -17,7 +17,7 @@ vendorPatchExists: true
 | Source | Note |
 | --- | --- |
 | [CISAGov](https://raw.githubusercontent.com/cisagov/log4j-affected-db/develop/README.md) | Updates available via the Gigamon Support Portal. This advisory available to customers only and has not been reviewed by CISA. |
-| [CISAGov](https://raw.githubusercontent.com/cisagov/log4j-affected-db/develop/README.md) | Last Update: 12/21/2021 |
+| [CISAGov](https://raw.githubusercontent.com/cisagov/log4j-affected-db/develop/README.md) | Last Update: 2021-12-21 |
 
 ## Sources
 | Date | Attribution | Description |

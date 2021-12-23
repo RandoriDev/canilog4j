@@ -22,7 +22,7 @@ vendor: Dell
 | [NCSC-NL](https://github.com/NCSC-NL/log4shell/blob/main/software/README.md) | CVE-2021-4104: Not vuln ; CVE-2021-44228: Vulnerable ; CVE-2021-45046: Vulnerable ; CVE-2021-45105: Vulnerable </ul> |
 | [NCSC-NL](https://github.com/NCSC-NL/log4shell/blob/main/software/README.md) | Patch expected by 12/23/21 |
 | [CISAGov](https://raw.githubusercontent.com/cisagov/log4j-affected-db/develop/README.md) | Patch expected by 12/23/21 |
-| [CISAGov](https://raw.githubusercontent.com/cisagov/log4j-affected-db/develop/README.md) | Last Update: 2021-12-15 |
+| [CISAGov](https://raw.githubusercontent.com/cisagov/log4j-affected-db/develop/README.md) | Last Update: 12/15/2021 |
 
 ## Sources
 | Date | Attribution | Description |

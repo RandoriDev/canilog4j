@@ -1,0 +1,22 @@
+---
+draft: 'false'
+name: SecurView DX/RT Workstation and Manager
+title: Hologic SecurView DX/RT Workstation and Manager
+vendor: Hologic
+---
+
+
+## Community Resources
+| Resource | Link |
+| --- | --- |
+| source | [https://www.hologic.com/support/usa/breast-skeletal-products-cybersecurity](https://www.hologic.com/support/usa/breast-skeletal-products-cybersecurity) |
+
+## Community Notes
+| Source | Note |
+| --- | --- |
+| [NCSC-NL](https://github.com/NCSC-NL/log4shell/blob/main/software/README.md) | </ul> |
+
+## Sources
+| Date | Attribution | Description |
+| --- | --- | --- |
+| 2021-12-23 13:09:49 | [NCSC-NL](https://github.com/NCSC-NL/log4shell/blob/main/software/README.md) | Updated community note. Updated community link source.  |

@@ -15,7 +15,7 @@ vendor: ICONICS
 ## Community Notes
 | Source | Note |
 | --- | --- |
-| [CISAGov](https://raw.githubusercontent.com/cisagov/log4j-affected-db/develop/README.md) | Last Update: 12/21/2021 |
+| [CISAGov](https://raw.githubusercontent.com/cisagov/log4j-affected-db/develop/README.md) | Last Update: 12/21/21 |
 
 ## Sources
 | Date | Attribution | Description |

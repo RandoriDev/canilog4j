@@ -27,4 +27,4 @@ vendorPatchExists: true
 | Date | Attribution | Description |
 | --- | --- | --- |
 | 2021-12-20 12:37:57 | [NCSC-NL](https://github.com/NCSC-NL/log4shell/blob/main/software/README.md) | Updated communityNotVulnerable. Updated community note. Updated community link source.  |
-| 2021-12-21 22:55:36 | [CISAGov](https://raw.githubusercontent.com/cisagov/log4j-affected-db/develop/README.md) | Updated vendorPatchExists. Updated vendor link Security Advisory – Apache Log4j2 CVE 2021-44228 (Log4Shell). Updated community note.  |
+| 2021-12-23 11:26:47 | [CISAGov](https://raw.githubusercontent.com/cisagov/log4j-affected-db/develop/README.md) | Updated vendorPatchExists. Updated vendor link Security Advisory – Apache Log4j2 CVE 2021-44228 (Log4Shell). Updated community note.  |

@@ -22,7 +22,7 @@ vendorPatchExists: true
 | --- | --- |
 | [NCSC-NL](https://github.com/NCSC-NL/log4shell/blob/main/software/README.md) | CVE-2021-44228: Vulnerable </ul> |
 | [NCSC-NL](https://github.com/NCSC-NL/log4shell/blob/main/software/README.md) | Versions less than GoAnywhere Agent version 1.4.2 are not affected |
-| [CISAGov](https://raw.githubusercontent.com/cisagov/log4j-affected-db/develop/README.md) | Last Update: 12/18/2021 |
+| [CISAGov](https://raw.githubusercontent.com/cisagov/log4j-affected-db/develop/README.md) | Last Update: 2021-12-18 |
 
 ## Sources
 | Date | Attribution | Description |

@@ -22,7 +22,7 @@ vendor: Dell
 | [NCSC-NL](https://github.com/NCSC-NL/log4shell/blob/main/software/README.md) | CVE-2021-4104: Not vuln ; CVE-2021-44228: Vulnerable ; CVE-2021-45046: Vulnerable ; CVE-2021-45105: Vulnerable </ul> |
 | [NCSC-NL](https://github.com/NCSC-NL/log4shell/blob/main/software/README.md) | Refer to DSA for product updates |
 | [CISAGov](https://raw.githubusercontent.com/cisagov/log4j-affected-db/develop/README.md) | "Dell EMC Integrated System for Azure Stack HCI is not impacted by this advisory. If Dell EMC SupportAssist Enterprise (SAE) or Dell EMC Secure Connect Gateway (SCG) were optionally installed with Dell EMC Integrated System for Azure Stack HCI monitor the following advisories. Apply workaround guidance and remediations as they become [available:](https://www.dell.com/support/kbdoc/en-us/000194622/dsa-2021-307-dell-emc-integrated-system-for-azure-stack-hci-security-update-for-apache-log4j-remote-code-execution-vulnerability-cve-2021-44228) |
-| [CISAGov](https://raw.githubusercontent.com/cisagov/log4j-affected-db/develop/README.md) | Last Update: 2021-12-15 |
+| [CISAGov](https://raw.githubusercontent.com/cisagov/log4j-affected-db/develop/README.md) | Last Update: 12/15/2021 |
 
 ## Sources
 | Date | Attribution | Description |

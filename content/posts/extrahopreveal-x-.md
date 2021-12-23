@@ -17,7 +17,7 @@ vendorPatchExists: true
 | Source | Note |
 | --- | --- |
 | [CISAGov](https://raw.githubusercontent.com/cisagov/log4j-affected-db/develop/README.md) | Versions >8.4.7, >8.5.4, >8.6.5 and >=8.7 are fixed. |
-| [CISAGov](https://raw.githubusercontent.com/cisagov/log4j-affected-db/develop/README.md) | Last Update: 12/21/2021 |
+| [CISAGov](https://raw.githubusercontent.com/cisagov/log4j-affected-db/develop/README.md) | Last Update: 2021-12-21 |
 
 ## Sources
 | Date | Attribution | Description |

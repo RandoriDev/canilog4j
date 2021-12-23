@@ -15,7 +15,7 @@ vendor: Lenovo
 ## Community Notes
 | Source | Note |
 | --- | --- |
-| [CISAGov](https://raw.githubusercontent.com/cisagov/log4j-affected-db/develop/README.md) | Last Update: 12/14/21 |
+| [CISAGov](https://raw.githubusercontent.com/cisagov/log4j-affected-db/develop/README.md) | Last Update: 12/14/2021 |
 
 ## Sources
 | Date | Attribution | Description |

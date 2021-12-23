@@ -4,6 +4,7 @@ draft: 'false'
 name: Remedy Smart Reporting
 title: BMC Remedy Smart Reporting
 vendor: BMC
+vendorInvestigating: true
 ---
 
 
@@ -15,10 +16,10 @@ vendor: BMC
 ## Community Notes
 | Source | Note |
 | --- | --- |
-| [NCSC-NL](https://github.com/NCSC-NL/log4shell/blob/main/software/README.md) | CVE-2021-4104: Not vuln ; CVE-2021-44228: Vulnerable ; CVE-2021-45046: Vulnerable </ul> |
+| [NCSC-NL](https://github.com/NCSC-NL/log4shell/blob/main/software/README.md) | CVE-2021-4104: Not vuln ; CVE-2021-44228: Vulnerable ; CVE-2021-45046: Vulnerable ; CVE-2021-45105: Investigation </ul> |
 | [NCSC-NL](https://github.com/NCSC-NL/log4shell/blob/main/software/README.md) | ETA Dec 21, 2021 |
 
 ## Sources
 | Date | Attribution | Description |
 | --- | --- | --- |
-| 2021-12-21 23:22:41 | [NCSC-NL](https://github.com/NCSC-NL/log4shell/blob/main/software/README.md) | Updated communityVulnerable. Updated community note. Updated community link source. Updated community note.  |
+| 2021-12-23 11:09:01 | [NCSC-NL](https://github.com/NCSC-NL/log4shell/blob/main/software/README.md) | Updated communityVulnerable. Updated vendorInvestigating. Updated community note. Updated community link source. Updated community note.  |

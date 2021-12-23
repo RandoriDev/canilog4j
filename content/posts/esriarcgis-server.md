@@ -16,7 +16,7 @@ vendorPatchExists: true
 | Source | Note |
 | --- | --- |
 | [CISAGov](https://raw.githubusercontent.com/cisagov/log4j-affected-db/develop/README.md) | Requires script remediation.  ESRI has created scripts to remove the JndiLookup class, but has not issued patches to upgrade the Log4j versions |
-| [CISAGov](https://raw.githubusercontent.com/cisagov/log4j-affected-db/develop/README.md) | Last Update: 12/17/2021 |
+| [CISAGov](https://raw.githubusercontent.com/cisagov/log4j-affected-db/develop/README.md) | Last Update: 2021-12-17 |
 
 ## Sources
 | Date | Attribution | Description |

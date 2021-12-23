@@ -6,6 +6,10 @@ title: Check Point CloudGuard
 vendor: Check Point
 ---
 
+## Vendor Resources
+| Resource | Link |
+| --- | --- |
+| sk176865 | [https://supportcontent.checkpoint.com/solutions?id=sk176865](https://supportcontent.checkpoint.com/solutions?id=sk176865) |
 
 ## Community Resources
 | Resource | Link |
@@ -21,4 +25,4 @@ vendor: Check Point
 | Date | Attribution | Description |
 | --- | --- | --- |
 | 2021-12-20 12:37:57 | [NCSC-NL](https://github.com/NCSC-NL/log4shell/blob/main/software/README.md) | Updated communityNotVulnerable. Updated community note. Updated community link source.  |
-| 2021-12-21 22:43:46 | [CISAGov](https://raw.githubusercontent.com/cisagov/log4j-affected-db/develop/README.md) | Updated communityNotVulnerable.  |
+| 2021-12-23 15:31:40 | [CISAGov](https://raw.githubusercontent.com/cisagov/log4j-affected-db/develop/README.md) | Updated communityNotVulnerable. Updated vendor link sk176865.  |

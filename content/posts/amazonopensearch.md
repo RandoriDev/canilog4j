@@ -11,6 +11,7 @@ vendorPatchExists: true
 | Resource | Link |
 | --- | --- |
 | Apache Log4j2 Security Bulletin (CVE-2021-44228) (amazon.com) | [https://aws.amazon.com/security/security-bulletins/AWS-2021-005/](https://aws.amazon.com/security/security-bulletins/AWS-2021-005/) |
+| (R20211203-P2) | [https://aws.amazon.com/security/security-bulletins/AWS-2021-006/](https://aws.amazon.com/security/security-bulletins/AWS-2021-006/) |
 
 ## Community Resources
 | Resource | Link |
@@ -27,4 +28,4 @@ vendorPatchExists: true
 | Date | Attribution | Description |
 | --- | --- | --- |
 | 2021-12-20 12:37:57 | [NCSC-NL](https://github.com/NCSC-NL/log4shell/blob/main/software/README.md) | Updated vendorPatchExists. Updated community note. Updated community link source. Updated community note.  |
-| 2021-12-21 22:43:46 | [CISAGov](https://raw.githubusercontent.com/cisagov/log4j-affected-db/develop/README.md) | Updated communityVulnerable. Updated vendorPatchExists. Updated vendor link Apache Log4j2 Security Bulletin (CVE-2021-44228) (amazon.com).  |
+| 2021-12-23 15:05:29 | [CISAGov](https://raw.githubusercontent.com/cisagov/log4j-affected-db/develop/README.md) | Updated communityVulnerable. Updated vendorPatchExists. Updated vendor link Apache Log4j2 Security Bulletin (CVE-2021-44228) (amazon.com). Updated vendor link (R20211203-P2).  |
