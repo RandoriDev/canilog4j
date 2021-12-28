@@ -10,7 +10,7 @@ vendor: Cisco
 ## Community Resources
 | Resource | Link |
 | --- | --- |
-| source | [https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-apache-log4j-qRuKNEbd](https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-apache-log4j-qRuKNEbd) |
+| source | [https://tools.cisco.com/security/left/content/CiscoSecurityAdvisory/cisco-sa-apache-log4j-qRuKNEbd](https://tools.cisco.com/security/left/content/CiscoSecurityAdvisory/cisco-sa-apache-log4j-qRuKNEbd) |
 
 ## Community Notes
 | Source | Note |
@@ -20,4 +20,4 @@ vendor: Cisco
 ## Sources
 | Date | Attribution | Description |
 | --- | --- | --- |
-| 2021-12-23 12:13:25 | [NCSC-NL](https://github.com/NCSC-NL/log4shell/blob/main/software/README.md) | Updated communityNotVulnerable. Updated community note. Updated community link source.  |
+| 2021-12-27 15:29:04 | [NCSC-NL](https://github.com/NCSC-NL/log4shell/blob/main/software/README.md) | Updated communityNotVulnerable. Updated community note. Updated community link source.  |

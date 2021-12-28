@@ -10,9 +10,14 @@ vendor: Quest Global
 | --- | --- |
 | Quest Global | [https://support.quest.com/fr-fr/search#q=CVE-2021-44228&t=Global](https://support.quest.com/fr-fr/search#q=CVE-2021-44228&t=Global) |
 
+## Community Resources
+| Resource | Link |
+| --- | --- |
+| Quest Global | [https://support.quest.com/fr-fr/search#q=CVE-2021-44228&t=Global](https://support.quest.com/fr-fr/search#q=CVE-2021-44228&t=Global) |
 
 
 ## Sources
 | Date | Attribution | Description |
 | --- | --- | --- |
+| 2021-12-27 15:29:04 | [NCSC-NL](https://github.com/NCSC-NL/log4shell/blob/main/software/README.md) | Updated community link Quest Global.  |
 | 2021-12-21 22:43:46 | [CISAGov](https://raw.githubusercontent.com/cisagov/log4j-affected-db/develop/README.md) | Updated vendor link Quest Global.  |

@@ -10,7 +10,7 @@ vendor: TOPdesk
 ## Community Resources
 | Resource | Link |
 | --- | --- |
-| source | [vendor-statements/TOPdesk.png](vendor-statements/TOPdesk.png) |
+| source | [/NCSC-NL/log4shell/blob/main/software/vendor-statements/TOPdesk.png](/NCSC-NL/log4shell/blob/main/software/vendor-statements/TOPdesk.png) |
 
 ## Community Notes
 | Source | Note |
@@ -20,4 +20,4 @@ vendor: TOPdesk
 ## Sources
 | Date | Attribution | Description |
 | --- | --- | --- |
-| 2021-12-20 14:37:57 | [NCSC-NL](https://github.com/NCSC-NL/log4shell/blob/main/software/README.md) | Updated communityNotVulnerable. Updated community note. Updated community link source.  |
+| 2021-12-27 15:29:04 | [NCSC-NL](https://github.com/NCSC-NL/log4shell/blob/main/software/README.md) | Updated communityNotVulnerable. Updated community note. Updated community link source.  |

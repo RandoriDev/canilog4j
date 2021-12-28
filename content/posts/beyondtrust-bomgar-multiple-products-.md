@@ -10,9 +10,14 @@ vendor: BeyondTrust Bomgar
 | --- | --- |
 | BeyondTrust Bomgar Link | [https://beyondtrustcorp.service-now.com/kb_view.do?sysparm_article=KB0016542](https://beyondtrustcorp.service-now.com/kb_view.do?sysparm_article=KB0016542) |
 
+## Community Resources
+| Resource | Link |
+| --- | --- |
+| BeyondTrust Bomgar Link | [https://beyondtrustcorp.service-now.com/kb_view.do?sysparm_article=KB0016542](https://beyondtrustcorp.service-now.com/kb_view.do?sysparm_article=KB0016542) |
 
 
 ## Sources
 | Date | Attribution | Description |
 | --- | --- | --- |
+| 2021-12-27 15:29:04 | [NCSC-NL](https://github.com/NCSC-NL/log4shell/blob/main/software/README.md) | Updated community link BeyondTrust Bomgar Link.  |
 | 2021-12-21 22:43:46 | [CISAGov](https://raw.githubusercontent.com/cisagov/log4j-affected-db/develop/README.md) | Updated vendor link BeyondTrust Bomgar Link.  |

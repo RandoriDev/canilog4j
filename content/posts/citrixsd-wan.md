@@ -26,5 +26,5 @@ vendor: Citrix
 ## Sources
 | Date | Attribution | Description |
 | --- | --- | --- |
-| 2021-12-20 12:37:57 | [NCSC-NL](https://github.com/NCSC-NL/log4shell/blob/main/software/README.md) | Updated communityNotVulnerable. Updated community note. Updated community link source.  |
+| 2021-12-27 15:29:04 | [NCSC-NL](https://github.com/NCSC-NL/log4shell/blob/main/software/README.md) | Updated communityNotVulnerable. Updated community note. Updated community link source.  |
 | 2021-12-22 4:23:16 | [CISAGov](https://raw.githubusercontent.com/cisagov/log4j-affected-db/develop/README.md) | Updated communityNotVulnerable. Updated vendor link Citrix Statement. Updated community note. Updated community note.  |

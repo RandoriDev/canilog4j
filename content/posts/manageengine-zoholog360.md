@@ -10,6 +10,10 @@ vendor: ManageEngine Zoho
 | --- | --- |
 | ManageEngine Vulnerability Impact | [https://pitstop.manageengine.com/portal/en/community/topic/update-on-the-recent-apache-log4j2-vulnerability-impact-on-manageengine-on-premises-products-1](https://pitstop.manageengine.com/portal/en/community/topic/update-on-the-recent-apache-log4j2-vulnerability-impact-on-manageengine-on-premises-products-1) |
 
+## Community Resources
+| Resource | Link |
+| --- | --- |
+| ManageEngine Vulnerability Impact | [https://pitstop.manageengine.com/portal/en/community/topic/update-on-the-recent-apache-log4j2-vulnerability-impact-on-manageengine-on-premises-products-1](https://pitstop.manageengine.com/portal/en/community/topic/update-on-the-recent-apache-log4j2-vulnerability-impact-on-manageengine-on-premises-products-1) |
 
 ## Community Notes
 | Source | Note |
@@ -19,4 +23,5 @@ vendor: ManageEngine Zoho
 ## Sources
 | Date | Attribution | Description |
 | --- | --- | --- |
+| 2021-12-27 15:29:04 | [NCSC-NL](https://github.com/NCSC-NL/log4shell/blob/main/software/README.md) | Updated community link ManageEngine Vulnerability Impact.  |
 | 2021-12-21 22:43:46 | [CISAGov](https://raw.githubusercontent.com/cisagov/log4j-affected-db/develop/README.md) | Updated vendor link ManageEngine Vulnerability Impact. Updated community note.  |

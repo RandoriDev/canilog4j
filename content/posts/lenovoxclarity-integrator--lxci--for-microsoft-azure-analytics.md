@@ -10,7 +10,7 @@ vendorPatchExists: true
 ## Community Resources
 | Resource | Link |
 | --- | --- |
-| source | [https://datacentersupport.lenovo.com/us/en/products/solutions-and-software/software/lenovo-xclarity/lxca/downloads/ds554079-lenovo-xclarity-administrator-ga-fix-345-for-anyos](https://datacentersupport.lenovo.com/us/en/products/solutions-and-software/software/lenovo-xclarity/lxca/downloads/ds554079-lenovo-xclarity-administrator-ga-fix-345-for-anyos) |
+| source | [https://dataleftsupport.lenovo.com/us/en/products/solutions-and-software/software/lenovo-xclarity/lxca/downloads/ds554079-lenovo-xclarity-administrator-ga-fix-345-for-anyos](https://dataleftsupport.lenovo.com/us/en/products/solutions-and-software/software/lenovo-xclarity/lxca/downloads/ds554079-lenovo-xclarity-administrator-ga-fix-345-for-anyos) |
 
 ## Community Notes
 | Source | Note |
@@ -20,4 +20,4 @@ vendorPatchExists: true
 ## Sources
 | Date | Attribution | Description |
 | --- | --- | --- |
-| 2021-12-20 12:37:57 | [NCSC-NL](https://github.com/NCSC-NL/log4shell/blob/main/software/README.md) | Updated vendorPatchExists. Updated community note. Updated community link source.  |
+| 2021-12-27 15:29:04 | [NCSC-NL](https://github.com/NCSC-NL/log4shell/blob/main/software/README.md) | Updated vendorPatchExists. Updated community note. Updated community link source.  |

@@ -16,9 +16,9 @@ vendorPatchExists: true
 | Source | Note |
 | --- | --- |
 | [NCSC-NL](https://github.com/NCSC-NL/log4shell/blob/main/software/README.md) | CVE-2021-44228: Fix </ul> |
-| [NCSC-NL](https://github.com/NCSC-NL/log4shell/blob/main/software/README.md) | <10.14 vulnerable, 10.14-10.34 patch, >= 10.34.1 fix |
+| [NCSC-NL](https://github.com/NCSC-NL/log4shell/blob/main/software/README.md) | &lt;10.14 vulnerable, 10.14-10.34 patch, &gt;= 10.34.1 fix |
 
 ## Sources
 | Date | Attribution | Description |
 | --- | --- | --- |
-| 2021-12-20 12:37:57 | [NCSC-NL](https://github.com/NCSC-NL/log4shell/blob/main/software/README.md) | Updated vendorPatchExists. Updated community note. Updated community link source. Updated community note.  |
+| 2021-12-27 15:29:04 | [NCSC-NL](https://github.com/NCSC-NL/log4shell/blob/main/software/README.md) | Updated vendorPatchExists. Updated community note. Updated community link source. Updated community note.  |

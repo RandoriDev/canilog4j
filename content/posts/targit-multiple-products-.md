@@ -10,7 +10,7 @@ vendor: TARGIT
 ## Community Resources
 | Resource | Link |
 | --- | --- |
-| source | [vendor-statements/Targit.png](vendor-statements/Targit.png) |
+| source | [/NCSC-NL/log4shell/blob/main/software/vendor-statements/Targit.png](/NCSC-NL/log4shell/blob/main/software/vendor-statements/Targit.png) |
 
 ## Community Notes
 | Source | Note |
@@ -20,4 +20,4 @@ vendor: TARGIT
 ## Sources
 | Date | Attribution | Description |
 | --- | --- | --- |
-| 2021-12-20 12:37:57 | [NCSC-NL](https://github.com/NCSC-NL/log4shell/blob/main/software/README.md) | Updated communityNotVulnerable. Updated community note. Updated community link source.  |
+| 2021-12-27 15:29:04 | [NCSC-NL](https://github.com/NCSC-NL/log4shell/blob/main/software/README.md) | Updated communityNotVulnerable. Updated community note. Updated community link source.  |

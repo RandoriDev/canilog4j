@@ -21,4 +21,4 @@ vendor: NVIDIA
 ## Sources
 | Date | Attribution | Description |
 | --- | --- | --- |
-| 2021-12-22 10:47:54 | [NCSC-NL](https://github.com/NCSC-NL/log4shell/blob/main/software/README.md) | Updated communityVulnerable. Updated community note. Updated community link source. Updated community note.  |
+| 2021-12-28 8:43:15 | [NCSC-NL](https://github.com/NCSC-NL/log4shell/blob/main/software/README.md) | Updated communityVulnerable. Updated community note. Updated community link source. Updated community note.  |

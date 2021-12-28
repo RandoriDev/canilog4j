@@ -10,9 +10,14 @@ vendor: Sierra Wireless
 | --- | --- |
 | Sierra Wireless Security Bulletin | [https://source.sierrawireless.com/resources/security-bulletins/sierra-wireless-technical-bulletin---swi-psa-2021-007/](https://source.sierrawireless.com/resources/security-bulletins/sierra-wireless-technical-bulletin---swi-psa-2021-007/) |
 
+## Community Resources
+| Resource | Link |
+| --- | --- |
+| Sierra Wireless Security Bulletin | [https://source.sierrawireless.com/resources/security-bulletins/sierra-wireless-technical-bulletin---swi-psa-2021-007/](https://source.sierrawireless.com/resources/security-bulletins/sierra-wireless-technical-bulletin---swi-psa-2021-007/) |
 
 
 ## Sources
 | Date | Attribution | Description |
 | --- | --- | --- |
+| 2021-12-27 15:29:04 | [NCSC-NL](https://github.com/NCSC-NL/log4shell/blob/main/software/README.md) | Updated community link Sierra Wireless Security Bulletin.  |
 | 2021-12-21 22:43:46 | [CISAGov](https://raw.githubusercontent.com/cisagov/log4j-affected-db/develop/README.md) | Updated vendor link Sierra Wireless Security Bulletin.  |

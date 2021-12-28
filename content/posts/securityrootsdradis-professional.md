@@ -10,7 +10,7 @@ vendor: SecurityRoots
 ## Community Resources
 | Resource | Link |
 | --- | --- |
-| source | [screenshotemail](screenshotemail) |
+| source | [/NCSC-NL/log4shell/blob/main/software/vendor-statements/screenshotemail](/NCSC-NL/log4shell/blob/main/software/vendor-statements/screenshotemail) |
 
 ## Community Notes
 | Source | Note |
@@ -20,4 +20,4 @@ vendor: SecurityRoots
 ## Sources
 | Date | Attribution | Description |
 | --- | --- | --- |
-| 2021-12-20 12:37:57 | [NCSC-NL](https://github.com/NCSC-NL/log4shell/blob/main/software/README.md) | Updated communityNotVulnerable. Updated community note. Updated community link source.  |
+| 2021-12-28 14:03:39 | [NCSC-NL](https://github.com/NCSC-NL/log4shell/blob/main/software/README.md) | Updated communityNotVulnerable. Updated community note. Updated community link source.  |

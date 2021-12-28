@@ -10,7 +10,7 @@ vendorPatchExists: true
 ## Community Resources
 | Resource | Link |
 | --- | --- |
-| source | [https://kb.clavister.com/343410462/vulnerability-in-apache-log4j-2-which-is-used-in-incenter](https://kb.clavister.com/343410462/vulnerability-in-apache-log4j-2-which-is-used-in-incenter) |
+| source | [https://kb.clavister.com/343410462/vulnerability-in-apache-log4j-2-which-is-used-in-inleft](https://kb.clavister.com/343410462/vulnerability-in-apache-log4j-2-which-is-used-in-inleft) |
 
 ## Community Notes
 | Source | Note |
@@ -20,4 +20,4 @@ vendorPatchExists: true
 ## Sources
 | Date | Attribution | Description |
 | --- | --- | --- |
-| 2021-12-20 12:37:57 | [NCSC-NL](https://github.com/NCSC-NL/log4shell/blob/main/software/README.md) | Updated vendorPatchExists. Updated community note. Updated community link source.  |
+| 2021-12-27 15:29:04 | [NCSC-NL](https://github.com/NCSC-NL/log4shell/blob/main/software/README.md) | Updated vendorPatchExists. Updated community note. Updated community link source.  |

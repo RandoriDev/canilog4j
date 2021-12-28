@@ -9,7 +9,7 @@ vendor: ISPNext
 ## Community Resources
 | Resource | Link |
 | --- | --- |
-| source | [vendor-statements/ISPNext.png](vendor-statements/ISPNext.png) |
+| source | [/NCSC-NL/log4shell/blob/main/software/vendor-statements/ISPNext.png](/NCSC-NL/log4shell/blob/main/software/vendor-statements/ISPNext.png) |
 
 ## Community Notes
 | Source | Note |
@@ -19,4 +19,4 @@ vendor: ISPNext
 ## Sources
 | Date | Attribution | Description |
 | --- | --- | --- |
-| 2021-12-20 12:37:57 | [NCSC-NL](https://github.com/NCSC-NL/log4shell/blob/main/software/README.md) | Updated community note. Updated community link source.  |
+| 2021-12-27 15:29:04 | [NCSC-NL](https://github.com/NCSC-NL/log4shell/blob/main/software/README.md) | Updated community note. Updated community link source.  |

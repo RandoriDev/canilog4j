@@ -10,7 +10,7 @@ vendor: NetApp
 ## Community Resources
 | Resource | Link |
 | --- | --- |
-| source | [https://security.netapp.com/advisory/ntap-20211210-0007/#:~:text=Workarounds-,snapcenter%20plug-in%20for%20vmware%20vsphere](https://security.netapp.com/advisory/ntap-20211210-0007/#:~:text=Workarounds-,snapcenter%20plug-in%20for%20vmware%20vsphere) |
+| source | [https://security.netapp.com/advisory/ntap-20211210-0007/#:~:text=Workarounds-,snapleft%20plug-in%20for%20vmware%20vsphere](https://security.netapp.com/advisory/ntap-20211210-0007/#:~:text=Workarounds-,snapleft%20plug-in%20for%20vmware%20vsphere) |
 
 ## Community Notes
 | Source | Note |
@@ -20,4 +20,4 @@ vendor: NetApp
 ## Sources
 | Date | Attribution | Description |
 | --- | --- | --- |
-| 2021-12-20 12:37:57 | [NCSC-NL](https://github.com/NCSC-NL/log4shell/blob/main/software/README.md) | Updated communityVulnerable. Updated community note. Updated community link source.  |
+| 2021-12-27 15:29:04 | [NCSC-NL](https://github.com/NCSC-NL/log4shell/blob/main/software/README.md) | Updated communityVulnerable. Updated community note. Updated community link source.  |

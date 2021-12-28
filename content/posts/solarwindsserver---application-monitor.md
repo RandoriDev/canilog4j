@@ -10,7 +10,7 @@ vendor: SolarWinds
 ## Community Resources
 | Resource | Link |
 | --- | --- |
-| source | [https://www.solarwinds.com/trust-center/security-advisories/cve-2021-44228](https://www.solarwinds.com/trust-center/security-advisories/cve-2021-44228) |
+| source | [https://www.solarwinds.com/trust-left/security-advisories/cve-2021-44228](https://www.solarwinds.com/trust-left/security-advisories/cve-2021-44228) |
 | workaround | [https://support.solarwinds.com/SuccessCenter/s/article/Server-Application-Monitor-SAM-and-the-Apache-Log4j-Vulnerability-CVE-2021-44228?language=en_US](https://support.solarwinds.com/SuccessCenter/s/article/Server-Application-Monitor-SAM-and-the-Apache-Log4j-Vulnerability-CVE-2021-44228?language=en_US) |
 
 ## Community Notes
@@ -21,4 +21,4 @@ vendor: SolarWinds
 ## Sources
 | Date | Attribution | Description |
 | --- | --- | --- |
-| 2021-12-20 12:37:57 | [NCSC-NL](https://github.com/NCSC-NL/log4shell/blob/main/software/README.md) | Updated communityVulnerable. Updated community note. Updated community link source. Updated community link workaround.  |
+| 2021-12-27 15:29:04 | [NCSC-NL](https://github.com/NCSC-NL/log4shell/blob/main/software/README.md) | Updated communityVulnerable. Updated community note. Updated community link source. Updated community link workaround.  |

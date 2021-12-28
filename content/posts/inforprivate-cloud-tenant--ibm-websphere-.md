@@ -10,7 +10,7 @@ vendor: Infor
 ## Community Resources
 | Resource | Link |
 | --- | --- |
-| source | [vendor-statements/InforLog4Shell.png](vendor-statements/InforLog4Shell.png) |
+| source | [/NCSC-NL/log4shell/blob/main/software/vendor-statements/InforLog4Shell.png](/NCSC-NL/log4shell/blob/main/software/vendor-statements/InforLog4Shell.png) |
 
 ## Community Notes
 | Source | Note |
@@ -21,4 +21,4 @@ vendor: Infor
 ## Sources
 | Date | Attribution | Description |
 | --- | --- | --- |
-| 2021-12-21 17:05:06 | [NCSC-NL](https://github.com/NCSC-NL/log4shell/blob/main/software/README.md) | Updated communityVulnerable. Updated community note. Updated community link source. Updated community note.  |
+| 2021-12-27 15:29:04 | [NCSC-NL](https://github.com/NCSC-NL/log4shell/blob/main/software/README.md) | Updated communityVulnerable. Updated community note. Updated community link source. Updated community note.  |

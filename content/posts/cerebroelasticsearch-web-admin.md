@@ -21,4 +21,4 @@ vendor: Cerebro
 ## Sources
 | Date | Attribution | Description |
 | --- | --- | --- |
-| 2021-12-23 12:13:25 | [NCSC-NL](https://github.com/NCSC-NL/log4shell/blob/main/software/README.md) | Updated communityNotVulnerable. Updated community note. Updated community link source. Updated community note.  |
+| 2021-12-27 15:29:04 | [NCSC-NL](https://github.com/NCSC-NL/log4shell/blob/main/software/README.md) | Updated communityNotVulnerable. Updated community note. Updated community link source. Updated community note.  |

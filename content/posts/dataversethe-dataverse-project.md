@@ -10,7 +10,7 @@ vendor: Dataverse
 ## Community Resources
 | Resource | Link |
 | --- | --- |
-| source | [dataverse.org](dataverse.org) |
+| source | [/NCSC-NL/log4shell/blob/main/software/vendor-statements/dataverse.org](/NCSC-NL/log4shell/blob/main/software/vendor-statements/dataverse.org) |
 
 ## Community Notes
 | Source | Note |
@@ -20,4 +20,4 @@ vendor: Dataverse
 ## Sources
 | Date | Attribution | Description |
 | --- | --- | --- |
-| 2021-12-20 12:37:57 | [NCSC-NL](https://github.com/NCSC-NL/log4shell/blob/main/software/README.md) | Updated communityVulnerable. Updated community note. Updated community link source.  |
+| 2021-12-28 14:03:39 | [NCSC-NL](https://github.com/NCSC-NL/log4shell/blob/main/software/README.md) | Updated communityVulnerable. Updated community note. Updated community link source.  |

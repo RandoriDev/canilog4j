@@ -23,4 +23,4 @@ vendorPatchExists: true
 ## Sources
 | Date | Attribution | Description |
 | --- | --- | --- |
-| 2021-12-22 13:58:45 | [NCSC-NL](https://github.com/NCSC-NL/log4shell/blob/main/software/README.md) | Updated communityVulnerable. Updated vendorPatchExists. Updated community note. Updated community link CVE-2021-44228. Updated community link CVE-2021-45046. Updated community link CVE-2021-450105.  |
+| 2021-12-27 15:29:04 | [NCSC-NL](https://github.com/NCSC-NL/log4shell/blob/main/software/README.md) | Updated communityVulnerable. Updated vendorPatchExists. Updated community note. Updated community link CVE-2021-44228. Updated community link CVE-2021-45046. Updated community link CVE-2021-450105.  |

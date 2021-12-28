@@ -10,7 +10,7 @@ vendor: Exact
 ## Community Resources
 | Resource | Link |
 | --- | --- |
-| source | [https://www.exactsoftware.com/docs/DocView.aspx?DocumentID={dd0c8eb3-88b3-473e-822c-54dc54a81aff}](https://www.exactsoftware.com/docs/DocView.aspx?DocumentID={dd0c8eb3-88b3-473e-822c-54dc54a81aff}) |
+| source | [https://www.exactsoftware.com/docs/DocView.aspx?DocumentID=%7Bdd0c8eb3-88b3-473e-822c-54dc54a81aff%7D](https://www.exactsoftware.com/docs/DocView.aspx?DocumentID=%7Bdd0c8eb3-88b3-473e-822c-54dc54a81aff%7D) |
 
 ## Community Notes
 | Source | Note |
@@ -20,4 +20,4 @@ vendor: Exact
 ## Sources
 | Date | Attribution | Description |
 | --- | --- | --- |
-| 2021-12-23 7:28:21 | [NCSC-NL](https://github.com/NCSC-NL/log4shell/blob/main/software/README.md) | Updated communityVulnerable. Updated community note. Updated community link source.  |
+| 2021-12-27 15:29:04 | [NCSC-NL](https://github.com/NCSC-NL/log4shell/blob/main/software/README.md) | Updated communityVulnerable. Updated community note. Updated community link source.  |

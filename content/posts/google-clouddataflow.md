@@ -11,14 +11,21 @@ vendor: Google Cloud
 | --- | --- |
 | https://cloud.google.com/log4j2-security-advisory | [https://cloud.google.com/log4j2-security-advisory](https://cloud.google.com/log4j2-security-advisory) |
 
+## Community Resources
+| Resource | Link |
+| --- | --- |
+| source | [https://cloud.google.com/log4j2-security-advisory](https://cloud.google.com/log4j2-security-advisory) |
 
 ## Community Notes
 | Source | Note |
 | --- | --- |
+| [NCSC-NL](https://github.com/NCSC-NL/log4shell/blob/main/software/README.md) | CVE-2021-4104: Not vuln ; CVE-2021-44228: Not vuln ; CVE-2021-45046: Not vuln ; CVE-2021-45105: Not vuln </ul> |
+| [NCSC-NL](https://github.com/NCSC-NL/log4shell/blob/main/software/README.md) | Dataflow does not use Log4j 2 and is not impacted by the issues in CVE-2021-44228 and CVE-2021-45046. If you have changed dependencies or default behavior, it is strongly recommended you verify there is no dependency on vulnerable versions Log4j 2. Customers have been provided details and instructions in a notification sent on December 17, 2021 with the subject line “Update #1 to Important information about Dataflow.” |
 | [CISAGov](https://raw.githubusercontent.com/cisagov/log4j-affected-db/develop/README.md) | Dataflow does not use Log4j 2 and is not impacted by the issues in CVE-2021-44228 and CVE-2021-45046. If you have changed dependencies or default behavior, it is strongly recommended you verify there is no dependency on vulnerable versions Log4j 2. Customers have been provided details and instructions in a notification sent on December 17, 2021 with the subject line “Update #1 to Important information about Dataflow.” |
 | [CISAGov](https://raw.githubusercontent.com/cisagov/log4j-affected-db/develop/README.md) | Last Update: 12/17/2021 |
 
 ## Sources
 | Date | Attribution | Description |
 | --- | --- | --- |
+| 2021-12-27 15:29:04 | [NCSC-NL](https://github.com/NCSC-NL/log4shell/blob/main/software/README.md) | Updated communityNotVulnerable. Updated community note. Updated community link source. Updated community note.  |
 | 2021-12-22 17:32:58 | [CISAGov](https://raw.githubusercontent.com/cisagov/log4j-affected-db/develop/README.md) | Updated communityNotVulnerable. Updated vendor link https://cloud.google.com/log4j2-security-advisory. Updated community note. Updated community note.  |

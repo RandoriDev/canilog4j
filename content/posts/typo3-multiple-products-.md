@@ -10,9 +10,14 @@ vendor: TYPO3
 | --- | --- |
 | TYPO3 Statement | [https://typo3.org/article/typo3-psa-2021-004](https://typo3.org/article/typo3-psa-2021-004) |
 
+## Community Resources
+| Resource | Link |
+| --- | --- |
+| TYPO3 Statement | [https://typo3.org/article/typo3-psa-2021-004](https://typo3.org/article/typo3-psa-2021-004) |
 
 
 ## Sources
 | Date | Attribution | Description |
 | --- | --- | --- |
+| 2021-12-27 15:29:04 | [NCSC-NL](https://github.com/NCSC-NL/log4shell/blob/main/software/README.md) | Updated community link TYPO3 Statement.  |
 | 2021-12-21 22:43:46 | [CISAGov](https://raw.githubusercontent.com/cisagov/log4j-affected-db/develop/README.md) | Updated vendor link TYPO3 Statement.  |

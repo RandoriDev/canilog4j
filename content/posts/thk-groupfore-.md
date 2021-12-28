@@ -9,7 +9,7 @@ vendor: THK Group
 ## Community Resources
 | Resource | Link |
 | --- | --- |
-| source | [vendor-statements/thkgroup.png](vendor-statements/thkgroup.png) |
+| source | [/NCSC-NL/log4shell/blob/main/software/vendor-statements/thkgroup.png](/NCSC-NL/log4shell/blob/main/software/vendor-statements/thkgroup.png) |
 
 ## Community Notes
 | Source | Note |
@@ -19,4 +19,4 @@ vendor: THK Group
 ## Sources
 | Date | Attribution | Description |
 | --- | --- | --- |
-| 2021-12-23 11:09:01 | [NCSC-NL](https://github.com/NCSC-NL/log4shell/blob/main/software/README.md) | Updated community note. Updated community link source.  |
+| 2021-12-27 15:29:04 | [NCSC-NL](https://github.com/NCSC-NL/log4shell/blob/main/software/README.md) | Updated community note. Updated community link source.  |

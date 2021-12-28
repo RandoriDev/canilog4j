@@ -28,5 +28,5 @@ vendor: Siemens Energy
 ## Sources
 | Date | Attribution | Description |
 | --- | --- | --- |
-| 2021-12-22 10:53:47 | [NCSC-NL](https://github.com/NCSC-NL/log4shell/blob/main/software/README.md) | Updated community note. Updated community link pdf. Updated community link CSAF. Updated community note.  |
+| 2021-12-27 15:29:04 | [NCSC-NL](https://github.com/NCSC-NL/log4shell/blob/main/software/README.md) | Updated community note. Updated community link pdf. Updated community link CSAF. Updated community note.  |
 | 2021-12-23 16:44:07 | [CISAGov](https://raw.githubusercontent.com/cisagov/log4j-affected-db/develop/README.md) | Updated vendor link pdf. Updated vendor link CSAF. Updated community note. Updated community note.  |

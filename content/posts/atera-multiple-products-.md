@@ -10,9 +10,14 @@ vendor: Atera
 | --- | --- |
 | Atera Link | [https://www.reddit.com/r/atera/comments/rh7xb1/apache_log4j_2_security_advisory_update/](https://www.reddit.com/r/atera/comments/rh7xb1/apache_log4j_2_security_advisory_update/) |
 
+## Community Resources
+| Resource | Link |
+| --- | --- |
+| Atera Link | [https://www.reddit.com/r/atera/comments/rh7xb1/apache_log4j_2_security_advisory_update/](https://www.reddit.com/r/atera/comments/rh7xb1/apache_log4j_2_security_advisory_update/) |
 
 
 ## Sources
 | Date | Attribution | Description |
 | --- | --- | --- |
+| 2021-12-27 15:29:04 | [NCSC-NL](https://github.com/NCSC-NL/log4shell/blob/main/software/README.md) | Updated community link Atera Link.  |
 | 2021-12-21 22:43:46 | [CISAGov](https://raw.githubusercontent.com/cisagov/log4j-affected-db/develop/README.md) | Updated vendor link Atera Link.  |

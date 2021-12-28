@@ -10,7 +10,7 @@ vendor: Lenovo
 ## Community Resources
 | Resource | Link |
 | --- | --- |
-| source | [https://datacentersupport.lenovo.com/us/en/solutions/ht513178](https://datacentersupport.lenovo.com/us/en/solutions/ht513178) |
+| source | [https://dataleftsupport.lenovo.com/us/en/solutions/ht513178](https://dataleftsupport.lenovo.com/us/en/solutions/ht513178) |
 
 ## Community Notes
 | Source | Note |
@@ -20,4 +20,4 @@ vendor: Lenovo
 ## Sources
 | Date | Attribution | Description |
 | --- | --- | --- |
-| 2021-12-20 12:37:57 | [NCSC-NL](https://github.com/NCSC-NL/log4shell/blob/main/software/README.md) | Updated communityVulnerable. Updated community note. Updated community link source.  |
+| 2021-12-27 15:29:04 | [NCSC-NL](https://github.com/NCSC-NL/log4shell/blob/main/software/README.md) | Updated communityVulnerable. Updated community note. Updated community link source.  |

@@ -10,9 +10,14 @@ vendor: ConcreteCMS.com
 | --- | --- |
 | ConcreteCMS.com Link | [https://www.concretecms.com/about/blog/security/concrete-log4j-zero-day-exploit](https://www.concretecms.com/about/blog/security/concrete-log4j-zero-day-exploit) |
 
+## Community Resources
+| Resource | Link |
+| --- | --- |
+| ConcreteCMS.com Link | [https://www.concretecms.com/about/blog/security/concrete-log4j-zero-day-exploit](https://www.concretecms.com/about/blog/security/concrete-log4j-zero-day-exploit) |
 
 
 ## Sources
 | Date | Attribution | Description |
 | --- | --- | --- |
+| 2021-12-27 15:29:04 | [NCSC-NL](https://github.com/NCSC-NL/log4shell/blob/main/software/README.md) | Updated community link ConcreteCMS.com Link.  |
 | 2021-12-21 22:43:46 | [CISAGov](https://raw.githubusercontent.com/cisagov/log4j-affected-db/develop/README.md) | Updated vendor link ConcreteCMS.com Link.  |

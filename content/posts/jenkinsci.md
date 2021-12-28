@@ -15,9 +15,9 @@ vendor: Jenkins
 | Source | Note |
 | --- | --- |
 | [NCSC-NL](https://github.com/NCSC-NL/log4shell/blob/main/software/README.md) | CVE-2021-44228: Not vuln </ul> |
-| [NCSC-NL](https://github.com/NCSC-NL/log4shell/blob/main/software/README.md) | Invidivual plugins not developed as part of Jenkins core *may* be vulnerable. |
+| [NCSC-NL](https://github.com/NCSC-NL/log4shell/blob/main/software/README.md) | Invidivual plugins not developed as part of Jenkins core <em>may</em> be vulnerable. |
 
 ## Sources
 | Date | Attribution | Description |
 | --- | --- | --- |
-| 2021-12-20 12:37:57 | [NCSC-NL](https://github.com/NCSC-NL/log4shell/blob/main/software/README.md) | Updated community note. Updated community link source. Updated community note.  |
+| 2021-12-27 15:29:04 | [NCSC-NL](https://github.com/NCSC-NL/log4shell/blob/main/software/README.md) | Updated community note. Updated community link source. Updated community note.  |

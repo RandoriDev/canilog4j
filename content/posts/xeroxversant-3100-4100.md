@@ -10,7 +10,7 @@ vendor: Xerox
 ## Community Resources
 | Resource | Link |
 | --- | --- |
-| source | [Xerox-Special-Bulletin-XRX21-021-Regarding-CVE-2021-44228-and-CVE-2021-45046-v1.5.pdf](Xerox-Special-Bulletin-XRX21-021-Regarding-CVE-2021-44228-and-CVE-2021-45046-v1.5.pdf) |
+| source | [/NCSC-NL/log4shell/blob/main/software/vendor-statements/Xerox-Special-Bulletin-XRX21-021-Regarding-CVE-2021-44228-and-CVE-2021-45046-v1.5.pdf](/NCSC-NL/log4shell/blob/main/software/vendor-statements/Xerox-Special-Bulletin-XRX21-021-Regarding-CVE-2021-44228-and-CVE-2021-45046-v1.5.pdf) |
 
 ## Community Notes
 | Source | Note |
@@ -20,4 +20,4 @@ vendor: Xerox
 ## Sources
 | Date | Attribution | Description |
 | --- | --- | --- |
-| 2021-12-20 12:37:57 | [NCSC-NL](https://github.com/NCSC-NL/log4shell/blob/main/software/README.md) | Updated communityNotVulnerable. Updated community note. Updated community link source.  |
+| 2021-12-28 14:03:39 | [NCSC-NL](https://github.com/NCSC-NL/log4shell/blob/main/software/README.md) | Updated communityNotVulnerable. Updated community note. Updated community link source.  |

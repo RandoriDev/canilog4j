@@ -10,9 +10,14 @@ vendor: Gearset
 | --- | --- |
 | Gearset Statement | [https://docs.gearset.com/en/articles/5806813-gearset-log4j-statement-dec-2021](https://docs.gearset.com/en/articles/5806813-gearset-log4j-statement-dec-2021) |
 
+## Community Resources
+| Resource | Link |
+| --- | --- |
+| Gearset Statement | [https://docs.gearset.com/en/articles/5806813-gearset-log4j-statement-dec-2021](https://docs.gearset.com/en/articles/5806813-gearset-log4j-statement-dec-2021) |
 
 
 ## Sources
 | Date | Attribution | Description |
 | --- | --- | --- |
+| 2021-12-27 15:29:04 | [NCSC-NL](https://github.com/NCSC-NL/log4shell/blob/main/software/README.md) | Updated community link Gearset Statement.  |
 | 2021-12-21 22:43:46 | [CISAGov](https://raw.githubusercontent.com/cisagov/log4j-affected-db/develop/README.md) | Updated vendor link Gearset Statement.  |
