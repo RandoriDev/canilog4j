@@ -20,12 +20,12 @@ vendor: Lenovo
 | Source | Note |
 | --- | --- |
 | [NCSC-NL](https://github.com/NCSC-NL/log4shell/blob/main/software/README.md) | CVE-2021-44228: Vulnerable </ul> |
-| [NCSC-NL](https://github.com/NCSC-NL/log4shell/blob/main/software/README.md) | See <a href="https://security.netapp.com/advisory/ntap-20211210-0007/" rel="nofollow">NetApp</a> advisory. |
+| [NCSC-NL](https://github.com/NCSC-NL/log4shell/blob/main/software/README.md) | "See <a href=""https://security.netapp.com/advisory/ntap-20211210-0007/"" rel=""nofollow"">NetApp</a> advisory." |
 | [CISAGov](https://raw.githubusercontent.com/cisagov/log4j-affected-db/develop/README.md) | See [NetApp](https://security.netapp.com/advisory/ntap-20211210-0007/) advisory. |
 | [CISAGov](https://raw.githubusercontent.com/cisagov/log4j-affected-db/develop/README.md) | Last Update: 12/14/2021 |
 
 ## Sources
 | Date | Attribution | Description |
 | --- | --- | --- |
-| 2021-12-27 15:29:04 | [NCSC-NL](https://github.com/NCSC-NL/log4shell/blob/main/software/README.md) | Updated communityVulnerable. Updated community note. Updated community link Apache Log4j Vulnerability. Updated community note.  |
-| 2021-12-21 22:43:46 | [CISAGov](https://raw.githubusercontent.com/cisagov/log4j-affected-db/develop/README.md) | Updated communityVulnerable. Updated vendor link Apache Log4j Vulnerability. Updated community note. Updated community note.  |
+| 2022-01-03 12:39:10 | [NCSC-NL](https://github.com/NCSC-NL/log4shell/blob/main/software/README.md) | Updated communityVulnerable. Updated community note. Updated community link Apache Log4j Vulnerability. Updated community note.  |
+| 2021-12-30 21:31:50 | [CISAGov](https://raw.githubusercontent.com/cisagov/log4j-affected-db/develop/README.md) | Updated communityVulnerable. Updated vendor link Apache Log4j Vulnerability. Updated community note. Updated community note.  |

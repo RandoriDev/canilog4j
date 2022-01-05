@@ -27,4 +27,4 @@ vendorPatchExists: true
 | Date | Attribution | Description |
 | --- | --- | --- |
 | 2021-12-28 13:46:31 | [NCSC-NL](https://github.com/NCSC-NL/log4shell/blob/main/software/README.md) | Updated vendorPatchExists. Updated community note. Updated community link source. Updated community note.  |
-| 2021-12-21 22:43:46 | [CISAGov](https://raw.githubusercontent.com/cisagov/log4j-affected-db/develop/README.md) | Updated communityVulnerable. Updated vendor link PSIRT Advisories  FortiGuard.  |
+| 2021-12-30 21:31:50 | [CISAGov](https://raw.githubusercontent.com/cisagov/log4j-affected-db/develop/README.md) | Updated communityVulnerable. Updated vendor link PSIRT Advisories  FortiGuard.  |

@@ -6,6 +6,10 @@ vendor: Snow Software
 vendorPatchExists: true
 ---
 
+## Vendor Resources
+| Resource | Link |
+| --- | --- |
+| Snow Software Commmunity Link | [https://community.snowsoftware.com/s/feed/0D5690000B4U6hUCQS](https://community.snowsoftware.com/s/feed/0D5690000B4U6hUCQS) |
 
 ## Community Resources
 | Resource | Link |
@@ -20,4 +24,5 @@ vendorPatchExists: true
 ## Sources
 | Date | Attribution | Description |
 | --- | --- | --- |
-| 2021-12-27 17:17:46 | [NCSC-NL](https://github.com/NCSC-NL/log4shell/blob/main/software/README.md) | Updated vendorPatchExists. Updated community note. Updated community link source.  |
+| 2022-01-03 13:16:44 | [NCSC-NL](https://github.com/NCSC-NL/log4shell/blob/main/software/README.md) | Updated vendorPatchExists. Updated community note. Updated community link source.  |
+| 2021-12-30 21:31:50 | [CISAGov](https://raw.githubusercontent.com/cisagov/log4j-affected-db/develop/README.md) | Updated vendorPatchExists. Updated vendor link Snow Software Commmunity Link.  |

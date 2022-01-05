@@ -1,5 +1,4 @@
 ---
-communityVulnerable: true
 draft: 'false'
 name: VL Infinix-i Angio Workstation (AWS)
 title: Canon VL Infinix-i Angio Workstation (AWS)
@@ -15,10 +14,9 @@ vendor: Canon
 ## Community Notes
 | Source | Note |
 | --- | --- |
-| [NCSC-NL](https://github.com/NCSC-NL/log4shell/blob/main/software/README.md) | CVE-2021-44228: Workaround </ul> |
-| [NCSC-NL](https://github.com/NCSC-NL/log4shell/blob/main/software/README.md) | See source for mitigations provided by Canon |
+| [NCSC-NL](https://github.com/NCSC-NL/log4shell/blob/main/software/README.md) | CVE-2021-44228: Not vuln </ul> |
 
 ## Sources
 | Date | Attribution | Description |
 | --- | --- | --- |
-| 2021-12-28 13:44:32 | [NCSC-NL](https://github.com/NCSC-NL/log4shell/blob/main/software/README.md) | Updated communityVulnerable. Updated community note. Updated community link source. Updated community note.  |
+| 2022-01-03 11:06:08 | [NCSC-NL](https://github.com/NCSC-NL/log4shell/blob/main/software/README.md) | Updated community note. Updated community link source.  |

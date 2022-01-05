@@ -1,10 +1,9 @@
 ---
 communityVulnerable: true
 draft: 'false'
-name: Radius Server Agent
-title: Okta Radius Server Agent
+name: RADIUS Server Agent
+title: Okta RADIUS Server Agent
 vendor: Okta
-vendorPatchExists: true
 ---
 
 ## Vendor Resources
@@ -15,16 +14,16 @@ vendorPatchExists: true
 ## Community Resources
 | Resource | Link |
 | --- | --- |
-| source/fix | [https://trust.okta.com/security-advisories/okta-radius-server-agent-cve-2021-44228](https://trust.okta.com/security-advisories/okta-radius-server-agent-cve-2021-44228) |
+| Okta RADIUS Server Agent CVE-2021-44228  Okta | [https://trust.okta.com/security-advisories/okta-radius-server-agent-cve-2021-44228](https://trust.okta.com/security-advisories/okta-radius-server-agent-cve-2021-44228) |
 
 ## Community Notes
 | Source | Note |
 | --- | --- |
-| [NCSC-NL](https://github.com/NCSC-NL/log4shell/blob/main/software/README.md) | CVE-2021-4104: Not vuln ; CVE-2021-44228: Fix </ul> |
+| [NCSC-NL](https://github.com/NCSC-NL/log4shell/blob/main/software/README.md) | CVE-2021-44228: Vulnerable </ul> |
 | [CISAGov](https://raw.githubusercontent.com/cisagov/log4j-affected-db/develop/README.md) | Last Update: 12/12/2021 |
 
 ## Sources
 | Date | Attribution | Description |
 | --- | --- | --- |
-| 2021-12-27 15:29:04 | [NCSC-NL](https://github.com/NCSC-NL/log4shell/blob/main/software/README.md) | Updated vendorPatchExists. Updated community note. Updated community link source/fix.  |
-| 2021-12-21 22:43:46 | [CISAGov](https://raw.githubusercontent.com/cisagov/log4j-affected-db/develop/README.md) | Updated communityVulnerable. Updated vendor link Okta RADIUS Server Agent CVE-2021-44228  Okta. Updated community note.  |
+| 2021-12-31 9:06:53 | [NCSC-NL](https://github.com/NCSC-NL/log4shell/blob/main/software/README.md) | Updated communityVulnerable. Updated community note. Updated community link Okta RADIUS Server Agent CVE-2021-44228  Okta.  |
+| 2021-12-30 21:31:50 | [CISAGov](https://raw.githubusercontent.com/cisagov/log4j-affected-db/develop/README.md) | Updated communityVulnerable. Updated vendor link Okta RADIUS Server Agent CVE-2021-44228  Okta. Updated community note.  |

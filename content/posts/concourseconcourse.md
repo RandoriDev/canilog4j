@@ -15,4 +15,4 @@ vendor: Concourse
 ## Sources
 | Date | Attribution | Description |
 | --- | --- | --- |
-| 2021-12-23 0:05:44 | [CISAGov](https://raw.githubusercontent.com/cisagov/log4j-affected-db/develop/README.md) | Updated vendor link Concourse Community Discussion.  |
+| 2021-12-30 21:31:50 | [CISAGov](https://raw.githubusercontent.com/cisagov/log4j-affected-db/develop/README.md) | Updated vendor link Concourse Community Discussion.  |

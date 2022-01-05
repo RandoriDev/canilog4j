@@ -1,23 +1,23 @@
 ---
-communityVulnerable: true
 draft: 'false'
 name: LiveUpdate Administrator (LUA)
 title: Broadcom LiveUpdate Administrator (LUA)
 vendor: Broadcom
+vendorPatchExists: true
 ---
 
 
 ## Community Resources
 | Resource | Link |
 | --- | --- |
-| source | [https://support.broadcom.com/security-advisory/content/security-advisories/Symantec-Security-Advisory-for-Log4j-2-CVE-2021-44228-Vulnerability/SYMSA19793](https://support.broadcom.com/security-advisory/content/security-advisories/Symantec-Security-Advisory-for-Log4j-2-CVE-2021-44228-Vulnerability/SYMSA19793) |
+| source | [https://support.broadcom.com/security-advisory/content/0/0/SYMSA19793](https://support.broadcom.com/security-advisory/content/0/0/SYMSA19793) |
 
 ## Community Notes
 | Source | Note |
 | --- | --- |
-| [NCSC-NL](https://github.com/NCSC-NL/log4shell/blob/main/software/README.md) | CVE-2021-4104: Not vuln ; CVE-2021-44228: Workaround </ul> |
+| [NCSC-NL](https://github.com/NCSC-NL/log4shell/blob/main/software/README.md) | CVE-2021-44228: Fix ; CVE-2021-45046: Fix </ul> |
 
 ## Sources
 | Date | Attribution | Description |
 | --- | --- | --- |
-| 2021-12-27 15:29:04 | [NCSC-NL](https://github.com/NCSC-NL/log4shell/blob/main/software/README.md) | Updated communityVulnerable. Updated community note. Updated community link source.  |
+| 2021-12-29 15:28:19 | [NCSC-NL](https://github.com/NCSC-NL/log4shell/blob/main/software/README.md) | Updated vendorPatchExists. Updated community note. Updated community link source.  |

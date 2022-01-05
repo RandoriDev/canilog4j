@@ -25,5 +25,5 @@ vendor: Application Performance Ltd
 ## Sources
 | Date | Attribution | Description |
 | --- | --- | --- |
-| 2021-12-27 15:29:04 | [NCSC-NL](https://github.com/NCSC-NL/log4shell/blob/main/software/README.md) | Updated communityNotVulnerable. Updated community note. Updated community link Common Vulnerabilities Apache log4j Vulnerability CVE-2021-4428.  |
-| 2021-12-23 15:14:04 | [CISAGov](https://raw.githubusercontent.com/cisagov/log4j-affected-db/develop/README.md) | Updated communityNotVulnerable. Updated vendor link Common Vulnerabilities Apache log4j Vulnerability CVE-2021-4428. Updated community note.  |
+| 2021-12-31 9:06:53 | [NCSC-NL](https://github.com/NCSC-NL/log4shell/blob/main/software/README.md) | Updated communityNotVulnerable. Updated community note. Updated community link Common Vulnerabilities Apache log4j Vulnerability CVE-2021-4428.  |
+| 2021-12-30 21:31:50 | [CISAGov](https://raw.githubusercontent.com/cisagov/log4j-affected-db/develop/README.md) | Updated communityNotVulnerable. Updated vendor link Common Vulnerabilities Apache log4j Vulnerability CVE-2021-4428. Updated community note.  |

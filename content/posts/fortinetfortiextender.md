@@ -19,4 +19,4 @@ vendor: Fortinet
 ## Sources
 | Date | Attribution | Description |
 | --- | --- | --- |
-| 2021-12-28 13:46:31 | [NCSC-NL](https://github.com/NCSC-NL/log4shell/blob/main/software/README.md) | Updated community note. Updated community link source.  |
+| 2021-12-31 9:06:53 | [NCSC-NL](https://github.com/NCSC-NL/log4shell/blob/main/software/README.md) | Updated community note. Updated community link source.  |

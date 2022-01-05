@@ -1,23 +1,24 @@
 ---
+communityVulnerable: true
 draft: 'false'
 name: Vitrea Advanced
 title: Canon Vitrea Advanced
 vendor: Canon
-vendorInvestigating: true
 ---
 
 
 ## Community Resources
 | Resource | Link |
 | --- | --- |
-| source | [https://global.medical.canon/service-support/securityinformation/apache_log4j_vulnerability](https://global.medical.canon/service-support/securityinformation/apache_log4j_vulnerability) |
+| source | [https://www.vitalimages.com/customer-success-support-program/vital-images-software-security-updates/](https://www.vitalimages.com/customer-success-support-program/vital-images-software-security-updates/) |
 
 ## Community Notes
 | Source | Note |
 | --- | --- |
-| [NCSC-NL](https://github.com/NCSC-NL/log4shell/blob/main/software/README.md) | CVE-2021-44228: Investigation </ul> |
+| [NCSC-NL](https://github.com/NCSC-NL/log4shell/blob/main/software/README.md) | CVE-2021-44228: Vulnerable </ul> |
+| [NCSC-NL](https://github.com/NCSC-NL/log4shell/blob/main/software/README.md) | See source for mitigations |
 
 ## Sources
 | Date | Attribution | Description |
 | --- | --- | --- |
-| 2021-12-27 15:29:04 | [NCSC-NL](https://github.com/NCSC-NL/log4shell/blob/main/software/README.md) | Updated vendorInvestigating. Updated community note. Updated community link source.  |
+| 2022-01-03 11:06:08 | [NCSC-NL](https://github.com/NCSC-NL/log4shell/blob/main/software/README.md) | Updated communityVulnerable. Updated community note. Updated community link source. Updated community note.  |

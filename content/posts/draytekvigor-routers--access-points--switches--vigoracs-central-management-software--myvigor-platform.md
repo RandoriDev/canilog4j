@@ -22,4 +22,4 @@ vendor: DrayTek
 ## Sources
 | Date | Attribution | Description |
 | --- | --- | --- |
-| 2021-12-22 14:09:36 | [CISAGov](https://raw.githubusercontent.com/cisagov/log4j-affected-db/develop/README.md) | Updated communityNotVulnerable. Updated vendor link DrayTek Statement. Updated community note.  |
+| 2021-12-30 21:31:50 | [CISAGov](https://raw.githubusercontent.com/cisagov/log4j-affected-db/develop/README.md) | Updated communityNotVulnerable. Updated vendor link DrayTek Statement. Updated community note.  |

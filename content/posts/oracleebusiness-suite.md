@@ -17,9 +17,9 @@ vendor: Oracle
 | Source | Note |
 | --- | --- |
 | [NCSC-NL](https://github.com/NCSC-NL/log4shell/blob/main/software/README.md) | CVE-2021-4104: Not vuln ; CVE-2021-44228: Workaround </ul> |
-| [NCSC-NL](https://github.com/NCSC-NL/log4shell/blob/main/software/README.md) | <a href="https://support.oracle.com/rs?type=doc&amp;id=2827804.1" rel="nofollow">MOS note 2827804.1</a> |
+| [NCSC-NL](https://github.com/NCSC-NL/log4shell/blob/main/software/README.md) | "<a href="https://support.oracle.com/rs?type=doc&amp;id=2827804.1" rel="nofollow">MOS note 2827804.1</a>" |
 
 ## Sources
 | Date | Attribution | Description |
 | --- | --- | --- |
-| 2021-12-27 15:29:04 | [NCSC-NL](https://github.com/NCSC-NL/log4shell/blob/main/software/README.md) | Updated communityVulnerable. Updated community note. Updated community link source. Updated community link Support note 2827611.1. Updated community note.  |
+| 2022-01-03 12:57:29 | [NCSC-NL](https://github.com/NCSC-NL/log4shell/blob/main/software/README.md) | Updated communityVulnerable. Updated community note. Updated community link source. Updated community link Support note 2827611.1. Updated community note.  |

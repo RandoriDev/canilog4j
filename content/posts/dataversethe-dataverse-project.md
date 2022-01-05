@@ -20,4 +20,4 @@ vendor: Dataverse
 ## Sources
 | Date | Attribution | Description |
 | --- | --- | --- |
-| 2021-12-28 14:03:39 | [NCSC-NL](https://github.com/NCSC-NL/log4shell/blob/main/software/README.md) | Updated communityVulnerable. Updated community note. Updated community link source.  |
+| 2021-12-31 9:06:53 | [NCSC-NL](https://github.com/NCSC-NL/log4shell/blob/main/software/README.md) | Updated communityVulnerable. Updated community note. Updated community link source.  |

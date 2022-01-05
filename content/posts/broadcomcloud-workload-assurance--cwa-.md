@@ -1,9 +1,9 @@
 ---
-communityVulnerable: true
 draft: 'false'
 name: Cloud Workload Assurance (CWA)
 title: Broadcom Cloud Workload Assurance (CWA)
 vendor: Broadcom
+vendorPatchExists: true
 ---
 
 
@@ -15,10 +15,10 @@ vendor: Broadcom
 ## Community Notes
 | Source | Note |
 | --- | --- |
-| [NCSC-NL](https://github.com/NCSC-NL/log4shell/blob/main/software/README.md) | CVE-2021-44228: Vulnerable </ul> |
-| [NCSC-NL](https://github.com/NCSC-NL/log4shell/blob/main/software/README.md) | An initial remediation was deployed on Dec 16. Broadcom is actively working on deploying the complete remediation |
+| [NCSC-NL](https://github.com/NCSC-NL/log4shell/blob/main/software/README.md) | CVE-2021-44228: Fix ; CVE-2021-45046: Fix </ul> |
+| [NCSC-NL](https://github.com/NCSC-NL/log4shell/blob/main/software/README.md) | The complete remediation was deployed on Dec 23. |
 
 ## Sources
 | Date | Attribution | Description |
 | --- | --- | --- |
-| 2021-12-27 15:29:04 | [NCSC-NL](https://github.com/NCSC-NL/log4shell/blob/main/software/README.md) | Updated communityVulnerable. Updated community note. Updated community link source. Updated community note.  |
+| 2021-12-29 15:28:19 | [NCSC-NL](https://github.com/NCSC-NL/log4shell/blob/main/software/README.md) | Updated vendorPatchExists. Updated community note. Updated community link source. Updated community note.  |

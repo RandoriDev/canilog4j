@@ -19,4 +19,4 @@ vendor: OpenText
 ## Sources
 | Date | Attribution | Description |
 | --- | --- | --- |
-| 2021-12-24 0:27:52 | [CISAGov](https://raw.githubusercontent.com/cisagov/log4j-affected-db/develop/README.md) | Updated vendor link OpenText Log4J Remote Code Execution. Updated community note.  |
+| 2021-12-30 21:31:50 | [CISAGov](https://raw.githubusercontent.com/cisagov/log4j-affected-db/develop/README.md) | Updated vendor link OpenText Log4J Remote Code Execution. Updated community note.  |

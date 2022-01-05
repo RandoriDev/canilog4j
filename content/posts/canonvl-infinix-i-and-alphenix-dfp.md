@@ -19,4 +19,4 @@ vendor: Canon
 ## Sources
 | Date | Attribution | Description |
 | --- | --- | --- |
-| 2021-12-28 13:44:32 | [NCSC-NL](https://github.com/NCSC-NL/log4shell/blob/main/software/README.md) | Updated community note. Updated community link source.  |
+| 2022-01-03 11:06:08 | [NCSC-NL](https://github.com/NCSC-NL/log4shell/blob/main/software/README.md) | Updated community note. Updated community link source.  |

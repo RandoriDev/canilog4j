@@ -24,5 +24,5 @@ vendor: Spring
 ## Sources
 | Date | Attribution | Description |
 | --- | --- | --- |
-| 2021-12-27 15:29:04 | [NCSC-NL](https://github.com/NCSC-NL/log4shell/blob/main/software/README.md) | Updated community link source. Updated community note.  |
-| 2021-12-23 11:26:47 | [CISAGov](https://raw.githubusercontent.com/cisagov/log4j-affected-db/develop/README.md) | Updated vendor link https://spring.io/blog/2021/12/10/log4j2-vulnerability-and-spring-boot. Updated community note.  |
+| 2021-12-31 9:06:53 | [NCSC-NL](https://github.com/NCSC-NL/log4shell/blob/main/software/README.md) | Updated community link source. Updated community note.  |
+| 2021-12-30 21:31:50 | [CISAGov](https://raw.githubusercontent.com/cisagov/log4j-affected-db/develop/README.md) | Updated vendor link https://spring.io/blog/2021/12/10/log4j2-vulnerability-and-spring-boot. Updated community note.  |

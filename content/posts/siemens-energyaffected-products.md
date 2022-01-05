@@ -23,10 +23,10 @@ vendor: Siemens Energy
 | [NCSC-NL](https://github.com/NCSC-NL/log4shell/blob/main/software/README.md) | </ul> |
 | [NCSC-NL](https://github.com/NCSC-NL/log4shell/blob/main/software/README.md) | Siemens requested to directly refer to their website: See pdf for the complete list of affected products, CSAF for automated parsing of data |
 | [CISAGov](https://raw.githubusercontent.com/cisagov/log4j-affected-db/develop/README.md) | Siemens requests: See pdf for the complete list of affected products, CSAF for automated parsing of data |
-| [CISAGov](https://raw.githubusercontent.com/cisagov/log4j-affected-db/develop/README.md) | Last Update: 12/16/2021 |
+| [CISAGov](https://raw.githubusercontent.com/cisagov/log4j-affected-db/develop/README.md) | Last Update: 12/16/21 |
 
 ## Sources
 | Date | Attribution | Description |
 | --- | --- | --- |
 | 2021-12-27 15:29:04 | [NCSC-NL](https://github.com/NCSC-NL/log4shell/blob/main/software/README.md) | Updated community note. Updated community link pdf. Updated community link CSAF. Updated community note.  |
-| 2021-12-23 16:44:07 | [CISAGov](https://raw.githubusercontent.com/cisagov/log4j-affected-db/develop/README.md) | Updated vendor link pdf. Updated vendor link CSAF. Updated community note. Updated community note.  |
+| 2021-12-30 21:31:50 | [CISAGov](https://raw.githubusercontent.com/cisagov/log4j-affected-db/develop/README.md) | Updated vendor link pdf. Updated vendor link CSAF. Updated community note. Updated community note.  |

@@ -20,4 +20,4 @@ vendor: SonicWall
 ## Sources
 | Date | Attribution | Description |
 | --- | --- | --- |
-| 2021-12-28 13:53:19 | [NCSC-NL](https://github.com/NCSC-NL/log4shell/blob/main/software/README.md) | Updated community note. Updated community link source. Updated community note.  |
+| 2021-12-31 9:06:53 | [NCSC-NL](https://github.com/NCSC-NL/log4shell/blob/main/software/README.md) | Updated community note. Updated community link source. Updated community note.  |
